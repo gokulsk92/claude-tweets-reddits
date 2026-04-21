@@ -1,7 +1,9 @@
 """
-Uses Claude Haiku to categorize posts into marketing/sales buckets
-and extract a one-line actionable insight per post.
-Falls back to keyword-based categorization if no API key is set.
+Uses Claude Haiku to:
+1. Verify the post actually describes Claude AI being USED in marketing/sales (not just mentioned)
+2. Extract a specific, actionable insight: what task + what measurable outcome
+3. Categorize into one of the defined marketing buckets
+Posts that don't pass the relevance gate are marked skip=True and excluded.
 """
 
 import json
@@ -21,7 +23,6 @@ CATEGORIES = [
     "Integrated Marketing",
     "Content & SEO",
     "Sales Enablement",
-    "General / Other",
 ]
 
 KEYWORD_MAP = {
@@ -52,13 +53,38 @@ KEYWORD_MAP = {
     ],
     "Content & SEO": [
         "content", "seo", "blog", "copywriting", "landing page",
-        "social media", "linkedin", "twitter", "copy",
+        "social media", "copy",
     ],
     "Sales Enablement": [
         "sales enablement", "playbook", "battlecard", "demo", "cold email",
-        "outreach", "prospecting", "sdr", "bdr", "sales rep",
+        "outreach", "prospecting", "sdr", "bdr",
     ],
 }
+
+CLAUDE_PROMPT = """You are a strict curator for a marketing intelligence feed. Your job is to decide whether a post contains a real, actionable use case of Claude AI in marketing or sales — and extract the insight if it does.
+
+**Relevance criteria (ALL must be true to keep):**
+1. The post describes Claude AI (by Anthropic) being actively USED — not just mentioned or compared
+2. The use is in marketing, sales, advertising, or revenue-related work
+3. There is a specific task described (e.g. "wrote cold emails", "built an ABM sequence", "automated ad copy")
+4. There is a concrete outcome, result, or clear benefit (e.g. "saved 4 hours/week", "2x reply rate", "cut ad copy time by 70%")
+
+**If any criterion is missing, set skip to true.**
+
+Post:
+Title: {title}
+Content: {content}
+
+Categories (pick one only if keeping):
+{categories}
+
+Reply with JSON only:
+{{
+  "skip": true/false,
+  "skip_reason": "<only if skip=true: one short reason>",
+  "category": "<category name or null if skipping>",
+  "key_insight": "<if keeping: one crisp sentence — WHAT Claude did + WHAT the result was. No filler. No echoing the title. Must include both the specific task and the specific outcome.>"
+}}"""
 
 
 def keyword_categorize(title: str, summary: str) -> str:
@@ -72,78 +98,51 @@ def keyword_categorize(title: str, summary: str) -> str:
     return best if scores[best] > 0 else "General / Other"
 
 
-def keyword_insight(title: str) -> str:
-    return f"Claude used in context of: {title[:120]}"
-
-
-def claude_categorize_batch(posts: list[dict]) -> list[dict]:
-    try:
-        import anthropic
-    except ImportError:
-        print("[warn] anthropic package not installed. Using keyword categorization.")
-        for p in posts:
-            p["category"] = keyword_categorize(p["title"], p["summary"])
-            p["key_insight"] = keyword_insight(p["title"])
-        return posts
-
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        print("[warn] ANTHROPIC_API_KEY not set. Using keyword categorization.")
-        for p in posts:
-            p["category"] = keyword_categorize(p["title"], p["summary"])
-            p["key_insight"] = keyword_insight(p["title"])
-        return posts
-
-    client = anthropic.Anthropic(api_key=api_key)
-
+def categorize_with_claude(client, post: dict) -> dict:
     categories_list = "\n".join(f"- {c}" for c in CATEGORIES)
+    content_snippet = (post.get("summary") or "")[:600]
+    if not content_snippet:
+        content_snippet = post["title"]
 
-    for i, post in enumerate(posts):
-        text_snippet = f"Title: {post['title']}\nSummary: {post['summary'][:400]}"
-        prompt = f"""You are analyzing a social media post/article about Claude AI being used in marketing or sales.
+    prompt = CLAUDE_PROMPT.format(
+        title=post["title"],
+        content=content_snippet,
+        categories=categories_list,
+    )
 
-Post:
-{text_snippet}
-
-Categories (pick exactly one):
-{categories_list}
-
-Reply with JSON only, no explanation:
-{{
-  "category": "<one of the categories above>",
-  "key_insight": "<one actionable sentence: what was Claude used for and what result/benefit was mentioned>"
-}}"""
-
-        try:
-            resp = client.messages.create(
-                model="claude-haiku-4-5-20251001",
-                max_tokens=200,
-                messages=[{"role": "user", "content": prompt}],
-            )
-            raw = resp.content[0].text.strip()
-            # Extract JSON from response
-            match = re.search(r'\{.*\}', raw, re.DOTALL)
-            if match:
-                parsed = json.loads(match.group())
-                cat = parsed.get("category", "General / Other")
-                # Validate category
-                if cat not in CATEGORIES:
-                    cat = keyword_categorize(post["title"], post["summary"])
-                post["category"] = cat
-                post["key_insight"] = parsed.get("key_insight", keyword_insight(post["title"]))
+    try:
+        resp = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=250,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        raw = resp.content[0].text.strip()
+        match = re.search(r'\{.*\}', raw, re.DOTALL)
+        if match:
+            parsed = json.loads(match.group())
+            if parsed.get("skip"):
+                post["skip"] = True
+                post["skip_reason"] = parsed.get("skip_reason", "not relevant")
+                post["category"] = None
+                post["key_insight"] = None
             else:
-                post["category"] = keyword_categorize(post["title"], post["summary"])
-                post["key_insight"] = keyword_insight(post["title"])
-        except Exception as e:
-            print(f"  [warn] Claude API error for post {i}: {e}")
-            post["category"] = keyword_categorize(post["title"], post["summary"])
-            post["key_insight"] = keyword_insight(post["title"])
+                cat = parsed.get("category")
+                if cat not in CATEGORIES:
+                    cat = keyword_categorize(post["title"], post.get("summary", ""))
+                post["skip"] = False
+                post["category"] = cat
+                post["key_insight"] = parsed.get("key_insight") or None
+        else:
+            post["skip"] = True
+            post["skip_reason"] = "unparseable API response"
+    except Exception as e:
+        print(f"  [warn] Claude API error: {e}")
+        # On API error, keep post with keyword categorization (don't discard)
+        post["skip"] = False
+        post["category"] = keyword_categorize(post["title"], post.get("summary", ""))
+        post["key_insight"] = None
 
-        # Small delay to avoid rate limiting
-        if i < len(posts) - 1:
-            time.sleep(0.3)
-
-    return posts
+    return post
 
 
 def categorize_uncategorized() -> int:
@@ -155,26 +154,50 @@ def categorize_uncategorized() -> int:
         data = json.load(f)
 
     posts = data.get("posts", [])
-    uncategorized = [p for p in posts if not p.get("category")]
+    uncategorized = [p for p in posts if p.get("category") is None and not p.get("skip")]
 
     if not uncategorized:
         print("All posts already categorized.")
         return 0
 
-    print(f"Categorizing {len(uncategorized)} posts...")
-    categorized = claude_categorize_batch(uncategorized)
+    print(f"Categorizing {len(uncategorized)} posts with Claude Haiku...")
 
-    # Merge back
-    cat_map = {p["id"]: p for p in categorized}
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        print("[warn] No ANTHROPIC_API_KEY — using keyword fallback (no filtering).")
+        for p in uncategorized:
+            p["skip"] = False
+            p["category"] = keyword_categorize(p["title"], p.get("summary", ""))
+            p["key_insight"] = None
+    else:
+        try:
+            import anthropic
+            client = anthropic.Anthropic(api_key=api_key)
+            for i, post in enumerate(uncategorized):
+                categorize_with_claude(client, post)
+                if i < len(uncategorized) - 1:
+                    time.sleep(0.3)
+        except ImportError:
+            print("[warn] anthropic package not installed. Using keyword fallback.")
+            for p in uncategorized:
+                p["skip"] = False
+                p["category"] = keyword_categorize(p["title"], p.get("summary", ""))
+                p["key_insight"] = None
+
+    # Merge updates back
+    updated_map = {p["id"]: p for p in uncategorized}
     for i, post in enumerate(posts):
-        if post["id"] in cat_map:
-            posts[i] = cat_map[post["id"]]
+        if post["id"] in updated_map:
+            posts[i] = updated_map[post["id"]]
+
+    skipped = sum(1 for p in posts if p.get("skip"))
+    kept = sum(1 for p in posts if not p.get("skip") and p.get("category"))
+    print(f"Done: {kept} kept, {skipped} skipped as irrelevant.")
 
     data["posts"] = posts
     with open(DATA_FILE, "w") as f:
         json.dump(data, f, indent=2)
 
-    print(f"Done. Categorized {len(uncategorized)} posts.")
     return len(uncategorized)
 
 
