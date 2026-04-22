@@ -1,7 +1,59 @@
 {
-  "last_updated": "2026-04-21T05:31:40.211610+00:00",
-  "total": 87,
+  "last_updated": "2026-04-22T08:21:17.790150+00:00",
+  "total": 91,
   "posts": [
+    {
+      "id": "5d583b9a3248",
+      "title": "Cleared initial review for Claude Partner Network as a solo founder \u2014 anyone know if the 10-person certification requirement is flexible?",
+      "url": "https://www.reddit.com/r/Anthropic/comments/1ssa4sf/cleared_initial_review_for_claude_partner_network/",
+      "summary": "Just got an email from Anthropic saying my application to the Claude Partner Network cleared initial review and I&#39;m approved to move forward. Genuinely exciting, but there&#39;s a catch. The email says I need to enroll 10 team members in the Anthropic Academy CPN learning path before they unlock the CCAF certification for my org. Problem is \u2014 I&#39;m a one-person operation. It&#39;s just me. I build AI-powered tools for small businesses (currently a GHL-based CRM automation product for home service companies). I&#39;m also building out a truck dispatch Saas. I use Claude heavily in what I&#39;m building and applied to the partner network to formalize that relationship and add credibility when selling to clients. Has anyone else run into this as a solo founder or small team? A few things I&#39;m wondering: - Is there a solo/startup track they haven&#39;t publicized yet? - Does one person completing the path multiple times count, or do they actually verify unique accounts? - Did anyo",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-04-22T03:40:59+00:00",
+      "category": "Marketing Automation",
+      "key_insight": null,
+      "fetched_at": "2026-04-22T08:21:08.233685+00:00",
+      "skip": false
+    },
+    {
+      "id": "218198e49bc6",
+      "title": "My experience using Claude to actually manage Google Ads",
+      "url": "https://www.reddit.com/r/PPC/comments/1srf9gz/my_experience_using_claude_to_actually_manage/",
+      "summary": "Heads up: this is an opinion post, not a tutorial. Plenty of setup guides already exist. The content is rephrased by AI. Context: I run a multi-location service business. 8K/month budget. Former software engineer, so I tend to build my own internal tools instead of buying. I&#39;ve been using Claude to manage my Google Ads for a while, and by manage I mean read and write. Pausing keywords, adjusting bids, restructuring campaigns, writing new RSAs. Not just summarizing last week&#39;s performance. I think this is paradigm shift in how ads are going to be managed. It is a bit early right now, but the as models get better, I just can&#39;t see this reversing. But it&#39;s worth being precise about who it&#39;s actually for, because most takes I see online are either AI replaces all PPC tomorrow or AI is useless for ads, and neither is right. Who this won&#39;t help If you&#39;ve never run a campaign and don&#39;t understand how paid search works at a structural level, don&#39;t hand Claud",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-04-21T06:10:04+00:00",
+      "category": "Performance Marketing & Ads",
+      "key_insight": null,
+      "fetched_at": "2026-04-22T08:21:09.872298+00:00",
+      "skip": false
+    },
+    {
+      "id": "c9bfe29a9cc2",
+      "title": "Took a year from 0 to $200 MRR and first 10 paid users, Next 100 days I made $14K [ Includes B2B deals ] [ 10K+ total signed up users ]",
+      "url": "https://www.reddit.com/r/buildinpublic/comments/1ssf3i8/took_a_year_from_0_to_200_mrr_and_first_10_paid/",
+      "summary": "Hey r/buildinpublic I want to share about my project, how I did it, all things I used, what worked, what didnt work, everything.. First, Why sharing ? I want to sell this tool as it was my learning tool which I tried to learn things after leaving my job. Current stats [ Its called looktara - AI headshot app ] 10,000+ users 5,000+ active users using free and paid tools $20K lifetime revenue $15K lifetime profit Over 100K website visitors till date 100+ Reviews on linkedin all organic 4+ Rating on Trustpilot Image attached BUT IT WAS NOT LIKE THIS WHEN I STARTED.. Writing this as raw post, I will also make a clean claude optimised blog on it soon. PHASE 1 [ First Year ] Journey of understanding how to earn INTERNET DOLLARS All wrong Stuff I did Jealousy Building Too much frugality and solo thinking Journey of BUILDING FOUNDATION I was seeing a lot of AI tools and talks all around, even I was working at AI voice video company before I left my job. I decided to build an AI headshot app whi",
+      "source": "Reddit",
+      "source_label": "search.rss?q=Claude+AI+sales+pipeline&sort=new",
+      "date": "2026-04-22T08:09:35+00:00",
+      "category": "Performance Marketing & Ads",
+      "key_insight": null,
+      "fetched_at": "2026-04-22T08:21:12.196447+00:00",
+      "skip": false
+    },
+    {
+      "id": "be0ec88d75f0",
+      "title": "Claude chatbot can now run \u2018instant market research\u2019 for advertisers - Performance Marketing World",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVDE1T1ZOV28xU3FkMHdDdF9vazV4RVplQmtoX0NfSTZXbFQ0dFg1WGtLYm5tT0FOb2lXZG9oUjByLXNQSVZOUXl3a1dVR1RxbWpWSV9qZEgwbXBqaVZPM1dkbWR1dnR1NFBuTGtxY1pzTmRuU24xS3ByYkItaVZTVzZPd3B0ZFZDOGJEUTZZZkRIeEdfRE5YelRlazBUdlpuZlcwSDgzRi1CamZPM0FnblVR?oc=5",
+      "summary": "Claude chatbot can now run \u2018instant market research\u2019 for advertisers Performance Marketing World",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Mon, 03 Nov 2025 08:00:00 GMT",
+      "category": "Performance Marketing & Ads",
+      "key_insight": null,
+      "fetched_at": "2026-04-22T08:21:13.279279+00:00",
+      "skip": false
+    },
     {
       "id": "2151297f1eeb",
       "title": "Rate My Outbound Sales Process?",
