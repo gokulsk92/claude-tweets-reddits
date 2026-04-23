@@ -10,8 +10,10 @@ import re
 import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
+
+MAX_AGE_DAYS = 90   # Discard anything older than this
 
 DATA_FILE = Path(__file__).parent.parent / "data" / "posts.json"
 
@@ -95,6 +97,37 @@ def make_id(url: str) -> str:
     return hashlib.md5(url.encode()).hexdigest()[:12]
 
 
+def parse_date(date_str: str) -> datetime | None:
+    """Parse various date formats into UTC datetime. Returns None on failure."""
+    if not date_str:
+        return None
+    for fmt in [
+        "%Y-%m-%dT%H:%M:%S%z",
+        "%Y-%m-%dT%H:%M:%SZ",
+        "%a, %d %b %Y %H:%M:%S %z",
+        "%a, %d %b %Y %H:%M:%S GMT",
+        "%Y-%m-%dT%H:%M:%S.%f%z",
+    ]:
+        try:
+            return datetime.strptime(date_str[:len(fmt) + 5].strip(), fmt).replace(tzinfo=timezone.utc)
+        except ValueError:
+            pass
+    # ISO fallback
+    try:
+        return datetime.fromisoformat(date_str.replace("Z", "+00:00"))
+    except Exception:
+        return None
+
+
+def is_too_old(date_str: str) -> bool:
+    """Return True if the post is older than MAX_AGE_DAYS."""
+    dt = parse_date(date_str)
+    if dt is None:
+        return False  # Unknown date — keep it
+    cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
+    return dt < cutoff
+
+
 def is_relevant(title: str, summary: str) -> bool:
     text = (title + " " + summary).lower()
 
@@ -141,6 +174,8 @@ def parse_reddit_rss(xml_text: str, source_label: str) -> list[dict]:
 
             if not title or not url:
                 continue
+            if is_too_old(date_str):
+                continue
             if not is_relevant(title, summary):
                 continue
 
@@ -180,6 +215,8 @@ def parse_rss(xml_text: str, source: str) -> list[dict]:
             date_str = pubdate_el.text if pubdate_el is not None else ""
 
             if not title or not url:
+                continue
+            if is_too_old(date_str):
                 continue
             if not is_relevant(title, summary):
                 continue
@@ -247,6 +284,8 @@ def fetch_twitter_nitter() -> list[dict]:
 
                 if not title or not url_raw:
                     continue
+                if is_too_old(date_str):
+                    continue
                 # For tweets, title IS the tweet text — check full text
                 if not is_relevant(title, summary):
                     continue
@@ -290,6 +329,8 @@ def fetch_hacker_news() -> list[dict]:
                 summary = clean_html(hit.get("story_text") or "")
                 date_str = hit.get("created_at", "")
 
+                if is_too_old(date_str):
+                    continue
                 if not is_relevant(title, summary):
                     continue
 
