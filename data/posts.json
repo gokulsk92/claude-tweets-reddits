@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-04-23T06:43:41.757018+00:00",
-  "total": 29,
+  "last_updated": "2026-04-23T08:26:00.464807+00:00",
+  "total": 30,
   "posts": [
+    {
+      "id": "08f92f42ea86",
+      "title": "Anthropic Roasts OpenAI Promising Ad-Free Claude AI Experience - Android Headlines",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMjM2WWNOVUlkVUljMmtFTjlVaUpGZU80bVQ2MUtiNVlub3Q1dTFvVjB4VzNFYWJJc0g3eENIczFpV24wLW5BLWFCVEtYTktGMURISXJDMHFlZkQtbE91djczVFRMZ3NkZkhubTl4czFEQlo3czVaVVl2N0pkQ0I4WnFJSkpwc3psQ3owTlA2c3ZiR0FSRHc?oc=5",
+      "summary": "Anthropic Roasts OpenAI Promising Ad-Free Claude AI Experience Android Headlines",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Wed, 04 Feb 2026 08:00:00 GMT",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Anthropic Roasts OpenAI Promising Ad-Free Claude AI Experience - Android Headlines",
+      "fetched_at": "2026-04-23T08:25:55.865773+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "85f51a474780",
       "title": "Runtime validation is still fucked in AI coding agents",
