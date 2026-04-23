@@ -2,1082 +2,684 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Claude AI — Marketing & Sales Use Cases</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Claude AI · Marketing & Sales Insights</title>
 <style>
-  :root {
-    --bg: #0f0f11;
-    --surface: #1a1a1f;
-    --surface2: #222228;
-    --border: #2e2e38;
-    --text: #e8e8f0;
-    --text2: #9999b0;
-    --accent: #7c5cfc;
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; min-height: 100vh; }
+:root{
+  --bg:#0f0f11; --surf:#1a1a1f; --surf2:#222228; --border:#2e2e38;
+  --txt:#e8e8f0; --txt2:#9999b0; --acc:#7c5cfc;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;min-height:100vh}
 
-  header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 24px 32px; }
-  .header-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
-  .logo { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; }
-  .logo span { color: var(--accent); }
-  .meta { font-size: 13px; color: var(--text2); }
+/* header */
+header{background:var(--surf);border-bottom:1px solid var(--border);padding:20px 32px}
+.hdr{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.logo{font-size:20px;font-weight:700}.logo span{color:var(--acc)}
+.meta{font-size:12px;color:var(--txt2)}
 
-  .container { max-width: 1200px; margin: 0 auto; padding: 32px; }
+/* layout */
+.container{max-width:1200px;margin:0 auto;padding:28px 32px}
 
-  .stats { display: flex; gap: 24px; margin-bottom: 28px; flex-wrap: wrap; }
-  .stat { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px 24px; min-width: 140px; }
-  .stat-num { font-size: 28px; font-weight: 700; color: var(--accent); }
-  .stat-label { font-size: 12px; color: var(--text2); margin-top: 2px; }
+/* stats */
+.stats{display:flex;gap:16px;margin-bottom:28px;flex-wrap:wrap}
+.stat{background:var(--surf);border:1px solid var(--border);border-radius:10px;padding:14px 20px;min-width:120px}
+.stat-n{font-size:26px;font-weight:700;color:var(--acc)}
+.stat-l{font-size:11px;color:var(--txt2);margin-top:2px}
 
-  .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 28px; }
-  .filter-btn {
-    background: var(--surface2); border: 1px solid var(--border); color: var(--text2);
-    padding: 7px 14px; border-radius: 20px; cursor: pointer; font-size: 13px;
-    transition: all 0.15s;
-  }
-  .filter-btn:hover { color: var(--text); border-color: var(--accent); }
-  .filter-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
+/* top stories */
+.top-stories{background:linear-gradient(135deg,#1a1535,#111827);border:1px solid #3d2f7a;border-radius:14px;padding:24px;margin-bottom:32px}
+.section-label{font-size:13px;font-weight:700;color:var(--acc);letter-spacing:.08em;text-transform:uppercase;margin-bottom:16px}
+.top-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
 
-  .search-bar { margin-bottom: 24px; }
-  .search-bar input {
-    width: 100%; max-width: 500px; background: var(--surface); border: 1px solid var(--border);
-    color: var(--text); padding: 10px 16px; border-radius: 8px; font-size: 14px; outline: none;
-  }
-  .search-bar input:focus { border-color: var(--accent); }
+/* filters */
+.search-row{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:16px;align-items:center}
+.search-row input{background:var(--surf);border:1px solid var(--border);color:var(--txt);padding:9px 14px;border-radius:8px;font-size:13px;outline:none;flex:1;min-width:200px;max-width:380px}
+.search-row input:focus{border-color:var(--acc)}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}
+.f-btn{background:var(--surf2);border:1px solid var(--border);color:var(--txt2);padding:6px 14px;border-radius:20px;cursor:pointer;font-size:12px;transition:all .15s}
+.f-btn:hover{color:var(--txt);border-color:var(--cc,var(--acc))}
+.f-btn.active{background:var(--cc,var(--acc));color:#fff;border-color:var(--cc,var(--acc))}
 
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 20px; }
+/* cards */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:18px}
+.card{background:var(--surf);border:1px solid var(--border);border-radius:12px;padding:18px;transition:border-color .15s,transform .15s}
+.card:hover{border-color:var(--acc);transform:translateY(-2px)}
+.card.hidden{display:none}
+.card--featured{border-color:#3d2f7a;background:var(--surf2)}
+.card-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;flex-wrap:wrap;gap:6px}
+.badge{font-size:11px;font-weight:600;color:#fff;padding:3px 10px;border-radius:12px;white-space:nowrap}
+.source{font-size:11px;color:var(--txt2)}
+.card-title{font-size:14px;font-weight:600;line-height:1.45;margin-bottom:8px}
+.card-title a{color:var(--txt);text-decoration:none}
+.card-title a:hover{color:var(--acc)}
+.insight{background:#1b1b2e;border-left:3px solid var(--acc);padding:7px 11px;border-radius:0 6px 6px 0;font-size:12px;color:var(--txt);margin-bottom:8px;line-height:1.5}
+.summary{font-size:12px;color:var(--txt2);line-height:1.6;margin-bottom:10px}
+.read-link{font-size:12px;color:var(--acc);text-decoration:none;font-weight:600}
+.read-link:hover{text-decoration:underline}
+.no-results{text-align:center;color:var(--txt2);padding:50px 0;font-size:14px;display:none}
 
-  .card {
-    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
-    padding: 20px; transition: border-color 0.15s, transform 0.15s;
-  }
-  .card:hover { border-color: var(--accent); transform: translateY(-2px); }
-  .card.hidden { display: none; }
+footer{text-align:center;padding:28px;color:var(--txt2);font-size:12px;border-top:1px solid var(--border);margin-top:32px}
 
-  .card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; flex-wrap: wrap; gap: 6px; }
-  .badge { font-size: 11px; font-weight: 600; color: white; padding: 3px 10px; border-radius: 12px; white-space: nowrap; }
-  .source { font-size: 12px; color: var(--text2); }
-
-  .card-title { font-size: 15px; font-weight: 600; line-height: 1.4; margin-bottom: 10px; }
-  .card-title a { color: var(--text); text-decoration: none; }
-  .card-title a:hover { color: var(--accent); }
-
-  .insight { background: var(--surface2); border-left: 3px solid var(--accent); padding: 8px 12px; border-radius: 0 6px 6px 0; font-size: 13px; color: var(--text); margin-bottom: 10px; line-height: 1.5; }
-  .summary { font-size: 13px; color: var(--text2); line-height: 1.6; margin-bottom: 12px; }
-  .read-link { font-size: 13px; color: var(--accent); text-decoration: none; font-weight: 500; }
-  .read-link:hover { text-decoration: underline; }
-
-  .no-results { text-align: center; color: var(--text2); padding: 60px 0; font-size: 15px; display: none; }
-
-  footer { text-align: center; padding: 32px; color: var(--text2); font-size: 13px; border-top: 1px solid var(--border); margin-top: 40px; }
-
-  @media (max-width: 640px) {
-    .container { padding: 16px; }
-    .grid { grid-template-columns: 1fr; }
-  }
+@media(max-width:640px){.container{padding:14px}.grid,.top-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 
 <header>
-  <div class="header-inner">
+  <div class="hdr">
     <div class="logo">Claude AI <span>Marketing & Sales</span> Insights</div>
-    <div class="meta">Last updated: April 22, 2026 at 08:21 UTC</div>
+    <div class="meta">Updated April 23, 2026 &nbsp;·&nbsp; Last 90 days only</div>
   </div>
 </header>
 
 <div class="container">
 
   <div class="stats">
-    <div class="stat">
-      <div class="stat-num">91</div>
-      <div class="stat-label">Total Posts</div>
-    </div>
-    <div class="stat">
-      <div class="stat-num">8</div>
-      <div class="stat-label">Categories</div>
-    </div>
-    <div class="stat">
-      <div class="stat-num">Daily</div>
-      <div class="stat-label">Update Frequency</div>
-    </div>
+    <div class="stat"><div class="stat-n">55</div><div class="stat-l">Curated Posts</div></div>
+    <div class="stat"><div class="stat-n">5</div><div class="stat-l">Top Stories</div></div>
+    <div class="stat"><div class="stat-n">4</div><div class="stat-l">Categories</div></div>
+    <div class="stat"><div class="stat-n">Daily</div><div class="stat-l">Refresh</div></div>
   </div>
 
-  <div class="search-bar">
-    <input type="text" id="searchInput" placeholder="Search posts..." oninput="searchPosts()">
+  
+<section class="top-stories">
+  <div class="section-label">⭐ Top Stories Today</div>
+  <div class="top-grid"><div class="card  card--featured" data-category="Content & Campaigns">
+  <div class="card-header">
+    <span class="badge" style="background:#f39c12">⭐ Content & Campaigns</span>
+    <span class="source">🟡 Hacker News&nbsp;·&nbsp;Feb 10, 2026</span>
   </div>
+  <h3 class="card-title"><a href="https://news.ycombinator.com/item?id=46963340" target="_blank" rel="noopener">Runtime validation is still fucked in AI coding agents</a></h3>
+  
+  <p class='summary'>AI agents (Cursor, Claude computer-use, Copilot agent mode, etc.) have gotten stupidly good at spitting out code. Prompt → boom, clean code. The marketing says it just works. It fucking doesn&#x27;t. You run it in a real app and immediately hit the same bullshit wall every time: …</p>
+  <a href="https://news.ycombinator.com/item?id=46963340" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card  card--featured" data-category="Ads & Performance Marketing">
+  <div class="card-header">
+    <span class="badge" style="background:#e74c3c">⭐ Ads & Performance Marketing</span>
+    <span class="source">🟡 Hacker News&nbsp;·&nbsp;Mar 20, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://asaagent.xyz" target="_blank" rel="noopener">Show HN: I built an AI agent that does marketing for my apps</a></h3>
+  
+  <p class='summary'>I make iOS apps, been doing it for about five years now. Apple Search Ads ended up being my main paid channel - no creatives needed, just keywords and bids, feels closer to engineering than marketing. Also the only channel left where you get actual deterministic attribution, ever…</p>
+  <a href="https://asaagent.xyz" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card  card--featured" data-category="Automation & Workflows">
+  <div class="card-header">
+    <span class="badge" style="background:#9b59b6">⭐ Automation & Workflows</span>
+    <span class="source">🟡 Hacker News&nbsp;·&nbsp;Feb 18, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://fromearendel.com" target="_blank" rel="noopener">Show HN: My AI agent is trying to earn $750 to buy its own computer</a></h3>
+  
+  <p class='summary'>I gave a persistent AI agent (OpenClaw[1], running on Claude) $50 and a goal: earn $750 for a Mac Mini. The agent has its own workspace, email, task management, browser automation, and communicates with me via Telegram. It persists memory between sessions by reading&#x2F;writing …</p>
+  <a href="https://fromearendel.com" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card  card--featured" data-category="Content & Campaigns">
+  <div class="card-header">
+    <span class="badge" style="background:#f39c12">⭐ Content & Campaigns</span>
+    <span class="source">🟡 Hacker News&nbsp;·&nbsp;Feb 25, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://github.com/superamped/ai-marketing-skills" target="_blank" rel="noopener">Show HN: AI Marketing Skills for Claude Code</a></h3>
+  
+  <p class='summary'>Hey HN, I&#x27;ve been using Claude Code for marketing work and kept re-prompting the same workflows. Competitor research, SEO audits, ad creative, that kind of thing. So I packaged them into reusable skills in this open-source repo. There are 16 skills covering research, content…</p>
+  <a href="https://github.com/superamped/ai-marketing-skills" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card  card--featured" data-category="Automation & Workflows">
+  <div class="card-header">
+    <span class="badge" style="background:#9b59b6">⭐ Automation & Workflows</span>
+    <span class="source">🟡 Hacker News&nbsp;·&nbsp;Feb 21, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.emailmarketingskill.com/" target="_blank" rel="noopener">Show HN: I built a 55K-word email marketing knowledge base and Claude Code skill</a></h3>
+  
+  <p class='summary'>I co-founded SmartrMail (email marketing SaaS, 12K ecommerce customers, acquired 2022). When I left, I no longer had access to the sending data I&#x27;d spent years learning from, billions of sent emails, deliverability patterns, things that actually move email engagement Cos&#x2…</p>
+  <a href="https://www.emailmarketingskill.com/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div></div>
+</section>
 
+  <div class="search-row">
+    <input type="text" id="srch" placeholder="Search posts…" oninput="applyFilters()">
+  </div>
   <div class="filters">
-    <button class="filter-btn active" onclick="filterPosts('all')">All</button>
-<button class="filter-btn" onclick="filterPosts('ABM \(Account-Based Marketing\)')" style="border-color:#2980b9">ABM (Account-Based Marketing)</button>
-<button class="filter-btn" onclick="filterPosts('Content & SEO')" style="border-color:#f39c12">Content & SEO</button>
-<button class="filter-btn" onclick="filterPosts('General / Other')" style="border-color:#95a5a6">General / Other</button>
-<button class="filter-btn" onclick="filterPosts('Integrated Marketing')" style="border-color:#16a085">Integrated Marketing</button>
-<button class="filter-btn" onclick="filterPosts('Marketing Automation')" style="border-color:#9b59b6">Marketing Automation</button>
-<button class="filter-btn" onclick="filterPosts('Performance Marketing & Ads')" style="border-color:#e74c3c">Performance Marketing & Ads</button>
-<button class="filter-btn" onclick="filterPosts('Pipeline Acceleration')" style="border-color:#27ae60">Pipeline Acceleration</button>
-<button class="filter-btn" onclick="filterPosts('Sales Enablement')" style="border-color:#2c3e50">Sales Enablement</button>
+    <button class="f-btn active" onclick="filterCat('all',this)">All</button>
+<button class="f-btn" onclick="filterCat('ABM & Pipeline',this)" style="--cc:#2980b9">ABM & Pipeline</button>
+<button class="f-btn" onclick="filterCat('Ads & Performance Marketing',this)" style="--cc:#e74c3c">Ads & Performance Marketing</button>
+<button class="f-btn" onclick="filterCat('Automation & Workflows',this)" style="--cc:#9b59b6">Automation & Workflows</button>
+<button class="f-btn" onclick="filterCat('Content & Campaigns',this)" style="--cc:#f39c12">Content & Campaigns</button>
 
   </div>
 
-  <div class="grid" id="postsGrid">
-    
-        <div class="card" data-category="Marketing Automation">
-            <div class="card-header">
-                <span class="badge" style="background:#9b59b6">Marketing Automation</span>
-                <span class="source">🟠 Reddit &middot; Apr 22, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/Anthropic/comments/1ssa4sf/cleared_initial_review_for_claude_partner_network/" target="_blank" rel="noopener">Cleared initial review for Claude Partner Network as a solo founder — anyone know if the 10-person certification requirement is flexible?</a></h3>
-            
-            <p class='summary'>Just got an email from Anthropic saying my application to the Claude Partner Network cleared initial review and I&#39;m approved to move forward. Genuinely exciting, but there&#39;s a catch. The email says I need to enroll 10 team members in the Anthropic Academy CPN learning path before they unlock...</p>
-            <a href="https://www.reddit.com/r/Anthropic/comments/1ssa4sf/cleared_initial_review_for_claude_partner_network/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🟠 Reddit &middot; Apr 21, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/PPC/comments/1srf9gz/my_experience_using_claude_to_actually_manage/" target="_blank" rel="noopener">My experience using Claude to actually manage Google Ads</a></h3>
-            
-            <p class='summary'>Heads up: this is an opinion post, not a tutorial. Plenty of setup guides already exist. The content is rephrased by AI. Context: I run a multi-location service business. 8K/month budget. Former software engineer, so I tend to build my own internal tools instead of buying. I&#39;ve been using Claude...</p>
-            <a href="https://www.reddit.com/r/PPC/comments/1srf9gz/my_experience_using_claude_to_actually_manage/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🟠 Reddit &middot; Apr 22, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/buildinpublic/comments/1ssf3i8/took_a_year_from_0_to_200_mrr_and_first_10_paid/" target="_blank" rel="noopener">Took a year from 0 to $200 MRR and first 10 paid users, Next 100 days I made $14K [ Includes B2B deals ] [ 10K+ total signed up users ]</a></h3>
-            
-            <p class='summary'>Hey r/buildinpublic I want to share about my project, how I did it, all things I used, what worked, what didnt work, everything.. First, Why sharing ? I want to sell this tool as it was my learning tool which I tried to learn things after leaving my job. Current stats [ Its called looktara - AI head...</p>
-            <a href="https://www.reddit.com/r/buildinpublic/comments/1ssf3i8/took_a_year_from_0_to_200_mrr_and_first_10_paid/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🔵 Google News &middot; Mon, 03 No</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxQVDE1T1ZOV28xU3FkMHdDdF9vazV4RVplQmtoX0NfSTZXbFQ0dFg1WGtLYm5tT0FOb2lXZG9oUjByLXNQSVZOUXl3a1dVR1RxbWpWSV9qZEgwbXBqaVZPM1dkbWR1dnR1NFBuTGtxY1pzTmRuU24xS3ByYkItaVZTVzZPd3B0ZFZDOGJEUTZZZkRIeEdfRE5YelRlazBUdlpuZlcwSDgzRi1CamZPM0FnblVR?oc=5" target="_blank" rel="noopener">Claude chatbot can now run ‘instant market research’ for advertisers - Performance Marketing World</a></h3>
-            
-            <p class='summary'>Claude chatbot can now run ‘instant market research’ for advertisers Performance Marketing World</p>
-            <a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxQVDE1T1ZOV28xU3FkMHdDdF9vazV4RVplQmtoX0NfSTZXbFQ0dFg1WGtLYm5tT0FOb2lXZG9oUjByLXNQSVZOUXl3a1dVR1RxbWpWSV9qZEgwbXBqaVZPM1dkbWR1dnR1NFBuTGtxY1pzTmRuU24xS3ByYkItaVZTVzZPd3B0ZFZDOGJEUTZZZkRIeEdfRE5YelRlazBUdlpuZlcwSDgzRi1CamZPM0FnblVR?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Marketing Automation">
-            <div class="card-header">
-                <span class="badge" style="background:#9b59b6">Marketing Automation</span>
-                <span class="source">🟠 Reddit &middot; Dec 25, 2024</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/marketing/comments/1hm3ov6/rate_my_outbound_sales_process/" target="_blank" rel="noopener">Rate My Outbound Sales Process?</a></h3>
-            
-            <p class='summary'>When I first started outbound sales, it felt like throwing darts blindfolded. I’d spend hours looking up leads, writing emails, and following up, and most of it didn’t go anywhere. I knew I needed a system. After a lot of trial and error, I found a process that’s working for me now, and it’s heavily...</p>
-            <a href="https://www.reddit.com/r/marketing/comments/1hm3ov6/rate_my_outbound_sales_process/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Content & SEO">
-            <div class="card-header">
-                <span class="badge" style="background:#f39c12">Content & SEO</span>
-                <span class="source">🟠 Reddit &middot; Aug 09, 2024</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/marketing/comments/1enrfzv/thinking_about_getting_back_into_marketing_but_i/" target="_blank" rel="noopener">Thinking about getting back into Marketing but I don't even know where to begin</a></h3>
-            
-            <p class='summary'>Years back I was doing SEO and front end web design and copywriting but I&#39;ve been out of the game for 6 years and I&#39;m assuming the landscape has shifted enormously plus I&#39;ve forgotten almost everything I knew and now with the rise of AI I&#39;m not even sure where to start. The thing I l...</p>
-            <a href="https://www.reddit.com/r/marketing/comments/1enrfzv/thinking_about_getting_back_into_marketing_but_i/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🟠 Reddit &middot; Mar 12, 2024</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/marketing/comments/1bcx0rz/heres_what_happened_in_marketing_and_advertising/" target="_blank" rel="noopener">Here's What happened in Marketing and Advertising last week; Outages, TikTok Ban, SEO Updates & A lot more</a></h3>
-            
-            <p class='summary'>Top 6 Updates of the Week: TikTok Ban is getting real, US House to vote next week on crackdown bill. Reddit announces new social and data toolkit for businesses, Reddit Pro. Google launches privacy-focused measurement tool for marketers. LinkedIn launches tools to assist in internal career progressi...</p>
-            <a href="https://www.reddit.com/r/marketing/comments/1bcx0rz/heres_what_happened_in_marketing_and_advertising/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Content & SEO">
-            <div class="card-header">
-                <span class="badge" style="background:#f39c12">Content & SEO</span>
-                <span class="source">🟠 Reddit &middot; Sep 25, 2023</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/marketing/comments/16rp9bj/what_is_new_in_ai_marketing_tech_here_are_all_the/" target="_blank" rel="noopener">What is new in AI marketing tech? Here are all the latest Launches.</a></h3>
-            
-            <p class='summary'>Most AI tools are getting launched with one use-case or no moat and even that one feature is not fully optimized for marketing teams. These are my favorite marketing tools getting the best and fastest AI developments. 1/ Microsoft has rolled out AI Ads for Bing Partner: Snapchat’s “My AI”. 2/ OpenAI...</p>
-            <a href="https://www.reddit.com/r/marketing/comments/16rp9bj/what_is_new_in_ai_marketing_tech_here_are_all_the/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Integrated Marketing">
-            <div class="card-header">
-                <span class="badge" style="background:#16a085">Integrated Marketing</span>
-                <span class="source">🟠 Reddit &middot; Apr 08, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/digital_marketing/comments/1sfkozr/what_would_you_do_with_data_if_you_could_track/" target="_blank" rel="noopener">What would you do with data if you could track frequency with which AI assistants mention your brand?</a></h3>
-            
-            <p class='summary'>I was chatting with a colleague of a digital marketing agency that did a test with a B2B SaaS client. Although the content was well rated on Google, AI assistants seldom answered about their product. They began tracking AI presence on various platforms ChatGPT, Perplexity, and Claude to see what con...</p>
-            <a href="https://www.reddit.com/r/digital_marketing/comments/1sfkozr/what_would_you_do_with_data_if_you_could_track/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Integrated Marketing">
-            <div class="card-header">
-                <span class="badge" style="background:#16a085">Integrated Marketing</span>
-                <span class="source">🟠 Reddit &middot; Mar 24, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/digital_marketing/comments/1s2ka6x/as_a_junior_level_digital_marketing_analyst_how/" target="_blank" rel="noopener">As a Junior level digital marketing analyst how worried should I be about AI?</a></h3>
-            
-            <p class='summary'>I’m working as digital marketing analyst at a small company (only been here about 3 months). Leadership has been pushing pretty hard on using AI tools to automate stuff and save time. With tools like Claude getting better and able to handle a lot of the tasks we normally do, I’m starting to feel a b...</p>
-            <a href="https://www.reddit.com/r/digital_marketing/comments/1s2ka6x/as_a_junior_level_digital_marketing_analyst_how/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🟠 Reddit &middot; Mar 04, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/digital_marketing/comments/1rk904i/if_ai_search_went_down_would_google_traffic_spike/" target="_blank" rel="noopener">If AI search went down, would Google traffic spike? Or have habits already shifted too far?</a></h3>
-            
-            <p class='summary'>Claude went down Monday and half the internet remembered how much AI is baked into daily workflows now. But it made us think about a different dependency. What happens in a future where 90 % of people use AI to find things they want to buy? AND THEN AI goes down. Think about it, theres a whole gener...</p>
-            <a href="https://www.reddit.com/r/digital_marketing/comments/1rk904i/if_ai_search_went_down_would_google_traffic_spike/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Marketing Automation">
-            <div class="card-header">
-                <span class="badge" style="background:#9b59b6">Marketing Automation</span>
-                <span class="source">🟠 Reddit &middot; Feb 04, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/digital_marketing/comments/1qvrc6p/after_1000s_of_hours_prompting_claude_gemini_gpt/" target="_blank" rel="noopener">After 1000s of hours prompting Claude, Gemini, & GPT for marketing emails: What actually works in 2026 (and my multi-model workflow)</a></h3>
-            
-            <p class='summary'>I&#39;ve been grinding on prompt engineering literally every day for the past couple years—not just playing around, but building systems so people on our platform can get killer results without spending hours tweaking prompts themselves. 2024 was rough. Models just weren&#39;t reliable enough. Then ...</p>
-            <a href="https://www.reddit.com/r/digital_marketing/comments/1qvrc6p/after_1000s_of_hours_prompting_claude_gemini_gpt/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Pipeline Acceleration">
-            <div class="card-header">
-                <span class="badge" style="background:#27ae60">Pipeline Acceleration</span>
-                <span class="source">🟠 Reddit &middot; Feb 02, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/digital_marketing/comments/1qty1d6/is_your_pipeline_leaking_ghost_objections_because/" target="_blank" rel="noopener">Is your pipeline leaking "Ghost Objections" because of ChatGPT hallucinations?</a></h3>
-            
-            <p class='summary'>I’m trying to sanity-check a pattern I’ve seen in a few late-stage B2B deals. We’re seeing LLMs (ChatGPT, Claude, Perplexity) tell prospects that brands are expensive, lacking SOC2 compliance, or outdated simply because the AI is synthesizing data from 2021 or a disgruntled Reddit thread from 5 year...</p>
-            <a href="https://www.reddit.com/r/digital_marketing/comments/1qty1d6/is_your_pipeline_leaking_ghost_objections_because/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Sales Enablement">
-            <div class="card-header">
-                <span class="badge" style="background:#2c3e50">Sales Enablement</span>
-                <span class="source">🟠 Reddit &middot; Oct 29, 2025</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/digital_marketing/comments/1oj9sj6/burned_all_my_savings_trying_to_get_my_first_b2b/" target="_blank" rel="noopener">Burned all my savings trying to get my first B2B client - 0 replies, 0 traction. Need real advice.</a></h3>
-            
-            <p class='summary'>Hey everyone, Not a humblebrag post. I’m broke, frustrated, and trying to figure out how to get one client before I have to quit. I’m gonna be brutally honest: I’m stuck and frustrated. I’m building a B2B service that helps companies appear in LLM results (like ChatGPT, Claude, Perplexity, etc.) bas...</p>
-            <a href="https://www.reddit.com/r/digital_marketing/comments/1oj9sj6/burned_all_my_savings_trying_to_get_my_first_b2b/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Pipeline Acceleration">
-            <div class="card-header">
-                <span class="badge" style="background:#27ae60">Pipeline Acceleration</span>
-                <span class="source">🟠 Reddit &middot; Oct 22, 2025</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/digital_marketing/comments/1od5j01/can_ai_replace_marketing_analysts/" target="_blank" rel="noopener">Can AI Replace Marketing Analysts?</a></h3>
-            
-            <p class='summary'>Gave the same marketing dataset (revenue, CR, AOV, new-customer metrics, etc.) to ChatGPT, Claude, Grok, and Mistral and told them “act like a marketing analyst.” One nailed it, one overexplained, one drowned in data, one broke the math 😅 Best combo for us? ChatGPT + Claude: cut our “brief → insight...</p>
-            <a href="https://www.reddit.com/r/digital_marketing/comments/1od5j01/can_ai_replace_marketing_analysts/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Content & SEO">
-            <div class="card-header">
-                <span class="badge" style="background:#f39c12">Content & SEO</span>
-                <span class="source">🟠 Reddit &middot; Oct 12, 2025</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/digital_marketing/comments/1o4l3y6/what_is_the_one_task_in_your_business_you_wish/" target="_blank" rel="noopener">What is the one task in your business you wish you could automate today? (simply + affordably)</a></h3>
-            
-            <p class='summary'>okay so i&#39;ll give some context first. im from tech background, i have years of experience in seo and project management. very recently i&#39;ve started a local, small scale home decor business. we have a store front, but majority of the sales comes from online, specially the smaller items. im ru...</p>
-            <a href="https://www.reddit.com/r/digital_marketing/comments/1o4l3y6/what_is_the_one_task_in_your_business_you_wish/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Marketing Automation">
-            <div class="card-header">
-                <span class="badge" style="background:#9b59b6">Marketing Automation</span>
-                <span class="source">🟠 Reddit &middot; Oct 07, 2025</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/digital_marketing/comments/1o076z9/what_ai_tools_are_you_using_most_in_2025_and_how/" target="_blank" rel="noopener">What AI tools are you using most in 2025 and how are they changing your workflow?</a></h3>
-            
-            <p class='summary'>In October 2025, AI tools are rapidly evolving with big launches like OpenAI&#39;s GPT-5, Microsoft Copilot Studio 2025, and Anthropic&#39;s Claude Sonnet 4.5 leading the charge. These tools feature advanced multimodal capabilities, no-code automation, and compliance-focused AI, transforming industr...</p>
-            <a href="https://www.reddit.com/r/digital_marketing/comments/1o076z9/what_ai_tools_are_you_using_most_in_2025_and_how/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Content & SEO">
-            <div class="card-header">
-                <span class="badge" style="background:#f39c12">Content & SEO</span>
-                <span class="source">🟠 Reddit &middot; Sep 16, 2025</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/digital_marketing/comments/1nicebb/whats_in_your_2025_marketing_stack/" target="_blank" rel="noopener">What’s in Your 2025 Marketing Stack?</a></h3>
-            
-            <p class='summary'>Every year there’s a new wave of marketing tools, and with AI blowing up, it feels like there’s something new launching every week. Some get a ton of hype on LinkedIn, but I’m curious about the ones you actually use every day and can’t live without. Here’s mine right now: Email: Klaviyo SEO: Ahrefs,...</p>
-            <a href="https://www.reddit.com/r/digital_marketing/comments/1nicebb/whats_in_your_2025_marketing_stack/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Integrated Marketing">
-            <div class="card-header">
-                <span class="badge" style="background:#16a085">Integrated Marketing</span>
-                <span class="source">🟠 Reddit &middot; Sep 04, 2025</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/digital_marketing/comments/1n8ah51/looking_for_ai_tools_to_track_brand_presence/" target="_blank" rel="noopener">Looking for AI tools to track brand presence across different AI models</a></h3>
-            
-            <p class='summary'>Our marketing manager wants me to try tracking brand mentions across the big AI chat tools like ChatGPT, Claude, and Perplexity. If anyone here has hands-on experience setting up this kind of tracking or has figured out how to connect it back to conversions or engagement, I’d love to hear about it. ...</p>
-            <a href="https://www.reddit.com/r/digital_marketing/comments/1n8ah51/looking_for_ai_tools_to_track_brand_presence/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🟠 Reddit &middot; Apr 20, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/sales/comments/1sr7fcb/suggestions_for_large_account_org_mapping/" target="_blank" rel="noopener">Suggestions for large account org mapping?</a></h3>
-            
-            <p class='summary'>I do full cycle sales and I’m trying to map out some of my really large accounts with 30+ locations and a complex corporate team structure. At this point, I am building up contacts and roles in a spreadsheet format but is there a good software/website/AI tools (paid or not) that I can visualize mult...</p>
-            <a href="https://www.reddit.com/r/sales/comments/1sr7fcb/suggestions_for_large_account_org_mapping/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Sales Enablement">
-            <div class="card-header">
-                <span class="badge" style="background:#2c3e50">Sales Enablement</span>
-                <span class="source">🟠 Reddit &middot; Mar 27, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/sales/comments/1s558xg/claude_usage/" target="_blank" rel="noopener">Claude Usage</a></h3>
-            
-            <p class='summary'>Hi - I&#39;m looking into transitioning from using ChatGPT for sales help to Claude. I&#39;m curious how others are having success utilizing it? I&#39;ve seen people post they&#39;re having it do everything, even write all their emails, but I don&#39;t love that approach as I think having AI do ever...</p>
-            <a href="https://www.reddit.com/r/sales/comments/1s558xg/claude_usage/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Pipeline Acceleration">
-            <div class="card-header">
-                <span class="badge" style="background:#27ae60">Pipeline Acceleration</span>
-                <span class="source">🟠 Reddit &middot; Mar 02, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/sales/comments/1riip3s/openclaw_and_claude_code_in_sales/" target="_blank" rel="noopener">OpenClaw and Claude Code in sales</a></h3>
-            
-            <p class='summary'>So I&#39;m a headhunter/recruiter, and I just installed Openclaw and Claude Code, and man, can it do so much stuff for me? I figured I&#39;d post this to show you guys what I&#39;ve built for me as a recruiter, and you might be able to extrapolate this to whatever sales role that you are in. Stuff l...</p>
-            <a href="https://www.reddit.com/r/sales/comments/1riip3s/openclaw_and_claude_code_in_sales/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🟠 Reddit &middot; Oct 29, 2025</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/sales/comments/1oj0gl6/are_companies_blindly_trusting_ai_prompts_or/" target="_blank" rel="noopener">Are companies blindly trusting AI prompts... or actually using data for sales and market intelligence?</a></h3>
-            
-            <p class='summary'>Hey everyone, We&#39;ve all been noticing a trend lately where companies are pouring energy into AI tools like ChatGPT, Claude, or Perplexity to generate insights, leads, or market analysis… but often without feeding them any real data . It feels like a lot of teams are relying on prompt engineering...</p>
-            <a href="https://www.reddit.com/r/sales/comments/1oj0gl6/are_companies_blindly_trusting_ai_prompts_or/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Marketing Automation">
-            <div class="card-header">
-                <span class="badge" style="background:#9b59b6">Marketing Automation</span>
-                <span class="source">🟠 Reddit &middot; Jul 08, 2025</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/sales/comments/1luu1sz/how_to_actually_use_the_latest_chatgpt_models_in/" target="_blank" rel="noopener">How to actually use the latest chatGPT models in sales</a></h3>
-            
-            <p class='summary'>Most sales and marketing tools that add AI features on top use old models. Once a new model is released, it takes months before you can actually use it in HubSpot, Clay, or any other tool natively. o3 came out 3 months ago and it&#39;s by far the most powerful model I&#39;ve used in terms of pure re...</p>
-            <a href="https://www.reddit.com/r/sales/comments/1luu1sz/how_to_actually_use_the_latest_chatgpt_models_in/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Pipeline Acceleration">
-            <div class="card-header">
-                <span class="badge" style="background:#27ae60">Pipeline Acceleration</span>
-                <span class="source">🟠 Reddit &middot; Feb 18, 2025</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/sales/comments/1is9qcu/we_have_1500_per_month_to_build_our_b2b_marketing/" target="_blank" rel="noopener">We have 1500$ per month to build our B2B marketing tool portfolio, need recommendations!</a></h3>
-            
-            <p class='summary'>Cold Email: Smartlead.ai: $174/mon Instantly.ai: $358/mon CRM: HubSpot : $800/mon Salesforce: $500/mon SEO: Surfer: $117.33/mon Ahrefs: $129/mon Lead Gen: Leadsnavi : $49/mon Leadfeeder: $63/mon LinkedIn Outreach: Sales Navigator: $99/mon AI Content: ChatGPT Plus: $20/mon Claude: $25/mon Content Cre...</p>
-            <a href="https://www.reddit.com/r/sales/comments/1is9qcu/we_have_1500_per_month_to_build_our_b2b_marketing/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="ABM (Account-Based Marketing)">
-            <div class="card-header">
-                <span class="badge" style="background:#2980b9">ABM (Account-Based Marketing)</span>
-                <span class="source">🟠 Reddit &middot; Apr 20, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1sqv7be/figma_just_got_what_zoominfo_is_about_to_get/" target="_blank" rel="noopener">Figma just got what ZoomInfo is about to get</a></h3>
-            
-            <p class='summary'>Watching Claude Design launch this week and Figma drop 4% in a session, and the thing I can&#39;t stop thinking about is how cleanly this maps onto what&#39;s coming for the sales tool stack . A category gets built in layers over a decade, each layer becomes a billion dollar company charging enterpr...</p>
-            <a href="https://www.reddit.com/r/Entrepreneur/comments/1sqv7be/figma_just_got_what_zoominfo_is_about_to_get/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Marketing Automation">
-            <div class="card-header">
-                <span class="badge" style="background:#9b59b6">Marketing Automation</span>
-                <span class="source">🟠 Reddit &middot; Apr 20, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1sqv68q/how_to_actually_automate_your_agency_not_just/" target="_blank" rel="noopener">how to ACTUALLY automate your agency (not just build random claude skills) step by step</a></h3>
-            
-            <p class='summary'>Everyone is building claude skills right now, little automations, custom gpts, claude code, zapier flows. That&#39;s cool but its also maybe 10% of what ai can do for your agency if you approach it properly Ive been building ai systems for agencies for a few years now and i&#39;ve been observing the...</p>
-            <a href="https://www.reddit.com/r/Entrepreneur/comments/1sqv68q/how_to_actually_automate_your_agency_not_just/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Content & SEO">
-            <div class="card-header">
-                <span class="badge" style="background:#f39c12">Content & SEO</span>
-                <span class="source">🟠 Reddit &middot; Mar 22, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1s09xev/best_tool_stack_and_workflow_for_outbound_cold/" target="_blank" rel="noopener">Best tool stack and workflow for outbound cold email?</a></h3>
-            
-            <p class='summary'>I&#39;ve heard all in one solutions are not the way to go. I&#39;m currently considering something like the below for a small campaign (less than 2,000/mo) with the goal of quality over quantity. Prospecting: Apify Enriching: Apollo Email Configuration: Zapmail De-duping Warm-up: Instantly Email Hos...</p>
-            <a href="https://www.reddit.com/r/Entrepreneur/comments/1s09xev/best_tool_stack_and_workflow_for_outbound_cold/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🟠 Reddit &middot; Mar 10, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1rpowo2/how_many_of_you_people_stopped_using_chatgpt/" target="_blank" rel="noopener">How many of you people stopped using ChatGPT?</a></h3>
-            
-            <p class='summary'>ChatGPT uninstalls spiked 295% in a single day. One-star reviews flooded the App Store, up 775% in a single weekend. Claude surged to the No. 1 spot on the US App Store, overtaking ChatGPT possibly for the first time ever. And it has just gained the trust of the people. Over 2.5 million people joine...</p>
-            <a href="https://www.reddit.com/r/Entrepreneur/comments/1rpowo2/how_many_of_you_people_stopped_using_chatgpt/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Pipeline Acceleration">
-            <div class="card-header">
-                <span class="badge" style="background:#27ae60">Pipeline Acceleration</span>
-                <span class="source">🟠 Reddit &middot; Mar 09, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1rpcqsm/how_i_use_mcp_servers_as_a_data_layer_in_my_gtm/" target="_blank" rel="noopener">How I use MCP servers as a data layer in my GTM workflows</a></h3>
-            
-            <p class='summary'>I build GTM workflows for our sales team and wanted to share an architecture pattern I&#39;ve been using with MCP servers that&#39;s simplified how I handle data pipelines. Thought it might be useful for others building similar systems. Quick context on MCP for GTM: MCP (Model Context Protocol) is a...</p>
-            <a href="https://www.reddit.com/r/Entrepreneur/comments/1rpcqsm/how_i_use_mcp_servers_as_a_data_layer_in_my_gtm/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Marketing Automation">
-            <div class="card-header">
-                <span class="badge" style="background:#9b59b6">Marketing Automation</span>
-                <span class="source">🟠 Reddit &middot; Feb 24, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1rdslt5/i_spent_a_few_years_doing_marketing_and_creating/" target="_blank" rel="noopener">I spent a few years doing marketing and creating AI systems, and honestly, now I just want to build with a team that's building cool stuff and doing cool things.</a></h3>
-            
-            <p class='summary'>I&#39;m not a developer. I&#39;m a vibe---coder /marketer/operations. I started out as a media buyer, then project manager, then marketing director, and then I left to go run growth for a couple of different e-commerce brands, and then worked on a different AI company that built AI infrastructures, ...</p>
-            <a href="https://www.reddit.com/r/Entrepreneur/comments/1rdslt5/i_spent_a_few_years_doing_marketing_and_creating/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Content & SEO">
-            <div class="card-header">
-                <span class="badge" style="background:#f39c12">Content & SEO</span>
-                <span class="source">🟠 Reddit &middot; Feb 15, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1r5fis5/building_the_product_was_the_easy_part_finding/" target="_blank" rel="noopener">Building the product was the easy part. Finding the first 10 customers is breaking me.</a></h3>
-            
-            <p class='summary'>I shipped a working product in a few weeks. Between Claude, Cursor, and everything else out there, the technical part almost felt too easy. Features that would&#39;ve taken me months a year ago just... happened. And then I hit the wall that no AI tool can solve. I&#39;ve been sitting on a product th...</p>
-            <a href="https://www.reddit.com/r/Entrepreneur/comments/1r5fis5/building_the_product_was_the_easy_part_finding/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Marketing Automation">
-            <div class="card-header">
-                <span class="badge" style="background:#9b59b6">Marketing Automation</span>
-                <span class="source">🟠 Reddit &middot; Feb 15, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1r5bjk0/launched_my_first_saas_7_days_ago_heres_what_i/" target="_blank" rel="noopener">Launched my first SaaS 7 days ago. Here's what I learned about finding product-market fit.</a></h3>
-            
-            <p class='summary'>Background: I&#39;m a developer who&#39;s been building side projects for years but never actually launched anything publicly. Last week I finally pulled the trigger. The Problem I Found: I noticed a weird inefficiency in the AI API space. Companies and individuals pay $100+/month for API subscripti...</p>
-            <a href="https://www.reddit.com/r/Entrepreneur/comments/1r5bjk0/launched_my_first_saas_7_days_ago_heres_what_i/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Pipeline Acceleration">
-            <div class="card-header">
-                <span class="badge" style="background:#27ae60">Pipeline Acceleration</span>
-                <span class="source">🟠 Reddit &middot; Feb 10, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1r14jw4/why_i_stopped_paying_for_software_and_started/" target="_blank" rel="noopener">Why I stopped paying for software and started building it myself</a></h3>
-            
-            <p class='summary'>The SaaS moat is dead. Here&#39;s what that means. So you&#39;ve probably seen the bloodbath in the markets recently. Software companies are getting crushed. And part of the reason is pretty straightforward now. It&#39;s virtually effortless to reverse engineer any software that exists. The days of ...</p>
-            <a href="https://www.reddit.com/r/Entrepreneur/comments/1r14jw4/why_i_stopped_paying_for_software_and_started/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Content & SEO">
-            <div class="card-header">
-                <span class="badge" style="background:#f39c12">Content & SEO</span>
-                <span class="source">🟠 Reddit &middot; Feb 10, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1r0u3y6/how_do_you_guys_analyze_prompts_for_seo_tools_or/" target="_blank" rel="noopener">How do you guys analyze prompts for seo tools or campaigns without losing your mind?</a></h3>
-            
-            <p class='summary'>Struggling with this prompt analysis thing for seo workflows. got a bunch of ai tools spitting out keyword lists and content ideas but half the time they miss the real intent or just recycle generic stuff. tried pasting full threads or queries into chatgpt claude whatever but the outputs get messy f...</p>
-            <a href="https://www.reddit.com/r/Entrepreneur/comments/1r0u3y6/how_do_you_guys_analyze_prompts_for_seo_tools_or/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Marketing Automation">
-            <div class="card-header">
-                <span class="badge" style="background:#9b59b6">Marketing Automation</span>
-                <span class="source">🟠 Reddit &middot; Feb 07, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1qyalsy/chasing_ai_tools/" target="_blank" rel="noopener">Chasing AI Tools</a></h3>
-            
-            <p class='summary'>I’ve realized for a minute that a lot of YouTube AI, marketing, and social media “gurus” are mostly in the upsell business. Fair enough, that’s their grind. But it explains why there’s a new “must-use” AI tool every week. Got tired of this and lately I’ve been doing the opposite. Slowing down and bu...</p>
-            <a href="https://www.reddit.com/r/Entrepreneur/comments/1qyalsy/chasing_ai_tools/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Content & SEO">
-            <div class="card-header">
-                <span class="badge" style="background:#f39c12">Content & SEO</span>
-                <span class="source">🟠 Reddit &middot; Jan 31, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1qs2pqp/saturday_humour_take_on_all_ai_company_where/" target="_blank" rel="noopener">Saturday Humour, take on All AI Company Where Humans Are On A Coffee Break Since 2023</a></h3>
-            
-            <p class='summary'>I think I accidentally built a mental model of the modern startup and now I cannot unsee it. Picture this. The office is open. Lights are on. Slack is busy. Revenue dashboard is moving. No humans are actually working. Here is how the company runs. Content ChatGPT is writing blogs at 2 am explaining ...</p>
-            <a href="https://www.reddit.com/r/Entrepreneur/comments/1qs2pqp/saturday_humour_take_on_all_ai_company_where/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🟠 Reddit &middot; Apr 17, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/PPC/comments/1snvzrt/from_web_dev_to_running_ads_anyone_else_using_ai/" target="_blank" rel="noopener">From web dev to running ads, anyone else using AI to skip the steep learning curve?</a></h3>
-            
-            <p class='summary'>Hey everyone, I&#39;ve been running a small web development and SEO freelance operation for a while now, working with clients from different parts of the world on WordPress, Webflow, and similar projects. Business has been steady but I want to grow beyond just referrals and Upwork. The next step I&#...</p>
-            <a href="https://www.reddit.com/r/PPC/comments/1snvzrt/from_web_dev_to_running_ads_anyone_else_using_ai/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🟠 Reddit &middot; Mar 19, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/PPC/comments/1ry7gib/whats_your_easy_setup_tech_stack_for_connecting/" target="_blank" rel="noopener">What’s your 'Easy Setup' tech stack for connecting Google Ads to Claude?</a></h3>
-            
-            <p class='summary'>I&#39;m looking to streamline my workflow by connecting the Google Ads accounts I manage directly to Claude AI. My plan is to create a dedicated Claude Project for each account to keep the data and context segregated. Before I commit to a setup, I&#39;d love to hear from other account managers: What...</p>
-            <a href="https://www.reddit.com/r/PPC/comments/1ry7gib/whats_your_easy_setup_tech_stack_for_connecting/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🟠 Reddit &middot; Mar 16, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/PPC/comments/1rvimio/human_input_on_what_ai_said_about_my_agencys/" target="_blank" rel="noopener">Human input on what AI said about my agency's suggestions for our account</a></h3>
-            
-            <p class='summary'>My agency gave me recommendations for our Google Ad campaigns. I fed it into Gemini, GPT, and Claude. All 3 agreed with each other. I&#39;m looking for human experience to weigh in on this debate. Do you think the agency has it right or the AIs? Here&#39;s what the agency is pushing for: As discusse...</p>
-            <a href="https://www.reddit.com/r/PPC/comments/1rvimio/human_input_on_what_ai_said_about_my_agencys/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🟠 Reddit &middot; Jun 25, 2025</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/PPC/comments/1lka8dy/i_need_some_opinions_about_ads/" target="_blank" rel="noopener">I need some opinions about ads</a></h3>
-            
-            <p class='summary'>The thing is I do my headlines with AI&#39;s, I refine them, make them better if they sound bad or aren&#39;t to my liking, I do pretty good sales, about 800$ a month profit, would chatgpt plus be a good investment, will those new get be better at creating headlines, going after my low performing on...</p>
-            <a href="https://www.reddit.com/r/PPC/comments/1lka8dy/i_need_some_opinions_about_ads/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🟠 Reddit &middot; Jun 20, 2025</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/PPC/comments/1lfrh03/clickfraud_response_from_google/" target="_blank" rel="noopener">Clickfraud response from Google</a></h3>
-            
-            <p class='summary'>I don&#39;t have click fraud software. I simply log all IP addresses and now instead of reviewing manually I feed them into claude that found some click fraud issues including IP addresses still coming in after being blocked. The AI actually told me to pause the campain, which I didn&#39;t do. After...</p>
-            <a href="https://www.reddit.com/r/PPC/comments/1lfrh03/clickfraud_response_from_google/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🟠 Reddit &middot; Feb 28, 2025</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/PPC/comments/1izv3iw/claude_sonnet_37_pro_is_a_potential_game_changer/" target="_blank" rel="noopener">Claude Sonnet 3.7 (Pro) is a (Potential) Game Changer for Creating Landing Pages</a></h3>
-            
-            <p class='summary'>So I&#39;ve been playing around with most of the AI models (Deepseek R1, various OpenAI models, Grok, and Claude) to see how it can help with PPC. So far, my experience has been middling. Some okay help, but nothing REALLY crazy useful (exception is maybe helping me make Google Ads Scripts). However...</p>
-            <a href="https://www.reddit.com/r/PPC/comments/1izv3iw/claude_sonnet_37_pro_is_a_potential_game_changer/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🟠 Reddit &middot; Aug 12, 2024</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/PPC/comments/1eqt37b/i_designed_this_mega_prompt_that_creates_12/" target="_blank" rel="noopener">I designed this "mega prompt" that creates 12 Google Ads concepts. Would you use it?</a></h3>
-            
-            <p class='summary'>I&#39;ve been experimenting with crafting AI marketing prompts for a while now and had to share this one here as I think it serves as an incredible starting point for text based ads. What makes it a mega prompt ? I&#39;ve packed 12 different ad writing formulas into this one prompt so that you can g...</p>
-            <a href="https://www.reddit.com/r/PPC/comments/1eqt37b/i_designed_this_mega_prompt_that_creates_12/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Integrated Marketing">
-            <div class="card-header">
-                <span class="badge" style="background:#16a085">Integrated Marketing</span>
-                <span class="source">🟠 Reddit &middot; Apr 16, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/startups/comments/1sngheb/how_are_you_acquiring_your_first_users_how_much/" target="_blank" rel="noopener">How are you acquiring your first users? How much are you automating? - B2C / Marketplaces - I will not promote</a></h3>
-            
-            <p class='summary'>Hey everyone! This is my first venture and we are in early stages - still working on first prototype. This is a marketplace model. I&#39;ve read that a lot of the GTM can be automated with AI. But I wonder if its too soon to automate outreach .. and wanted to check what the general opinion is or how...</p>
-            <a href="https://www.reddit.com/r/startups/comments/1sngheb/how_are_you_acquiring_your_first_users_how_much/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Integrated Marketing">
-            <div class="card-header">
-                <span class="badge" style="background:#16a085">Integrated Marketing</span>
-                <span class="source">🟠 Reddit &middot; Mar 26, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/startups/comments/1s3t1yu/got_2x_more_traction_after_focusing_on_a_unique/" target="_blank" rel="noopener">Got 2x more traction after focusing on a unique value proposition (i will not promote)</a></h3>
-            
-            <p class='summary'>Like many of us here, I&#39;ve been iterating on a product and trying to get the word out. I built a go-to-market advisor tool to help companies create strategies and conduct experiments. However, after receiving some feedback most people just thought it was mostly an AI wrapper.... which was pretty...</p>
-            <a href="https://www.reddit.com/r/startups/comments/1s3t1yu/got_2x_more_traction_after_focusing_on_a_unique/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Pipeline Acceleration">
-            <div class="card-header">
-                <span class="badge" style="background:#27ae60">Pipeline Acceleration</span>
-                <span class="source">🟠 Reddit &middot; Mar 05, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/startups/comments/1rlfrhc/ai_agentic_employees_are_coming_i_will_not_promote/" target="_blank" rel="noopener">AI agentic employees are coming (I will not promote)</a></h3>
-            
-            <p class='summary'>Something interesting is starting to happen in tech hiring. RevenueCat recently posted a role looking for an autonomous AI agent to work as an Agentic AI Developer Growth Advocate . The idea is that the agent would publish technical content, run growth experiments, interact with developer communitie...</p>
-            <a href="https://www.reddit.com/r/startups/comments/1rlfrhc/ai_agentic_employees_are_coming_i_will_not_promote/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🟠 Reddit &middot; Feb 22, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/startups/comments/1rbotyv/super_bowl_had_multiple_ai_companies_buying_ads/" target="_blank" rel="noopener">Super Bowl had multiple AI companies buying ads while Anthropic ran an anti-advertising campaign. Early data on each approach’s success rate? I WILL NOT PROMOTE</a></h3>
-            
-            <p class='summary'>Interesting case study from this month&#39;s Super Bowl: OpenAI, Google, and Meta all bought traditional Super Bowl spots. Meanwhile, Anthropic ran an anti-advertising campaign positioning Claude as ads are coming to AI, but not to Claude. The early numbers from BNP Paribas: Anthropic saw an 11% jum...</p>
-            <a href="https://www.reddit.com/r/startups/comments/1rbotyv/super_bowl_had_multiple_ai_companies_buying_ads/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Integrated Marketing">
-            <div class="card-header">
-                <span class="badge" style="background:#16a085">Integrated Marketing</span>
-                <span class="source">🟠 Reddit &middot; Mar 31, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/ClaudeGTM/" target="_blank" rel="noopener">ClaudeGTM</a></h3>
-            
-            <p class='summary'>Discuss and showcase how you get AI agents like Claude Code, Cowork, OpenClaw to run GTM / sales / marketing for your business [link]</p>
-            <a href="https://www.reddit.com/r/ClaudeGTM/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Content & SEO">
-            <div class="card-header">
-                <span class="badge" style="background:#f39c12">Content & SEO</span>
-                <span class="source">🟠 Reddit &middot; Apr 21, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/EarnMoneyHub/comments/1srefsn/hiring_content_posting_freelancers_10_every_3/" target="_blank" rel="noopener">[Hiring] Content Posting Freelancers - $10 every 3 days working 1 hour per day</a></h3>
-            
-            <p class='summary'>Hi, we are looking to hire content marketing freelancers for our company’s Reddit content marketing campaigns. The job is to copy-paste content from our content library into different reddit communities. (the job is very simple, no experience is required) The goal is to rank our company in chatgpt, ...</p>
-            <a href="https://www.reddit.com/r/EarnMoneyHub/comments/1srefsn/hiring_content_posting_freelancers_10_every_3/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Pipeline Acceleration">
-            <div class="card-header">
-                <span class="badge" style="background:#27ae60">Pipeline Acceleration</span>
-                <span class="source">🟠 Reddit &middot; Apr 21, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/SocialMediaMarketing/comments/1sredby/was_struggling_to_make_shorts_for_my_brand_built/" target="_blank" rel="noopener">Was struggling to make shorts for my brand. Built my own pipeline in Claude Code.</a></h3>
-            
-            <p class='summary'>Tried every shorts tool out there. Either the output looked like AI slop or it took me 4 hours to make a 30 second reel. Could not justify either. Started building my own setup in Claude Code over last few weeks. Topic in, reel out. Script, voice, visuals, captions, assembly, basically all in one fl...</p>
-            <a href="https://www.reddit.com/r/SocialMediaMarketing/comments/1sredby/was_struggling_to_make_shorts_for_my_brand_built/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Marketing Automation">
-            <div class="card-header">
-                <span class="badge" style="background:#9b59b6">Marketing Automation</span>
-                <span class="source">🟠 Reddit &middot; Mar 18, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.reddit.com/r/AISetups/" target="_blank" rel="noopener">AISetups — Share & discover the best AI setups</a></h3>
-            
-            <p class='summary'>Share and discover the best AI setups — from local LLM rigs and coding environments to agentic stacks, multi‑agent pipelines, go‑to‑market (GTM) workflows and devops integrations. Whether you’re running Claude + Cursor, Claude Code, a local Llama build, or a full multi‑agent pipeline, this is the pl...</p>
-            <a href="https://www.reddit.com/r/AISetups/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🔵 Google News &middot; Mon, 20 Ap</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUDFzdEdWMC1vUHRZMjB5Mnd0bVJKck9WaGVjdVJERXdBUS1NM09JX1B2eFo4S1dJWGlyRlN0cEJxSzBmM0w0bjhsM05NOWoyM1RfUWo1bzc3STZfbGZtZTJnak00UUUzM3gtT25ucXJFZkM1V0ZBT2d3dkZ0TlNzTkp6VXljYnlINXIxOEo3NHhkU2tycHdaSlhKOGh6WjZkZWpoUEo3dV9NNWZYczFhaVN3d3BtZXVsVEhaczNMWktIUQ?oc=5" target="_blank" rel="noopener">Anthropic launches AI-powered Claude Design to build marketing assets - Performance Marketing World</a></h3>
-            
-            <p class='summary'>Anthropic launches AI-powered Claude Design to build marketing assets Performance Marketing World</p>
-            <a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUDFzdEdWMC1vUHRZMjB5Mnd0bVJKck9WaGVjdVJERXdBUS1NM09JX1B2eFo4S1dJWGlyRlN0cEJxSzBmM0w0bjhsM05NOWoyM1RfUWo1bzc3STZfbGZtZTJnak00UUUzM3gtT25ucXJFZkM1V0ZBT2d3dkZ0TlNzTkp6VXljYnlINXIxOEo3NHhkU2tycHdaSlhKOGh6WjZkZWpoUEo3dV9NNWZYczFhaVN3d3BtZXVsVEhaczNMWktIUQ?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="General / Other">
-            <div class="card-header">
-                <span class="badge" style="background:#95a5a6">General / Other</span>
-                <span class="source">🔵 Google News &middot; Mon, 20 Ap</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxPVnFacXFsbGhxM3FKcU1tbzZuMVlGS3J5dW12eVpJUFNaZ1I1bTBfVHlwZzVfekhkZlpmdUs3X1Y0QzlpZmJqMUpoVC1veTlBcnktbnA3MFJxVUQtNGVFUkZlbEluSlFHeUc5SlNpb0psQnNKZ0p6dlQ1UWZYcUJBTkt4Uzd3QmYwekJITzM5MA?oc=5" target="_blank" rel="noopener">Claude AI for Digital Marketing Strategy - Blockchain Council</a></h3>
-            
-            <p class='summary'>Claude AI for Digital Marketing Strategy Blockchain Council</p>
-            <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxPVnFacXFsbGhxM3FKcU1tbzZuMVlGS3J5dW12eVpJUFNaZ1I1bTBfVHlwZzVfekhkZlpmdUs3X1Y0QzlpZmJqMUpoVC1veTlBcnktbnA3MFJxVUQtNGVFUkZlbEluSlFHeUc5SlNpb0psQnNKZ0p6dlQ1UWZYcUJBTkt4Uzd3QmYwekJITzM5MA?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="General / Other">
-            <div class="card-header">
-                <span class="badge" style="background:#95a5a6">General / Other</span>
-                <span class="source">🔵 Google News &middot; Fri, 17 Ap</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxPcENNLWhyWjIzZ3RfSllSZHhIRkFFVlpiT29GRGdjVDI1WVExYnhnRGlfajBXWEdrZ0daTjRhXzZreWxXeWlvOFQ4M2d5RF9hV1pIdWF4ZldEM3RBcEd6ZEtBUlNvMzg0VkxwaHBDbk9NYTZ3S29ISjRCVXFkZERJX2ZrNmYyTWxDby1BOUpZRVNwWUwyNXY3NlFaVlB6bXZ3SDd4MUUzYWhoMlhCMkYyZmpVZERkWHhiZy1FdUVLMmxaSWZK?oc=5" target="_blank" rel="noopener">Anthropic's Claude Design turns chatbot conversations into prototypes, slide decks, and marketing assets - the-decoder.com</a></h3>
-            
-            <p class='summary'>Anthropic's Claude Design turns chatbot conversations into prototypes, slide decks, and marketing assets the-decoder.com</p>
-            <a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxPcENNLWhyWjIzZ3RfSllSZHhIRkFFVlpiT29GRGdjVDI1WVExYnhnRGlfajBXWEdrZ0daTjRhXzZreWxXeWlvOFQ4M2d5RF9hV1pIdWF4ZldEM3RBcEd6ZEtBUlNvMzg0VkxwaHBDbk9NYTZ3S29ISjRCVXFkZERJX2ZrNmYyTWxDby1BOUpZRVNwWUwyNXY3NlFaVlB6bXZ3SDd4MUUzYWhoMlhCMkYyZmpVZERkWHhiZy1FdUVLMmxaSWZK?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="General / Other">
-            <div class="card-header">
-                <span class="badge" style="background:#95a5a6">General / Other</span>
-                <span class="source">🔵 Google News &middot; Fri, 10 Ap</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMitAJBVV95cUxPY3FSTGpQUjBGeWdPNVV3WnhIZ3lRR1NKTXRfSXN6M25zTUozNHVyMDg4NXctb2pKaldDcVlnS1M3clpUVWFTb3dPU3VMcDJzTFoyWlRzbVBFWUk0SmFseThudXlnamQ0WDZ3UjdYcVdqbEZSODVUTy1lMVROWHNHUkVnNWt3ZW1abE1qUzRySWpOMXlWV2dSQ0JUcFNMVTZaVlhSREVtWDVjQXhJdmtjY1BKak1LSHAtTXNlMVc0Q1RvV25EanpMSW13d0pJNTRSc3RnakpTWEVHaTVPaGYzSWh2ZGZRbEpnZ2JUeF9tX2RSUmVmSFBzSkM2MHd2WHNaNnpad3cxbWl2b18zUG5XUThzM1MtS1ZWQ2tyRVVpNjlNX051YVdxN1dhczQ0Y2RkaThqcw?oc=5" target="_blank" rel="noopener">Anthropic's Claude Mythos isn't a sentient super-hacker, it's a sales pitch — claims of 'thousands' of severe zero-days rely on just 198 manual reviews - Tom's Hardware</a></h3>
-            
-            <p class='summary'>Anthropic's Claude Mythos isn't a sentient super-hacker, it's a sales pitch — claims of 'thousands' of severe zero-days rely on just 198 manual reviews Tom's Hardware</p>
-            <a href="https://news.google.com/rss/articles/CBMitAJBVV95cUxPY3FSTGpQUjBGeWdPNVV3WnhIZ3lRR1NKTXRfSXN6M25zTUozNHVyMDg4NXctb2pKaldDcVlnS1M3clpUVWFTb3dPU3VMcDJzTFoyWlRzbVBFWUk0SmFseThudXlnamQ0WDZ3UjdYcVdqbEZSODVUTy1lMVROWHNHUkVnNWt3ZW1abE1qUzRySWpOMXlWV2dSQ0JUcFNMVTZaVlhSREVtWDVjQXhJdmtjY1BKak1LSHAtTXNlMVc0Q1RvV25EanpMSW13d0pJNTRSc3RnakpTWEVHaTVPaGYzSWh2ZGZRbEpnZ2JUeF9tX2RSUmVmSFBzSkM2MHd2WHNaNnpad3cxbWl2b18zUG5XUThzM1MtS1ZWQ2tyRVVpNjlNX051YVdxN1dhczQ0Y2RkaThqcw?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="General / Other">
-            <div class="card-header">
-                <span class="badge" style="background:#95a5a6">General / Other</span>
-                <span class="source">🔵 Google News &middot; Wed, 25 Fe</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMijgJBVV95cUxNUWJnYjh0a0luZ3BKLXBfWWM0c3BpZUM3cERZSVEyVTBFcWl0Z2c3N1BQeld6VDY3Y0c5bDl1N1lyd1pudkJtclZpSXFoY3BqMjMxMlJwZWVwRy1POXhkaVBORlN5d0c0cjdPVUNienVSZjVxcnZiWUQyUW96STZRSjkzdmNRRzE1SUlFV2VHVTJKU3lwdzZkcnI2X2ttblphbDRkOGp4VmNLak11YVFoUE1HMUJMRTBCSG55SkZuRXRGRVRRTWJhak5Kb2ktSEhNSEQyQ0tuTWlWbnZ0LU5uYzRpbnJHZGxuRTRfMHpXVTRxb0J4UnJYYzRBOXVxT3hTTWQtZWhpUmRha3Btdnc?oc=5" target="_blank" rel="noopener">Entrepreneur says Claude ‘killed’ her marketing company, predicts AI-to-AI sales in future, 'They don't get charmed' - Mint</a></h3>
-            
-            <p class='summary'>Entrepreneur says Claude ‘killed’ her marketing company, predicts AI-to-AI sales in future, 'They don't get charmed' Mint</p>
-            <a href="https://news.google.com/rss/articles/CBMijgJBVV95cUxNUWJnYjh0a0luZ3BKLXBfWWM0c3BpZUM3cERZSVEyVTBFcWl0Z2c3N1BQeld6VDY3Y0c5bDl1N1lyd1pudkJtclZpSXFoY3BqMjMxMlJwZWVwRy1POXhkaVBORlN5d0c0cjdPVUNienVSZjVxcnZiWUQyUW96STZRSjkzdmNRRzE1SUlFV2VHVTJKU3lwdzZkcnI2X2ttblphbDRkOGp4VmNLak11YVFoUE1HMUJMRTBCSG55SkZuRXRGRVRRTWJhak5Kb2ktSEhNSEQyQ0tuTWlWbnZ0LU5uYzRpbnJHZGxuRTRfMHpXVTRxb0J4UnJYYzRBOXVxT3hTTWQtZWhpUmRha3Btdnc?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🔵 Google News &middot; Fri, 13 Fe</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE0weHlRS0FHVmJZYUVRRjJrbVJJRlBKU1p4cVlxd1ptc2wwWERWQUNZbHBPWTZkdFRCMm5SNjhiMWd4bDNsdjY2dnhtUFB1S3JNVWpLMGk5alAwaXc2ZHVDR0FjbU5ZOHFQMnVCeEdUU0JCaGs1bGVSWWdhdVdCclk?oc=5" target="_blank" rel="noopener">Claude AI App Skyrockets: How Anthropic’s Cunning Super Bowl Ads Mocking Rivals Secured Top 10 Ranking - CryptoRank</a></h3>
-            
-            <p class='summary'>Claude AI App Skyrockets: How Anthropic’s Cunning Super Bowl Ads Mocking Rivals Secured Top 10 Ranking CryptoRank</p>
-            <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE0weHlRS0FHVmJZYUVRRjJrbVJJRlBKU1p4cVlxd1ptc2wwWERWQUNZbHBPWTZkdFRCMm5SNjhiMWd4bDNsdjY2dnhtUFB1S3JNVWpLMGk5alAwaXc2ZHVDR0FjbU5ZOHFQMnVCeEdUU0JCaGs1bGVSWWdhdVdCclk?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Integrated Marketing">
-            <div class="card-header">
-                <span class="badge" style="background:#16a085">Integrated Marketing</span>
-                <span class="source">🔵 Google News &middot; Thu, 18 Se</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE5Dazk0ckhzNmpVU3N1Y2VsY2lxMVl5U0d4QjZzbTJ0ZkVvWm1sV2pIZFZSQWhSRTBuelN2SV9rVDc4Rm5HdnJzU3JvMm5lSy1qb0QxVGtZODlWeUF2RjhqWEotSGhKM2Y2aENv?oc=5" target="_blank" rel="noopener">Anthropic unveils first major brand campaign for Claude, its AI assistant - Ad Age</a></h3>
-            
-            <p class='summary'>Anthropic unveils first major brand campaign for Claude, its AI assistant Ad Age</p>
-            <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE5Dazk0ckhzNmpVU3N1Y2VsY2lxMVl5U0d4QjZzbTJ0ZkVvWm1sV2pIZFZSQWhSRTBuelN2SV9rVDc4Rm5HdnJzU3JvMm5lSy1qb0QxVGtZODlWeUF2RjhqWEotSGhKM2Y2aENv?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🔵 Google News &middot; Tue, 04 No</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMingFBVV95cUxQS2J3czR6dEFlcE4zV3NQQThMdFhLcTFRZTRnM3Vzbm5KRnBSZ0loUzNNVG16Ykl6LVRpeUpfQWU4d0Zkb0lUdGFqb0dYeVZiVk9SdUp1Q1U1emphcTVmejZXSWZTNlRQTldZYmRIV0Ewakc0VHRjWGhNSlI5RnFWMDVPUFlfRnRIVjhYTU1VNjF4NXhFcDZqMDNoU2xaUQ?oc=5" target="_blank" rel="noopener">Best and worst purpose marketing ads—grading Nike, Claude, Tourism Tasmania and other campaigns - Ad Age</a></h3>
-            
-            <p class='summary'>Best and worst purpose marketing ads—grading Nike, Claude, Tourism Tasmania and other campaigns Ad Age</p>
-            <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxQS2J3czR6dEFlcE4zV3NQQThMdFhLcTFRZTRnM3Vzbm5KRnBSZ0loUzNNVG16Ykl6LVRpeUpfQWU4d0Zkb0lUdGFqb0dYeVZiVk9SdUp1Q1U1emphcTVmejZXSWZTNlRQTldZYmRIV0Ewakc0VHRjWGhNSlI5RnFWMDVPUFlfRnRIVjhYTU1VNjF4NXhFcDZqMDNoU2xaUQ?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🔵 Google News &middot; Thu, 05 Fe</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxPTDlEbW9hSWpYNHJDZzlEeEFITmNZdG1pMnRhZUtjWGJLZjc0NHVCRFMtM1phamxHcG5WZGhSbmRqVkxCWWVvdW9ib1dLaDRaNHRHNlpMSTlJdFBfQWNFWkVKMktLT0FZNEprS0M0cTNTM0oxc3RMMFIyc29ERWcwMDEtb3p3anhfZjNlTzFuNmFfYy12QVE?oc=5" target="_blank" rel="noopener">OpenAI’s Sam Altman Criticizes Anthropic over Claude Advertising Campaign - CX Today</a></h3>
-            
-            <p class='summary'>OpenAI’s Sam Altman Criticizes Anthropic over Claude Advertising Campaign CX Today</p>
-            <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxPTDlEbW9hSWpYNHJDZzlEeEFITmNZdG1pMnRhZUtjWGJLZjc0NHVCRFMtM1phamxHcG5WZGhSbmRqVkxCWWVvdW9ib1dLaDRaNHRHNlpMSTlJdFBfQWNFWkVKMktLT0FZNEprS0M0cTNTM0oxc3RMMFIyc29ERWcwMDEtb3p3anhfZjNlTzFuNmFfYy12QVE?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Integrated Marketing">
-            <div class="card-header">
-                <span class="badge" style="background:#16a085">Integrated Marketing</span>
-                <span class="source">🔵 Google News &middot; Tue, 18 No</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMi2wFBVV95cUxQVDhJR2JpQ1RZMmV2MGlQTHNfcHNWRVJnMl9wRUpva01PZ2hTdVU5bFA5RHZMWEZsZzBQVGZHRk80Vkl5cVpMSF9MNFg3Q3FLVmttUmJyVlhZU0RyYUU5a0x0MU5KLVY0akp2WVM0cUUyVWdwQ3phalRYVF9JVEIxLVpjYTF1YXk5eHRJc0dFbldIaXRJS3RlX1NLN1N6QWdyV1NnQUsxOVZIMDZyUFd0eUdwUjlWeGV6TmxpNEZwWi1LUnZqZF9kU05kdWk1VnhTdXoxZHJMQnBrSnM?oc=5" target="_blank" rel="noopener">ActiveCampaign Launches the First Autonomous Marketing Connector for Anthropic’s Claude - Business Wire</a></h3>
-            
-            <p class='summary'>ActiveCampaign Launches the First Autonomous Marketing Connector for Anthropic’s Claude Business Wire</p>
-            <a href="https://news.google.com/rss/articles/CBMi2wFBVV95cUxQVDhJR2JpQ1RZMmV2MGlQTHNfcHNWRVJnMl9wRUpva01PZ2hTdVU5bFA5RHZMWEZsZzBQVGZHRk80Vkl5cVpMSF9MNFg3Q3FLVmttUmJyVlhZU0RyYUU5a0x0MU5KLVY0akp2WVM0cUUyVWdwQ3phalRYVF9JVEIxLVpjYTF1YXk5eHRJc0dFbldIaXRJS3RlX1NLN1N6QWdyV1NnQUsxOVZIMDZyUFd0eUdwUjlWeGV6TmxpNEZwWi1LUnZqZF9kU05kdWk1VnhTdXoxZHJMQnBrSnM?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Marketing Automation">
-            <div class="card-header">
-                <span class="badge" style="background:#9b59b6">Marketing Automation</span>
-                <span class="source">🔵 Google News &middot; Mon, 16 Ma</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMiugJBVV95cUxQNEdaSlJtT25lNXBkbGY5UjFUYndhWHV6cno2cjhRallSQ3F5dEVKcXFSa0tFdllMek85b0NTdV9JTHNMWnVXa0tsckxoNEIxUnphbzFJYl8zdjBzQU9xMUJmQmw0OUxrdENVZGpqQXZXYWJ3NktQVVUzTzlaa1BhbF9Yb0tRZ1ppMjVNQnJlbk9NQ2tGQXRnTGdDSjJDMVBaa1JTWGlmSUZyaS1MczB0WXV4Qm1qODdubUJMc1NhSTQ1ZXhvYndiWE5wWW8xOTVFVkhTMEZwZmlReDRFRkkwZVlEZ1ZJb1gxNnVVbGZjbGl4cTFCRFFNMVRDOWdYX3VMdjlMMERGdHowbnRSallnakpXTjVHYTNHdXE2NG5UQmc1MFJ5UHp5a0tSWnZjVlNGWEV3OS1CWHpadw?oc=5" target="_blank" rel="noopener">Marketing Signals Commits to Agentic AI as the Future of Digital Marketing – Investing in Claude Code, Cowork and the Next Era of Intelligent Automation - StreetInsider</a></h3>
-            
-            <p class='summary'>Marketing Signals Commits to Agentic AI as the Future of Digital Marketing – Investing in Claude Code, Cowork and the Next Era of Intelligent Automation StreetInsider</p>
-            <a href="https://news.google.com/rss/articles/CBMiugJBVV95cUxQNEdaSlJtT25lNXBkbGY5UjFUYndhWHV6cno2cjhRallSQ3F5dEVKcXFSa0tFdllMek85b0NTdV9JTHNMWnVXa0tsckxoNEIxUnphbzFJYl8zdjBzQU9xMUJmQmw0OUxrdENVZGpqQXZXYWJ3NktQVVUzTzlaa1BhbF9Yb0tRZ1ppMjVNQnJlbk9NQ2tGQXRnTGdDSjJDMVBaa1JTWGlmSUZyaS1MczB0WXV4Qm1qODdubUJMc1NhSTQ1ZXhvYndiWE5wWW8xOTVFVkhTMEZwZmlReDRFRkkwZVlEZ1ZJb1gxNnVVbGZjbGl4cTFCRFFNMVRDOWdYX3VMdjlMMERGdHowbnRSallnakpXTjVHYTNHdXE2NG5UQmc1MFJ5UHp5a0tSWnZjVlNGWEV3OS1CWHpadw?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Marketing Automation">
-            <div class="card-header">
-                <span class="badge" style="background:#9b59b6">Marketing Automation</span>
-                <span class="source">🔵 Google News &middot; Sun, 15 Fe</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5aYURibGIzLWlfLVFzLURLcVZvdTdxX3QyMl8ySGUzczBrRjVpak00eXRSdlE0OElzRUxpR2U1MnhPQWRwdzNNTWkzQmJBbjRPSllJTklFczlPWWxhUUZfcjdfVEMwVWpUWkE?oc=5" target="_blank" rel="noopener">Claude AI Marketing Workflows Can Reach 300x Output with Human Review - Geeky Gadgets</a></h3>
-            
-            <p class='summary'>Claude AI Marketing Workflows Can Reach 300x Output with Human Review Geeky Gadgets</p>
-            <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5aYURibGIzLWlfLVFzLURLcVZvdTdxX3QyMl8ySGUzczBrRjVpak00eXRSdlE0OElzRUxpR2U1MnhPQWRwdzNNTWkzQmJBbjRPSllJTklFczlPWWxhUUZfcjdfVEMwVWpUWkE?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Integrated Marketing">
-            <div class="card-header">
-                <span class="badge" style="background:#16a085">Integrated Marketing</span>
-                <span class="source">🔵 Google News &middot; Wed, 04 Ma</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE1wZlU2aGI4bVotVW8xQ2F1bzJuZWVSY3AwUTNSaWVCaHByQjg0RmpSS2JkYUc5S2pLNDI4elc3aEQ4aU93MTBXaDV0cGQwbnQ3RGxsaF9vUldrTkozS2locF83cUtiaWhmQ29WNGhFQzdwV05SMEE?oc=5" target="_blank" rel="noopener">Claude Code Builds Full Inbound Marketing Campaign : Landing Page to Lead Magnet - Geeky Gadgets</a></h3>
-            
-            <p class='summary'>Claude Code Builds Full Inbound Marketing Campaign : Landing Page to Lead Magnet Geeky Gadgets</p>
-            <a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE1wZlU2aGI4bVotVW8xQ2F1bzJuZWVSY3AwUTNSaWVCaHByQjg0RmpSS2JkYUc5S2pLNDI4elc3aEQ4aU93MTBXaDV0cGQwbnQ3RGxsaF9vUldrTkozS2locF83cUtiaWhmQ29WNGhFQzdwV05SMEE?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="ABM (Account-Based Marketing)">
-            <div class="card-header">
-                <span class="badge" style="background:#2980b9">ABM (Account-Based Marketing)</span>
-                <span class="source">🔵 Google News &middot; Fri, 19 Se</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE5TMHZkQVJjbjN3RWFQcTRmZXVSdTg4YXJvVk9oQXQxZkVqaTZSNmxLMU5zbzFGV3lOZmNoRlJveGZqbGsweE53OW9aVXdMRGs1SnB4a2lRNzkxdTNRUTh4UkQ0bnVCS0xiY2xPVkMwVU9jTWh5LUdkdDFn?oc=5" target="_blank" rel="noopener">Anthropic’s First Ad Campaign Markets Claude AI as the Choice for Enterprises - DesignRush</a></h3>
-            
-            <p class='summary'>Anthropic’s First Ad Campaign Markets Claude AI as the Choice for Enterprises DesignRush</p>
-            <a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE5TMHZkQVJjbjN3RWFQcTRmZXVSdTg4YXJvVk9oQXQxZkVqaTZSNmxLMU5zbzFGV3lOZmNoRlJveGZqbGsweE53OW9aVXdMRGs1SnB4a2lRNzkxdTNRUTh4UkQ0bnVCS0xiY2xPVkMwVU9jTWh5LUdkdDFn?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🔵 Google News &middot; Tue, 24 Fe</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPRTJfRHNwaXJFaVhHbWtGOVVjOHp6azRhTXFlRVoxUFRHYVR1S29hbTJwamFPZWhVM21EaTJodENaQnhDa3FxaHpBZWl4S1ZJTm5TMkEwUnI4eUl0M1FrSld0eHZtNTlvTEJRSldmTGpKNWFGTWtJV2JtdUx2OFFkLUFpSFpvakwtS2RnZ25yeWU2TENEVWRabw?oc=5" target="_blank" rel="noopener">Channel99 connects B2B marketing data to ChatGPT, Copilot and Claude via MCP - PPC Land</a></h3>
-            
-            <p class='summary'>Channel99 connects B2B marketing data to ChatGPT, Copilot and Claude via MCP PPC Land</p>
-            <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPRTJfRHNwaXJFaVhHbWtGOVVjOHp6azRhTXFlRVoxUFRHYVR1S29hbTJwamFPZWhVM21EaTJodENaQnhDa3FxaHpBZWl4S1ZJTm5TMkEwUnI4eUl0M1FrSld0eHZtNTlvTEJRSldmTGpKNWFGTWtJV2JtdUx2OFFkLUFpSFpvakwtS2RnZ25yeWU2TENEVWRabw?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Marketing Automation">
-            <div class="card-header">
-                <span class="badge" style="background:#9b59b6">Marketing Automation</span>
-                <span class="source">🔵 Google News &middot; Tue, 29 Ju</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxQMHRBeEs1YlVETmxiUWQwN3gxT2hObl9qdjlMVTVQMEZzX1ozUGVSYkZIaE8wNHFsS2lONHhuTmgyTDMzVVZkb2o2NlVtdGY4YTUzdFA1WmRhWGVDMTBHaTh6NmxyZ3ZqSktsV1ZSTFFlakFqWVU3b3BPa181dFBIN1NyRkJEaVN2dnd6N2R3N3h1Sng3a1F1eUhiVmRLRFdRNGpsNkdn?oc=5" target="_blank" rel="noopener">HubSpot Integrates Anthropic Claude AI with CRM Platform - CMSWire</a></h3>
-            
-            <p class='summary'>HubSpot Integrates Anthropic Claude AI with CRM Platform CMSWire</p>
-            <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxQMHRBeEs1YlVETmxiUWQwN3gxT2hObl9qdjlMVTVQMEZzX1ozUGVSYkZIaE8wNHFsS2lONHhuTmgyTDMzVVZkb2o2NlVtdGY4YTUzdFA1WmRhWGVDMTBHaTh6NmxyZ3ZqSktsV1ZSTFFlakFqWVU3b3BPa181dFBIN1NyRkJEaVN2dnd6N2R3N3h1Sng3a1F1eUhiVmRLRFdRNGpsNkdn?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Integrated Marketing">
-            <div class="card-header">
-                <span class="badge" style="background:#16a085">Integrated Marketing</span>
-                <span class="source">🔵 Google News &middot; Sat, 27 Se</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE0zZElGX0d3NHVvcEJ4Y1FJTkl6NFplSXlrbGtkWXZQTUUxZUdMRDBfUUJZTnhjMjhoU0E0bjBpLUNGemhuZTVCREdmMjYwRnA5YnVGd3dCcnBPMUZ3b3pIZjFydw?oc=5" target="_blank" rel="noopener">Claude AI launches brand campaign to challenge rivals - ContentGrip</a></h3>
-            
-            <p class='summary'>Claude AI launches brand campaign to challenge rivals ContentGrip</p>
-            <a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE0zZElGX0d3NHVvcEJ4Y1FJTkl6NFplSXlrbGtkWXZQTUUxZUdMRDBfUUJZTnhjMjhoU0E0bjBpLUNGemhuZTVCREdmMjYwRnA5YnVGd3dCcnBPMUZ3b3pIZjFydw?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🔵 Google News &middot; Wed, 04 Fe</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxOUDU1VDVqTlFncjF3VnNVNE1GT2hDMlNKVXdBZTNWT19Zd1JIcTBSd2dPTWxyZ1lZdG92SWJDTE55dkhGU2k4ZWh5eHRORW8xUDVxbnUwLXpDNVNqZW1Wak5LUUo1Ym1Rckt0b1o2VXdoXy1vcFJlMC12ZXdveklxMndQSnJoeklPUU5JQ2h5NTFTUQ?oc=5" target="_blank" rel="noopener">Claude’s first Super Bowl campaign asks if ads belong in AI - The Drum</a></h3>
-            
-            <p class='summary'>Claude’s first Super Bowl campaign asks if ads belong in AI The Drum</p>
-            <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxOUDU1VDVqTlFncjF3VnNVNE1GT2hDMlNKVXdBZTNWT19Zd1JIcTBSd2dPTWxyZ1lZdG92SWJDTE55dkhGU2k4ZWh5eHRORW8xUDVxbnUwLXpDNVNqZW1Wak5LUUo1Ym1Rckt0b1o2VXdoXy1vcFJlMC12ZXdveklxMndQSnJoeklPUU5JQ2h5NTFTUQ?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Marketing Automation">
-            <div class="card-header">
-                <span class="badge" style="background:#9b59b6">Marketing Automation</span>
-                <span class="source">🔵 Google News &middot; Thu, 12 Fe</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9wWWVNcG9oODdZYXo5dUQ5WHFzbGIybkdOLVB1QVZlT0Vzano5UTB6bW1ONDZCTWxGMmhqTE5RZzlQamE5X3RnTVVQY1JJTVZVSVhZeDY3UVU1d0tBU2F4U2YwbUN4amszQWZUcg?oc=5" target="_blank" rel="noopener">Claude Cowork Marketing Guide 2026 : Combines Cloud Chat, Local Tools & Automation for Teams - Geeky Gadgets</a></h3>
-            
-            <p class='summary'>Claude Cowork Marketing Guide 2026 : Combines Cloud Chat, Local Tools & Automation for Teams Geeky Gadgets</p>
-            <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9wWWVNcG9oODdZYXo5dUQ5WHFzbGIybkdOLVB1QVZlT0Vzano5UTB6bW1ONDZCTWxGMmhqTE5RZzlQamE5X3RnTVVQY1JJTVZVSVhZeDY3UVU1d0tBU2F4U2YwbUN4amszQWZUcg?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="General / Other">
-            <div class="card-header">
-                <span class="badge" style="background:#95a5a6">General / Other</span>
-                <span class="source">🔵 Google News &middot; Tue, 27 Ma</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9YbTBCNENtaDV3b3VpZ1k2NDJ6V2hlRGRSeG9NTHZMUm0wR1I5SlVRNXBuaDQ0SHdwbWhKamhzRm1BMlhmaXVMdm1zNjd1N21NREh0UkhwVDdmRFQyanpR0gFvQVVfeXFMTWtRaWlPUG1uRTVlOEg5ZElTbWMzUVFyeFdkVGRkX0FON0k2VnpSWTMyaWVadkxCT0xpVXV3akZOejlBRXI5TEZnNUN3eV9JVExxeG5NYUJmenhmUms4Z283cTZGYXNTeDhVYmxtV0tz?oc=5" target="_blank" rel="noopener">Claude Opus 4 Is Mind-Blowing...and Potentially Terrifying - AI Marketing Institute</a></h3>
-            
-            <p class='summary'>Claude Opus 4 Is Mind-Blowing...and Potentially Terrifying AI Marketing Institute</p>
-            <a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9YbTBCNENtaDV3b3VpZ1k2NDJ6V2hlRGRSeG9NTHZMUm0wR1I5SlVRNXBuaDQ0SHdwbWhKamhzRm1BMlhmaXVMdm1zNjd1N21NREh0UkhwVDdmRFQyanpR0gFvQVVfeXFMTWtRaWlPUG1uRTVlOEg5ZElTbWMzUVFyeFdkVGRkX0FON0k2VnpSWTMyaWVadkxCT0xpVXV3akZOejlBRXI5TEZnNUN3eV9JVExxeG5NYUJmenhmUms4Z283cTZGYXNTeDhVYmxtV0tz?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🔵 Google News &middot; Wed, 30 Ju</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxQVWlUZHhQeE5qUnlIcEJLNmVwNC1BZnNpbXNDd0RmdFdzYWZaV3ZlcWp1RlZDRmIxVDhyZndwaE9VUVRybjdKcWJLdEF4M2ViSXAwbXRxNjk1YzZVQzZ1WXFyYVBhbDlTM3BPTmRTSXBCeExoWEpKRXdxRl9uTUxCX2Nn?oc=5" target="_blank" rel="noopener">HubSpot launches first CRM connector for Anthropic's Claude - PPC Land</a></h3>
-            
-            <p class='summary'>HubSpot launches first CRM connector for Anthropic's Claude PPC Land</p>
-            <a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxQVWlUZHhQeE5qUnlIcEJLNmVwNC1BZnNpbXNDd0RmdFdzYWZaV3ZlcWp1RlZDRmIxVDhyZndwaE9VUVRybjdKcWJLdEF4M2ViSXAwbXRxNjk1YzZVQzZ1WXFyYVBhbDlTM3BPTmRTSXBCeExoWEpKRXdxRl9uTUxCX2Nn?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="General / Other">
-            <div class="card-header">
-                <span class="badge" style="background:#95a5a6">General / Other</span>
-                <span class="source">🔵 Google News &middot; Tue, 02 Ju</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTFByNFlhVEE5VlkxRWJMaEYzMlpOTEQ5X0lXVmF0NW1aZlA5b3plOTh6d2tYbEdlTlJHanJPQ09GdDdYSXNnNmZwbVZvd2dxV21Oa3V3QTczUlJ6clFqZkZPcFhVZmpvbkhONGg00gF7QVVfeXFMTlVvYU50TWx2Rm1CNl9mX1pKeEVwcDIzWHA5dFNyZXlsLVQ5cGJ6anBOWXRteDRaa2FHN1pQdGpQMUlrRHZacHV2VXlaZVJOOGhHN1otc2QyZUhhd1hlczIteE1EdG9OaV9BT2pvbTVoeEY2eG45V2NRcmhv?oc=5" target="_blank" rel="noopener">Meet Claude 3.5 Sonnet, Anthropic's New Model That Beats GPT-4o - AI Marketing Institute</a></h3>
-            
-            <p class='summary'>Meet Claude 3.5 Sonnet, Anthropic's New Model That Beats GPT-4o AI Marketing Institute</p>
-            <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTFByNFlhVEE5VlkxRWJMaEYzMlpOTEQ5X0lXVmF0NW1aZlA5b3plOTh6d2tYbEdlTlJHanJPQ09GdDdYSXNnNmZwbVZvd2dxV21Oa3V3QTczUlJ6clFqZkZPcFhVZmpvbkhONGg00gF7QVVfeXFMTlVvYU50TWx2Rm1CNl9mX1pKeEVwcDIzWHA5dFNyZXlsLVQ5cGJ6anBOWXRteDRaa2FHN1pQdGpQMUlrRHZacHV2VXlaZVJOOGhHN1otc2QyZUhhd1hlczIteE1EdG9OaV9BT2pvbTVoeEY2eG45V2NRcmhv?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="General / Other">
-            <div class="card-header">
-                <span class="badge" style="background:#95a5a6">General / Other</span>
-                <span class="source">🔵 Google News &middot; Thu, 12 Ma</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE5DckJTemtWQlppWG9zSkNOQUVLc01Ycm82bnp3M3ZnUlIwYUhjZ1VaMXltN2JIRkJPRzktbS16TmVrcEtoUlhRaVlLOTYyRktxNXc?oc=5" target="_blank" rel="noopener">A Non-Coder Single-Handedly Managed Anthropic’s Entire Growth Marketing for Ten Months - techflowpost.com</a></h3>
-            
-            <p class='summary'>A Non-Coder Single-Handedly Managed Anthropic’s Entire Growth Marketing for Ten Months techflowpost.com</p>
-            <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE5DckJTemtWQlppWG9zSkNOQUVLc01Ycm82bnp3M3ZnUlIwYUhjZ1VaMXltN2JIRkJPRzktbS16TmVrcEtoUlhRaVlLOTYyRktxNXc?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Marketing Automation">
-            <div class="card-header">
-                <span class="badge" style="background:#9b59b6">Marketing Automation</span>
-                <span class="source">🔵 Google News &middot; Fri, 06 Fe</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMi3AFBVV95cUxOeXNFM0NVRmhRRTVzQjNlVk9LNm5wUVltWGp1REltdjg4Wk1HRlc5SFVxeUMzS3ZTN2xCOXR5UDVtcl8yYjhCSS02NUxLUVFDSnRqNEt2dmhhNERlVnhsTWFZM2hQNkI5cUdBOGxhQmlROTFLa2hVZlBSVG1KSk5XWHAtbFRGRjd3Ym1adkdCcmZWMVc2dDFTTDlRTEhGQ3BUcU5mcHdvc25GeEdNa2JvTFd5VVdfS2U1cWw2d2lhMG5TLWJyN2p4UDRzVWUzRW5kcXVtQUJ3Y1ZOY2Rp?oc=5" target="_blank" rel="noopener">AI Threat to IT Services? Anthropic’s New Claude ‘Cowork’ Tool Sparks Automation Fears Over Jobs and Revenues - Goodreturns</a></h3>
-            
-            <p class='summary'>AI Threat to IT Services? Anthropic’s New Claude ‘Cowork’ Tool Sparks Automation Fears Over Jobs and Revenues Goodreturns</p>
-            <a href="https://news.google.com/rss/articles/CBMi3AFBVV95cUxOeXNFM0NVRmhRRTVzQjNlVk9LNm5wUVltWGp1REltdjg4Wk1HRlc5SFVxeUMzS3ZTN2xCOXR5UDVtcl8yYjhCSS02NUxLUVFDSnRqNEt2dmhhNERlVnhsTWFZM2hQNkI5cUdBOGxhQmlROTFLa2hVZlBSVG1KSk5XWHAtbFRGRjd3Ym1adkdCcmZWMVc2dDFTTDlRTEhGQ3BUcU5mcHdvc25GeEdNa2JvTFd5VVdfS2U1cWw2d2lhMG5TLWJyN2p4UDRzVWUzRW5kcXVtQUJ3Y1ZOY2Rp?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🔵 Google News &middot; Thu, 05 Fe</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQWkllZXBJd1U5djUzMXNRMkRseU5TNVZnOC0tSUxVZzdybHZhZjh5YXQxZXNuMllUa3ozUjRzU0ljV0U2bnZERUwxOURKNlMzbEc5bDA2S1BPTjBUakwzYXVJdlFzSG4xT3h3aEtoUU9NSjhaRVZNT1RURFJ1bVJxUUlQS0hBNGUwb2VYbndabkhJamlMVUYySTdmTmVtbEk?oc=5" target="_blank" rel="noopener">Sam Altman Slams Anthropic Super Bowl Ads, Which Take Jabs at OpenAI’s Advertising Plans, as ‘Clearly Dishonest’ - Variety</a></h3>
-            
-            <p class='summary'>Sam Altman Slams Anthropic Super Bowl Ads, Which Take Jabs at OpenAI’s Advertising Plans, as ‘Clearly Dishonest’ Variety</p>
-            <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQWkllZXBJd1U5djUzMXNRMkRseU5TNVZnOC0tSUxVZzdybHZhZjh5YXQxZXNuMllUa3ozUjRzU0ljV0U2bnZERUwxOURKNlMzbEc5bDA2S1BPTjBUakwzYXVJdlFzSG4xT3h3aEtoUU9NSjhaRVZNT1RURFJ1bVJxUUlQS0hBNGUwb2VYbndabkhJamlMVUYySTdmTmVtbEk?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🔵 Google News &middot; Wed, 04 Fe</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxPaXZIbWczejdQTG80U1JWT2JYcmRhQUVoeks3TXBpZlN3UHlmcjgzQkF1MjhhZEdyOUdKSlNsUzZ2WG4zUFYtNHBZcnpUMUFOT2RzMzFiNUpaVHoyc1N1VFJ2MjZ4V25oMzB5dmwzdmFBMHZDOWFuQW9NOWdKZXZGdThiRdIBggFBVV95cUxOYUF0UHcwb25ZWDFBczA5dWYyaDV4MDgwSU1VZ0xpa29yay0wNVMySGNGX0EtdE5LS1hlakJ3OWxyX25oQXN5ZW9Oc2xBVEFnNGZLU3Q3MWlOcWFESmVzTjN6U3JwYTI1T2RsVmlJdnJ0NGJjamFvVkVIT25WTFN1bS13?oc=5" target="_blank" rel="noopener">Anthropic commits to no-ads policy for Claude AI - Neowin</a></h3>
-            
-            <p class='summary'>Anthropic commits to no-ads policy for Claude AI Neowin</p>
-            <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxPaXZIbWczejdQTG80U1JWT2JYcmRhQUVoeks3TXBpZlN3UHlmcjgzQkF1MjhhZEdyOUdKSlNsUzZ2WG4zUFYtNHBZcnpUMUFOT2RzMzFiNUpaVHoyc1N1VFJ2MjZ4V25oMzB5dmwzdmFBMHZDOWFuQW9NOWdKZXZGdThiRdIBggFBVV95cUxOYUF0UHcwb25ZWDFBczA5dWYyaDV4MDgwSU1VZ0xpa29yay0wNVMySGNGX0EtdE5LS1hlakJ3OWxyX25oQXN5ZW9Oc2xBVEFnNGZLU3Q3MWlOcWFESmVzTjN6U3JwYTI1T2RsVmlJdnJ0NGJjamFvVkVIT25WTFN1bS13?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🔵 Google News &middot; Wed, 11 Fe</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMifkFVX3lxTE1zOGlsVW5XZDBCZXNRdmZReHJpZmctVU1hTy1VQlBDOEhtd1ZSYnBDUWNIT000d21CcHhlajVndm1oc0J1ZXRFLWlBZFN3RzZvWm85TF9OQS1ZX25ybXdKOXhRWDJBbldNNXE1ZzVZX204SXBmZ1NKQV8ydk9oUQ?oc=5" target="_blank" rel="noopener">Anthropic's Claude Gets More Free Features as OpenAI Starts Showing Ads in ChatGPT - MacRumors</a></h3>
-            
-            <p class='summary'>Anthropic's Claude Gets More Free Features as OpenAI Starts Showing Ads in ChatGPT MacRumors</p>
-            <a href="https://news.google.com/rss/articles/CBMifkFVX3lxTE1zOGlsVW5XZDBCZXNRdmZReHJpZmctVU1hTy1VQlBDOEhtd1ZSYnBDUWNIT000d21CcHhlajVndm1oc0J1ZXRFLWlBZFN3RzZvWm85TF9OQS1ZX25ybXdKOXhRWDJBbldNNXE1ZzVZX204SXBmZ1NKQV8ydk9oUQ?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Integrated Marketing">
-            <div class="card-header">
-                <span class="badge" style="background:#16a085">Integrated Marketing</span>
-                <span class="source">🔵 Google News &middot; Thu, 18 Se</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMickFVX3lxTFBsS2lYN3lTbENHcHFJXy1Xd01xZkJ6WDdGOHlaTThzalNkNVNfT0M4SW1lZ2t1Ulk4Z0pDcDYwbTVIWWE2cENFcFpMVEpnd2V4WW05OTJDQ0FOSFpRaHhCMFQyenhjWngxZXZNQXlBV1h4Zw?oc=5" target="_blank" rel="noopener">Anthropic launches first brand campaign for Claude - Axios</a></h3>
-            
-            <p class='summary'>Anthropic launches first brand campaign for Claude Axios</p>
-            <a href="https://news.google.com/rss/articles/CBMickFVX3lxTFBsS2lYN3lTbENHcHFJXy1Xd01xZkJ6WDdGOHlaTThzalNkNVNfT0M4SW1lZ2t1Ulk4Z0pDcDYwbTVIWWE2cENFcFpMVEpnd2V4WW05OTJDQ0FOSFpRaHhCMFQyenhjWngxZXZNQXlBV1h4Zw?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Pipeline Acceleration">
-            <div class="card-header">
-                <span class="badge" style="background:#27ae60">Pipeline Acceleration</span>
-                <span class="source">🔵 Google News &middot; Thu, 05 Ma</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMi7gFBVV95cUxORnc4Tmo3SWJwOHRtZkhMazZCOGVNelBVNDIyc2g4WGlGQjdPWk12a1lmTWFzeU1KeVpyYWxlZWNJYl9ETVo0c1dPQjdIVDBYVXh6Zjc3YXJhM2QxQTRSQXZfcl9pb25VTTVNSnJsNW1SM1JPendSWTViUFdqMnpYMFFyQWs1dnh1XzVrQ2dQYjF1M3pERmxsUDRyZHk5WEZ2MnZRd292eVRhejFuMmc3R283czhhRXFmT1VyaC1GaVpVdzBpRkVfWkNTMWkzX0VMSmNnV1hXVldmS0hONGRMd0xuUWN3UmtFMDJYWmxB?oc=5" target="_blank" rel="noopener">Anthropic growth set to boost Amazon’s AWS revenue acceleration, says Bank of America - Proactive Investors</a></h3>
-            
-            <p class='summary'>Anthropic growth set to boost Amazon’s AWS revenue acceleration, says Bank of America Proactive Investors</p>
-            <a href="https://news.google.com/rss/articles/CBMi7gFBVV95cUxORnc4Tmo3SWJwOHRtZkhMazZCOGVNelBVNDIyc2g4WGlGQjdPWk12a1lmTWFzeU1KeVpyYWxlZWNJYl9ETVo0c1dPQjdIVDBYVXh6Zjc3YXJhM2QxQTRSQXZfcl9pb25VTTVNSnJsNW1SM1JPendSWTViUFdqMnpYMFFyQWs1dnh1XzVrQ2dQYjF1M3pERmxsUDRyZHk5WEZ2MnZRd292eVRhejFuMmc3R283czhhRXFmT1VyaC1GaVpVdzBpRkVfWkNTMWkzX0VMSmNnV1hXVldmS0hONGRMd0xuUWN3UmtFMDJYWmxB?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🟡 Hacker News &middot; Feb 21, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://www.emailmarketingskill.com/" target="_blank" rel="noopener">Show HN: I built a 55K-word email marketing knowledge base and Claude Code skill</a></h3>
-            
-            <p class='summary'>I co-founded SmartrMail (email marketing SaaS, 12K ecommerce customers, acquired 2022). When I left, I no longer had access to the sending data I&#x27;d spent years learning from, billions of sent emails, deliverability patterns, things that actually move email engagement Cos&#x27; I don&#x27;t have...</p>
-            <a href="https://www.emailmarketingskill.com/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Content & SEO">
-            <div class="card-header">
-                <span class="badge" style="background:#f39c12">Content & SEO</span>
-                <span class="source">🟡 Hacker News &middot; Feb 25, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://github.com/superamped/ai-marketing-skills" target="_blank" rel="noopener">Show HN: AI Marketing Skills for Claude Code</a></h3>
-            
-            <p class='summary'>Hey HN, I&#x27;ve been using Claude Code for marketing work and kept re-prompting the same workflows. Competitor research, SEO audits, ad creative, that kind of thing. So I packaged them into reusable skills in this open-source repo. There are 16 skills covering research, content, ads, conversion, a...</p>
-            <a href="https://github.com/superamped/ai-marketing-skills" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Integrated Marketing">
-            <div class="card-header">
-                <span class="badge" style="background:#16a085">Integrated Marketing</span>
-                <span class="source">🟡 Hacker News &middot; Feb 18, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://fromearendel.com" target="_blank" rel="noopener">Show HN: My AI agent is trying to earn $750 to buy its own computer</a></h3>
-            
-            <p class='summary'>I gave a persistent AI agent (OpenClaw[1], running on Claude) $50 and a goal: earn $750 for a Mac Mini. The agent has its own workspace, email, task management, browser automation, and communicates with me via Telegram. It persists memory between sessions by reading&#x2F;writing markdown files. In l...</p>
-            <a href="https://fromearendel.com" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🟡 Hacker News &middot; Aug 22, 2025</span>
-            </div>
-            <h3 class="card-title"><a href="https://tabwise.ai/" target="_blank" rel="noopener">Show HN: Tabwise – AI data analyst that outperforms ChatGPT and Claude</a></h3>
-            
-            <p class='summary'>Hey HN! I&#x27;m Abhishek. I’m a designer and product builder. I’ve been building AI products for the past year after leaving my design job, where I worked on dev tools being used by 1M+ engineers. Previously I built Allyce AI ( https:&#x2F;&#x2F;allyce.ai&#x2F; ), which helps answer questions, qual...</p>
-            <a href="https://tabwise.ai/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Integrated Marketing">
-            <div class="card-header">
-                <span class="badge" style="background:#16a085">Integrated Marketing</span>
-                <span class="source">🟡 Hacker News &middot; Mar 12, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://github.com/athina-ai/goose-skills" target="_blank" rel="noopener">Show HN: Open-Source GTM Skills for Claude Code, Codex, and Cursor</a></h3>
-            
-            <p class='summary'>We built an open-source library of 125 GTM (go-to-market) skills that plug into AI coding agents like Claude Code, Codex, and Cursor. With these skills an AI agent can automatically: - Find ICP leads from conference speakers, LinkedIn activity, or job boards - Generate personalized cold email sequen...</p>
-            <a href="https://github.com/athina-ai/goose-skills" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Marketing Automation">
-            <div class="card-header">
-                <span class="badge" style="background:#9b59b6">Marketing Automation</span>
-                <span class="source">🟡 Hacker News &middot; Jun 16, 2025</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.ycombinator.com/item?id=44292640" target="_blank" rel="noopener">I vibe-coded a $0.15/week AI marketing automation for social media</a></h3>
-            
-            <p class='summary'>Hi HN, I&#x27;m a CTO-turned-solo-founder who got tired of seeing vibe marketing success stories (looking at you, Greg Isenberg) without the technical implementation details. So I spent 3 hours building and recording a complete marketing automation system. *What it does:* - Claude AI analyzes your w...</p>
-            <a href="https://news.ycombinator.com/item?id=44292640" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🟡 Hacker News &middot; Mar 20, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://asaagent.xyz" target="_blank" rel="noopener">Show HN: I built an AI agent that does marketing for my apps</a></h3>
-            
-            <p class='summary'>I make iOS apps, been doing it for about five years now. Apple Search Ads ended up being my main paid channel - no creatives needed, just keywords and bids, feels closer to engineering than marketing. Also the only channel left where you get actual deterministic attribution, everything else is proba...</p>
-            <a href="https://asaagent.xyz" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Integrated Marketing">
-            <div class="card-header">
-                <span class="badge" style="background:#16a085">Integrated Marketing</span>
-                <span class="source">🟡 Hacker News &middot; Oct 27, 2025</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.ycombinator.com/item?id=45721523" target="_blank" rel="noopener">The Fraud of Big AI</a></h3>
-            
-            <p class='summary'>We&#x27;re being gaslit. Claude 4.5 Sonnet could write complete patches at launch. Now the context window is so destroyed it can&#x27;t finish most prompts without truncating. Every major model follows the same pattern: amazing launch, then silent degradation over weeks. OpenAI admitted to changing ...</p>
-            <a href="https://news.ycombinator.com/item?id=45721523" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="Performance Marketing & Ads">
-            <div class="card-header">
-                <span class="badge" style="background:#e74c3c">Performance Marketing & Ads</span>
-                <span class="source">🟡 Hacker News &middot; Nov 04, 2024</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.ycombinator.com/item?id=42038703" target="_blank" rel="noopener">Ask HN: How do you get traction for AI startups not funded by YC (or equivalent)</a></h3>
-            
-            <p class='summary'>AI startup are notoriously hard for numerous reasons - 1. Training large models requires a lot of capital and GPU 2. Large models (OpenAI, Anthropic etc.) are absorbing functionality offered by startups with new releases. For example, ChatGPT can perform numerous operations on CSV and PDF leaving hu...</p>
-            <a href="https://news.ycombinator.com/item?id=42038703" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
-        <div class="card" data-category="General / Other">
-            <div class="card-header">
-                <span class="badge" style="background:#95a5a6">General / Other</span>
-                <span class="source">🟡 Hacker News &middot; Feb 10, 2026</span>
-            </div>
-            <h3 class="card-title"><a href="https://news.ycombinator.com/item?id=46963340" target="_blank" rel="noopener">Runtime validation is still fucked in AI coding agents</a></h3>
-            
-            <p class='summary'>AI agents (Cursor, Claude computer-use, Copilot agent mode, etc.) have gotten stupidly good at spitting out code. Prompt → boom, clean code. The marketing says it just works. It fucking doesn&#x27;t. You run it in a real app and immediately hit the same bullshit wall every time: - Hallucinated logic...</p>
-            <a href="https://news.ycombinator.com/item?id=46963340" target="_blank" rel="noopener" class="read-link">Read full post →</a>
-        </div>
+  <div class="grid" id="grid">
+    <div class="card" data-category="ABM & Pipeline">
+  <div class="card-header">
+    <span class="badge" style="background:#2980b9">ABM & Pipeline</span>
+    <span class="source">🔵 Google News&nbsp;·&nbsp;Thu, 05 Ma</span>
   </div>
-
-  <div class="no-results" id="noResults">No posts found for this filter.</div>
+  <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMi7gFBVV95cUxORnc4Tmo3SWJwOHRtZkhMazZCOGVNelBVNDIyc2g4WGlGQjdPWk12a1lmTWFzeU1KeVpyYWxlZWNJYl9ETVo0c1dPQjdIVDBYVXh6Zjc3YXJhM2QxQTRSQXZfcl9pb25VTTVNSnJsNW1SM1JPendSWTViUFdqMnpYMFFyQWs1dnh1XzVrQ2dQYjF1M3pERmxsUDRyZHk5WEZ2MnZRd292eVRhejFuMmc3R283czhhRXFmT1VyaC1GaVpVdzBpRkVfWkNTMWkzX0VMSmNnV1hXVldmS0hONGRMd0xuUWN3UmtFMDJYWmxB?oc=5" target="_blank" rel="noopener">Anthropic growth set to boost Amazon’s AWS revenue acceleration, says Bank of America - Proactive Investors</a></h3>
+  
+  <p class='summary'>Anthropic growth set to boost Amazon’s AWS revenue acceleration, says Bank of America Proactive Investors</p>
+  <a href="https://news.google.com/rss/articles/CBMi7gFBVV95cUxORnc4Tmo3SWJwOHRtZkhMazZCOGVNelBVNDIyc2g4WGlGQjdPWk12a1lmTWFzeU1KeVpyYWxlZWNJYl9ETVo0c1dPQjdIVDBYVXh6Zjc3YXJhM2QxQTRSQXZfcl9pb25VTTVNSnJsNW1SM1JPendSWTViUFdqMnpYMFFyQWs1dnh1XzVrQ2dQYjF1M3pERmxsUDRyZHk5WEZ2MnZRd292eVRhejFuMmc3R283czhhRXFmT1VyaC1GaVpVdzBpRkVfWkNTMWkzX0VMSmNnV1hXVldmS0hONGRMd0xuUWN3UmtFMDJYWmxB?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="ABM & Pipeline">
+  <div class="card-header">
+    <span class="badge" style="background:#2980b9">ABM & Pipeline</span>
+    <span class="source">🔵 Google News&nbsp;·&nbsp;Tue, 07 Ap</span>
+  </div>
+  <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUTdqclhMTlBMbmpwZTFudk5sckI0aWJNQkgzZUNzZy1xYzk0Z2JwdXBTaXZadXpPamtrTDlZNDFvYktxblhOYTB3Z3hFTG8ySTdTbjhQZXdNSnBwV25QNG13NlotVVo3cnE2MGxqTDhlMUJYUW1BcDltdENXcHk0d2JEbVBZOVlVcjdGemtQY1ZkUU1BWDVqUDdyR2lIdUc4QlBSYlFuSUpMX0I3LXdwNjU4cEdOTlRXYm0yVkltLVLSAccBQVVfeXFMTXhQN1A3SVgxOTRVZGhSNlRWUmVHTDRVT3FwMzZFdTBWWUs2NUhiVmptWDVyblNUd3Npamd5NF9aNGhWZFlLVUdoVEZFQ0gtdzRpbWZOc3FvTVZBUkhHczhuQ2FBdmJZXzR0U0J5dC1BNVBOU2ZKUzItYTRfODBBWHd2REJmNDJOMmtEcEQzREdHUkFkdnFLczNiNTVQN2VhNVRsemJEMFFVV3c4UkZBU203M2hSaU9BdGhqYlhQcU04YTBxSDJkSQ?oc=5" target="_blank" rel="noopener">Anthropic revenue tops $30 billion as Claude AI demand surges - BusinessLine</a></h3>
+  
+  <p class='summary'>Anthropic revenue tops $30 billion as Claude AI demand surges BusinessLine</p>
+  <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUTdqclhMTlBMbmpwZTFudk5sckI0aWJNQkgzZUNzZy1xYzk0Z2JwdXBTaXZadXpPamtrTDlZNDFvYktxblhOYTB3Z3hFTG8ySTdTbjhQZXdNSnBwV25QNG13NlotVVo3cnE2MGxqTDhlMUJYUW1BcDltdENXcHk0d2JEbVBZOVlVcjdGemtQY1ZkUU1BWDVqUDdyR2lIdUc4QlBSYlFuSUpMX0I3LXdwNjU4cEdOTlRXYm0yVkltLVLSAccBQVVfeXFMTXhQN1A3SVgxOTRVZGhSNlRWUmVHTDRVT3FwMzZFdTBWWUs2NUhiVmptWDVyblNUd3Npamd5NF9aNGhWZFlLVUdoVEZFQ0gtdzRpbWZOc3FvTVZBUkhHczhuQ2FBdmJZXzR0U0J5dC1BNVBOU2ZKUzItYTRfODBBWHd2REJmNDJOMmtEcEQzREdHUkFkdnFLczNiNTVQN2VhNVRsemJEMFFVV3c4UkZBU203M2hSaU9BdGhqYlhQcU04YTBxSDJkSQ?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Ads & Performance Marketing">
+  <div class="card-header">
+    <span class="badge" style="background:#e74c3c">Ads & Performance Marketing</span>
+    <span class="source">🔵 Google News&nbsp;·&nbsp;Wed, 04 Fe</span>
+  </div>
+  <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxQMjM2WWNOVUlkVUljMmtFTjlVaUpGZU80bVQ2MUtiNVlub3Q1dTFvVjB4VzNFYWJJc0g3eENIczFpV24wLW5BLWFCVEtYTktGMURISXJDMHFlZkQtbE91djczVFRMZ3NkZkhubTl4czFEQlo3czVaVVl2N0pkQ0I4WnFJSkpwc3psQ3owTlA2c3ZiR0FSRHc?oc=5" target="_blank" rel="noopener">Anthropic Roasts OpenAI Promising Ad-Free Claude AI Experience - Android Headlines</a></h3>
+  
+  <p class='summary'>Anthropic Roasts OpenAI Promising Ad-Free Claude AI Experience Android Headlines</p>
+  <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxQMjM2WWNOVUlkVUljMmtFTjlVaUpGZU80bVQ2MUtiNVlub3Q1dTFvVjB4VzNFYWJJc0g3eENIczFpV24wLW5BLWFCVEtYTktGMURISXJDMHFlZkQtbE91djczVFRMZ3NkZkhubTl4czFEQlo3czVaVVl2N0pkQ0I4WnFJSkpwc3psQ3owTlA2c3ZiR0FSRHc?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Ads & Performance Marketing">
+  <div class="card-header">
+    <span class="badge" style="background:#e74c3c">Ads & Performance Marketing</span>
+    <span class="source">🔵 Google News&nbsp;·&nbsp;Wed, 04 Fe</span>
+  </div>
+  <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxPaXZIbWczejdQTG80U1JWT2JYcmRhQUVoeks3TXBpZlN3UHlmcjgzQkF1MjhhZEdyOUdKSlNsUzZ2WG4zUFYtNHBZcnpUMUFOT2RzMzFiNUpaVHoyc1N1VFJ2MjZ4V25oMzB5dmwzdmFBMHZDOWFuQW9NOWdKZXZGdThiRdIBggFBVV95cUxOYUF0UHcwb25ZWDFBczA5dWYyaDV4MDgwSU1VZ0xpa29yay0wNVMySGNGX0EtdE5LS1hlakJ3OWxyX25oQXN5ZW9Oc2xBVEFnNGZLU3Q3MWlOcWFESmVzTjN6U3JwYTI1T2RsVmlJdnJ0NGJjamFvVkVIT25WTFN1bS13?oc=5" target="_blank" rel="noopener">Anthropic commits to no-ads policy for Claude AI - Neowin</a></h3>
+  
+  <p class='summary'>Anthropic commits to no-ads policy for Claude AI Neowin</p>
+  <a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxPaXZIbWczejdQTG80U1JWT2JYcmRhQUVoeks3TXBpZlN3UHlmcjgzQkF1MjhhZEdyOUdKSlNsUzZ2WG4zUFYtNHBZcnpUMUFOT2RzMzFiNUpaVHoyc1N1VFJ2MjZ4V25oMzB5dmwzdmFBMHZDOWFuQW9NOWdKZXZGdThiRdIBggFBVV95cUxOYUF0UHcwb25ZWDFBczA5dWYyaDV4MDgwSU1VZ0xpa29yay0wNVMySGNGX0EtdE5LS1hlakJ3OWxyX25oQXN5ZW9Oc2xBVEFnNGZLU3Q3MWlOcWFESmVzTjN6U3JwYTI1T2RsVmlJdnJ0NGJjamFvVkVIT25WTFN1bS13?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Ads & Performance Marketing">
+  <div class="card-header">
+    <span class="badge" style="background:#e74c3c">Ads & Performance Marketing</span>
+    <span class="source">🔵 Google News&nbsp;·&nbsp;Thu, 05 Fe</span>
+  </div>
+  <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQWkllZXBJd1U5djUzMXNRMkRseU5TNVZnOC0tSUxVZzdybHZhZjh5YXQxZXNuMllUa3ozUjRzU0ljV0U2bnZERUwxOURKNlMzbEc5bDA2S1BPTjBUakwzYXVJdlFzSG4xT3h3aEtoUU9NSjhaRVZNT1RURFJ1bVJxUUlQS0hBNGUwb2VYbndabkhJamlMVUYySTdmTmVtbEk?oc=5" target="_blank" rel="noopener">Sam Altman Slams Anthropic Super Bowl Ads, Which Take Jabs at OpenAI’s Advertising Plans, as ‘Clearly Dishonest’ - Variety</a></h3>
+  
+  <p class='summary'>Sam Altman Slams Anthropic Super Bowl Ads, Which Take Jabs at OpenAI’s Advertising Plans, as ‘Clearly Dishonest’ Variety</p>
+  <a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQWkllZXBJd1U5djUzMXNRMkRseU5TNVZnOC0tSUxVZzdybHZhZjh5YXQxZXNuMllUa3ozUjRzU0ljV0U2bnZERUwxOURKNlMzbEc5bDA2S1BPTjBUakwzYXVJdlFzSG4xT3h3aEtoUU9NSjhaRVZNT1RURFJ1bVJxUUlQS0hBNGUwb2VYbndabkhJamlMVUYySTdmTmVtbEk?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Ads & Performance Marketing">
+  <div class="card-header">
+    <span class="badge" style="background:#e74c3c">Ads & Performance Marketing</span>
+    <span class="source">🔵 Google News&nbsp;·&nbsp;Wed, 04 Fe</span>
+  </div>
+  <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxOUDU1VDVqTlFncjF3VnNVNE1GT2hDMlNKVXdBZTNWT19Zd1JIcTBSd2dPTWxyZ1lZdG92SWJDTE55dkhGU2k4ZWh5eHRORW8xUDVxbnUwLXpDNVNqZW1Wak5LUUo1Ym1Rckt0b1o2VXdoXy1vcFJlMC12ZXdveklxMndQSnJoeklPUU5JQ2h5NTFTUQ?oc=5" target="_blank" rel="noopener">Claude’s first Super Bowl campaign asks if ads belong in AI - The Drum</a></h3>
+  
+  <p class='summary'>Claude’s first Super Bowl campaign asks if ads belong in AI The Drum</p>
+  <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxOUDU1VDVqTlFncjF3VnNVNE1GT2hDMlNKVXdBZTNWT19Zd1JIcTBSd2dPTWxyZ1lZdG92SWJDTE55dkhGU2k4ZWh5eHRORW8xUDVxbnUwLXpDNVNqZW1Wak5LUUo1Ym1Rckt0b1o2VXdoXy1vcFJlMC12ZXdveklxMndQSnJoeklPUU5JQ2h5NTFTUQ?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Automation & Workflows">
+  <div class="card-header">
+    <span class="badge" style="background:#9b59b6">Automation & Workflows</span>
+    <span class="source">🔵 Google News&nbsp;·&nbsp;Fri, 06 Fe</span>
+  </div>
+  <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMi3AFBVV95cUxOeXNFM0NVRmhRRTVzQjNlVk9LNm5wUVltWGp1REltdjg4Wk1HRlc5SFVxeUMzS3ZTN2xCOXR5UDVtcl8yYjhCSS02NUxLUVFDSnRqNEt2dmhhNERlVnhsTWFZM2hQNkI5cUdBOGxhQmlROTFLa2hVZlBSVG1KSk5XWHAtbFRGRjd3Ym1adkdCcmZWMVc2dDFTTDlRTEhGQ3BUcU5mcHdvc25GeEdNa2JvTFd5VVdfS2U1cWw2d2lhMG5TLWJyN2p4UDRzVWUzRW5kcXVtQUJ3Y1ZOY2Rp?oc=5" target="_blank" rel="noopener">AI Threat to IT Services? Anthropic’s New Claude ‘Cowork’ Tool Sparks Automation Fears Over Jobs and Revenues - Goodreturns</a></h3>
+  
+  <p class='summary'>AI Threat to IT Services? Anthropic’s New Claude ‘Cowork’ Tool Sparks Automation Fears Over Jobs and Revenues Goodreturns</p>
+  <a href="https://news.google.com/rss/articles/CBMi3AFBVV95cUxOeXNFM0NVRmhRRTVzQjNlVk9LNm5wUVltWGp1REltdjg4Wk1HRlc5SFVxeUMzS3ZTN2xCOXR5UDVtcl8yYjhCSS02NUxLUVFDSnRqNEt2dmhhNERlVnhsTWFZM2hQNkI5cUdBOGxhQmlROTFLa2hVZlBSVG1KSk5XWHAtbFRGRjd3Ym1adkdCcmZWMVc2dDFTTDlRTEhGQ3BUcU5mcHdvc25GeEdNa2JvTFd5VVdfS2U1cWw2d2lhMG5TLWJyN2p4UDRzVWUzRW5kcXVtQUJ3Y1ZOY2Rp?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Ads & Performance Marketing">
+  <div class="card-header">
+    <span class="badge" style="background:#e74c3c">Ads & Performance Marketing</span>
+    <span class="source">🔵 Google News&nbsp;·&nbsp;Wed, 04 Fe</span>
+  </div>
+  <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE5ValJwWkYwZzhweHM0LUE2dGM2MEwwUXFBeDFmVmZvMTUzdWs5WGJPcGlWMG11cUtmTmlIR0FDX3VaWDNVYmVrVnhjNERKZXhBQXBHR2pYellNd0ZkU3FyRWp1WGk3QWNseGx3REx6TEI0SjhkSTJZ?oc=5" target="_blank" rel="noopener">Anthropic announces that it won't integrate ads into Claude and sparks criticism from Sam Altman - Marketing4eCommerce</a></h3>
+  
+  <p class='summary'>Anthropic announces that it won't integrate ads into Claude and sparks criticism from Sam Altman Marketing4eCommerce</p>
+  <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE5ValJwWkYwZzhweHM0LUE2dGM2MEwwUXFBeDFmVmZvMTUzdWs5WGJPcGlWMG11cUtmTmlIR0FDX3VaWDNVYmVrVnhjNERKZXhBQXBHR2pYellNd0ZkU3FyRWp1WGk3QWNseGx3REx6TEI0SjhkSTJZ?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Automation & Workflows">
+  <div class="card-header">
+    <span class="badge" style="background:#9b59b6">Automation & Workflows</span>
+    <span class="source">🔵 Google News&nbsp;·&nbsp;Thu, 12 Fe</span>
+  </div>
+  <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9wWWVNcG9oODdZYXo5dUQ5WHFzbGIybkdOLVB1QVZlT0Vzano5UTB6bW1ONDZCTWxGMmhqTE5RZzlQamE5X3RnTVVQY1JJTVZVSVhZeDY3UVU1d0tBU2F4U2YwbUN4amszQWZUcg?oc=5" target="_blank" rel="noopener">Claude Cowork Marketing Guide 2026 : Combines Cloud Chat, Local Tools & Automation for Teams - Geeky Gadgets</a></h3>
+  
+  <p class='summary'>Claude Cowork Marketing Guide 2026 : Combines Cloud Chat, Local Tools & Automation for Teams Geeky Gadgets</p>
+  <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9wWWVNcG9oODdZYXo5dUQ5WHFzbGIybkdOLVB1QVZlT0Vzano5UTB6bW1ONDZCTWxGMmhqTE5RZzlQamE5X3RnTVVQY1JJTVZVSVhZeDY3UVU1d0tBU2F4U2YwbUN4amszQWZUcg?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Ads & Performance Marketing">
+  <div class="card-header">
+    <span class="badge" style="background:#e74c3c">Ads & Performance Marketing</span>
+    <span class="source">🔵 Google News&nbsp;·&nbsp;Tue, 24 Fe</span>
+  </div>
+  <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPRTJfRHNwaXJFaVhHbWtGOVVjOHp6azRhTXFlRVoxUFRHYVR1S29hbTJwamFPZWhVM21EaTJodENaQnhDa3FxaHpBZWl4S1ZJTm5TMkEwUnI4eUl0M1FrSld0eHZtNTlvTEJRSldmTGpKNWFGTWtJV2JtdUx2OFFkLUFpSFpvakwtS2RnZ25yeWU2TENEVWRabw?oc=5" target="_blank" rel="noopener">Channel99 connects B2B marketing data to ChatGPT, Copilot and Claude via MCP - PPC Land</a></h3>
+  
+  <p class='summary'>Channel99 connects B2B marketing data to ChatGPT, Copilot and Claude via MCP PPC Land</p>
+  <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPRTJfRHNwaXJFaVhHbWtGOVVjOHp6azRhTXFlRVoxUFRHYVR1S29hbTJwamFPZWhVM21EaTJodENaQnhDa3FxaHpBZWl4S1ZJTm5TMkEwUnI4eUl0M1FrSld0eHZtNTlvTEJRSldmTGpKNWFGTWtJV2JtdUx2OFFkLUFpSFpvakwtS2RnZ25yeWU2TENEVWRabw?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Content & Campaigns">
+  <div class="card-header">
+    <span class="badge" style="background:#f39c12">Content & Campaigns</span>
+    <span class="source">🔵 Google News&nbsp;·&nbsp;Wed, 04 Ma</span>
+  </div>
+  <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE1wZlU2aGI4bVotVW8xQ2F1bzJuZWVSY3AwUTNSaWVCaHByQjg0RmpSS2JkYUc5S2pLNDI4elc3aEQ4aU93MTBXaDV0cGQwbnQ3RGxsaF9vUldrTkozS2locF83cUtiaWhmQ29WNGhFQzdwV05SMEE?oc=5" target="_blank" rel="noopener">Claude Code Builds Full Inbound Marketing Campaign : Landing Page to Lead Magnet - Geeky Gadgets</a></h3>
+  
+  <p class='summary'>Claude Code Builds Full Inbound Marketing Campaign : Landing Page to Lead Magnet Geeky Gadgets</p>
+  <a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE1wZlU2aGI4bVotVW8xQ2F1bzJuZWVSY3AwUTNSaWVCaHByQjg0RmpSS2JkYUc5S2pLNDI4elc3aEQ4aU93MTBXaDV0cGQwbnQ3RGxsaF9vUldrTkozS2locF83cUtiaWhmQ29WNGhFQzdwV05SMEE?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Automation & Workflows">
+  <div class="card-header">
+    <span class="badge" style="background:#9b59b6">Automation & Workflows</span>
+    <span class="source">🔵 Google News&nbsp;·&nbsp;Sun, 15 Fe</span>
+  </div>
+  <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5aYURibGIzLWlfLVFzLURLcVZvdTdxX3QyMl8ySGUzczBrRjVpak00eXRSdlE0OElzRUxpR2U1MnhPQWRwdzNNTWkzQmJBbjRPSllJTklFczlPWWxhUUZfcjdfVEMwVWpUWkE?oc=5" target="_blank" rel="noopener">Claude AI Marketing Workflows Can Reach 300x Output with Human Review - Geeky Gadgets</a></h3>
+  
+  <p class='summary'>Claude AI Marketing Workflows Can Reach 300x Output with Human Review Geeky Gadgets</p>
+  <a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5aYURibGIzLWlfLVFzLURLcVZvdTdxX3QyMl8ySGUzczBrRjVpak00eXRSdlE0OElzRUxpR2U1MnhPQWRwdzNNTWkzQmJBbjRPSllJTklFczlPWWxhUUZfcjdfVEMwVWpUWkE?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Ads & Performance Marketing">
+  <div class="card-header">
+    <span class="badge" style="background:#e74c3c">Ads & Performance Marketing</span>
+    <span class="source">🔵 Google News&nbsp;·&nbsp;Thu, 05 Fe</span>
+  </div>
+  <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxPTDlEbW9hSWpYNHJDZzlEeEFITmNZdG1pMnRhZUtjWGJLZjc0NHVCRFMtM1phamxHcG5WZGhSbmRqVkxCWWVvdW9ib1dLaDRaNHRHNlpMSTlJdFBfQWNFWkVKMktLT0FZNEprS0M0cTNTM0oxc3RMMFIyc29ERWcwMDEtb3p3anhfZjNlTzFuNmFfYy12QVE?oc=5" target="_blank" rel="noopener">OpenAI’s Sam Altman Criticizes Anthropic over Claude Advertising Campaign - CX Today</a></h3>
+  
+  <p class='summary'>OpenAI’s Sam Altman Criticizes Anthropic over Claude Advertising Campaign CX Today</p>
+  <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxPTDlEbW9hSWpYNHJDZzlEeEFITmNZdG1pMnRhZUtjWGJLZjc0NHVCRFMtM1phamxHcG5WZGhSbmRqVkxCWWVvdW9ib1dLaDRaNHRHNlpMSTlJdFBfQWNFWkVKMktLT0FZNEprS0M0cTNTM0oxc3RMMFIyc29ERWcwMDEtb3p3anhfZjNlTzFuNmFfYy12QVE?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Ads & Performance Marketing">
+  <div class="card-header">
+    <span class="badge" style="background:#e74c3c">Ads & Performance Marketing</span>
+    <span class="source">🔵 Google News&nbsp;·&nbsp;Fri, 13 Fe</span>
+  </div>
+  <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE0weHlRS0FHVmJZYUVRRjJrbVJJRlBKU1p4cVlxd1ptc2wwWERWQUNZbHBPWTZkdFRCMm5SNjhiMWd4bDNsdjY2dnhtUFB1S3JNVWpLMGk5alAwaXc2ZHVDR0FjbU5ZOHFQMnVCeEdUU0JCaGs1bGVSWWdhdVdCclk?oc=5" target="_blank" rel="noopener">Claude AI App Skyrockets: How Anthropic’s Cunning Super Bowl Ads Mocking Rivals Secured Top 10 Ranking - CryptoRank</a></h3>
+  
+  <p class='summary'>Claude AI App Skyrockets: How Anthropic’s Cunning Super Bowl Ads Mocking Rivals Secured Top 10 Ranking CryptoRank</p>
+  <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE0weHlRS0FHVmJZYUVRRjJrbVJJRlBKU1p4cVlxd1ptc2wwWERWQUNZbHBPWTZkdFRCMm5SNjhiMWd4bDNsdjY2dnhtUFB1S3JNVWpLMGk5alAwaXc2ZHVDR0FjbU5ZOHFQMnVCeEdUU0JCaGs1bGVSWWdhdVdCclk?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Content & Campaigns">
+  <div class="card-header">
+    <span class="badge" style="background:#f39c12">Content & Campaigns</span>
+    <span class="source">🔵 Google News&nbsp;·&nbsp;Wed, 25 Fe</span>
+  </div>
+  <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMijgJBVV95cUxNUWJnYjh0a0luZ3BKLXBfWWM0c3BpZUM3cERZSVEyVTBFcWl0Z2c3N1BQeld6VDY3Y0c5bDl1N1lyd1pudkJtclZpSXFoY3BqMjMxMlJwZWVwRy1POXhkaVBORlN5d0c0cjdPVUNienVSZjVxcnZiWUQyUW96STZRSjkzdmNRRzE1SUlFV2VHVTJKU3lwdzZkcnI2X2ttblphbDRkOGp4VmNLak11YVFoUE1HMUJMRTBCSG55SkZuRXRGRVRRTWJhak5Kb2ktSEhNSEQyQ0tuTWlWbnZ0LU5uYzRpbnJHZGxuRTRfMHpXVTRxb0J4UnJYYzRBOXVxT3hTTWQtZWhpUmRha3Btdnc?oc=5" target="_blank" rel="noopener">Entrepreneur says Claude ‘killed’ her marketing company, predicts AI-to-AI sales in future, 'They don't get charmed' - Mint</a></h3>
+  
+  <p class='summary'>Entrepreneur says Claude ‘killed’ her marketing company, predicts AI-to-AI sales in future, 'They don't get charmed' Mint</p>
+  <a href="https://news.google.com/rss/articles/CBMijgJBVV95cUxNUWJnYjh0a0luZ3BKLXBfWWM0c3BpZUM3cERZSVEyVTBFcWl0Z2c3N1BQeld6VDY3Y0c5bDl1N1lyd1pudkJtclZpSXFoY3BqMjMxMlJwZWVwRy1POXhkaVBORlN5d0c0cjdPVUNienVSZjVxcnZiWUQyUW96STZRSjkzdmNRRzE1SUlFV2VHVTJKU3lwdzZkcnI2X2ttblphbDRkOGp4VmNLak11YVFoUE1HMUJMRTBCSG55SkZuRXRGRVRRTWJhak5Kb2ktSEhNSEQyQ0tuTWlWbnZ0LU5uYzRpbnJHZGxuRTRfMHpXVTRxb0J4UnJYYzRBOXVxT3hTTWQtZWhpUmRha3Btdnc?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Content & Campaigns">
+  <div class="card-header">
+    <span class="badge" style="background:#f39c12">Content & Campaigns</span>
+    <span class="source">🔵 Google News&nbsp;·&nbsp;Fri, 10 Ap</span>
+  </div>
+  <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMitAJBVV95cUxPY3FSTGpQUjBGeWdPNVV3WnhIZ3lRR1NKTXRfSXN6M25zTUozNHVyMDg4NXctb2pKaldDcVlnS1M3clpUVWFTb3dPU3VMcDJzTFoyWlRzbVBFWUk0SmFseThudXlnamQ0WDZ3UjdYcVdqbEZSODVUTy1lMVROWHNHUkVnNWt3ZW1abE1qUzRySWpOMXlWV2dSQ0JUcFNMVTZaVlhSREVtWDVjQXhJdmtjY1BKak1LSHAtTXNlMVc0Q1RvV25EanpMSW13d0pJNTRSc3RnakpTWEVHaTVPaGYzSWh2ZGZRbEpnZ2JUeF9tX2RSUmVmSFBzSkM2MHd2WHNaNnpad3cxbWl2b18zUG5XUThzM1MtS1ZWQ2tyRVVpNjlNX051YVdxN1dhczQ0Y2RkaThqcw?oc=5" target="_blank" rel="noopener">Anthropic's Claude Mythos isn't a sentient super-hacker, it's a sales pitch — claims of 'thousands' of severe zero-days rely on just 198 manual reviews - Tom's Hardware</a></h3>
+  
+  <p class='summary'>Anthropic's Claude Mythos isn't a sentient super-hacker, it's a sales pitch — claims of 'thousands' of severe zero-days rely on just 198 manual reviews Tom's Hardware</p>
+  <a href="https://news.google.com/rss/articles/CBMitAJBVV95cUxPY3FSTGpQUjBGeWdPNVV3WnhIZ3lRR1NKTXRfSXN6M25zTUozNHVyMDg4NXctb2pKaldDcVlnS1M3clpUVWFTb3dPU3VMcDJzTFoyWlRzbVBFWUk0SmFseThudXlnamQ0WDZ3UjdYcVdqbEZSODVUTy1lMVROWHNHUkVnNWt3ZW1abE1qUzRySWpOMXlWV2dSQ0JUcFNMVTZaVlhSREVtWDVjQXhJdmtjY1BKak1LSHAtTXNlMVc0Q1RvV25EanpMSW13d0pJNTRSc3RnakpTWEVHaTVPaGYzSWh2ZGZRbEpnZ2JUeF9tX2RSUmVmSFBzSkM2MHd2WHNaNnpad3cxbWl2b18zUG5XUThzM1MtS1ZWQ2tyRVVpNjlNX051YVdxN1dhczQ0Y2RkaThqcw?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Content & Campaigns">
+  <div class="card-header">
+    <span class="badge" style="background:#f39c12">Content & Campaigns</span>
+    <span class="source">🔵 Google News&nbsp;·&nbsp;Wed, 22 Ap</span>
+  </div>
+  <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMixwNBVV95cUxQcXQ3cjJ3ZW9pOEw0RG5LaGYtZDZjcks0aWoyWTgyMFcxQWZXa2J6Wi1rb3A4WEpDNDBvWHRNUTNKSXMtckhhOG1qYjZPTWszaDFxbjN1NXB5dHJjSURzVWJKZDNlVWQ3QjBjeGFHZTV5Znp3eEs4Zks3VDZHeWMweUEtUkIzMFZaZnRKM0FLYjdNTEVQQUxtbXRMQnBKSnBGcHd0N3lPWkNYTDJMVno2cFYxMm5ZS0hrYkNmNVFwVm1FZU12Y1NDQkFtc2RjR3Y4VFlzOE54Vjd5ZlkxZXFob2lXYnR1blBKQ3FseFdJVUc1WnJjUGxuaUJuMkxPT0tlbFB6Tl9lN29Rbmg2dEoyN0ZFNGNJdVV1VTBrd1VubmRqQVhRcldXaEswU1Bpc2tHMXBMV05ablptaGxLWVJZOW9BWE8xVEZ4SlZtWlVrd0NSYlkwVmp2UXNIMHRQbVhzNUNZYVdwazBOTkg1eWt4YmpfM080SnN0c0FBMHhUcTdhY2ZxWExPMnhoZ0l5SVRBUjZWMzlKX0tNSGlZV1JjWU1xRzV6QVM4RF9RRkZqRHVtTWpYTGFnLW5icXpRbldLUmwtNmx4NA?oc=5" target="_blank" rel="noopener">Entrepreneur says Claude 'killed' her marketing company, predicts AI-to-AI sales in future, 'They don't get charmed' - MSN</a></h3>
+  
+  <p class='summary'>Entrepreneur says Claude 'killed' her marketing company, predicts AI-to-AI sales in future, 'They don't get charmed' MSN</p>
+  <a href="https://news.google.com/rss/articles/CBMixwNBVV95cUxQcXQ3cjJ3ZW9pOEw0RG5LaGYtZDZjcks0aWoyWTgyMFcxQWZXa2J6Wi1rb3A4WEpDNDBvWHRNUTNKSXMtckhhOG1qYjZPTWszaDFxbjN1NXB5dHJjSURzVWJKZDNlVWQ3QjBjeGFHZTV5Znp3eEs4Zks3VDZHeWMweUEtUkIzMFZaZnRKM0FLYjdNTEVQQUxtbXRMQnBKSnBGcHd0N3lPWkNYTDJMVno2cFYxMm5ZS0hrYkNmNVFwVm1FZU12Y1NDQkFtc2RjR3Y4VFlzOE54Vjd5ZlkxZXFob2lXYnR1blBKQ3FseFdJVUc1WnJjUGxuaUJuMkxPT0tlbFB6Tl9lN29Rbmg2dEoyN0ZFNGNJdVV1VTBrd1VubmRqQVhRcldXaEswU1Bpc2tHMXBMV05ablptaGxLWVJZOW9BWE8xVEZ4SlZtWlVrd0NSYlkwVmp2UXNIMHRQbVhzNUNZYVdwazBOTkg1eWt4YmpfM080SnN0c0FBMHhUcTdhY2ZxWExPMnhoZ0l5SVRBUjZWMzlKX0tNSGlZV1JjWU1xRzV6QVM4RF9RRkZqRHVtTWpYTGFnLW5icXpRbldLUmwtNmx4NA?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Content & Campaigns">
+  <div class="card-header">
+    <span class="badge" style="background:#f39c12">Content & Campaigns</span>
+    <span class="source">🔵 Google News&nbsp;·&nbsp;Fri, 17 Ap</span>
+  </div>
+  <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxPcENNLWhyWjIzZ3RfSllSZHhIRkFFVlpiT29GRGdjVDI1WVExYnhnRGlfajBXWEdrZ0daTjRhXzZreWxXeWlvOFQ4M2d5RF9hV1pIdWF4ZldEM3RBcEd6ZEtBUlNvMzg0VkxwaHBDbk9NYTZ3S29ISjRCVXFkZERJX2ZrNmYyTWxDby1BOUpZRVNwWUwyNXY3NlFaVlB6bXZ3SDd4MUUzYWhoMlhCMkYyZmpVZERkWHhiZy1FdUVLMmxaSWZK?oc=5" target="_blank" rel="noopener">Anthropic's Claude Design turns chatbot conversations into prototypes, slide decks, and marketing assets - the-decoder.com</a></h3>
+  
+  <p class='summary'>Anthropic's Claude Design turns chatbot conversations into prototypes, slide decks, and marketing assets the-decoder.com</p>
+  <a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxPcENNLWhyWjIzZ3RfSllSZHhIRkFFVlpiT29GRGdjVDI1WVExYnhnRGlfajBXWEdrZ0daTjRhXzZreWxXeWlvOFQ4M2d5RF9hV1pIdWF4ZldEM3RBcEd6ZEtBUlNvMzg0VkxwaHBDbk9NYTZ3S29ISjRCVXFkZERJX2ZrNmYyTWxDby1BOUpZRVNwWUwyNXY3NlFaVlB6bXZ3SDd4MUUzYWhoMlhCMkYyZmpVZERkWHhiZy1FdUVLMmxaSWZK?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Ads & Performance Marketing">
+  <div class="card-header">
+    <span class="badge" style="background:#e74c3c">Ads & Performance Marketing</span>
+    <span class="source">🔵 Google News&nbsp;·&nbsp;Mon, 20 Ap</span>
+  </div>
+  <h3 class="card-title"><a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUDFzdEdWMC1vUHRZMjB5Mnd0bVJKck9WaGVjdVJERXdBUS1NM09JX1B2eFo4S1dJWGlyRlN0cEJxSzBmM0w0bjhsM05NOWoyM1RfUWo1bzc3STZfbGZtZTJnak00UUUzM3gtT25ucXJFZkM1V0ZBT2d3dkZ0TlNzTkp6VXljYnlINXIxOEo3NHhkU2tycHdaSlhKOGh6WjZkZWpoUEo3dV9NNWZYczFhaVN3d3BtZXVsVEhaczNMWktIUQ?oc=5" target="_blank" rel="noopener">Anthropic launches AI-powered Claude Design to build marketing assets - Performance Marketing World</a></h3>
+  
+  <p class='summary'>Anthropic launches AI-powered Claude Design to build marketing assets Performance Marketing World</p>
+  <a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUDFzdEdWMC1vUHRZMjB5Mnd0bVJKck9WaGVjdVJERXdBUS1NM09JX1B2eFo4S1dJWGlyRlN0cEJxSzBmM0w0bjhsM05NOWoyM1RfUWo1bzc3STZfbGZtZTJnak00UUUzM3gtT25ucXJFZkM1V0ZBT2d3dkZ0TlNzTkp6VXljYnlINXIxOEo3NHhkU2tycHdaSlhKOGh6WjZkZWpoUEo3dV9NNWZYczFhaVN3d3BtZXVsVEhaczNMWktIUQ?oc=5" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Automation & Workflows">
+  <div class="card-header">
+    <span class="badge" style="background:#9b59b6">Automation & Workflows</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Mar 18, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/AISetups/" target="_blank" rel="noopener">AISetups — Share & discover the best AI setups</a></h3>
+  
+  <p class='summary'>Share and discover the best AI setups — from local LLM rigs and coding environments to agentic stacks, multi‑agent pipelines, go‑to‑market (GTM) workflows and devops integrations. Whether you’re running Claude + Cursor, Claude Code, a local Llama build, or a full multi‑agent pipe…</p>
+  <a href="https://www.reddit.com/r/AISetups/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Content & Campaigns">
+  <div class="card-header">
+    <span class="badge" style="background:#f39c12">Content & Campaigns</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Apr 23, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/b2b_sales/comments/1statt1/i_had_a_concept_to_align_sales_and_i_want_to_hear/" target="_blank" rel="noopener">I had a concept to align sales and I want to hear your thoughts</a></h3>
+  
+  <p class='summary'>I’m at a medium sized business (800-1000 employees) and we’re finding sales using AI to produce slop. Slop reports, slop pitch decks, slop information. They think it’s good but it’s really just spam bloating our slack channels and annoying the marketing team, cause it doesn’t ali…</p>
+  <a href="https://www.reddit.com/r/b2b_sales/comments/1statt1/i_had_a_concept_to_align_sales_and_i_want_to_hear/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Content & Campaigns">
+  <div class="card-header">
+    <span class="badge" style="background:#f39c12">Content & Campaigns</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Mar 31, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/ClaudeGTM/" target="_blank" rel="noopener">ClaudeGTM</a></h3>
+  
+  <p class='summary'>Discuss and showcase how you get AI agents like Claude Code, Cowork, OpenClaw to run GTM / sales / marketing for your business [link]</p>
+  <a href="https://www.reddit.com/r/ClaudeGTM/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Content & Campaigns">
+  <div class="card-header">
+    <span class="badge" style="background:#f39c12">Content & Campaigns</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Feb 22, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/startups/comments/1rbotyv/super_bowl_had_multiple_ai_companies_buying_ads/" target="_blank" rel="noopener">Super Bowl had multiple AI companies buying ads while Anthropic ran an anti-advertising campaign. Early data on each approach’s success rate? I WILL NOT PROMOTE</a></h3>
+  
+  <p class='summary'>Interesting case study from this month&#39;s Super Bowl: OpenAI, Google, and Meta all bought traditional Super Bowl spots. Meanwhile, Anthropic ran an anti-advertising campaign positioning Claude as ads are coming to AI, but not to Claude. The early numbers from BNP Paribas: Anth…</p>
+  <a href="https://www.reddit.com/r/startups/comments/1rbotyv/super_bowl_had_multiple_ai_companies_buying_ads/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="ABM & Pipeline">
+  <div class="card-header">
+    <span class="badge" style="background:#2980b9">ABM & Pipeline</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Mar 05, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/startups/comments/1rlfrhc/ai_agentic_employees_are_coming_i_will_not_promote/" target="_blank" rel="noopener">AI agentic employees are coming (I will not promote)</a></h3>
+  
+  <p class='summary'>Something interesting is starting to happen in tech hiring. RevenueCat recently posted a role looking for an autonomous AI agent to work as an Agentic AI Developer Growth Advocate . The idea is that the agent would publish technical content, run growth experiments, interact with …</p>
+  <a href="https://www.reddit.com/r/startups/comments/1rlfrhc/ai_agentic_employees_are_coming_i_will_not_promote/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Content & Campaigns">
+  <div class="card-header">
+    <span class="badge" style="background:#f39c12">Content & Campaigns</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Mar 26, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/startups/comments/1s3t1yu/got_2x_more_traction_after_focusing_on_a_unique/" target="_blank" rel="noopener">Got 2x more traction after focusing on a unique value proposition (i will not promote)</a></h3>
+  
+  <p class='summary'>Like many of us here, I&#39;ve been iterating on a product and trying to get the word out. I built a go-to-market advisor tool to help companies create strategies and conduct experiments. However, after receiving some feedback most people just thought it was mostly an AI wrapper.…</p>
+  <a href="https://www.reddit.com/r/startups/comments/1s3t1yu/got_2x_more_traction_after_focusing_on_a_unique/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Content & Campaigns">
+  <div class="card-header">
+    <span class="badge" style="background:#f39c12">Content & Campaigns</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Apr 16, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/startups/comments/1sngheb/how_are_you_acquiring_your_first_users_how_much/" target="_blank" rel="noopener">How are you acquiring your first users? How much are you automating? - B2C / Marketplaces - I will not promote</a></h3>
+  
+  <p class='summary'>Hey everyone! This is my first venture and we are in early stages - still working on first prototype. This is a marketplace model. I&#39;ve read that a lot of the GTM can be automated with AI. But I wonder if its too soon to automate outreach .. and wanted to check what the gener…</p>
+  <a href="https://www.reddit.com/r/startups/comments/1sngheb/how_are_you_acquiring_your_first_users_how_much/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Ads & Performance Marketing">
+  <div class="card-header">
+    <span class="badge" style="background:#e74c3c">Ads & Performance Marketing</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Mar 16, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/PPC/comments/1rvimio/human_input_on_what_ai_said_about_my_agencys/" target="_blank" rel="noopener">Human input on what AI said about my agency's suggestions for our account</a></h3>
+  
+  <p class='summary'>My agency gave me recommendations for our Google Ad campaigns. I fed it into Gemini, GPT, and Claude. All 3 agreed with each other. I&#39;m looking for human experience to weigh in on this debate. Do you think the agency has it right or the AIs? Here&#39;s what the agency is push…</p>
+  <a href="https://www.reddit.com/r/PPC/comments/1rvimio/human_input_on_what_ai_said_about_my_agencys/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Ads & Performance Marketing">
+  <div class="card-header">
+    <span class="badge" style="background:#e74c3c">Ads & Performance Marketing</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Mar 19, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/PPC/comments/1ry7gib/whats_your_easy_setup_tech_stack_for_connecting/" target="_blank" rel="noopener">What’s your 'Easy Setup' tech stack for connecting Google Ads to Claude?</a></h3>
+  
+  <p class='summary'>I&#39;m looking to streamline my workflow by connecting the Google Ads accounts I manage directly to Claude AI. My plan is to create a dedicated Claude Project for each account to keep the data and context segregated. Before I commit to a setup, I&#39;d love to hear from other ac…</p>
+  <a href="https://www.reddit.com/r/PPC/comments/1ry7gib/whats_your_easy_setup_tech_stack_for_connecting/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Ads & Performance Marketing">
+  <div class="card-header">
+    <span class="badge" style="background:#e74c3c">Ads & Performance Marketing</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Apr 17, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/PPC/comments/1snvzrt/from_web_dev_to_running_ads_anyone_else_using_ai/" target="_blank" rel="noopener">From web dev to running ads, anyone else using AI to skip the steep learning curve?</a></h3>
+  
+  <p class='summary'>Hey everyone, I&#39;ve been running a small web development and SEO freelance operation for a while now, working with clients from different parts of the world on WordPress, Webflow, and similar projects. Business has been steady but I want to grow beyond just referrals and Upwor…</p>
+  <a href="https://www.reddit.com/r/PPC/comments/1snvzrt/from_web_dev_to_running_ads_anyone_else_using_ai/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Ads & Performance Marketing">
+  <div class="card-header">
+    <span class="badge" style="background:#e74c3c">Ads & Performance Marketing</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Apr 21, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/PPC/comments/1srf9gz/my_experience_using_claude_to_actually_manage/" target="_blank" rel="noopener">My experience using Claude to actually manage Google Ads</a></h3>
+  
+  <p class='summary'>Heads up: this is an opinion post, not a tutorial. Plenty of setup guides already exist. The content is rephrased by AI. Context: I run a multi-location service business. 8K/month budget. Former software engineer, so I tend to build my own internal tools instead of buying. I&#39;…</p>
+  <a href="https://www.reddit.com/r/PPC/comments/1srf9gz/my_experience_using_claude_to_actually_manage/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Automation & Workflows">
+  <div class="card-header">
+    <span class="badge" style="background:#9b59b6">Automation & Workflows</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Feb 07, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1qyalsy/chasing_ai_tools/" target="_blank" rel="noopener">Chasing AI Tools</a></h3>
+  
+  <p class='summary'>I’ve realized for a minute that a lot of YouTube AI, marketing, and social media “gurus” are mostly in the upsell business. Fair enough, that’s their grind. But it explains why there’s a new “must-use” AI tool every week. Got tired of this and lately I’ve been doing the opposite.…</p>
+  <a href="https://www.reddit.com/r/Entrepreneur/comments/1qyalsy/chasing_ai_tools/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Content & Campaigns">
+  <div class="card-header">
+    <span class="badge" style="background:#f39c12">Content & Campaigns</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Feb 10, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1r0u3y6/how_do_you_guys_analyze_prompts_for_seo_tools_or/" target="_blank" rel="noopener">How do you guys analyze prompts for seo tools or campaigns without losing your mind?</a></h3>
+  
+  <p class='summary'>Struggling with this prompt analysis thing for seo workflows. got a bunch of ai tools spitting out keyword lists and content ideas but half the time they miss the real intent or just recycle generic stuff. tried pasting full threads or queries into chatgpt claude whatever but the…</p>
+  <a href="https://www.reddit.com/r/Entrepreneur/comments/1r0u3y6/how_do_you_guys_analyze_prompts_for_seo_tools_or/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Automation & Workflows">
+  <div class="card-header">
+    <span class="badge" style="background:#9b59b6">Automation & Workflows</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Feb 10, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1r14jw4/why_i_stopped_paying_for_software_and_started/" target="_blank" rel="noopener">Why I stopped paying for software and started building it myself</a></h3>
+  
+  <p class='summary'>The SaaS moat is dead. Here&#39;s what that means. So you&#39;ve probably seen the bloodbath in the markets recently. Software companies are getting crushed. And part of the reason is pretty straightforward now. It&#39;s virtually effortless to reverse engineer any software that …</p>
+  <a href="https://www.reddit.com/r/Entrepreneur/comments/1r14jw4/why_i_stopped_paying_for_software_and_started/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Automation & Workflows">
+  <div class="card-header">
+    <span class="badge" style="background:#9b59b6">Automation & Workflows</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Feb 15, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1r5bjk0/launched_my_first_saas_7_days_ago_heres_what_i/" target="_blank" rel="noopener">Launched my first SaaS 7 days ago. Here's what I learned about finding product-market fit.</a></h3>
+  
+  <p class='summary'>Background: I&#39;m a developer who&#39;s been building side projects for years but never actually launched anything publicly. Last week I finally pulled the trigger. The Problem I Found: I noticed a weird inefficiency in the AI API space. Companies and individuals pay $100+/mont…</p>
+  <a href="https://www.reddit.com/r/Entrepreneur/comments/1r5bjk0/launched_my_first_saas_7_days_ago_heres_what_i/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="ABM & Pipeline">
+  <div class="card-header">
+    <span class="badge" style="background:#2980b9">ABM & Pipeline</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Feb 15, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1r5fis5/building_the_product_was_the_easy_part_finding/" target="_blank" rel="noopener">Building the product was the easy part. Finding the first 10 customers is breaking me.</a></h3>
+  
+  <p class='summary'>I shipped a working product in a few weeks. Between Claude, Cursor, and everything else out there, the technical part almost felt too easy. Features that would&#39;ve taken me months a year ago just... happened. And then I hit the wall that no AI tool can solve. I&#39;ve been sit…</p>
+  <a href="https://www.reddit.com/r/Entrepreneur/comments/1r5fis5/building_the_product_was_the_easy_part_finding/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Automation & Workflows">
+  <div class="card-header">
+    <span class="badge" style="background:#9b59b6">Automation & Workflows</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Feb 24, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1rdslt5/i_spent_a_few_years_doing_marketing_and_creating/" target="_blank" rel="noopener">I spent a few years doing marketing and creating AI systems, and honestly, now I just want to build with a team that's building cool stuff and doing cool things.</a></h3>
+  
+  <p class='summary'>I&#39;m not a developer. I&#39;m a vibe---coder /marketer/operations. I started out as a media buyer, then project manager, then marketing director, and then I left to go run growth for a couple of different e-commerce brands, and then worked on a different AI company that built …</p>
+  <a href="https://www.reddit.com/r/Entrepreneur/comments/1rdslt5/i_spent_a_few_years_doing_marketing_and_creating/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Automation & Workflows">
+  <div class="card-header">
+    <span class="badge" style="background:#9b59b6">Automation & Workflows</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Mar 09, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1rpcqsm/how_i_use_mcp_servers_as_a_data_layer_in_my_gtm/" target="_blank" rel="noopener">How I use MCP servers as a data layer in my GTM workflows</a></h3>
+  
+  <p class='summary'>I build GTM workflows for our sales team and wanted to share an architecture pattern I&#39;ve been using with MCP servers that&#39;s simplified how I handle data pipelines. Thought it might be useful for others building similar systems. Quick context on MCP for GTM: MCP (Model Co…</p>
+  <a href="https://www.reddit.com/r/Entrepreneur/comments/1rpcqsm/how_i_use_mcp_servers_as_a_data_layer_in_my_gtm/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Ads & Performance Marketing">
+  <div class="card-header">
+    <span class="badge" style="background:#e74c3c">Ads & Performance Marketing</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Mar 10, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1rpowo2/how_many_of_you_people_stopped_using_chatgpt/" target="_blank" rel="noopener">How many of you people stopped using ChatGPT?</a></h3>
+  
+  <p class='summary'>ChatGPT uninstalls spiked 295% in a single day. One-star reviews flooded the App Store, up 775% in a single weekend. Claude surged to the No. 1 spot on the US App Store, overtaking ChatGPT possibly for the first time ever. And it has just gained the trust of the people. Over 2.5 …</p>
+  <a href="https://www.reddit.com/r/Entrepreneur/comments/1rpowo2/how_many_of_you_people_stopped_using_chatgpt/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Content & Campaigns">
+  <div class="card-header">
+    <span class="badge" style="background:#f39c12">Content & Campaigns</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Mar 22, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1s09xev/best_tool_stack_and_workflow_for_outbound_cold/" target="_blank" rel="noopener">Best tool stack and workflow for outbound cold email?</a></h3>
+  
+  <p class='summary'>I&#39;ve heard all in one solutions are not the way to go. I&#39;m currently considering something like the below for a small campaign (less than 2,000/mo) with the goal of quality over quantity. Prospecting: Apify Enriching: Apollo Email Configuration: Zapmail De-duping Warm-up:…</p>
+  <a href="https://www.reddit.com/r/Entrepreneur/comments/1s09xev/best_tool_stack_and_workflow_for_outbound_cold/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Automation & Workflows">
+  <div class="card-header">
+    <span class="badge" style="background:#9b59b6">Automation & Workflows</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Apr 20, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1sqv68q/how_to_actually_automate_your_agency_not_just/" target="_blank" rel="noopener">how to ACTUALLY automate your agency (not just build random claude skills) step by step</a></h3>
+  
+  <p class='summary'>Everyone is building claude skills right now, little automations, custom gpts, claude code, zapier flows. That&#39;s cool but its also maybe 10% of what ai can do for your agency if you approach it properly Ive been building ai systems for agencies for a few years now and i&#39;v…</p>
+  <a href="https://www.reddit.com/r/Entrepreneur/comments/1sqv68q/how_to_actually_automate_your_agency_not_just/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Content & Campaigns">
+  <div class="card-header">
+    <span class="badge" style="background:#f39c12">Content & Campaigns</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Apr 20, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/Entrepreneur/comments/1sqv7be/figma_just_got_what_zoominfo_is_about_to_get/" target="_blank" rel="noopener">Figma just got what ZoomInfo is about to get</a></h3>
+  
+  <p class='summary'>Watching Claude Design launch this week and Figma drop 4% in a session, and the thing I can&#39;t stop thinking about is how cleanly this maps onto what&#39;s coming for the sales tool stack . A category gets built in layers over a decade, each layer becomes a billion dollar comp…</p>
+  <a href="https://www.reddit.com/r/Entrepreneur/comments/1sqv7be/figma_just_got_what_zoominfo_is_about_to_get/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="ABM & Pipeline">
+  <div class="card-header">
+    <span class="badge" style="background:#2980b9">ABM & Pipeline</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Mar 02, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/sales/comments/1riip3s/openclaw_and_claude_code_in_sales/" target="_blank" rel="noopener">OpenClaw and Claude Code in sales</a></h3>
+  
+  <p class='summary'>So I&#39;m a headhunter/recruiter, and I just installed Openclaw and Claude Code, and man, can it do so much stuff for me? I figured I&#39;d post this to show you guys what I&#39;ve built for me as a recruiter, and you might be able to extrapolate this to whatever sales role that…</p>
+  <a href="https://www.reddit.com/r/sales/comments/1riip3s/openclaw_and_claude_code_in_sales/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="ABM & Pipeline">
+  <div class="card-header">
+    <span class="badge" style="background:#2980b9">ABM & Pipeline</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Mar 27, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/sales/comments/1s558xg/claude_usage/" target="_blank" rel="noopener">Claude Usage</a></h3>
+  
+  <p class='summary'>Hi - I&#39;m looking into transitioning from using ChatGPT for sales help to Claude. I&#39;m curious how others are having success utilizing it? I&#39;ve seen people post they&#39;re having it do everything, even write all their emails, but I don&#39;t love that approach as I thi…</p>
+  <a href="https://www.reddit.com/r/sales/comments/1s558xg/claude_usage/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Ads & Performance Marketing">
+  <div class="card-header">
+    <span class="badge" style="background:#e74c3c">Ads & Performance Marketing</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Apr 20, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/sales/comments/1sr7fcb/suggestions_for_large_account_org_mapping/" target="_blank" rel="noopener">Suggestions for large account org mapping?</a></h3>
+  
+  <p class='summary'>I do full cycle sales and I’m trying to map out some of my really large accounts with 30+ locations and a complex corporate team structure. At this point, I am building up contacts and roles in a spreadsheet format but is there a good software/website/AI tools (paid or not) that …</p>
+  <a href="https://www.reddit.com/r/sales/comments/1sr7fcb/suggestions_for_large_account_org_mapping/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="ABM & Pipeline">
+  <div class="card-header">
+    <span class="badge" style="background:#2980b9">ABM & Pipeline</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Feb 02, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/digital_marketing/comments/1qty1d6/is_your_pipeline_leaking_ghost_objections_because/" target="_blank" rel="noopener">Is your pipeline leaking "Ghost Objections" because of ChatGPT hallucinations?</a></h3>
+  
+  <p class='summary'>I’m trying to sanity-check a pattern I’ve seen in a few late-stage B2B deals. We’re seeing LLMs (ChatGPT, Claude, Perplexity) tell prospects that brands are expensive, lacking SOC2 compliance, or outdated simply because the AI is synthesizing data from 2021 or a disgruntled Reddi…</p>
+  <a href="https://www.reddit.com/r/digital_marketing/comments/1qty1d6/is_your_pipeline_leaking_ghost_objections_because/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Automation & Workflows">
+  <div class="card-header">
+    <span class="badge" style="background:#9b59b6">Automation & Workflows</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Feb 04, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/digital_marketing/comments/1qvrc6p/after_1000s_of_hours_prompting_claude_gemini_gpt/" target="_blank" rel="noopener">After 1000s of hours prompting Claude, Gemini, & GPT for marketing emails: What actually works in 2026 (and my multi-model workflow)</a></h3>
+  
+  <p class='summary'>I&#39;ve been grinding on prompt engineering literally every day for the past couple years—not just playing around, but building systems so people on our platform can get killer results without spending hours tweaking prompts themselves. 2024 was rough. Models just weren&#39;t re…</p>
+  <a href="https://www.reddit.com/r/digital_marketing/comments/1qvrc6p/after_1000s_of_hours_prompting_claude_gemini_gpt/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Content & Campaigns">
+  <div class="card-header">
+    <span class="badge" style="background:#f39c12">Content & Campaigns</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Mar 04, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/digital_marketing/comments/1rk904i/if_ai_search_went_down_would_google_traffic_spike/" target="_blank" rel="noopener">If AI search went down, would Google traffic spike? Or have habits already shifted too far?</a></h3>
+  
+  <p class='summary'>Claude went down Monday and half the internet remembered how much AI is baked into daily workflows now. But it made us think about a different dependency. What happens in a future where 90 % of people use AI to find things they want to buy? AND THEN AI goes down. Think about it, …</p>
+  <a href="https://www.reddit.com/r/digital_marketing/comments/1rk904i/if_ai_search_went_down_would_google_traffic_spike/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Content & Campaigns">
+  <div class="card-header">
+    <span class="badge" style="background:#f39c12">Content & Campaigns</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Mar 24, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/digital_marketing/comments/1s2ka6x/as_a_junior_level_digital_marketing_analyst_how/" target="_blank" rel="noopener">As a Junior level digital marketing analyst how worried should I be about AI?</a></h3>
+  
+  <p class='summary'>I’m working as digital marketing analyst at a small company (only been here about 3 months). Leadership has been pushing pretty hard on using AI tools to automate stuff and save time. With tools like Claude getting better and able to handle a lot of the tasks we normally do, I’m …</p>
+  <a href="https://www.reddit.com/r/digital_marketing/comments/1s2ka6x/as_a_junior_level_digital_marketing_analyst_how/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Content & Campaigns">
+  <div class="card-header">
+    <span class="badge" style="background:#f39c12">Content & Campaigns</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Apr 08, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/digital_marketing/comments/1sfkozr/what_would_you_do_with_data_if_you_could_track/" target="_blank" rel="noopener">What would you do with data if you could track frequency with which AI assistants mention your brand?</a></h3>
+  
+  <p class='summary'>I was chatting with a colleague of a digital marketing agency that did a test with a B2B SaaS client. Although the content was well rated on Google, AI assistants seldom answered about their product. They began tracking AI presence on various platforms ChatGPT, Perplexity, and Cl…</p>
+  <a href="https://www.reddit.com/r/digital_marketing/comments/1sfkozr/what_would_you_do_with_data_if_you_could_track/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+<div class="card" data-category="Content & Campaigns">
+  <div class="card-header">
+    <span class="badge" style="background:#f39c12">Content & Campaigns</span>
+    <span class="source">🟠 Reddit&nbsp;·&nbsp;Apr 23, 2026</span>
+  </div>
+  <h3 class="card-title"><a href="https://www.reddit.com/r/Anthropic/comments/1st9zra/real_use_case_for_claude_skills_structured_b2b/" target="_blank" rel="noopener">Real use case for Claude skills: structured B2B vendor due diligence [open source]</a></h3>
+  
+  <p class='summary'>&#32; submitted by &#32; /u/o1got [link] &#32; [comments]</p>
+  <a href="https://www.reddit.com/r/Anthropic/comments/1st9zra/real_use_case_for_claude_skills_structured_b2b/" target="_blank" rel="noopener" class="read-link">Read full post →</a>
+</div>
+  </div>
+  <div class="no-results" id="noRes">No posts match this filter.</div>
 
 </div>
 
 <footer>
-  Auto-curated daily from Reddit, Google News & Hacker News &middot; Powered by Claude AI &middot;
-  <a href="https://github.com/gokulsk92/claude-tweets-reddits" style="color:var(--accent)">View on GitHub</a>
+  Auto-curated daily from Reddit · Google News · Hacker News &nbsp;·&nbsp; Powered by Claude AI
+  &nbsp;·&nbsp; <a href="https://github.com/gokulsk92/claude-tweets-reddits" style="color:var(--acc)">GitHub</a>
 </footer>
 
 <script>
-  let activeCategory = 'all';
-  let searchQuery = '';
-
-  function filterPosts(category) {
-    activeCategory = category;
-    document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-    event.target.classList.add('active');
-    applyFilters();
-  }
-
-  function searchPosts() {
-    searchQuery = document.getElementById('searchInput').value.toLowerCase();
-    applyFilters();
-  }
-
-  function applyFilters() {
-    const cards = document.querySelectorAll('.card');
-    let visible = 0;
-    cards.forEach(card => {
-      const cat = card.dataset.category || '';
-      const text = card.textContent.toLowerCase();
-      const catMatch = activeCategory === 'all' || cat === activeCategory;
-      const searchMatch = !searchQuery || text.includes(searchQuery);
-      if (catMatch && searchMatch) {
-        card.classList.remove('hidden');
-        visible++;
-      } else {
-        card.classList.add('hidden');
-      }
-    });
-    document.getElementById('noResults').style.display = visible === 0 ? 'block' : 'none';
-  }
+let activeCat = 'all';
+function filterCat(cat, btn) {
+  activeCat = cat;
+  document.querySelectorAll('.f-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  applyFilters();
+}
+function applyFilters() {
+  const q = document.getElementById('srch').value.toLowerCase();
+  let vis = 0;
+  document.querySelectorAll('#grid .card').forEach(c => {
+    const catOk = activeCat === 'all' || c.dataset.category === activeCat;
+    const txtOk = !q || c.textContent.toLowerCase().includes(q);
+    const show  = catOk && txtOk;
+    c.classList.toggle('hidden', !show);
+    if (show) vis++;
+  });
+  document.getElementById('noRes').style.display = vis === 0 ? 'block' : 'none';
+}
 </script>
-
 </body>
 </html>
