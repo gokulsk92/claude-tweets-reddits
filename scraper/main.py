@@ -1,5 +1,6 @@
 """
-Orchestrator: scrape → age-purge → categorize → skip-purge → top stories → dashboard → email.
+Orchestrator (free tier — no API key required):
+  scrape → age-purge → categorize → top stories → dashboard → email
 """
 
 import json
@@ -19,7 +20,6 @@ MAX_AGE_DAYS = 90
 
 
 def purge_old_posts() -> int:
-    """Remove posts older than MAX_AGE_DAYS from the stored dataset."""
     if not DATA_FILE.exists():
         return 0
     with open(DATA_FILE) as f:
@@ -28,13 +28,12 @@ def purge_old_posts() -> int:
     before = len(data.get("posts", []))
     kept = []
     for p in data.get("posts", []):
-        fetched = p.get("fetched_at", "")
         try:
-            dt = datetime.fromisoformat(fetched.replace("Z", "+00:00"))
+            dt = datetime.fromisoformat(p.get("fetched_at", "").replace("Z", "+00:00"))
             if dt >= cutoff:
                 kept.append(p)
         except Exception:
-            kept.append(p)  # Unknown date — keep it
+            kept.append(p)
     removed = before - len(kept)
     data["posts"] = kept
     with open(DATA_FILE, "w") as f:
@@ -44,42 +43,24 @@ def purge_old_posts() -> int:
     return removed
 
 
-def purge_skipped() -> int:
-    """Remove posts the AI marked as irrelevant."""
-    if not DATA_FILE.exists():
-        return 0
-    with open(DATA_FILE) as f:
-        data = json.load(f)
-    before = len(data.get("posts", []))
-    data["posts"] = [p for p in data.get("posts", []) if not p.get("skip")]
-    removed = before - len(data["posts"])
-    if removed:
-        print(f"  Purged {removed} irrelevant posts.")
-    with open(DATA_FILE, "w") as f:
-        json.dump(data, f, indent=2)
-    return removed
-
-
 def main() -> None:
     print("=" * 52)
 
-    print("Step 1/6 — Scraping new posts...")
+    print("Step 1/5 — Scraping (Reddit · Google News · HN · Twitter)...")
     new_posts = scrape()
     existing  = load_all_posts()
-    all_posts = new_posts + existing
-    all_posts = all_posts[:400]
-    save_posts(all_posts)
+    combined  = new_posts + existing
+    combined  = combined[:400]
+    save_posts(combined)
+    print(f"  {len(new_posts)} new posts found.")
 
-    print("\nStep 2/6 — Removing posts older than 90 days...")
+    print("\nStep 2/5 — Removing posts older than 90 days...")
     purge_old_posts()
 
-    print("\nStep 3/6 — AI relevance filter + categorization...")
+    print("\nStep 3/5 — Categorizing + extracting insights...")
     categorize_uncategorized()
 
-    print("\nStep 4/6 — Purging irrelevant posts...")
-    purge_skipped()
-
-    # Final cap: keep the 150 most recent quality posts
+    # Cap at 150 most recent quality posts
     with open(DATA_FILE) as f:
         data = json.load(f)
     data["posts"] = sorted(
@@ -89,10 +70,10 @@ def main() -> None:
         json.dump(data, f, indent=2)
     print(f"  {len(data['posts'])} quality posts retained.")
 
-    print("\nStep 5/6 — Selecting Top Stories...")
+    print("\nStep 4/5 — Selecting Top Stories...")
     select_top_stories(k=5)
 
-    print("\nStep 6/6 — Generating dashboard + sending email...")
+    print("\nStep 5/5 — Generating dashboard + sending email digest...")
     generate_dashboard()
     send_digest()
 
