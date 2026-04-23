@@ -128,24 +128,38 @@ def is_too_old(date_str: str) -> bool:
     return dt < cutoff
 
 
-def is_relevant(title: str, summary: str) -> bool:
-    text = (title + " " + summary).lower()
+def _claude_in_title(title: str) -> bool:
+    t = title.lower()
+    return any(sig in t for sig in CLAUDE_AI_SIGNALS) or "claude" in t or "anthropic" in t
 
-    # Must have a strong Claude AI signal OR plain "claude"/"anthropic" with stricter marketing check
-    has_strong_claude = any(sig in text for sig in CLAUDE_AI_SIGNALS)
-    has_plain_claude = "claude" in text or "anthropic" in text
 
-    if not has_plain_claude:
-        return False
+def is_relevant(title: str, summary: str, require_claude_in_title: bool = False) -> bool:
+    """
+    Relevance check.
+    require_claude_in_title=True (used for Reddit): Claude/Anthropic must appear
+    in the title itself, not just buried in the post body/comments.
+    """
+    title_l = title.lower()
+    text    = (title + " " + summary).lower()
 
-    # Count how many distinct marketing keywords appear
+    has_strong_title  = any(sig in title_l for sig in CLAUDE_AI_SIGNALS)
+    has_claude_title  = "claude" in title_l or "anthropic" in title_l
+
+    if require_claude_in_title:
+        # For Reddit: Claude must be in the title
+        if not has_claude_title:
+            return False
+    else:
+        has_plain_anywhere = "claude" in text or "anthropic" in text
+        if not has_plain_anywhere:
+            return False
+
     marketing_hits = sum(1 for kw in MARKETING_KEYWORDS if kw in text)
 
-    if has_strong_claude:
-        # Strong Claude signal: only need 1 marketing keyword
+    if has_strong_title or (not require_claude_in_title and
+                             any(sig in text for sig in CLAUDE_AI_SIGNALS)):
         return marketing_hits >= 1
     else:
-        # Weak signal ("claude" could be a person's name): require 2+ marketing keywords
         return marketing_hits >= 2
 
 
@@ -176,7 +190,7 @@ def parse_reddit_rss(xml_text: str, source_label: str) -> list[dict]:
                 continue
             if is_too_old(date_str):
                 continue
-            if not is_relevant(title, summary):
+            if not is_relevant(title, summary, require_claude_in_title=True):
                 continue
 
             posts.append({
