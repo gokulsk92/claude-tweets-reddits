@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-04-26T08:06:43.821347+00:00",
-  "total": 39,
+  "last_updated": "2026-04-27T10:28:38.079103+00:00",
+  "total": 41,
   "posts": [
+    {
+      "id": "2bf02a638395",
+      "title": "Claude Code can now watch videos... [+4 AMAZING Use cases]",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1swu253/claude_code_can_now_watch_videos_4_amazing_use/",
+      "summary": "Quick context: Claude can see images but can&#39;t stream video. That kept blocking me on a bunch of workflows, so I built a skill that fakes it. How it works It pulls the YouTube transcript (captions first, Whisper as a fallback if there are none), extracts a still frame every N seconds with ffmpeg, then pairs each frame with the sentence being spoken at that exact timestamp. Claude reads the frames and the transcript together and writes structured notes: TL;DR, timeline, key quotes, visual notes. Works for YouTube URLs and local video files. Works in Claude Code, Claude Desktop, and apps built on the Agent SDK. The 4 use cases that made me build this 1. If you don&#39;t understand a video, make Claude watch it before planning. I saw a custom extension being built for downloading courses and started vibe-coding Claude on that. It&#39;s doing a really, REALLY good job. 2. Someone was walking me through a funnel by sending screenshots from a video. Instead of explaining frame by frame, ",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-04-27T05:04:38+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Claude Code can now watch videos...",
+      "fetched_at": "2026-04-27T10:28:27.393600+00:00",
+      "skip": false,
+      "is_featured": true
+    },
+    {
+      "id": "51bcdf1f6dcd",
+      "title": "Claude can't really work with my Gmail anymore.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1swyy12/claude_cant_really_work_with_my_gmail_anymore/",
+      "summary": "For the past few weeks I&#39;ve noticed that chat and Cowork dont really go through my gmail properly. Basically I ask it to go through my inbox and read the emails and make sure non of them are waiting for me to respond and I have sent the last email or the client said they&#39;d get back to me at a certain time in the future. It doesnt read my sent items unless I tell it to (this already is in the md file) and even then it doesnt seem to be able to understand the context of the email properly. I want it to read my inbox and sent items - understand where each client interaction is at and then give me a briefing highlighting the action items that are pending on my end and then update my notion crm (which is really just a db) with the latest info. It keeps wanting to add lost leads even though I marked them as lost in my crm and the emails clearly show that the communcation is over. Any suggestions on how to fix this? Maybe use a different mcp as this one? I&#39;d really like to keep it",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-04-27T09:47:10+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Claude can't really work with my Gmail anymore..",
+      "fetched_at": "2026-04-27T10:28:27.392234+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "ab6fee43681d",
       "title": "Anthropic's Claude Gets More Free Features as OpenAI Starts Showing Ads in ChatGPT - MacRumors",
@@ -126,7 +154,7 @@
       "key_insight": "having claude on your laptop isnt an ai system.",
       "fetched_at": "2026-04-24T09:16:53.682928+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "08f92f42ea86",
