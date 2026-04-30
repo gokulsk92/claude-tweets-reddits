@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-04-29T10:20:07.554639+00:00",
-  "total": 47,
+  "last_updated": "2026-04-30T10:20:45.390942+00:00",
+  "total": 49,
   "posts": [
+    {
+      "id": "a4a70821696d",
+      "title": "Entrepreneur says Claude 'killed' her marketing company, predicts AI-to-AI sales in future, 'They don't get charmed' - MSN",
+      "url": "https://news.google.com/rss/articles/CBMixwNBVV95cUxQeUNjTGw5cnIwa1F5b1hLYXNPWV9TZnZTZWJOZG9FeXdSV29JcEFoY0w1QUdPTnV0QThhY2FETGZRMV82LUVheHozeTNIYTU3XzVCOXdkd3F5OURoOXZBSHZQY1hPdUVmdnctMTR5UlFBQlpVM1JIQkZQSE5xa1VUakNJUjlKV1N1N0VuUE9pak95RjZhSmVhbjNBV0Z0V1Q0ZWlibExrZjFzYUM3YVBnc0xTVjFfNEZNcVRLSnF4S2ZNWHNkNndzZGxJLVJKY2FURWhkYnQyY0hGVnRjVl9sVFZaTGFvS2ZmQTJTTlZpV1VkT1NOYnlwVlJmbms2VUdEcjl2Z0ttaXpqYXVXLURUd1hGa1RKNVlRM0w3TmM3bXk2cUR1RjhyZ0lGUURfTHR6ZmFSdF9qd0loRHZ5VXpvMHpxLV9NWjR5V1Nab05CQlRzSjZuaE1MczNRMW9qVjl3QmNOWnV1VElxQWdmRmJtUjd5NXVQT1d2UWh0ak4zbXFiS2FzcmYxRENVSVZxNElYNThkUzRQakd6M3pwWGtFQVcxVmtVRG5yY1Aza0ZEZ0hocWJIU3NEM0t6X1AzbUcyT0pIRU50dw?oc=5",
+      "summary": "Entrepreneur says Claude 'killed' her marketing company, predicts AI-to-AI sales in future, 'They don't get charmed' MSN",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Thu, 23 Apr 2026 16:01:53 GMT",
+      "category": "Content & Campaigns",
+      "key_insight": "Entrepreneur says Claude 'killed' her marketing company, predicts AI-to-AI sales in future, 'They don't get charmed' - MSN.",
+      "fetched_at": "2026-04-30T10:20:40.188666+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "ea91bc7eff52",
+      "title": "[Android] Gravel Grinder: Tank Battle \u2013 Free casual tank shooter made with Claude Code (AI)",
+      "url": "https://www.reddit.com/r/playmygame/comments/1szrz2y/android_gravel_grinder_tank_battle_free_casual/",
+      "summary": "Game Title: Gravel Grinder: Tank Battle Playable Link: https://play.google.com/store/apps/details?id=com.neonarcade.gravelgrinder Platform: Android Description: Gravel Grinder: Tank Battle is a free casual top-down tank shooter for Android. You control a tank and fight through waves of enemy tanks on a gritty battlefield. The gameplay is simple but intense \u2014 dodge incoming bullets, aim carefully, and destroy as many enemies as you can before they take you down. The game features smooth touch controls designed for mobile, progressive difficulty as waves get harder, and a clean visual style. It&#39;s designed to be easy to pick up but hard to put down. Perfect for short gaming sessions on the go. Free to play with optional ads. Free to Play Status: \u2705 Free to play Involvement: Solo developer. Built the entire game using HTML5 Canvas + Kotlin WebView for Android. Used Claude Code (AI coding assistant) to help with development. &#32; submitted by &#32; /u/Terrible-Leather-522 &#32; to &#32;",
+      "source": "Reddit",
+      "source_label": "search.rss?q=Claude+AI+marketing+automation&sort=new",
+      "date": "2026-04-30T10:17:21+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "[Android] Gravel Grinder: Tank Battle \u2013 Free casual tank shooter made with Claude Code (AI)",
+      "fetched_at": "2026-04-30T10:20:36.709297+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "8f574b650cfe",
       "title": "Sam Altman slams Anthropic Super Bowl ads, which take jabs at OpenAI's advertising plans, as \u2018Clearly Dishonest\u2019 - MSN",
