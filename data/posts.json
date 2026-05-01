@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-04-30T10:20:45.390942+00:00",
-  "total": 49,
+  "last_updated": "2026-05-01T09:16:23.917368+00:00",
+  "total": 52,
   "posts": [
+    {
+      "id": "41b4ca7236af",
+      "title": "Why Lenny's podcast removed Austin Lau interview on YouTube?",
+      "url": "https://news.ycombinator.com/item?id=47969633",
+      "summary": "I remember it was a big hit, people were posting Anthropic&#x27;s entire growth marketing was run by 1 non-technical guy using Claude Code for 10 months . But now there&#x27;s nowhere to find it.",
+      "source": "Hacker News",
+      "source_label": "Hacker News",
+      "date": "2026-04-30T23:25:48Z",
+      "category": "Content & Campaigns",
+      "key_insight": "I remember it was a big hit, people were posting Anthropic&#x27;s entire growth marketing was run by 1 non-technical guy using Claude Code for 10 months ",
+      "fetched_at": "2026-05-01T09:16:22.252097+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "26d16331c804",
+      "title": "\u2018We don\u2019t know if the models are conscious\u2018 \u2014 Anthropic\u2019s CEO says he isn\u2019t sure if Claude AI is conscious and I can't help thinking it's a marketing flex - Yahoo Tech",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUTJReTNWeHo5MUR6NDk2dDBtVVV2Y3VGVGNTTVExaDdMQmNVUmV2WnV0U1lVX2NJb0k1ZFAwU3BaaXVYY2tnR01aQ2Fac3NVbHNPMXNhdTY0SmhPTEhtRWdTY1MyYmtlS2lsUmhrdUpJQ0RyS0NicTE0S0Q1V2ZrV21ORVNtVjczZGJJag?oc=5",
+      "summary": "\u2018We don\u2019t know if the models are conscious\u2018 \u2014 Anthropic\u2019s CEO says he isn\u2019t sure if Claude AI is conscious and I can't help thinking it's a marketing flex Yahoo Tech",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Fri, 27 Feb 2026 08:00:00 GMT",
+      "category": "Content & Campaigns",
+      "key_insight": "\u2018We don\u2019t know if the models are conscious\u2018 \u2014 Anthropic\u2019s CEO says he isn\u2019t sure if Claude AI is conscious and I can't help thinking it's a marketing flex - Yahoo Tech.",
+      "fetched_at": "2026-05-01T09:16:19.293122+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "556577c89bea",
+      "title": "Half of Google\u2019s and Amazon\u2019s blowout AI profits came from a stake in Anthropic\u2014not from their actual business",
+      "url": "https://www.reddit.com/r/Anthropic/comments/1t05igw/half_of_googles_and_amazons_blowout_ai_profits/",
+      "summary": "Four of the largest U.S. tech companies reported earnings Wednesday afternoon, confirming an AI capital expenditure build-out without modern precedent. Combined, they devoted $130.65 billion to capital expenditures in the first three months of 2026\u2014more than three times the inflation-adjusted cost of the Manhattan Project, in a single quarter. They plan to spend nearly $700 billion this year alone, as much as the U.S. government spends on Medicare. The headline profits suggest that the bet is paying off; Google parent Alphabet\u2019s profits jumped 81% to $62.6 billion last quarter, while Amazon Web Services delivered its fastest growth in 15 quarters. Yet a footnote in each company\u2019s earnings release tells a different story about the origins of these profits. Nearly half of Alphabet\u2019s record profit\u2014about $28.7 billion\u2014did not come from search ads, cloud services, or any of its products at all. It came from Alphabet updating the value of the equity it owns in private companies, primarily An",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-04-30T18:58:20+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Half of Google\u2019s and Amazon\u2019s blowout AI profits came from a stake in Anthropic\u2014not from their actual business.",
+      "fetched_at": "2026-05-01T09:16:14.153141+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "a4a70821696d",
       "title": "Entrepreneur says Claude 'killed' her marketing company, predicts AI-to-AI sales in future, 'They don't get charmed' - MSN",
@@ -56,7 +98,7 @@
       "key_insight": "The entire thing was built with Claude and Lovable",
       "fetched_at": "2026-04-29T10:19:54.425519+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "12905c626c8c",
@@ -322,7 +364,7 @@
       "key_insight": "Show HN: Open-Source GTM Skills for Claude Code, Codex, and Cursor.",
       "fetched_at": "2026-04-23T06:43:39.100313+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "5d320bb469e6",
