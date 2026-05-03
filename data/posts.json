@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-05-02T08:12:50.117751+00:00",
-  "total": 57,
+  "last_updated": "2026-05-03T08:28:27.618939+00:00",
+  "total": 58,
   "posts": [
+    {
+      "id": "b94cbcf751c5",
+      "title": "Claude agents for my branding and marketing",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t2dbmt/claude_agents_for_my_branding_and_marketing/",
+      "summary": "I&#39;d love some ideas on how to build a pipeline similar to this. Claude is giving me weird options like building artifacts, but I suppose this is built on code. So if i needed agents to do brand research, strategy, content, write newsletters and linkedin posts. Do I define rules in Skill.md and add them to a folder? I don&#39;t understand the system yet. Thank you! &#32; submitted by &#32; /u/Real_Goddess [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-05-03T06:10:27+00:00",
+      "category": "Content & Campaigns",
+      "key_insight": "Claude agents for my branding and marketing.",
+      "fetched_at": "2026-05-03T08:28:13.414676+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "b3c28936d8a9",
       "title": "ChatGPT vs Claude AI: Key Differences, Features & Use Cases - Blockchain Council",
