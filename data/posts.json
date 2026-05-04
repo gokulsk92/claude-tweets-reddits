@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-05-03T08:28:27.618939+00:00",
-  "total": 58,
+  "last_updated": "2026-05-04T10:28:28.593804+00:00",
+  "total": 60,
   "posts": [
+    {
+      "id": "27fe7326162f",
+      "title": "Any good repositories for Claude Chat skills?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t38jy2/any_good_repositories_for_claude_chat_skills/",
+      "summary": "I keep seeing people share GitHub repos for Claude Code skills, but almost nothing for Claude Chat. At work, I only use Claude Chat. No cowork, no Claude Code. My use cases are mostly marketing and business: copywriting, small HTML sections for our website, presentations, plus some SQL, DAX, and VBA. Are there any good repositories or collections of skills/prompts specifically for Claude Chat? Looking for something practical, not developer-focused. &#32; submitted by &#32; /u/BR_Hammurabi [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-05-04T05:28:08+00:00",
+      "category": "Content & Campaigns",
+      "key_insight": "Any good repositories for Claude Chat skills?.",
+      "fetched_at": "2026-05-04T10:28:07.466441+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "fb5b447ef142",
+      "title": "Used Claude Code to ship a native iOS puzzle game over a weekend, full breakdown",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t3alus/used_claude_code_to_ship_a_native_ios_puzzle_game/",
+      "summary": "Shipped this on the App Store using Claude Code over a few weekends. Sharing the breakdown since the workflow questions seem to come up here a lot. What it is A native iOS 2048 variant. Three board sizes (3\u00d73, 4\u00d74, 5\u00d75), Game Center leaderboards, shareable result cards. Free to download and free to play (banner ads with an optional one-time IAP to remove them - playable end-to-end without paying). App Store: https://apps.apple.com/us/app/2048-classic-number-puzzle/id6755170877 How Claude helped Scaffolded the entire game model: the move/merge/spawn pipeline, score and best-score tracking, one-level undo with state snapshots, Codable persistence to UserDefaults. Probably 60% of the actual code. Wrote the SwiftUI views for the tile grid, gesture handling, and the trickier bits - spring transitions on spawned tiles, direction-aware merge edges, the \u201c+N\u201d score chip that animates after each move. Did all the third-party integration: AdMob, RevenueCat for IAP, Game Center authentication and ",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-05-04T07:25:42+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "App Store: https://apps.apple.com/us/app/2048-classic-number-puzzle/id6755170877 How Claude helped Scaffolded the entire game model: the move/merge/spawn pipeline, score and best-score tracking, one-l",
+      "fetched_at": "2026-05-04T10:28:07.466106+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "b94cbcf751c5",
       "title": "Claude agents for my branding and marketing",
@@ -462,7 +490,7 @@
       "key_insight": "I gave a persistent AI agent (OpenClaw[1], running on Claude) $50 and a goal: earn $750 for a Mac Mini.",
       "fetched_at": "2026-04-23T06:43:39.099852+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "299dd9858267",
