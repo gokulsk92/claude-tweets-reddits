@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-05-05T09:31:10.587864+00:00",
-  "total": 63,
+  "last_updated": "2026-05-06T10:29:55.052526+00:00",
+  "total": 64,
   "posts": [
+    {
+      "id": "4607d6ed300b",
+      "title": "Claude AI for Affiliate Marketing Content (Safe Copy) - Blockchain Council",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRFQ2ZFFtQ2RrelNHNFNTWmt2UWh6S0VUNy1aR09reVcySjFDUVRNcFJ0M1Q2eEV2QjkwQzhlakk0RVhxNGZaZXpDUWtLOEpNNGxxNmRodTlTNFJMNHgyXzZGTnRjTTQzOXFaSmNoSVhBNkJ0VFRvUVRNNjA1cm9LYU9HbnRLV3NyUWI5SHN2Sl9Id3RYMHFhN1lfNUtrT3dIQ3MxQk9qUWFRem9nWG9IVHRiNlZ3Xy1nQXJaZjEzeHU1eVdTTlY0?oc=5",
+      "summary": "Claude AI for Affiliate Marketing Content (Safe Copy) Blockchain Council",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Fri, 27 Mar 2026 07:00:00 GMT",
+      "category": "Content & Campaigns",
+      "key_insight": "Claude AI for Affiliate Marketing Content (Safe Copy) - Blockchain Council.",
+      "fetched_at": "2026-05-06T10:29:50.822254+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "442a85fda487",
       "title": "Sam Altman slams Anthropic Super Bowl ads, which take jabs at OpenAI's advertising plans, as \u2018Clearly Dishonest\u2019 - MSN",
@@ -322,7 +336,7 @@
       "key_insight": "Claude Code can now watch videos...",
       "fetched_at": "2026-04-27T10:28:27.393600+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "51bcdf1f6dcd",
@@ -532,7 +546,7 @@
       "key_insight": "I gave a persistent AI agent (OpenClaw[1], running on Claude) $50 and a goal: earn $750 for a Mac Mini.",
       "fetched_at": "2026-04-23T06:43:39.099852+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "299dd9858267",
