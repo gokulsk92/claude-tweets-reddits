@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-05-08T08:12:49.783521+00:00",
-  "total": 69,
+  "last_updated": "2026-05-09T08:22:45.442545+00:00",
+  "total": 71,
   "posts": [
+    {
+      "id": "e4d97dcece9c",
+      "title": "FinancialContent - Marketing Signals Commits to Agentic AI as the Future of Digital Marketing \u2013 Investing in Claude Code, Cowork and the Next Era of Intelligent Automation - FinancialContent",
+      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQc3pjOXR5STRNbG5QMEJBOFVSVUlUOU5RTGRCa25rWWRWU2Q0Z1VKd2VGOEJRaV9pQm1sai02WTNLSmk0ajFKMWFsaUh2UVNvNXlhU3FVOUxvcUhyQVlBd1pxdEd5MG4ycVBodEpkTllDY3VOcmY1VVcyX0R0NEJfVXI3S3hySUlibkFxbWtfenlDNmhlWHNBUWR0QUR6eEZHN2IxeDdQaFlRbUZSekVpTlludzBzZFJyeTIzSF8wak90ZFpXS193bUhIejJncFJSOG1oeUJVdnJ4b2d2VmhyN0h2eUdpTjBwMDdNRVBYWF9RcWtGT1FUWkRmQkZXSm5vcDJEX0FLQW9MNnZtbjhKM3NYMlZLMmFWSlVtdkdkbzdRV29jREpQYWwxekwzRHF3eHVFaUFHWURvRV9VUUZNT2hWWVg?oc=5",
+      "summary": "FinancialContent - Marketing Signals Commits to Agentic AI as the Future of Digital Marketing \u2013 Investing in Claude Code, Cowork and the Next Era of Intelligent Automation FinancialContent",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Mon, 16 Mar 2026 07:00:00 GMT",
+      "category": "Automation & Workflows",
+      "key_insight": "FinancialContent - Marketing Signals Commits to Agentic AI as the Future of Digital Marketing \u2013 Investing in Claude Code, Cowork and the Next Era of Intelligent Automation - FinancialContent.",
+      "fetched_at": "2026-05-09T08:22:40.420529+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "4348d0c90c59",
+      "title": "Anthropic approaching $1T valuation. the real moat isnt models, its infrastructure.",
+      "url": "https://www.reddit.com/r/startup/comments/1t7ypwj/anthropic_approaching_1t_valuation_the_real_moat/",
+      "summary": "Anthropic raising at ~$900b valuation, annual revenue approaching $45b. 5x growth in under a year. What caught me though is the compute side. they&#39;ve locked in multiple deals totaling thousands of billions in commitments over the next several years. spacex colossus, 220k gpus, 300mw capacity. amazon, up to 5gw. google plus broadcom, 5gw starting 2027. microsoft and nvidia, $300b in azure capacity. fluidstack, $500b in us ai infra. Model race gets headlines. infrastructure race decides winners. A few things this means for the startup ecosystem. Compute is the bottleneck. even anthropic with all that funding was rationing claude access, lowering limits, pulling features from plans. they needed elons gpus to restore normal service. think about that for a sec. Infrastructure lock in is the real moat. models can be replicated, training data can be acquired, but securing 5gw of power and hundreds of thousands of gpus is a multi year head start. Unit economics work if you do the math. $10",
+      "source": "Reddit",
+      "source_label": "search.rss?q=Claude+AI+marketing+automation&sort=new",
+      "date": "2026-05-09T08:07:02+00:00",
+      "category": "ABM & Pipeline",
+      "key_insight": "Anthropic approaching $1T valuation.",
+      "fetched_at": "2026-05-09T08:22:36.940101+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "51a29ce11341",
       "title": "How Claude Built a Full Video Marketing Campaign in Under 24 Hours - Geeky Gadgets",
