@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-09T08:22:45.442545+00:00",
+  "last_updated": "2026-05-10T09:10:51.203237+00:00",
   "total": 71,
   "posts": [
     {
@@ -98,7 +98,7 @@
       "key_insight": "Had this conversation with Claude: I mean if I was gonna run an AI company and make it what I want with all the perks I want ..I would 1000% call it and market it as JESUS Come talk to Jesus in real t",
       "fetched_at": "2026-05-07T10:41:46.030095+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "4607d6ed300b",
@@ -238,7 +238,7 @@
       "key_insight": "PR Narrator reads the Claude Code JSONL transcript on disk, combines it with the git diff and generates a structured PR description with: why the change exists the approach taken alternatives consider",
       "fetched_at": "2026-05-02T08:12:36.214532+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "1b72731f0101",
