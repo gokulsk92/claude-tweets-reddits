@@ -1,7 +1,63 @@
 {
-  "last_updated": "2026-05-11T12:48:51.786007+00:00",
-  "total": 74,
+  "last_updated": "2026-05-12T11:07:27.043142+00:00",
+  "total": 78,
   "posts": [
+    {
+      "id": "f36c0ea52dd9",
+      "title": "Anthropic Claude Mythos2 Preview Model: Implications for Digital Marketing, SEO, Brand Safety, and Enterprise AI - ALM Corp",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DdFp0aVFBMEU1UlA5aUp3VzRZeVJYODdCVTl3Ym1hQlItLUViY3RJZENoTkxjN080OVdEc3VHanRfWUZuMGhIanRJalFHUk8tcDVMaXV0MzV5QllNZUVZelJjZVBBLTRTN2U5UEViM282TU56S0tsX1A3Y2Z2dWs?oc=5",
+      "summary": "Anthropic Claude Mythos2 Preview Model: Implications for Digital Marketing, SEO, Brand Safety, and Enterprise AI ALM Corp",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Sat, 11 Apr 2026 07:00:00 GMT",
+      "category": "Content & Campaigns",
+      "key_insight": "Anthropic Claude Mythos2 Preview Model: Implications for Digital Marketing, SEO, Brand Safety, and Enterprise AI - ALM Corp.",
+      "fetched_at": "2026-05-12T11:07:21.700163+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "c06bbc7face6",
+      "title": "The Next Mar Tech Stack: Where Claude AI Fits in Modern Marketing Ecosystems - MediaNews4U",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUmhEQTV0RW5Pb3pLeGZwZmtnZkxUYTBnWjJCemh3ZVo2WFJVd3E5czVPc1J6dVdjWl9iUlF3Y2h4TlVfX2V4Y045ZkJEdVpiTUdpamNJRjUyMGlUc3pna1B6aTZUWHpJVmc4bk5JcC1IQkk4X1pGTjFPcTRISGdjSS1xQjRTX1ZfNTRmMTVEUTNjUEJVU0p1UHVBYmMxb3JrZnVrUUtWaw?oc=5",
+      "summary": "The Next Mar Tech Stack: Where Claude AI Fits in Modern Marketing Ecosystems MediaNews4U",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Tue, 12 May 2026 06:00:22 GMT",
+      "category": "Content & Campaigns",
+      "key_insight": "The Next Mar Tech Stack: Where Claude AI Fits in Modern Marketing Ecosystems - MediaNews4U.",
+      "fetched_at": "2026-05-12T11:07:21.698579+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "977e92deacb7",
+      "title": "I accidentally developed a reusable Claude workflow for solo founder content marketing",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1taurph/i_accidentally_developed_a_reusable_claude/",
+      "summary": "A few months ago I was a traditional magazine editor with zero coding background. This year I somehow ended up building and launching my first iOS app using Claude and Claude Code. One thing I didn\u2019t expect was that solo founder content marketing would become mentally harder than coding itself. Every platform requires a completely different storytelling style. TikTok wants emotional hooks, X wants compressed observations, LinkedIn wants professional reflection, Reddit punishes obvious promotion. It&#39;s a lot for one person trying to do everything. Today while talking to Claude about how fragmented this felt, as I was planning contents for later this week when I am out of the office. I realized I\u2019d unintentionally spent months developing a repeatable workflow for handling it. The workflow is basically this: you vomit write, dump raw founder thoughts, bugs, launch frustrations, product reflections, random emotional notes, then use Claude to restructure them into platform-specific forma",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-05-12T07:55:49+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "This year I somehow ended up building and launching my first iOS app using Claude and Claude Code",
+      "fetched_at": "2026-05-12T11:07:16.161341+00:00",
+      "skip": false,
+      "is_featured": true
+    },
+    {
+      "id": "dec6732818e0",
+      "title": "How on earth did Claude Opus 4.7 misspell its own subagent name??",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1taxf5o/how_on_earth_did_claude_opus_47_misspell_its_own/",
+      "summary": "https://preview.redd.it/za53lm1nmo0h1.png?width=1445 format=png auto=webp s=d733ad238623961ec22890d1fec4e684cc741d06 I was trying to get it to implement some integration tests, using Opus 4.7 Max, and it literally hallucinated a typo for its own built-in agent general-puroise How can things like this even happen? &#32; submitted by &#32; /u/bigbigcloud [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-05-12T10:23:26+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "How on earth did Claude Opus 4.7 misspell its own subagent name??.",
+      "fetched_at": "2026-05-12T11:07:16.159286+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "c63b2b695b71",
       "title": "Manychat adds Claude AI to boost ecommerce automation - MSN",
@@ -140,7 +196,7 @@
       "key_insight": "Had this conversation with Claude: I mean if I was gonna run an AI company and make it what I want with all the perks I want ..I would 1000% call it and market it as JESUS Come talk to Jesus in real t",
       "fetched_at": "2026-05-07T10:41:46.030095+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "4607d6ed300b",
