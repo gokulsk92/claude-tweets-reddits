@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-05-12T11:07:27.043142+00:00",
-  "total": 78,
+  "last_updated": "2026-05-13T11:37:07.562181+00:00",
+  "total": 79,
   "posts": [
+    {
+      "id": "ee84142936fe",
+      "title": "Why Use Claude AI to Automate CI/CD Pipelines? - Blockchain Council",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMUR6UGFkdzA4VlVFamVTcFdvUWVKdDRSV3Eydm9kY0xNOFVmS1NhQ18zYUIwWXpwTGFOaWg5SC04WFNaelZ4dTdyN3dwc0FfYlVOWG9Ka1A0RXpvTUNIWkZDWnlZNEZMTzFseGZfM0lKTUwwWHhPZTdpOFVTN3NqWmxiQ09LSUF5aU1Zc3J6bHdxT194LTNha2J3?oc=5",
+      "summary": "Why Use Claude AI to Automate CI/CD Pipelines? Blockchain Council",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Tue, 12 May 2026 12:43:52 GMT",
+      "category": "Automation & Workflows",
+      "key_insight": "Why Use Claude AI to Automate CI/CD Pipelines?",
+      "fetched_at": "2026-05-13T11:37:02.181811+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "f36c0ea52dd9",
       "title": "Anthropic Claude Mythos2 Preview Model: Implications for Digital Marketing, SEO, Brand Safety, and Enterprise AI - ALM Corp",
