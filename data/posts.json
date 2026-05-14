@@ -1,7 +1,63 @@
 {
-  "last_updated": "2026-05-13T11:37:07.562181+00:00",
-  "total": 79,
+  "last_updated": "2026-05-14T11:05:02.662614+00:00",
+  "total": 83,
   "posts": [
+    {
+      "id": "e5190237bc3a",
+      "title": "Anthropic growth set to boost Amazon\u2019s AWS revenue acceleration, says Bank of America - Proactive financial news",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxObWNYTU5KOE41YVBQaWswb3VWZDU1cGNLSk52clVHSzlYMXJaM1F5dzdaRVc2NEFfRU9URFhKeDBRT1BuVXg5Q1hQSC1sQmlzeDVwZmY0YVItc0ZUT1JoUzJUNWVJYkJrcXZ2SF9qaEFpUFotSHhNVU1nbHV2UC1FeTk1c3R3OGIzS1AzWnBWLTlmMm1VZjVqdk0yWG5GT1BObTkxODNTVnZZWS0yeF9EMUdGUkJKQ2hqa1NrclBta2V0dVpXNWVWNmdwdXJzSXBSMmpEeDFZLXhKMG5BekIyYzgxanY5UjJjcERR?oc=5",
+      "summary": "Anthropic growth set to boost Amazon\u2019s AWS revenue acceleration, says Bank of America Proactive financial news",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Thu, 05 Mar 2026 08:00:00 GMT",
+      "category": "ABM & Pipeline",
+      "key_insight": "Anthropic growth set to boost Amazon\u2019s AWS revenue acceleration, says Bank of America - Proactive financial news.",
+      "fetched_at": "2026-05-14T11:04:59.779271+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "73fee9f2cb04",
+      "title": "Anthropic\u2019s B2B campaign \u2018Keep Thinking\u2019 looked at problems as invitations - Ad Age",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMGtqTHU3eU8xbjFFcWpzRTg0VTkwOG9SS05kem9GaEZCRWJRVkFVU1YxRWZ2NkJtTWdGYmNjMnphTEVIaTJTWHF5N2IxNmx5UFBCVmxpOXk4dVluV3lNVjZUcGpuNU5rZEJwNVZ0Z3ZkajhoWHFCeHhOMDBfQWttbWp3NUhVcjFOQXRPX0FFR0plMFliYVBMcVhGcktZQW9YLXEwdUpjZw?oc=5",
+      "summary": "Anthropic\u2019s B2B campaign \u2018Keep Thinking\u2019 looked at problems as invitations Ad Age",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Mon, 20 Apr 2026 07:00:00 GMT",
+      "category": "Content & Campaigns",
+      "key_insight": "Anthropic\u2019s B2B campaign \u2018Keep Thinking\u2019 looked at problems as invitations - Ad Age.",
+      "fetched_at": "2026-05-14T11:04:58.560427+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "9d67fbf01300",
+      "title": "Anthropic has released 'Claude for Small Business,' a tool that automates business analytics, advertising campaigns, bookkeeping, and more. - GIGAZINE",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE56TmlVMEdZOE5XS1pDTkYzTnVVR0NrUThhTk5peWpKSlNsOHYzaXpKdEJuWXgxQlJ1S01oY3JpVGlUVE5jeVlNUWJfaEQzMmNualFseFJBN0llWnpvOXdvbzNzS2d0NG4xLV83ZFpKVFlUbnYwa2JZ?oc=5",
+      "summary": "Anthropic has released 'Claude for Small Business,' a tool that automates business analytics, advertising campaigns, bookkeeping, and more. GIGAZINE",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Thu, 14 May 2026 04:16:00 GMT",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Anthropic has released 'Claude for Small Business,' a tool that automates business analytics, advertising campaigns, bookkeeping, and more.",
+      "fetched_at": "2026-05-14T11:04:58.559796+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "645bab33c010",
+      "title": "Is there any place that collects open source Claude projects?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tcrto4/is_there_any_place_that_collects_open_source/",
+      "summary": "Recently I came across a post where people were sharing things they built with Claude, and honestly some of them were really cool. Small productivity apps, HTML tools, automations, work helpers, stuff like that. A lot of it was from non-technical people too which made it even more interesting. It made me wonder if there\u2019s any actual place where people collect or share open source Claude projects. Right now everything feels scattered between random Reddit threads, GitHub repos, Discord servers, and Twitter posts. Would be nice if there was some kind of hub/community for discovering things people are building with Claude. &#32; submitted by &#32; /u/the_Asilbek [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-05-14T08:24:24+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Recently I came across a post where people were sharing things they built with Claude, and honestly some of them were really cool",
+      "fetched_at": "2026-05-14T11:04:50.951018+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "ee84142936fe",
       "title": "Why Use Claude AI to Automate CI/CD Pipelines? - Blockchain Council",
@@ -56,7 +112,7 @@
       "key_insight": "This year I somehow ended up building and launching my first iOS app using Claude and Claude Code",
       "fetched_at": "2026-05-12T11:07:16.161341+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "dec6732818e0",
