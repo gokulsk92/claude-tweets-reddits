@@ -1,7 +1,91 @@
 {
-  "last_updated": "2026-05-14T11:05:02.662614+00:00",
-  "total": 83,
+  "last_updated": "2026-05-15T11:08:24.375067+00:00",
+  "total": 89,
   "posts": [
+    {
+      "id": "c04a6e621115",
+      "title": "GTM AI: The Best GTM Context Layer for Claude Code Apps Powered by ZoomInfo-Grade B2B Data - The Good Men Project",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdEdQSFF1RHQwTlRieUNHVVVlQzhLRlFwVGVJc2Y2QngzY09tcld2eWxlR0JvWG9Zb3VjYzJ4ZFJMaFcwdUxjUFc4T25sMWxOcnNFeVdjZHl5S3hBVVR0b1VXMFA0SkI5SWM3b3BLNzZWOE5FZENIeVJvZlNlM2FDZkNUQTg1Nm1UV21jUmNraklveXFtYmVlOUZsUmFfWlo2aTBfTmRSbUpwc1ZNWDZ5eXNaNW1KRWlZUGV2cnlvckxmdnk4ZThv?oc=5",
+      "summary": "GTM AI: The Best GTM Context Layer for Claude Code Apps Powered by ZoomInfo-Grade B2B Data The Good Men Project",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Fri, 15 May 2026 02:08:07 GMT",
+      "category": "Content & Campaigns",
+      "key_insight": "GTM AI: The Best GTM Context Layer for Claude Code Apps Powered by ZoomInfo-Grade B2B Data - The Good Men Project.",
+      "fetched_at": "2026-05-15T11:08:19.207453+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "270f7a684043",
+      "title": "Anthropic just launched a free plugin called Small Business.",
+      "url": "https://www.reddit.com/r/AIBlewMyMind/comments/1tdsxe0/anthropic_just_launched_a_free_plugin_called/",
+      "summary": "31 pre-built workflows that connect to QuickBooks, PayPal, HubSpot, Canva, and Docusign, across 6 categories: Finance, Business Pulse, Sales, Marketing, Customer Ops, and Legal/Tax/Hiring. &#32; submitted by &#32; /u/aiblewmymind &#32; to &#32; r/AIBlewMyMind [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "search.rss?q=Claude+AI+marketing+automation&sort=new",
+      "date": "2026-05-15T11:01:58+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "Anthropic just launched a free plugin called Small Business",
+      "fetched_at": "2026-05-15T11:08:15.750649+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "396bac0907fb",
+      "title": "Anthropic just launched a free plugin called Small Business",
+      "url": "https://www.reddit.com/r/claude/comments/1tdsz2r/anthropic_just_launched_a_free_plugin_called/",
+      "summary": "31 pre-built workflows that connect to QuickBooks, PayPal, HubSpot, Canva, and Docusign, across 6 categories: Finance, Business Pulse, Sales, Marketing, Customer Ops, and Legal/Tax/Hiring. &#32; submitted by &#32; /u/aiblewmymind &#32; to &#32; r/claude [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "search.rss?q=Claude+AI+marketing+automation&sort=new",
+      "date": "2026-05-15T11:04:10+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "Anthropic just launched a free plugin called Small Business",
+      "fetched_at": "2026-05-15T11:08:15.749469+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "be83cee024ce",
+      "title": "Passing a user-uploaded file from Claude.ai chat to an MCP connector tool",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tdmwar/passing_a_useruploaded_file_from_claudeai_chat_to/",
+      "summary": "I&#39;ve set up an MCP connector for Claude.ai , and I want one of my tool&#39;s input parameters to receive a file that the user has uploaded directly into the Claude chat \u2014 ideally as a file URL or some kind of reference the connector can resolve on its end. For context, this is straightforward to do in ChatGPT&#39;s app/MCP integration by declaring the parameter as a file input in the tool metadata, e.g.: openai/fileParams : [ file_0 , file_1 , file_2 ] With that in place, ChatGPT automatically passes a file_id + download_url for any file the user uploaded, so the connector can fetch the bytes directly. Is there an equivalent mechanism in Claude.ai? Specifically, when a user uploads a file in the chat, is there any way for an MCP tool to receive a reference (URL, file ID, or similar) that the connector backend can use to retrieve the actual file content \u2014 without having to pass the entire file as a base64 string in the tool arguments (which breaks for anything larger than a few MB d",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-05-15T05:33:49+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Passing a user-uploaded file from Claude.ai chat to an MCP connector tool.",
+      "fetched_at": "2026-05-15T11:08:12.421418+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "3d2fdb92e182",
+      "title": "Idk how to code but I built my entire prospecting stack with Claude Code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tdo9c0/idk_how_to_code_but_i_built_my_entire_prospecting/",
+      "summary": "I cant code at all. But i spent about a few hours over a weekend building a full outbound prospecting system with Claude Code and a couple of APIs. It replaced a very manual set up we had with multiple tools. Sharing the workflow because i think more people should know this is possible now without an engineering team. The setup: i have ICP criteria saved in a local text file on my desktop. Industry, headcount range, funding stage, target personas, the usual. Claude Code reads that file as context for everything it does. The workflow: Company search. Claude Code hits a data API with my ICP filters and pulls back matching companies. Headcount, funding, tech stack, hiring signals, all structured. I was using Exa before for web search but the data wasnt structured enough for this. People search within those companies. Filtered by persona, so i&#39;m only pulling Directors of Sales, Heads of Revenue, VP Marketing, whatever matches my buyer. Contact enrichment. Emails and phones through a wa",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-05-15T06:46:22+00:00",
+      "category": "ABM & Pipeline",
+      "key_insight": "Idk how to code but I built my entire prospecting stack with Claude Code.",
+      "fetched_at": "2026-05-15T11:08:12.421100+00:00",
+      "skip": false,
+      "is_featured": true
+    },
+    {
+      "id": "9fe5704032d8",
+      "title": "Real Claude use cases that actually work for me daily what\u2019s working for you?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tdobtt/real_claude_use_cases_that_actually_work_for_me/",
+      "summary": "Been using Claude seriously for about a year now and wanted to share what\u2019s genuinely changed how I work before asking what\u2019s working for others. The one that surprised me most was building a weekly wellness check-in around it. I put together a detailed personal health protocol covering sleep, supplements, metabolic health, all of it and now I run a structured coaching session with Claude every week. It replaced hours of scattered reading and second-guessing. I also run a small AI newsletter. Claude handles the editorial heavy lifting across two weekly editions \u2014 story selection, making complex AI news readable for non-technical professionals, keeping a consistent voice. What used to take a full day now takes a fraction of that. And then there are the automations running quietly in the background daily market intel, news digests, a few monitoring workflows \u2014 all piped straight to where I actually check things. Set up once, runs itself. None of this is flashy. It\u2019s just stuff that works",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-05-15T06:50:08+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "Been using Claude seriously for about a year now and wanted to share what\u2019s genuinely changed how I work before asking what\u2019s working for others",
+      "fetched_at": "2026-05-15T11:08:12.420868+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "e5190237bc3a",
       "title": "Anthropic growth set to boost Amazon\u2019s AWS revenue acceleration, says Bank of America - Proactive financial news",
@@ -56,7 +140,7 @@
       "key_insight": "Recently I came across a post where people were sharing things they built with Claude, and honestly some of them were really cool",
       "fetched_at": "2026-05-14T11:04:50.951018+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "ee84142936fe",
@@ -322,7 +406,7 @@
       "key_insight": "Especially when the chat gets longer and longer, Claude starts to forget things, and I see how it compacts the discussion to free up memory",
       "fetched_at": "2026-05-05T09:30:56.107876+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "27fe7326162f",
