@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-05-16T08:29:30.579374+00:00",
-  "total": 90,
+  "last_updated": "2026-05-17T09:20:49.096455+00:00",
+  "total": 92,
   "posts": [
+    {
+      "id": "29727a3179ce",
+      "title": "I replicated Anthropic\u2019s Generator-Evaluator harness to build a website through 12 adversarial AI iterations - here\u2019s the result and what I learned",
+      "url": "https://www.reddit.com/r/Anthropic/comments/1tf73al/i_replicated_anthropics_generatorevaluator/",
+      "summary": "Anthropic recently published their harness design for long-running apps \u2014 a multi-agent architecture inspired by GANs where a Generator builds code and an Evaluator critiques it in a loop. I built my own version using Kiro CLI and used it to generate a marketing website for my project Mnemo (persistent memory for AI coding agents). The architecture: Planner (runs once) \u2192 Generator \u2194 Evaluator (12 iterations) Each agent is a separate CLI process with zero shared context. They communicate only through files (spec.md, eval-report.md). The Evaluator uses Playwright to actually browse the live site \u2014 not just read code. What made it work: Clean slate per invocation \u2014 each agent starts fresh, reads only its input files. Prevents context anxiety. Playwright MCP for testing \u2014 the evaluator navigates, clicks, resizes viewports. Catches visual bugs code review never would. Anthropic&#39;s frontend design skill \u2014 explicitly penalizes generic AI patterns (Inter font, purple gradients, card layouts",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-05-16T22:10:09+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "I replicated Anthropic\u2019s Generator-Evaluator harness to build a website through 12 adversarial AI iterations - here\u2019s the result and what I learned.",
+      "fetched_at": "2026-05-17T09:20:35.445212+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "58fabb63c8b8",
+      "title": "Building Expertise in Claude - Seeking Quality Learning Resources",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tfiagm/building_expertise_in_claude_seeking_quality/",
+      "summary": "Hi everyone, I&#39;m on a mission to become a serious expert in Claude and AI, and I&#39;m building a structured learning path. I want to create content that&#39;s actually valuable - with real practical applications, not surface-level tutorials. I&#39;m past the beginner stage and looking for: **Advanced Prompt Engineering** - Deep techniques, not just be specific **Practical Use Cases** - Real projects: content analysis, AI agents, automation, research tools **Advanced Features** - Vision, Function Calling, Multi-turn Conversations, RAG **Shortcuts Best Practices** - What actually works in production, not theory I&#39;ve already gone through: - Anthropic&#39;s official documentation - Basic prompt engineering guides **What I&#39;m specifically looking for:** - YouTube channels with *advanced* Claude tutorials (not intro stuff) - Courses or resources showing practical implementations - Builders/developers sharing real use cases - Content about Claude&#39;s strongest capabilities I&#39",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-05-17T07:14:10+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "I&#39;m past the beginner stage and looking for: **Advanced Prompt Engineering** - Deep techniques, not just be specific **Practical Use Cases** - Real projects: content analysis, AI agents, automatio",
+      "fetched_at": "2026-05-17T09:20:34.782542+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "c3ef86e7b1cc",
       "title": "Is claude's 20$ subscription truly worth it?",
