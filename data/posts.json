@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-05-17T09:20:49.096455+00:00",
-  "total": 92,
+  "last_updated": "2026-05-18T14:43:00.893813+00:00",
+  "total": 93,
   "posts": [
+    {
+      "id": "11b4d21870ba",
+      "title": "Should pay for Claude?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tgog3x/should_pay_for_claude/",
+      "summary": "Should I pay for Claude? I\u2019ll be honest, I only use ChatGPT for basic things like asking it for queries to do Google searches with Google dorks. But lately Instagram keeps showing me all the \u201cincredible\u201d things Claude can do. Automations, dashboards, code, images, agents\u2026 and I can honestly say I\u2019m getting FOMO. So I want to know if it would actually be useful for me. Right now I\u2019m not running a business yet, but I am interested in learning how to build automations and help businesses automate their processes. On top of that, I want to eventually open a call center and a marketing agency. So I want to know if it\u2019s worth it. What do you guys do with it? How has it helped you? What have you been able to do differently because of it? Please give me some clarity. I was thinking about paying for the Pro plan for now. And honestly, if I do pay for it, it\u2019s because I want to learn how to truly take advantage of Claude and eventually make money with it. &#32; submitted by &#32; /u/blackmonarc ",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-05-18T14:32:25+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "Should pay for Claude?.",
+      "fetched_at": "2026-05-18T14:42:50.332740+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "29727a3179ce",
       "title": "I replicated Anthropic\u2019s Generator-Evaluator harness to build a website through 12 adversarial AI iterations - here\u2019s the result and what I learned",
