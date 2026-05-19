@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-05-18T14:43:00.893813+00:00",
-  "total": 93,
+  "last_updated": "2026-05-19T13:45:37.812615+00:00",
+  "total": 94,
   "posts": [
+    {
+      "id": "86f663880a34",
+      "title": "I open-sourced the content SEO pipeline I run entirely in Claude Code \u2014 15 min/day, $0.45/post, real numbers inside",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1thkf7p/i_opensourced_the_content_seo_pipeline_i_run/",
+      "summary": "https://preview.redd.it/n0eypvqm032h1.png?width=2266 format=png auto=webp s=e7c83a8df3127463e71d37ae22dbeda9538453d3 I&#39;ve been running a content SEO/AEO operation through Claude Code for about a year and finally cleaned up the slash commands into something forkable. Sharing because the Claude Code crowd is the right audience for this pattern. The pipeline is 7 slash commands chained together. Each command is a markdown file in .claude/commands/ with a strict role + output contract \u2014 Claude reads pipeline.yaml for state, runs one step, pauses at a human gate, and updates the state file. Stateless re-entry, so I can stop mid-post and pick up next day with /seo-daily. The flow: /seo-research (Perplexity Deep Research API, ~$0.45/post) \u2192 /seo-brief \u2192 /seo-write \u2192 /seo-optimize (10-check scorecard) \u2192 /seo-publish (Sanity HTTP API \u2192 IndexNow ping). 4 human gates so I keep judgment over angle, brief, copy, and publish decision. One brand I run this for: 131 \u2192 964 avg impressions/day in 12",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-05-19T11:45:52+00:00",
+      "category": "Content & Campaigns",
+      "key_insight": "I open-sourced the content SEO pipeline I run entirely in Claude Code \u2014 15 min/day, $0.45/post, real numbers inside.",
+      "fetched_at": "2026-05-19T13:45:23.159642+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "11b4d21870ba",
       "title": "Should pay for Claude?",
