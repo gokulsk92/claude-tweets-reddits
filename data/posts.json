@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-05-20T12:10:25.598143+00:00",
-  "total": 94,
+  "last_updated": "2026-05-21T13:51:07.626982+00:00",
+  "total": 96,
   "posts": [
+    {
+      "id": "fb360109ad8c",
+      "title": "Claude AI Statistics (2026) \u2013 Active Users, Revenue & Growth - DemandSage",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5FeVBua29OcjFhdC15MVZoa0hZOVVqcFNBNWV3aVl0bVdCWk5VMzlrMW9yY0FuMTg1emRGbE5kbm5VUWZETkIwRDFxMmF1aFA5aDlOek1UTmtWa25G?oc=5",
+      "summary": "Claude AI Statistics (2026) \u2013 Active Users, Revenue & Growth DemandSage",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Wed, 20 May 2026 05:17:10 GMT",
+      "category": "ABM & Pipeline",
+      "key_insight": "Claude AI Statistics (2026) \u2013 Active Users, Revenue & Growth - DemandSage.",
+      "fetched_at": "2026-05-21T13:51:04.312439+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "1ee1baaf6643",
+      "title": "I had 500+ Claude Code skills installed and no idea what any of them did \u2014 so I built a free system to organize them all.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tjj24s/i_had_500_claude_code_skills_installed_and_no/",
+      "summary": "https://preview.redd.it/2kzo0n2wih2h1.png?width=1200 format=png auto=webp s=50c6742b9329a8cbb4ad79aee0f9ceb0f4c89ff2 Like a lot of you, I went a bit overboard installing Claude Code skills, agents, and MCP servers. Eventually I had hundreds and completely lost the plot \u2014 I didn&#39;t know what was active, what would fire for a task, or whether I&#39;d installed three things that did the same job. Adding more tools had actually made me slower. So I built Claude Orchestra \u2014 a free, open-source layer that organizes your whole setup into themed orchestras (BUILD, DESIGN, RESEARCH, MARKETING, etc.). Each has one conductor that leads it, and a hook routes every prompt to the right orchestra and announces what fired: \ud83c\udfbc BUILD active \u00b7 Conductor: architect \u00b7 Using: code-reviewer, debugger No more guessing. You always see what&#39;s playing. Important bit: it does NOT bundle anyone&#39;s skills. It organizes the ones you install and links to the originals. Two reasons \u2014 redistributing other peop",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-05-21T12:30:48+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "I had 500+ Claude Code skills installed and no idea what any of them did \u2014 so I built a free system to organize them all..",
+      "fetched_at": "2026-05-21T13:50:56.270263+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "86f663880a34",
       "title": "I open-sourced the content SEO pipeline I run entirely in Claude Code \u2014 15 min/day, $0.45/post, real numbers inside",
