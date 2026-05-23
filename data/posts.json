@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-05-22T06:30:55.176784+00:00",
-  "total": 97,
+  "last_updated": "2026-05-23T05:51:20.226817+00:00",
+  "total": 98,
   "posts": [
+    {
+      "id": "967c8dfee8bc",
+      "title": "Building a retirement drawdown calculator using Claude AI",
+      "url": "https://www.reddit.com/r/UKPersonalFinance/comments/1tl777y/building_a_retirement_drawdown_calculator_using/",
+      "summary": "Hi there everyone, i&#39;ve been experimenting with Claude AI as a non-coder to see what it can come up with. I&#39;ve produced the following, i&#39;d be interested in people&#39;s feedback. It&#39;s not taken that long, maybe 4-5 hours total. Obviously this is not a financial advice tool. just an indicative calculator. I haven&#39;t had chance to test the maths well yet. If you paste the following prompt into Claude it will produce it for you: Build me a single self-contained HTML file (all CSS and JavaScript inline, no external libraries) that is a retirement income planner. It must be mobile-responsive and installable as a home screen web app (PWA) on iPhone and Android. DESIGN Colour scheme: ecclesiastical purple \u2014 dark #2d1b45 , mid #4a2d6e , light #7b4fa6 , pale #d4c5e8 \u2014 with gold accents #c9a84c / #e8cc6e and cream background #f5f0e8 CSS variables in :root : --ff-serif: &#39;Playfair Display&#39;, Georgia and --ff-body: &#39;EB Garamond&#39;, Georgia \u2014 use these throughout inst",
+      "source": "Reddit",
+      "source_label": "search.rss?q=Claude+AI+sales+pipeline&sort=new",
+      "date": "2026-05-23T05:18:49+00:00",
+      "category": "Content & Campaigns",
+      "key_insight": "Building a retirement drawdown calculator using Claude AI",
+      "fetched_at": "2026-05-23T05:51:12.732532+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "75c318cf397e",
       "title": "Spy-code: a local codebase graph tool for Claude AI coding workflows",
@@ -182,7 +196,7 @@
       "key_insight": "Idk how to code but I built my entire prospecting stack with Claude Code.",
       "fetched_at": "2026-05-15T11:08:12.421100+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "9fe5704032d8",
