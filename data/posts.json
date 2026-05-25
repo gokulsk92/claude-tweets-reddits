@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-05-24T06:14:31.974984+00:00",
-  "total": 99,
+  "last_updated": "2026-05-25T06:51:34.769862+00:00",
+  "total": 101,
   "posts": [
+    {
+      "id": "1eaa5a377fa7",
+      "title": "Klaviyo (KVYO) Valuation Check As Expanded Anthropic Claude Integration Targets Broader AI Marketing Adoption - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbGZCMHJlbXJ1djg5VHlfb0J3aWl5eDk3NXBPSGxLdFNlSUNaZ3BCZDRDNmVNY1VQZHVoNmtwekhjd2h2b0pwUDZGMmtOSjFVX2JSYXlKYk16U19STWFpZ0lpUlJYOUNtTWFRMGZwUFp1VVRjc19KYUx3ZVgzZWNfUXhSbHVNQTFWTHBOUXZvQmZIYjNXX0xSMjJxd3lRNktDN2dNNQ?oc=5",
+      "summary": "Klaviyo (KVYO) Valuation Check As Expanded Anthropic Claude Integration Targets Broader AI Marketing Adoption Yahoo Finance",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Sun, 24 May 2026 07:09:56 GMT",
+      "category": "Automation & Workflows",
+      "key_insight": "Klaviyo (KVYO) Valuation Check As Expanded Anthropic Claude Integration Targets Broader AI Marketing Adoption - Yahoo Finance.",
+      "fetched_at": "2026-05-25T06:51:29.288345+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "aa38d4652b17",
+      "title": "I used Claude to help me build an Apple Watch app to track caffeine half life decay and it\u2019s gotten 2000 downloads and made $600 in revenue so far",
+      "url": "https://www.reddit.com/r/Anthropic/comments/1tmb4i3/i_used_claude_to_help_me_build_an_apple_watch_app/",
+      "summary": "&#32; submitted by &#32; /u/pythononrailz [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-05-24T12:40:47+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "I used Claude to help me build an Apple Watch app to track caffeine half life decay and it\u2019s gotten 2000 downloads and made $600 in revenue so far",
+      "fetched_at": "2026-05-25T06:51:21.314226+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "f4329535d39b",
       "title": "How are the Claude Code marketing nerds doing it?",
@@ -546,7 +574,7 @@
       "key_insight": "Especially when the chat gets longer and longer, Claude starts to forget things, and I see how it compacts the discussion to free up memory",
       "fetched_at": "2026-05-05T09:30:56.107876+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "27fe7326162f",
@@ -1036,7 +1064,7 @@
       "key_insight": "I gave a persistent AI agent (OpenClaw[1], running on Claude) $50 and a goal: earn $750 for a Mac Mini.",
       "fetched_at": "2026-04-23T06:43:39.099852+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "299dd9858267",
