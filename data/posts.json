@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-05-26T06:30:34.577670+00:00",
-  "total": 104,
+  "last_updated": "2026-05-27T06:44:26.960139+00:00",
+  "total": 106,
   "posts": [
+    {
+      "id": "79dee55f05a1",
+      "title": "How much does Claude Opus 4.7 actually cost Anthropic per 1M tokens?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1topmx8/how_much_does_claude_opus_47_actually_cost/",
+      "summary": "- Estimate: 1M input tokens cost: ~$0.50 1M output tokens cost: ~$2.50 Inference cost: ~$3.00 - Training amortization: ~$1B training/post-training/evals ~1 quadrillion lifetime tokens served ~$1.00 per 1M tokens - Total cost: ~$4-5 per 1M input+output tokens - Revenue: $5 per 1M input $25 per 1M output ~$30 revenue per 1M input+output tokens Estimated gross margin: ~83-87% - Method: Started from Opus 4.7 pricing ($5 input, $25 output per 1M tokens) Assumed output tokens are ~5\u00d7 more expensive than input tokens due to sequential generation Estimated large-scale GPU clusters operate at high utilization with aggressive batching and caching Estimated inference cost at ~$0.50 per 1M input tokens and ~$2.50 per 1M output tokens Assumed ~$1B training/post-training cost Amortized training across ~1 quadrillion lifetime tokens served, adding ~$1 per 1M tokens - How did I arrive at these assumptions? The inference-cost estimates are based on industry discussions suggesting that frontier-model AP",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-05-27T00:35:55+00:00",
+      "category": "ABM & Pipeline",
+      "key_insight": "How much does Claude Opus 4.7 actually cost Anthropic per 1M tokens?.",
+      "fetched_at": "2026-05-27T06:44:16.495794+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "9b007eb5fafa",
+      "title": "Built a 5-stage agentic pipeline using Claude Code + MCP - here's what actually makes it reliable at scale",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1totd7r/built_a_5stage_agentic_pipeline_using_claude_code/",
+      "summary": "The thing nobody tells you about Claude Code + MCP workflows: the model is only as reliable as the instructions you give it before it touches any external tool. We learned this the hard way building a sales pipeline that connects Claude Code to Apollo via MCP. Claude would execute the right tools but in the wrong order, enriching contacts before the account research was scored, which in Apollo costs real credits. Expensive lesson. The fix wasn&#39;t better prompting. It was skill files - structured markdown documents that live in the project directory and tell Claude exactly what to call, in what order, what constraints apply, and what output format to return before moving to the next stage. Once every stage had its own skill file, the pipeline became auditable and consistent across runs. Five stages, each encoded as a skill: account sourcing \u2192 research + signal scoring \u2192 stakeholder mapping \u2192 tiered enrichment with cost controls \u2192 sequence drafting. Claude reads the skill, executes th",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-05-27T03:20:17+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Built a 5-stage agentic pipeline using Claude Code + MCP - here's what actually makes it reliable at scale",
+      "fetched_at": "2026-05-27T06:44:16.494898+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "2e83ba359d37",
       "title": "Why marketers are turning to ChatGPT and Claude to manage their e-commerce ads - Campaign Asia",
@@ -1386,7 +1414,7 @@
       "key_insight": "The early numbers from BNP Paribas: Anthropic saw an 11% jump in daily active users post-game, compared to 2.7% for ChatGPT and 1.4% for Gemini",
       "fetched_at": "2026-04-23T06:43:34.120649+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "218198e49bc6",
