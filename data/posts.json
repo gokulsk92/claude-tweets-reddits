@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-05-27T06:44:26.960139+00:00",
-  "total": 106,
+  "last_updated": "2026-05-28T06:36:16.439059+00:00",
+  "total": 109,
   "posts": [
+    {
+      "id": "86c120f28208",
+      "title": "Sabrina Ramonov Shares How She Runs Her Solo Marketing Team with Claude AI and Blotato - The National Law Review",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOM1loajJGSS02ZkU0b1FieWU1N2xiODJZWFlIV2Qtc3p3aEp5cldMYlUycDZfSnBsTTNmVWpzXzZjMzF0dl9BQ21YellWZFplZmVKN21tcVRVZU52dElYN283cEhGOW1qYmJPNHZueC1JN1JhZmdsWDZreVlpTEJMMGJjUjU2ajlzRkR6ZGFxR1dlU3Bpd1hUbjdXU0tuMmJDNDJzaWFoMjZ2ZlZjcm5xdU5BQQ?oc=5",
+      "summary": "Sabrina Ramonov Shares How She Runs Her Solo Marketing Team with Claude AI and Blotato The National Law Review",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Tue, 21 Apr 2026 07:00:00 GMT",
+      "category": "Content & Campaigns",
+      "key_insight": "Sabrina Ramonov Shares How She Runs Her Solo Marketing Team with Claude AI and Blotato - The National Law Review.",
+      "fetched_at": "2026-05-28T06:36:11.521076+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "9ea52fd5b594",
+      "title": "How to use using Claude Code for link building?",
+      "url": "https://www.reddit.com/r/linkbuilding/comments/1tpv6cg/how_to_use_using_claude_code_for_link_building/",
+      "summary": "How to use Claude Code to build links today? Not talking about AI-written blog posts. I mean using Claude Code for: backlink prospecting guest post outreach digital PR journalist research finding link insertions qualifying domains automatically &#32; submitted by &#32; /u/Maleficent_Mud7141 &#32; to &#32; r/linkbuilding [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "search.rss?q=Claude+AI+sales+pipeline&sort=new",
+      "date": "2026-05-28T06:20:26+00:00",
+      "category": "ABM & Pipeline",
+      "key_insight": "I mean using Claude Code for: backlink prospecting guest post outreach digital PR journalist research finding link insertions qualifying domains automatically &#32; submitted by &#32; /u/Maleficent_Mu",
+      "fetched_at": "2026-05-28T06:36:10.207228+00:00",
+      "skip": false,
+      "is_featured": true
+    },
+    {
+      "id": "75899e7aec97",
+      "title": "Recommendations for Open Source Read/Write MCP for Claude?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tppr1f/recommendations_for_open_source_readwrite_mcp_for/",
+      "summary": "Hi all, In my research into an MCP for Google Ads for Claude, I&#39;m seeing a lot of app developers recommending their own products/apps. I&#39;d like to know what has the Reddit community tried and tested. I&#39;m not going to be a massive tasker with it, I&#39;m using Google for NonProfits and just want to get some ads live, but Google Ads is very complex and used to be the domain of agencies and freelancers to spend all day on it. My use case will be: Set up project in Claude (have experience) or use cowork (no experience) Task Claude with researching keywords based on page copy Claude to buid out ad template, create campaign and import ads from template I&#39;ll review before publishing I&#39;m also new to MCPs but can find my way through I&#39;m sure. Open to recommendations! Thanks Reddit. &#32; submitted by &#32; /u/imcaughtinatrap [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-05-28T01:57:23+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "My use case will be: Set up project in Claude (have experience) or use cowork (no experience) Task Claude with researching keywords based on page copy Claude to buid out ad template, create campaign a",
+      "fetched_at": "2026-05-28T06:36:03.861355+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "79dee55f05a1",
       "title": "How much does Claude Opus 4.7 actually cost Anthropic per 1M tokens?",
@@ -28,7 +70,7 @@
       "key_insight": "Built a 5-stage agentic pipeline using Claude Code + MCP - here's what actually makes it reliable at scale",
       "fetched_at": "2026-05-27T06:44:16.494898+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "2e83ba359d37",
@@ -644,7 +686,7 @@
       "key_insight": "Especially when the chat gets longer and longer, Claude starts to forget things, and I see how it compacts the discussion to free up memory",
       "fetched_at": "2026-05-05T09:30:56.107876+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "27fe7326162f",
