@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-05-28T06:36:16.439059+00:00",
-  "total": 109,
+  "last_updated": "2026-05-29T06:37:07.557387+00:00",
+  "total": 110,
   "posts": [
+    {
+      "id": "a2c0107584bf",
+      "title": "Need help in automating with Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tqnhqh/need_help_in_automating_with_claude/",
+      "summary": "Not sure if this is the right sub to post this on, but I\u2019m hoping to get some insights. I&#39;ve been using ChatGPT Projects (not anymore) and Gemini (specifically custom Gems) for about a year to draft client reports. I want to try shifting my setup over to Claude, but I need some help figuring out if my ideal automation is actually possible with Claude Cowork and/or Dispatch tools. As of now, I write client reports using a .md template. The report pulls data from three places for each job which I ALL MANUALLY extract: A web-based CRM/ They also have a local software that can be installed (this is a legacy system with no API or connectors). A PDF invoice showing the costs and details of works done. A raw text transcript of the client&#39;s story. Right now, I manually log into the CRM, copy the case details, download the invoice, and bundle them with the transcript. Then I upload them to a Gemini Gem to format the .md file. It works, but manually grabbing the CRM data is time-consumin",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-05-29T01:52:56+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "Need help in automating with Claude.",
+      "fetched_at": "2026-05-29T06:36:56.583381+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "86c120f28208",
       "title": "Sabrina Ramonov Shares How She Runs Her Solo Marketing Team with Claude AI and Blotato - The National Law Review",
