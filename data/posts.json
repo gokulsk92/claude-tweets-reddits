@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-05-29T06:37:07.557387+00:00",
-  "total": 110,
+  "last_updated": "2026-05-30T05:59:56.160392+00:00",
+  "total": 112,
   "posts": [
+    {
+      "id": "677c718dc46e",
+      "title": "Django launches JAG AI to help brands run marketing operations through Claude AI - MediaNews4U",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRlR2bDZYTnlESXFaQTBKNE5oUVFoWXlsSkduWnVvYWNOREs0R2JSMzA1MWliOVJtMlpMaWowY3BFazAwX1NvWXA0STNhTFp3MHQ1WjFGWURiM0tVcy1Fb1ljRlhqS0UwRFJiaFQyYU9fV2N3dDVaMGVBQzI1VVp2Q05XamFBMjFaR0dJdzVWQmRkeElzRlQ2MTQ5V0VHWUcySUhCZG5oc0tYd1doMFE?oc=5",
+      "summary": "Django launches JAG AI to help brands run marketing operations through Claude AI MediaNews4U",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Fri, 29 May 2026 10:38:11 GMT",
+      "category": "Content & Campaigns",
+      "key_insight": "Django launches JAG AI to help brands run marketing operations through Claude AI - MediaNews4U.",
+      "fetched_at": "2026-05-30T05:59:51.683684+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "f2ec3a9916c5",
+      "title": "Stop waiting for the Anthropic IPO. A deep-dive into the ZM / SKM \"Proxy Barbell\" trade",
+      "url": "https://www.reddit.com/r/Anthropic/comments/1tqxt1c/stop_waiting_for_the_anthropic_ipo_a_deepdive/",
+      "summary": "The Problem: Anthropic (Claude) is capturing massive enterprise market share, but it&#39;s completely locked away in the private markets. Retail investors are stuck on the sidelines waiting for an IPO. A Solution: We don&#39;t need to wait. Several public companies hold massive equity stakes in Anthropic. I hunted down every public company with a confirmed strategic stake in Anthropic and ranked them not by the size of the stake, but by Anthropic Stake Value as a % of the Public Company&#39;s Market Cap. Why this metric matters? If a company owns $5B of Anthropic but is worth $2 Trillion, an Anthropic valuation surge won&#39;t move their stock needle. We want capital allocation efficiency. Anthropic shareholders: - Alphabet (GOOGL) Amazon (AMZN): Huge absolute stakes ($100B+), but it only represents ~3% to 4% of their massive market caps. - Salesforce (CRM): Decent mid-tier exposure at ~6% of market cap. - SK Telecom (SKM): Massive asymmetry. Exposure represents ~20% of market cap. - Z",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-05-29T10:36:25+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "I hunted down every public company with a confirmed strategic stake in Anthropic and ranked them not by the size of the stake, but by Anthropic Stake Value as a % of the Public Company&#39;s Market Ca",
+      "fetched_at": "2026-05-30T05:59:46.907047+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "a2c0107584bf",
       "title": "Need help in automating with Claude",
@@ -56,7 +84,7 @@
       "key_insight": "My use case will be: Set up project in Claude (have experience) or use cowork (no experience) Task Claude with researching keywords based on page copy Claude to buid out ad template, create campaign a",
       "fetched_at": "2026-05-28T06:36:03.861355+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "79dee55f05a1",
