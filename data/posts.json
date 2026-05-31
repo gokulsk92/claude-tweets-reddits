@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-05-30T05:59:56.160392+00:00",
-  "total": 112,
+  "last_updated": "2026-05-31T06:39:10.678465+00:00",
+  "total": 114,
   "posts": [
+    {
+      "id": "027ed3ac0d5e",
+      "title": "Anthropic has officially become the world's most valuable AI startup after raising $65 billion at a reported $965 billion valuation, surpassing OpenAI's $852 billion valuation from March.",
+      "url": "https://www.reddit.com/r/digital_marketing/comments/1ts5bo8/anthropic_has_officially_become_the_worlds_most/",
+      "summary": "The funding round was led by major investors including Sequoia, Altimeter, Dragoneer, and Greenoaks, while also incorporating billions in previous commitments from hyperscalers such as Amazon. The company&#39;s growth has been fueled by enterprise adoption. Anthropic&#39;s annual revenue run rate reportedly climbed from $9 billion last year to $47 billion this month, driven largely by demand for products like Claude Code and Cowork. Alongside the funding announcement, Anthropic unveiled Claude Opus 4.8. According to the company, the model outperforms OpenAI&#39;s GPT-5.5 and Google&#39;s Gemini 3.1 Pro across several AI benchmarks, including agentic coding, financial analysis, and computer-use tasks. The company is now racing toward a potential IPO in what could become one of the most anticipated public offerings in the AI industry. At the same time, Anthropic continues to face political controversy after CEO Dario Amodei opposed the use of Claude for mass surveillance of Americans and",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-05-30T17:02:02+00:00",
+      "category": "ABM & Pipeline",
+      "key_insight": "Anthropic has officially become the world's most valuable AI startup after raising $65 billion at a reported $965 billion valuation, surpassing OpenAI's $852 billion valuation from March..",
+      "fetched_at": "2026-05-31T06:38:59.718662+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "8087e3dfdd11",
+      "title": "Claude Cowork & Meta/Google Ads",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tsm24i/claude_cowork_metagoogle_ads/",
+      "summary": "Somewhat new to AI. I\u2019ve been working on Cowork the last few weeks on my wife\u2019s wedding photography business. Her old website was a slightly modified Squarespace template that was out of date, terrible seo, no AEO, and just, needed to go. She worked with a branding company and has a great brand, fonts/colors/styling, and I fed that to a project and have been working on a full redesign on Wordpress that is almost ready to launch. Fully SEO/AEO optimized and all that. Now I\u2019ve had Cowork (in the same project) help me plan a marketing launch for the new site, and addition to a content plan for organic posts, we\u2019ve built out a $30/day paid ads plan for Meta/Google. Has anyone got connected to Google and/or Meta through Cowork? I know Meta has an MCP Server but haven\u2019t dove into that yet. I want something that from my Claude Cowork project, I can ask it how the ads are performing relative to our plan, create/edit campaigns and ads, and adjust as needed according to the plan. &#32; submitted",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-05-31T05:15:29+00:00",
+      "category": "Content & Campaigns",
+      "key_insight": "Claude Cowork & Meta/Google Ads.",
+      "fetched_at": "2026-05-31T06:38:58.007933+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "677c718dc46e",
       "title": "Django launches JAG AI to help brands run marketing operations through Claude AI - MediaNews4U",
@@ -84,7 +112,7 @@
       "key_insight": "My use case will be: Set up project in Claude (have experience) or use cowork (no experience) Task Claude with researching keywords based on page copy Claude to buid out ad template, create campaign a",
       "fetched_at": "2026-05-28T06:36:03.861355+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "79dee55f05a1",
@@ -210,7 +238,7 @@
       "key_insight": "Building a retirement drawdown calculator using Claude AI",
       "fetched_at": "2026-05-23T05:51:12.732532+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "75c318cf397e",
