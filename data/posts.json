@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-05-31T06:39:10.678465+00:00",
-  "total": 114,
+  "last_updated": "2026-06-01T07:28:29.346269+00:00",
+  "total": 115,
   "posts": [
+    {
+      "id": "b5b8eddae82b",
+      "title": "Is anyone connecting AppsFlyer data to Claude through MCP?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ttgpv2/is_anyone_connecting_appsflyer_data_to_claude/",
+      "summary": "We\u2019re exploring whether anyone has connected AppsFlyer data to Claude through MCP for faster marketing analysis. Current setup is AppsFlyer to BigQuery to Looker dashboards, with some exports into Sheets for campaign reviews. What I\u2019d like is a Claude workflow where PMs/growth can ask things like which campaigns drove high-value users last week? or why did ROAS drop by geo? without waiting on analysts. Main concern is permissions, event naming and keeping Claude limited to approved aggregates instead of raw user-level data. Anyone tested this? &#32; submitted by &#32; /u/rhapka [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-06-01T03:53:47+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Is anyone connecting AppsFlyer data to Claude through MCP?.",
+      "fetched_at": "2026-06-01T07:28:07.944763+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "027ed3ac0d5e",
       "title": "Anthropic has officially become the world's most valuable AI startup after raising $65 billion at a reported $965 billion valuation, surpassing OpenAI's $852 billion valuation from March.",
