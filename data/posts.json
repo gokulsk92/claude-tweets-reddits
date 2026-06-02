@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-06-01T07:28:29.346269+00:00",
-  "total": 115,
+  "last_updated": "2026-06-02T07:07:18.656703+00:00",
+  "total": 116,
   "posts": [
+    {
+      "id": "93234189fdbf",
+      "title": "I built a free World Cup 2026 prediction game with Claude Code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tuikwk/i_built_a_free_world_cup_2026_prediction_game/",
+      "summary": "Hey everyone \ud83d\udc4b I&#39;m a solo developer, and over the last few weeks I&#39;ve been building predict.lt \u2014 a free prediction game for the FIFA World Cup 2026. The idea is simple: every tournament my friends and I run a messy prediction pool in a spreadsheet that someone always breaks. So I built the proper version of that. What it does: - Predict the score and first scorer for every match - Use weekly 2\u00d7 boosts on the games you feel sure about - Pick your champion for bonus points - Compete with friends in private groups, or on a global leaderboard - Works great on both desktop and mobile \u2014 each has its own tailored layout - 100% free \u2014 no ads, no betting, no in-app purchases It&#39;s live now on the web (desktop + mobile), and I&#39;m currently building native iOS and Android apps \u2014 coming soon. English version: https://predict.lt/en I&#39;d genuinely love feedback \u2014 on the scoring system, the knockout-stage rules, or anything that feels off. Happy to answer any questions about the buil",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-06-02T06:29:28+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "I built a free World Cup 2026 prediction game with Claude Code.",
+      "fetched_at": "2026-06-02T07:07:04.406835+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "b5b8eddae82b",
       "title": "Is anyone connecting AppsFlyer data to Claude through MCP?",
@@ -126,7 +140,7 @@
       "key_insight": "My use case will be: Set up project in Claude (have experience) or use cowork (no experience) Task Claude with researching keywords based on page copy Claude to buid out ad template, create campaign a",
       "fetched_at": "2026-05-28T06:36:03.861355+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "79dee55f05a1",
