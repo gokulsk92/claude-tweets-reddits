@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-06-03T07:21:11.693291+00:00",
-  "total": 117,
+  "last_updated": "2026-06-04T07:01:43.844038+00:00",
+  "total": 118,
   "posts": [
+    {
+      "id": "4addf7128101",
+      "title": "I tested Claude Opus 4.8 vs GPT-5.5 for research and writing against 5k+ notes in my personal knowledge base. Claude won for writing, GPT won for research. **This is not a gold standard or benchmark, just one human testing the models for real use cases.",
+      "url": "https://www.reddit.com/r/Anthropic/comments/1tvy9ju/i_tested_claude_opus_48_vs_gpt55_for_research_and/",
+      "summary": "With new AI models launching every other week, it&#39;s hard to stay on top of them and know what to use for what. They have benchmarks, but those tend to be really technical and hard to apply to everyday use. So I tested Claude Opus 4.8 vs GPT-5.5 head to head for research, writing, and recommendations, using a controlled knowledge base of 5,000+ saved notes in Recall. The post covers which model to use for research, which to use for writing, how to run the same experiment yourself, and the evaluation framework I used to score each model objectively. What I looked at: Which AI model to use for research (and why GPT-5.5 won this round) Which AI model to use for writing (and why Claude Opus 4.8 came out on top) How to decide what model to use for what across research, writing, and recommendations How to set up a fair, controlled comparison using your own knowledge base (Recall, Notion, or Obsidian) The 6-point evaluation framework I used (accuracy, relevance, completeness, clarity, inst",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-06-03T18:30:22+00:00",
+      "category": "Content & Campaigns",
+      "key_insight": "What I looked at: Which AI model to use for research (and why GPT-5.5 won this round) Which AI model to use for writing (and why Claude Opus 4.8 came out on top) How to decide what model to use for wh",
+      "fetched_at": "2026-06-04T07:01:32.814071+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "299b303c3836",
       "title": "Human + AI Creativity: Why Claude AI Is Marketing\u2019s Ultimate Co-Pilot - Adgully.com",
@@ -140,7 +154,7 @@
       "key_insight": "I mean using Claude Code for: backlink prospecting guest post outreach digital PR journalist research finding link insertions qualifying domains automatically &#32; submitted by &#32; /u/Maleficent_Mu",
       "fetched_at": "2026-05-28T06:36:10.207228+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "75899e7aec97",
