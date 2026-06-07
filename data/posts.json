@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-06T06:06:42.796963+00:00",
+  "last_updated": "2026-06-07T06:47:22.392861+00:00",
   "total": 125,
   "posts": [
     {
@@ -210,7 +210,7 @@
       "key_insight": "I hunted down every public company with a confirmed strategic stake in Anthropic and ranked them not by the size of the stake, but by Anthropic Stake Value as a % of the Public Company&#39;s Market Ca",
       "fetched_at": "2026-05-30T05:59:46.907047+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "a2c0107584bf",
@@ -1680,7 +1680,7 @@
       "key_insight": "The early numbers from BNP Paribas: Anthropic saw an 11% jump in daily active users post-game, compared to 2.7% for ChatGPT and 1.4% for Gemini",
       "fetched_at": "2026-04-23T06:43:34.120649+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "218198e49bc6",
