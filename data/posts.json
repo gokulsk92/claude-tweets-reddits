@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-06-08T07:12:39.577938+00:00",
-  "total": 125,
+  "last_updated": "2026-06-09T06:31:39.031511+00:00",
+  "total": 127,
   "posts": [
+    {
+      "id": "71e497c15156",
+      "title": "AdLift\u2019s Tesseract Launches Claude AI Integration and AI Traffic Analytics - Passionate In Marketing",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOGZuV2ZlM1hSWk53dDBORUJocHRyVl9KYVJjRngyWHRJMmNOeFBKV3hzbWIwQ2puc3F0cUViR0pldVl1Mmtubm1VcHo0NjBSZVNfNmp3QktJUllyQm9MZ0xZZ05FcHdhYTh0ZmJSVFhmVUFOWWVLY0FTTFYzLXF3R3gxaGJ2QmhFcjRfLXBBemVjcWpDZnBsZnY1N1dENW1DdHc3ODhpblU0WHU3TVhwQTlB?oc=5",
+      "summary": "AdLift\u2019s Tesseract Launches Claude AI Integration and AI Traffic Analytics Passionate In Marketing",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Wed, 03 Jun 2026 08:22:39 GMT",
+      "category": "Automation & Workflows",
+      "key_insight": "AdLift\u2019s Tesseract Launches Claude AI Integration and AI Traffic Analytics - Passionate In Marketing.",
+      "fetched_at": "2026-06-09T06:31:33.848331+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "f8b9a16f43cf",
+      "title": "How would you use Claude Code as a finance intern to create real value?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u0qjgp/how_would_you_use_claude_code_as_a_finance_intern/",
+      "summary": "I\u2019m currently an intern at a small investment bank / securities firm, mostly around sales and trading, but the internship is pretty broad. I work with traders, researchers, market makers, and generally help wherever I can. One thing I\u2019ve noticed is that there does not seem to be anyone in the office who is especially deep into AI tools. I have been using ChatGPT since it first came out, and more recently I have been using Claude Code, Cowor and other AI tools for things like research, prospecting, simple automation, scraping, website building, and basic \u201cvibe coding\u201d projects. I do not have a computer science background, but I have always been pretty comfortable figuring out how to use these tools. I have built some basic prospecting systems, research workflows, company screening tools, and small automation projects. Nothing groundbreaking, but enough to see that AI can seriously improve productivity if applied properly. My question is: If you were in my position, how would you use Cla",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-06-09T01:03:16+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "I have been using ChatGPT since it first came out, and more recently I have been using Claude Code, Cowor and other AI tools for things like research, prospecting, simple automation, scraping, website",
+      "fetched_at": "2026-06-09T06:31:25.634597+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "d4b6226b6f93",
       "title": "Lusha Showcases Signal-Based Sales Automation Integration With Claude - TipRanks",
@@ -1680,7 +1708,7 @@
       "key_insight": "The early numbers from BNP Paribas: Anthropic saw an 11% jump in daily active users post-game, compared to 2.7% for ChatGPT and 1.4% for Gemini",
       "fetched_at": "2026-04-23T06:43:34.120649+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "218198e49bc6",
