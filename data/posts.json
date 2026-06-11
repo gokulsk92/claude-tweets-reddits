@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-06-10T06:47:35.614872+00:00",
-  "total": 127,
+  "last_updated": "2026-06-11T07:13:18.917504+00:00",
+  "total": 129,
   "posts": [
+    {
+      "id": "07006af66201",
+      "title": "Claude can now look at your live ad data, work out which creative is winning, then generate the next batch to match, all in one conversation. This wasn't possible a few months ago.",
+      "url": "https://www.reddit.com/r/AIDiscussion/comments/1u2rwa8/claude_can_now_look_at_your_live_ad_data_work_out/",
+      "summary": "Meta opened its ad system to Claude through an official connector at the end of April. Pair it with an image and video connector and something genuinely new happens: Claude reads your actual live campaign data, identifies the pattern in what&#39;s working, and generates the new creative to match, without you leaving the chat or touching a dashboard. Using my connected Meta Ads and Higgsfield accounts, run a full creative refresh. 1. Analyse my Meta account. Find my best-performing ad hooks and formats from the last 60 days. 2. Based on what&#39;s actually working, write a creative brief for 3 new ad variations. 3. Using Higgsfield, generate the visual for each of the 3 concepts. 4. Write the ad copy for each, matching the proven angles. Show me everything at the end to review before anything goes live. Don&#39;t publish automatically. The shift is that the analysis and the creation used to be separate jobs in separate tools, with you in the middle moving data between them. Now the mode",
+      "source": "Reddit",
+      "source_label": "search.rss?q=Claude+AI+ABM+account+based&sort=new",
+      "date": "2026-06-11T07:11:50+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Claude can now look at your live ad data, work out which creative is winning, then generate the next batch to match, all in one conversation.",
+      "fetched_at": "2026-06-11T07:13:11.115991+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "0304e23faae5",
+      "title": "Not falling for Anthropic's marketing tricks.",
+      "url": "https://www.reddit.com/r/Anthropic/comments/1u2d76s/not_falling_for_anthropics_marketing_tricks/",
+      "summary": "Anthropic has been been clever with these marketing tricks, I see right though them. First they say we built AI so powerful that its dangerous to release. Then release it with a different name and limit the window usage so users will subscibe to their subsciption plans so that they can show crazy revenue gains before they IPO. They are generating massive hype by limiting, and giving the trust me bro benchmarks. To be fair it almost worked on me, but I see right through it. Im calling it now, 12 day window to get as many users pay for their subcriptions, then remove the model from subsciption account for a little until competition catches up and then they will release it back with accounts and no need for usage credits. You end up paying for the high subsciption teirs to use the new model and for the rest of the month leave with the old batch . Nothing but keeping a hype train going, they trying to give off the Ultron vibes. &#32; submitted by &#32; /u/RetroBlacknight11 [link] &#32; [co",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-06-10T20:02:09+00:00",
+      "category": "ABM & Pipeline",
+      "key_insight": "Not falling for Anthropic's marketing tricks..",
+      "fetched_at": "2026-06-11T07:13:06.424742+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "71e497c15156",
       "title": "AdLift\u2019s Tesseract Launches Claude AI Integration and AI Traffic Analytics - Passionate In Marketing",
@@ -168,7 +196,7 @@
       "key_insight": "I built a free World Cup 2026 prediction game with Claude Code.",
       "fetched_at": "2026-06-02T07:07:04.406835+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "b5b8eddae82b",
@@ -1708,7 +1736,7 @@
       "key_insight": "The early numbers from BNP Paribas: Anthropic saw an 11% jump in daily active users post-game, compared to 2.7% for ChatGPT and 1.4% for Gemini",
       "fetched_at": "2026-04-23T06:43:34.120649+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "218198e49bc6",
