@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-06-11T07:13:18.917504+00:00",
-  "total": 129,
+  "last_updated": "2026-06-12T07:01:16.577557+00:00",
+  "total": 130,
   "posts": [
+    {
+      "id": "64e3b530b2bf",
+      "title": "I want to try Claude AI for writing articles. Can i go for it?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u3l8pl/i_want_to_try_claude_ai_for_writing_articles_can/",
+      "summary": "I do SEO marketing. I want a tool where i put all my data related to article and it give me the article which is researched and cover all parameters for SEO writing &#32; submitted by &#32; /u/Basic-Patient-696 [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-06-12T04:31:51+00:00",
+      "category": "Content & Campaigns",
+      "key_insight": "I want to try Claude AI for writing articles.",
+      "fetched_at": "2026-06-12T07:01:10.430248+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "07006af66201",
       "title": "Claude can now look at your live ad data, work out which creative is winning, then generate the next batch to match, all in one conversation. This wasn't possible a few months ago.",
