@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-06-12T07:01:16.577557+00:00",
-  "total": 130,
+  "last_updated": "2026-06-13T06:36:30.260602+00:00",
+  "total": 132,
   "posts": [
+    {
+      "id": "94b9c43cd800",
+      "title": "Django launches JAG AI to help brands run marketing operations through Claude AI - Dailyhunt",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNTUJUOE9IdEdlTkNkSU1RMW9LQzZVUzllb3lZb2RaTml4Tl9SMkF0MzJkWkhzUVBtYUtCenlXMWpLa1Y5Sk9WZU1RM0NiNmc0ZXdjZldPZGg3V1BnbGZDWlkyRFpMNzU0bTdoZXRtbVRTMUFlNWNOc0NxMzZ0LVV5dXQweFZaUEpnaXloNU1fcFNjTFJHN1hCcExVNVhVX2wtYnRxNGlmY2ZlbURoUWxtcVYwSWdZcDFzLTBWRmlnUEF5SjZEQ2w2eUszNFFLUjU2RDVuWV94UlhRcFhzTndpX091bG9YdkpGMnB3cVJfdTNCaEtxdVE?oc=5",
+      "summary": "Django launches JAG AI to help brands run marketing operations through Claude AI Dailyhunt",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Sat, 30 May 2026 10:28:07 GMT",
+      "category": "Content & Campaigns",
+      "key_insight": "Django launches JAG AI to help brands run marketing operations through Claude AI - Dailyhunt.",
+      "fetched_at": "2026-06-13T06:36:25.404665+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "d53be67b0a8f",
+      "title": "When New York marketing consultant Matt Rosenberg faced a painful $195,000 hospital bill after his brother-in-law died, he used Anthropic's Claude AI to expose shocking double-billing fraud and slash the debt down to just $33,000 - satyaagrah.com",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBkWFFpTUxJVlBxSFUySlFreUtHckxJSldqYW14dXpnM2lGU29zWGhsMTRWZTBtZ2pQQVVONE9mWkdXODZ0S3FJU01HTjU4enlHS2V0YjhsX3hTVjVRWXVHakktbw?oc=5",
+      "summary": "When New York marketing consultant Matt Rosenberg faced a painful $195,000 hospital bill after his brother-in-law died, he used Anthropic's Claude AI to expose shocking double-billing fraud and slash the debt down to just $33,000 satyaagrah.com",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Fri, 22 May 2026 07:00:00 GMT",
+      "category": "Content & Campaigns",
+      "key_insight": "When New York marketing consultant Matt Rosenberg faced a painful $195,000 hospital bill after his brother-in-law died, he used Anthropic's Claude AI to expose shocking double-billing fraud and slash ",
+      "fetched_at": "2026-06-13T06:36:25.404550+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "64e3b530b2bf",
       "title": "I want to try Claude AI for writing articles. Can i go for it?",
