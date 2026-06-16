@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T07:44:01.948969+00:00",
+  "last_updated": "2026-06-16T08:24:57.121733+00:00",
   "total": 132,
   "posts": [
     {
@@ -56,7 +56,7 @@
       "key_insight": "Claude can now look at your live ad data, work out which creative is winning, then generate the next batch to match, all in one conversation.",
       "fetched_at": "2026-06-11T07:13:11.115991+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "0304e23faae5",
@@ -686,7 +686,7 @@
       "key_insight": "Been using Claude seriously for about a year now and wanted to share what\u2019s genuinely changed how I work before asking what\u2019s working for others",
       "fetched_at": "2026-05-15T11:08:12.420868+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "e5190237bc3a",
