@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-06-16T08:24:57.121733+00:00",
-  "total": 132,
+  "last_updated": "2026-06-17T07:31:39.792630+00:00",
+  "total": 134,
   "posts": [
+    {
+      "id": "2e594bdace66",
+      "title": "Claude Opus caught malware hidden in my repo, then reverse engineered the whole thing",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u7vqst/claude_opus_caught_malware_hidden_in_my_repo_then/",
+      "summary": "I had Claude Code, running Opus, doing some branch consolidation across my repos. It was driving the git operations itself. When it went to merge one branch it stopped, told me the incoming commit contained malware, and refused to merge or build it. Then it reverse engineered the payload without executing it. Full breakdown and indicators below. What it caught A single obfuscated block appended to next.config.js, after module.exports. Next.js runs that file on every build, including CI, so it would have executed on the next build anywhere. Claude identified it from the diff, before anything ran, as an EtherHiding loader. How it got in We brought on a contractor through Upwork who was pushing legitimate changes to our repos , normal collaboration. At some point their development machine got infected. We cannot forensically confirm the exact entry point on a machine that is not ours, but the usual way into this campaign is a malicious npm package that runs code on install, so that is the",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-06-17T00:58:02+00:00",
+      "category": "Content & Campaigns",
+      "key_insight": "Claude Opus caught malware hidden in my repo, then reverse engineered the whole thing.",
+      "fetched_at": "2026-06-17T07:31:34.601502+00:00",
+      "skip": false,
+      "is_featured": true
+    },
+    {
+      "id": "74f1d96aadb4",
+      "title": "I built a free open-source job search assistant that can use Claude for application writing",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u80459/i_built_a_free_opensource_job_search_assistant/",
+      "summary": "Hi all \u2014 I\u2019ve been building JSE, a free MIT-licensed desktop app for managing the job hunt locally. The basic idea is: job hunting creates a messy loop of scraped roles, spreadsheets, stale applications, repeated cover letters, follow-ups, and half-remembered \u201cdid I apply to this already?\u201d moments. I wanted one local-first app to keep that whole workflow together. JSE can: - track jobs through a Kanban-style application pipeline - scrape listings through configurable scraper plugins - score roles against one or more career \u201clanes\u201d - use a local LLM for first-pass job matching/analysis - use Claude, Gemini, OpenAI, or a local endpoint for application-document generation - generate tailored application material from your own resume/application history - keep settings, generated docs, and the database on your machine The Claude-specific bit: I\u2019ve found Claude useful for the \u201cwrite this in my voice, using my prior application material, but adapt it to this role\u201d step. JSE builds the contex",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-06-17T04:27:45+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "JSE can: - track jobs through a Kanban-style application pipeline - scrape listings through configurable scraper plugins - score roles against one or more career \u201clanes\u201d - use a local LLM for first-pa",
+      "fetched_at": "2026-06-17T07:31:34.600121+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "94b9c43cd800",
       "title": "Django launches JAG AI to help brands run marketing operations through Claude AI - Dailyhunt",
@@ -56,7 +84,7 @@
       "key_insight": "Claude can now look at your live ad data, work out which creative is winning, then generate the next batch to match, all in one conversation.",
       "fetched_at": "2026-06-11T07:13:11.115991+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "0304e23faae5",
@@ -98,7 +126,7 @@
       "key_insight": "I have been using ChatGPT since it first came out, and more recently I have been using Claude Code, Cowor and other AI tools for things like research, prospecting, simple automation, scraping, website",
       "fetched_at": "2026-06-09T06:31:25.634597+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "d4b6226b6f93",
