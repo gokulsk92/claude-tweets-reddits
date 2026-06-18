@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-06-17T07:31:39.792630+00:00",
-  "total": 134,
+  "last_updated": "2026-06-18T07:14:42.687943+00:00",
+  "total": 136,
   "posts": [
+    {
+      "id": "5bfb50160e29",
+      "title": "How Anthropic turned \u2018anti-marketing\u2019 into one of tech\u2019s most powerful growth strategies - SmartCompany",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQc2hvWml4N2FQamJINkt1Z1RLNU1yUXJUTF9nUWRVWDBfSlkzSDRDcHN4Wk9QRzZkQjJiOWQzTmRtMHhCY2RqWTRUejRFMG5LdXhOdVlZdEtVS3ozZ25ESWVLTEQyY2ItdHZNQVhSZmxVeDg3ZTBXVTcyU1l3NTBBU2xveW9kSF9jU0R1VG0waEhsSzNrUWF0ay12LWJhbjVmaDZveDR6T1BZRl9Fbjh2REE3UFg?oc=5",
+      "summary": "How Anthropic turned \u2018anti-marketing\u2019 into one of tech\u2019s most powerful growth strategies SmartCompany",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Tue, 16 Jun 2026 01:10:32 GMT",
+      "category": "Content & Campaigns",
+      "key_insight": "How Anthropic turned \u2018anti-marketing\u2019 into one of tech\u2019s most powerful growth strategies - SmartCompany.",
+      "fetched_at": "2026-06-18T07:14:37.534114+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "3added289735",
+      "title": "Is Anyone Actually Making Money with Claude or AI Agents or is it all hype?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u8uvbd/is_anyone_actually_making_money_with_claude_or_ai/",
+      "summary": "I keep seeing ads and posts about people using Claude or other AI agents to make money through trading bots, arbitrage, automation, but usually the examples seem pretty vague. I\u2019m curious whether anyone here is actually doing this profitably in the real world, especially starting from scratch with no existing business, audience, or product. Has anyone built something using Claude that generates meaningful income? If so, what type of use case actually worked, and what should someone be skeptical of? &#32; submitted by &#32; /u/BillKasad [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-06-18T03:07:20+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "I keep seeing ads and posts about people using Claude or other AI agents to make money through trading bots, arbitrage, automation, but usually the examples seem pretty vague",
+      "fetched_at": "2026-06-18T07:14:34.463820+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "2e594bdace66",
       "title": "Claude Opus caught malware hidden in my repo, then reverse engineered the whole thing",
@@ -14,7 +42,7 @@
       "key_insight": "Claude Opus caught malware hidden in my repo, then reverse engineered the whole thing.",
       "fetched_at": "2026-06-17T07:31:34.601502+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "74f1d96aadb4",
