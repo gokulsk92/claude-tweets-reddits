@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-06-21T07:15:13.336330+00:00",
-  "total": 137,
+  "last_updated": "2026-06-22T08:36:32.284022+00:00",
+  "total": 138,
   "posts": [
+    {
+      "id": "4dbdf3e006bc",
+      "title": "What are the best FREE connectors for Claude (Sales)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uc6qlz/what_are_the_best_free_connectors_for_claude_sales/",
+      "summary": "Has anyone here had success using Claude for lead gen or day-to-day SDR tasks? I&#39;m trying to see if it can actually generate valid, high-quality leads. Would love to hear your workflows. &#32; submitted by &#32; /u/ar-shayeb [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-06-22T01:13:12+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Has anyone here had success using Claude for lead gen or day-to-day SDR tasks?",
+      "fetched_at": "2026-06-22T08:36:24.895905+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "cfbfe3b4960a",
       "title": "Should GitHub repos include AI-readable onboarding for Claude workflows?",
@@ -280,7 +294,7 @@
       "key_insight": "What I looked at: Which AI model to use for research (and why GPT-5.5 won this round) Which AI model to use for writing (and why Claude Opus 4.8 came out on top) How to decide what model to use for wh",
       "fetched_at": "2026-06-04T07:01:32.814071+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "299b303c3836",
