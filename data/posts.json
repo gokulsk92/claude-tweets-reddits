@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-25T06:30:49.769194+00:00",
+  "last_updated": "2026-06-26T06:34:00.919281+00:00",
   "total": 138,
   "posts": [
     {
@@ -84,7 +84,7 @@
       "key_insight": "JSE can: - track jobs through a Kanban-style application pipeline - scrape listings through configurable scraper plugins - score roles against one or more career \u201clanes\u201d - use a local LLM for first-pa",
       "fetched_at": "2026-06-17T07:31:34.600121+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "94b9c43cd800",
@@ -294,7 +294,7 @@
       "key_insight": "What I looked at: Which AI model to use for research (and why GPT-5.5 won this round) Which AI model to use for writing (and why Claude Opus 4.8 came out on top) How to decide what model to use for wh",
       "fetched_at": "2026-06-04T07:01:32.814071+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "299b303c3836",
