@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-06-26T06:34:00.919281+00:00",
-  "total": 138,
+  "last_updated": "2026-06-27T06:07:05.005864+00:00",
+  "total": 139,
   "posts": [
+    {
+      "id": "6e9ca5e48c12",
+      "title": "What\u2019s a Claude use case you\u2019re slightly embarrassed by?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ugtgxe/whats_a_claude_use_case_youre_slightly/",
+      "summary": "Not the impressive stuff like coding, research, or writing docs. I mean the weird everyday things: rewriting a mildly awkward message, deciding if a reply sounds rude, turning chaotic thoughts into one sane paragraph, asking it to explain why you\u2019re annoyed, or sanity-checking something too small to ask another person. What\u2019s the one Claude use case you\u2019d never put in a productivity case study? &#32; submitted by &#32; /u/Delicious-Flan88 [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-06-27T04:58:32+00:00",
+      "category": "Content & Campaigns",
+      "key_insight": "What\u2019s the one Claude use case you\u2019d never put in a productivity case study?",
+      "fetched_at": "2026-06-27T06:06:48.454997+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "4dbdf3e006bc",
       "title": "What are the best FREE connectors for Claude (Sales)",
@@ -56,7 +70,7 @@
       "key_insight": "I keep seeing ads and posts about people using Claude or other AI agents to make money through trading bots, arbitrage, automation, but usually the examples seem pretty vague",
       "fetched_at": "2026-06-18T07:14:34.463820+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "2e594bdace66",
