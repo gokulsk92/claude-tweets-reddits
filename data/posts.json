@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-06-29T07:11:42.205805+00:00",
-  "total": 140,
+  "last_updated": "2026-06-30T06:36:58.042649+00:00",
+  "total": 141,
   "posts": [
+    {
+      "id": "fdf04d54c454",
+      "title": "I got Claude Code past SMS 2FA by letting it operate my own Android phone",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ujdufh/i_got_claude_code_past_sms_2fa_by_letting_it/",
+      "summary": "Useful setup if you&#39;re doing real account automation with Claude Code: the browser is usually fine until the site says we texted a code to your phone. That was the wall for me. Claude could log in, find documents, compare numbers, draft emails, whatever, then the six-digit SMS code turned me into the clipboard. I had Claude set up Android wireless debugging between my phone and my PC over home WiFi, then build the helper pieces around it. It can wake the phone, unlock it, read the screen, tap through apps, and grab the new SMS code when a portal sends one. The first real run was an insurance portal. Claude was checking a renewal against an escrow statement, hit the text-code prompt, switched to the phone, read the code, entered it in the browser, got into the portal, found the renewal was about 25 percent higher than what I had on file, and drafted the email to my agent. The important part for me was that the code became a step in the workflow instead of a handoff back to me. I tes",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-06-30T03:28:34+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "I had Claude set up Android wireless debugging between my phone and my PC over home WiFi, then build the helper pieces around it",
+      "fetched_at": "2026-06-30T06:36:43.121313+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "bb26f0e1d83b",
       "title": "Claude's Super Bowl Campaign Mocking AI Ads Wins Cannes Lions Film Grand Prix - ADWEEK",
@@ -322,7 +336,7 @@
       "key_insight": "What I looked at: Which AI model to use for research (and why GPT-5.5 won this round) Which AI model to use for writing (and why Claude Opus 4.8 came out on top) How to decide what model to use for wh",
       "fetched_at": "2026-06-04T07:01:32.814071+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "299b303c3836",
