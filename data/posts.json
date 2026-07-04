@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-07-03T06:08:02.879264+00:00",
-  "total": 143,
+  "last_updated": "2026-07-04T05:58:18.365053+00:00",
+  "total": 144,
   "posts": [
+    {
+      "id": "69e521162d2f",
+      "title": "I run a daily show written by Claude, about Claude. It was dead for two months. It came back the same week you all held a funeral for Fable.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1un0d7n/i_run_a_daily_show_written_by_claude_about_claude/",
+      "summary": "For 43 straight days this spring, an automated pipeline read r/ClaudeAI and r/ClaudeCode every night and wrote a daily digest. Think late night TV meets dev news: the pulse of the day, the hottest thread, a best comment award, a troll of the day. Claude wrote every episode, an anti-slop validator kept it from sounding like a press release, and it published itself to my blog at midnight. Then Reddit blocked the public JSON API and the whole thing flatlined in April. This week I brought it back (the scraper now reads old.reddit HTML through a headless browser, since the JSON endpoints 403 everything). The timing lined up by accident: the first episode back had to cover the exact week this sub turned into a support group over F..able 5 access ending July 7. Farewell posts with over a thousand upvotes. Token rationing strategies. A $20 charge for a single hey. Someone building a physical gear shifter to swap models. A shirt at a hackathon out-performing every technical post of the day. The",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-07-04T05:18:47+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "For 43 straight days this spring, an automated pipeline read r/ClaudeAI and r/ClaudeCode every night and wrote a daily digest",
+      "fetched_at": "2026-07-04T05:58:04.849735+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "f5c45421bdd7",
       "title": "ChatGPT-4o vs Claude 3.5: Best free AI tools for Nigerian SME content marketing - Tribune Online",
@@ -364,7 +378,7 @@
       "key_insight": "What I looked at: Which AI model to use for research (and why GPT-5.5 won this round) Which AI model to use for writing (and why Claude Opus 4.8 came out on top) How to decide what model to use for wh",
       "fetched_at": "2026-06-04T07:01:32.814071+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "299b303c3836",
