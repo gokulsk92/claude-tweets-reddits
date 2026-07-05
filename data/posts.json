@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-07-04T05:58:18.365053+00:00",
-  "total": 144,
+  "last_updated": "2026-07-05T06:23:20.848317+00:00",
+  "total": 146,
   "posts": [
+    {
+      "id": "10c3a4eae163",
+      "title": "6-month Claude user looking to level up \u2014 Code, Desktop, Dispatch + agent use cases (finance, travel, trading, marketing)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1unu5sr/6month_claude_user_looking_to_level_up_code/",
+      "summary": "Used Claude to shorten and simplify my original working! TL;DR : 6-month Claude user, comfortable with Projects/connectors, no coding background. Looking for quick-start resources for Claude Code, Desktop, and Dispatch. Want to build agents for finance tracking/bill pay, travel booking, a voice-to-Sheet task assistant with check-in reminders, F O trade advice/execution, social media content summarization, work dashboards from Excel, deck-building, and marketing/creative design work. Will run Claude on a mini PC, controlled via Dispatch from my phone. Been using Claude for about 6 months. I&#39;ve got a decent handle on Projects, profile, and custom instructions, and just started using connectors (mainly Google Suite). I don&#39;t code, but I understand systems thinking to some extent. Could you point me to the shortest courses/resources to get started with Claude Code, Claude Desktop, and Dispatch? My use cases : An agent to manage personal finance \u2014 pull bank/credit statements, analyz",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-07-05T05:51:22+00:00",
+      "category": "Content & Campaigns",
+      "key_insight": "6-month Claude user looking to level up \u2014 Code, Desktop, Dispatch + agent use cases (finance, travel, trading, marketing)",
+      "fetched_at": "2026-07-05T06:23:05.732025+00:00",
+      "skip": false,
+      "is_featured": true
+    },
+    {
+      "id": "958d733f114f",
+      "title": "Claude Code built an AI casting studio in a day - you type a cue, a Pixar-style actor performs it. Claude can also cast takes itself over MCP",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1unue6h/claude_code_built_an_ai_casting_studio_in_a_day/",
+      "summary": "What it does: pick a Pixar-style AI actor from a fixed cast, type a scene cue like a director ( you just realized your coffee was decaf all week - react ), and it generates a wardrobe still, then an acted 8-10 second video take with sound. Free to try: 50 credits at signup (an audition costs 10), no card needed. https://designforyou.swapp1990.org/letmeactforyou?utm_source=reddit utm_campaign=lmafy_claudeai How Claude Code built it (the part this sub might care about): It ran the build as PM. Three parallel recon subagents mapped the codebase and returned file:line implementation guides. Then an Opus agent built the billing/async backend while a Sonnet agent built the mobile UI against a locked API contract. They integrated on the first try. It A/B tested character identity with the same actor and cue: text-only prompts produce a lookalike (clearly the wrong person), while passing the headshot as a reference image keeps the exact face. That A/B is why the cast stays consistent across ta",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-07-05T06:04:32+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Claude Code built an AI casting studio in a day - you type a cue, a Pixar-style actor performs it.",
+      "fetched_at": "2026-07-05T06:23:05.731714+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "69e521162d2f",
       "title": "I run a daily show written by Claude, about Claude. It was dead for two months. It came back the same week you all held a funeral for Fable.",
@@ -84,7 +112,7 @@
       "key_insight": "What\u2019s the one Claude use case you\u2019d never put in a productivity case study?",
       "fetched_at": "2026-06-27T06:06:48.454997+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "4dbdf3e006bc",
