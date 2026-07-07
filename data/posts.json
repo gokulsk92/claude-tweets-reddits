@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-07-06T06:51:16.758090+00:00",
-  "total": 146,
+  "last_updated": "2026-07-07T06:28:34.925974+00:00",
+  "total": 147,
   "posts": [
+    {
+      "id": "f78981f7e210",
+      "title": "Curating a circle of heavy Claude Users to do biweekly knowledge sharing",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1upklrx/curating_a_circle_of_heavy_claude_users_to_do/",
+      "summary": "Anyone interested? my bg: degree in computer engineering, worked in big tech, now running my own startup with a team of 3. heavy claude users: using claude cowork, claude code everyday Created 10+ skills I use daily for running my startup in sales, content creation etc. Built claude manged agents, played around with MCPs and built my own MCPs. Tried other agent orchestration tools such as n8n and know the difference between. Looking for people who wanted learn from each other and share knowledge. Ideally we come from different industries and use claude for our unique use cases that we can share to inspire each other. &#32; submitted by &#32; /u/Ok_Lawyer_7219 [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-07-07T04:30:16+00:00",
+      "category": "Content & Campaigns",
+      "key_insight": "heavy claude users: using claude cowork, claude code everyday Created 10+ skills I use daily for running my startup in sales, content creation etc",
+      "fetched_at": "2026-07-07T06:28:21.734573+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "10c3a4eae163",
       "title": "6-month Claude user looking to level up \u2014 Code, Desktop, Dispatch + agent use cases (finance, travel, trading, marketing)",
@@ -84,7 +98,7 @@
       "key_insight": "I had Claude set up Android wireless debugging between my phone and my PC over home WiFi, then build the helper pieces around it",
       "fetched_at": "2026-06-30T06:36:43.121313+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "bb26f0e1d83b",
