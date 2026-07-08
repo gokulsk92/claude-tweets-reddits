@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-07-07T06:28:34.925974+00:00",
-  "total": 147,
+  "last_updated": "2026-07-08T05:35:40.756765+00:00",
+  "total": 148,
   "posts": [
+    {
+      "id": "9c3a5434d562",
+      "title": "NEC Launches Automated Marketing Strategy Service Using Anthropic's Claude, Starting at \u00a51 Million Monthly - finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5RaVVndjE2RjQxelY3VDBmb3ZITW9pZnZvdnJlS3o4cld2S253ejJzVGpSTGdpM0Y1UkEyVnFLRXNwazVzYngwSmZMdjgzX0p4SXRJY3BpYW1LdmszQ2RxRko0NFJXYl9QU0NibllkVTRGRUdLRnc?oc=5",
+      "summary": "NEC Launches Automated Marketing Strategy Service Using Anthropic's Claude, Starting at \u00a51 Million Monthly finance.biggo.com",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Wed, 08 Jul 2026 03:36:00 GMT",
+      "category": "Automation & Workflows",
+      "key_insight": "NEC Launches Automated Marketing Strategy Service Using Anthropic's Claude, Starting at \u00a51 Million Monthly - finance.biggo.com",
+      "fetched_at": "2026-07-08T05:35:24.725854+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "f78981f7e210",
       "title": "Curating a circle of heavy Claude Users to do biweekly knowledge sharing",
@@ -1988,7 +2002,7 @@
       "key_insight": "The early numbers from BNP Paribas: Anthropic saw an 11% jump in daily active users post-game, compared to 2.7% for ChatGPT and 1.4% for Gemini",
       "fetched_at": "2026-04-23T06:43:34.120649+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "218198e49bc6",
