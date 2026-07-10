@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-07-09T06:25:44.446465+00:00",
-  "total": 148,
+  "last_updated": "2026-07-10T06:24:47.907538+00:00",
+  "total": 149,
   "posts": [
+    {
+      "id": "f22736b23892",
+      "title": "Reality of Commercial AI World from a 16 Year Old's Perspective",
+      "url": "https://news.ycombinator.com/item?id=48851812",
+      "summary": "Let me tell you who I am first. I&#x27;m 16, a mad scientist. Started coding and AI at 12 \u2014 before ChatGPT existed. Built AI voice assistants in 2022 when nobody knew what AI was. Worked 10 hours a day at 12, building anonymously. I HAVE 1 THING: ASK ME TO BUILD ANYTHING \u2014 IMPOSSIBLE OR POSSIBLE \u2014 I WILL FIGURE IT OUT. AI, MATHS, SCIENCE, WHATEVER. THAT&#x27;S IT. At 15, I started selling AI automation and voice agents. Cold called, cold emailed, worked hundreds of hours for 4 straight months. Never got a single sale. Fine \u2014 selling wasn&#x27;t my strength. Then I tried building real products \u2014 made an OpenClaw clone that ran on low-end laptops, built AI researchers. I&#x27;m not a salesman. I&#x27;m the guy who if you say build Claude from scratch including model training \u2014 I&#x27;ll somehow do it. But build something cool \u2014 I freeze. Still, I tried the startup routes. Here&#x27;s what I found: 1) INVESTORS VCs: Completely opposite of what they sound. They claim to find talent and tak",
+      "source": "Hacker News",
+      "source_label": "Hacker News",
+      "date": "2026-07-09T20:16:50Z",
+      "category": "Automation & Workflows",
+      "key_insight": "I&#x27;m the guy who if you say build Claude from scratch including model training \u2014 I&#x27;ll somehow do it.",
+      "fetched_at": "2026-07-10T06:24:38.284524+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "9c3a5434d562",
       "title": "NEC Launches Automated Marketing Strategy Service Using Anthropic's Claude, Starting at \u00a51 Million Monthly - finance.biggo.com",
