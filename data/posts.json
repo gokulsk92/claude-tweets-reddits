@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-07-11T05:25:26.145540+00:00",
-  "total": 150,
+  "last_updated": "2026-07-12T05:41:14.221923+00:00",
+  "total": 151,
   "posts": [
+    {
+      "id": "89c0dd5ad82a",
+      "title": "Anyone else just using chatgpt/claude for grunt work instead of actual PPC decisions?",
+      "url": "https://www.reddit.com/r/PPC/comments/1u6ctfa/anyone_else_just_using_chatgptclaude_for_grunt/",
+      "summary": "Been seeing a lot of AI for PPC tools popping up lately promising automated bid strategies, ad copy generation, account audits etc., and honestly, most of them seem to be wrappers around gpt or gemini with a fancy dashboard. Meanwhile, the actual frontier models (gpt, claude, gemini) still hallucinate constantly when you ask them anything PPC-specific. Ask Claude about a Google Ads feature and it&#39;ll confidently describe something that either doesn&#39;t exist or got deprecated two years ago. same with bid strategy recommendations, benchmark numbers, and even basic platform mechanics. So what I&#39;ve landed on is just using AI for the boring stuff, drafting ad copy variations, summarizing call transcripts, writing scripts for GTM, and brainstorming angles for a campaign. Anything that requires actual platform knowledge or strategy, I still do myself or verify against docs/help center, because the hallucination rate on specifics is too high to trust. Curious what everyone else&#39;s",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-06-15T10:34:16+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Anyone else just using chatgpt/claude for grunt work instead of actual PPC decisions?.",
+      "fetched_at": "2026-07-12T05:41:00.479938+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "4080d5a32fdb",
       "title": "Claude Opus 4.8 vs GLM 5.2",
@@ -42,7 +56,7 @@
       "key_insight": "NEC Launches Automated Marketing Strategy Service Using Anthropic's Claude, Starting at \u00a51 Million Monthly - finance.biggo.com",
       "fetched_at": "2026-07-08T05:35:24.725854+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "f78981f7e210",
@@ -2085,20 +2099,6 @@
       "category": "ABM & Pipeline",
       "key_insight": "Hi - I&#39;m looking into transitioning from using ChatGPT for sales help to Claude.",
       "fetched_at": "2026-04-23T06:43:33.137459+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "cf889ce5abff",
-      "title": "Real use case for Claude skills: structured B2B vendor due diligence [open source]",
-      "url": "https://www.reddit.com/r/Anthropic/comments/1st9zra/real_use_case_for_claude_skills_structured_b2b/",
-      "summary": "&#32; submitted by &#32; /u/o1got [link] &#32; [comments]",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-04-23T05:47:24+00:00",
-      "category": "Content & Campaigns",
-      "key_insight": "Real use case for Claude skills: structured B2B vendor due diligence [open source]",
-      "fetched_at": "2026-04-23T06:43:32.121067+00:00",
       "skip": false,
       "is_featured": false
     }
