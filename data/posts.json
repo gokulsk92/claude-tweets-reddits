@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-12T05:41:14.221923+00:00",
-  "total": 151,
+  "last_updated": "2026-07-13T05:51:36.297185+00:00",
+  "total": 150,
   "posts": [
     {
       "id": "89c0dd5ad82a",
@@ -56,7 +56,7 @@
       "key_insight": "NEC Launches Automated Marketing Strategy Service Using Anthropic's Claude, Starting at \u00a51 Million Monthly - finance.biggo.com",
       "fetched_at": "2026-07-08T05:35:24.725854+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "f78981f7e210",
@@ -112,7 +112,7 @@
       "key_insight": "For 43 straight days this spring, an automated pipeline read r/ClaudeAI and r/ClaudeCode every night and wrote a daily digest",
       "fetched_at": "2026-07-04T05:58:04.849735+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "f5c45421bdd7",
