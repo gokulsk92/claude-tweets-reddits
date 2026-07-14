@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-07-13T05:51:36.297185+00:00",
-  "total": 150,
+  "last_updated": "2026-07-14T05:12:53.686706+00:00",
+  "total": 151,
   "posts": [
+    {
+      "id": "6186bc8bd0be",
+      "title": "Can Claude / Claude Code help me build a custom lightweight CRM & Dashboard for my catering business? Where do I start?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uvtfr4/can_claude_claude_code_help_me_build_a_custom/",
+      "summary": "Hey everyone, I run a growing catering business and I&#39;m looking to move away from messy manual tracking and build a simple, tailored internal CRM/Dashboard for my team. I want to see if this is feasible using Claude, and specifically if Claude Code is the right tool for the job. Here\u2019s what I need the app to do: Data Entry (Sales Team): A simple interface for my team to encode daily sales data (Client Name, Package Price, Event Date, Payment Status, Assigned Salesperson). Owner&#39;s Dashboard: A clean visual dashboard for me to monitor monthly sales performance and compare it against historical trends. Report Generation: The ability to filter and generate specific reports\u2014for example, instantly viewing a list of Unpaid Clients assigned to Salesperson A. My Questions: Is this fully feasible to build using Claude / Claude Code if I don&#39;t have a massive software development background? What would the ideal tech stack look like for a lightweight internal tool like this (e.g., Pyth",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-07-14T00:35:53+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "I want to see if this is feasible using Claude, and specifically if Claude Code is the right tool for the job",
+      "fetched_at": "2026-07-14T05:12:37.909411+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "89c0dd5ad82a",
       "title": "Anyone else just using chatgpt/claude for grunt work instead of actual PPC decisions?",
@@ -84,7 +98,7 @@
       "key_insight": "6-month Claude user looking to level up \u2014 Code, Desktop, Dispatch + agent use cases (finance, travel, trading, marketing)",
       "fetched_at": "2026-07-05T06:23:05.732025+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "958d733f114f",
@@ -2085,20 +2099,6 @@
       "category": "Automation & Workflows",
       "key_insight": "OpenClaw and Claude Code in sales.",
       "fetched_at": "2026-04-23T06:43:33.137936+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "1d99133aebe7",
-      "title": "Claude Usage",
-      "url": "https://www.reddit.com/r/sales/comments/1s558xg/claude_usage/",
-      "summary": "Hi - I&#39;m looking into transitioning from using ChatGPT for sales help to Claude. I&#39;m curious how others are having success utilizing it? I&#39;ve seen people post they&#39;re having it do everything, even write all their emails, but I don&#39;t love that approach as I think having AI do everything is fairly obvious. How are others having success managing their day-to-day task, outreach, etc? &#32; submitted by &#32; /u/IndicationNo3912 [link] &#32; [comments]",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-03-27T14:12:36+00:00",
-      "category": "ABM & Pipeline",
-      "key_insight": "Hi - I&#39;m looking into transitioning from using ChatGPT for sales help to Claude.",
-      "fetched_at": "2026-04-23T06:43:33.137459+00:00",
       "skip": false,
       "is_featured": false
     }
