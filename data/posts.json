@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-07-15T05:13:12.768029+00:00",
-  "total": 150,
+  "last_updated": "2026-07-16T05:23:46.204134+00:00",
+  "total": 151,
   "posts": [
+    {
+      "id": "78b5feaa85f3",
+      "title": "Anthropic Faces AI Advertising Backlash After Bold Campaign - AI CERTs",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQ2d4SE9zTEoyMUpXS0stMEFMZ0tIcjMyVkdWV1dyalhWVk9RYnJqOHI0VkFieWJ0akFwVDcwaFBwSnhhU0JHS1l4eFFucXVva3FqR2F2WUhFMzhhQmJFRnJrR25rNWw2NWhvRkVwNVBUMjBZN29HMERzVWJCM1Z1WEc3MU1TXzJuaFl4cVBWSktuUQ?oc=5",
+      "summary": "Anthropic Faces AI Advertising Backlash After Bold Campaign AI CERTs",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Wed, 15 Jul 2026 08:29:17 GMT",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Anthropic Faces AI Advertising Backlash After Bold Campaign - AI CERTs.",
+      "fetched_at": "2026-07-16T05:23:34.952367+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "6186bc8bd0be",
       "title": "Can Claude / Claude Code help me build a custom lightweight CRM & Dashboard for my catering business? Where do I start?",
@@ -84,7 +98,7 @@
       "key_insight": "heavy claude users: using claude cowork, claude code everyday Created 10+ skills I use daily for running my startup in sales, content creation etc",
       "fetched_at": "2026-07-07T06:28:21.734573+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "10c3a4eae163",
@@ -2058,7 +2072,7 @@
       "key_insight": "The early numbers from BNP Paribas: Anthropic saw an 11% jump in daily active users post-game, compared to 2.7% for ChatGPT and 1.4% for Gemini",
       "fetched_at": "2026-04-23T06:43:34.120649+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "218198e49bc6",
@@ -2085,20 +2099,6 @@
       "category": "Automation & Workflows",
       "key_insight": "how to ACTUALLY automate your agency (not just build random claude skills) step by step.",
       "fetched_at": "2026-04-23T06:43:33.486344+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "42fcff1f1b18",
-      "title": "OpenClaw and Claude Code in sales",
-      "url": "https://www.reddit.com/r/sales/comments/1riip3s/openclaw_and_claude_code_in_sales/",
-      "summary": "So I&#39;m a headhunter/recruiter, and I just installed Openclaw and Claude Code, and man, can it do so much stuff for me? I figured I&#39;d post this to show you guys what I&#39;ve built for me as a recruiter, and you might be able to extrapolate this to whatever sales role that you are in. Stuff like the morning briefing, the daily LinkedIn learning, and the Meeting Intel I think everyone could use, but see what you think. Yes, I did use AI to format this for me and bring my thoughts together, but this is not AI slop; this is everything that I&#39;ve built in the last almost seven days, just using Openclaw and Claude Code and talking to it. OpenClaw Stack Overview \u2014 Palermo Rhodes CRON JOBS Automated \u2014 run on schedule, deliver to Telegram Morning Intel \u2014 7:00 AM daily Pulls Outlook calendar, flags urgent emails, checks active Loxo pipeline, then scans for industry news \u2014 project awards over $50M, M A activity, executive moves, fabricated products news. Delivers a punchy briefing to T",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-03-02T04:03:57+00:00",
-      "category": "Automation & Workflows",
-      "key_insight": "OpenClaw and Claude Code in sales.",
-      "fetched_at": "2026-04-23T06:43:33.137936+00:00",
       "skip": false,
       "is_featured": false
     }
