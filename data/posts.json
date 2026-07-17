@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-07-16T05:23:46.204134+00:00",
-  "total": 151,
+  "last_updated": "2026-07-17T05:25:52.463922+00:00",
+  "total": 152,
   "posts": [
+    {
+      "id": "dbe389c3bed7",
+      "title": "Hackers Use Google Ads and Claude AI Chats to Steal macOS Credentials and Crypto Wallets - gbhackers.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVW1kQVo3OGR0eTY2NjR5VEFrdVNXTG5aSnhUR3ZjOWhNYmMwbS1rdlcwaGxPNnpNLThBNVdXbGlBWkJrRnp3TG91N3Fub21JUENmT0prcDEtVUIwZ1N6dV9xUXpqVFR0SEdzYUl3VURTcF9qalBidHhQZlcxUjRMQ29CWndQSGtpd0Zpb2lyLXlMNmVsZEFJ0gGcAUFVX3lxTE9LYTBHWDVFM2pIY19QNTVqb1cwUVFlZzE3WDRrRXZEM0VsWkVjUWd3Wk9aelBhbFpZMV9Wal9aU2dSNnJHaVQxZDhuMmE3a19lU00yRWNqa3g0RFo2UDRRSkdkaHlaNmpoeFdydld0bDVSOVNMWHUta2oxYV9XSVJVV09rWXFSWXNDdXBfZ1dpX0RvTUc5M1RJQ1locg?oc=5",
+      "summary": "Hackers Use Google Ads and Claude AI Chats to Steal macOS Credentials and Crypto Wallets gbhackers.com",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Thu, 16 Jul 2026 06:33:45 GMT",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Hackers Use Google Ads and Claude AI Chats to Steal macOS Credentials and Crypto Wallets - gbhackers.com.",
+      "fetched_at": "2026-07-17T05:25:40.294160+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "50e07cb48ea6",
+      "title": "ChatGPT, Gemini, and Claude are expanding their advertising focus into smaller markets - Marketing Brew",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMlI1NnpaVURzemtQM1JYWnRieXlIX19MeUtYN2R2OFY0Rno5N2dyaXhQYUhPSkU5b25tR2pPeEJ4a3JNQzF2OVMwMFpjSTljb29nLVRaSndiUUlGeE82ZUxzOUFCSzV0OFlqZGxFcFV6Yjdyc3NJN051Tk02Z253RDlHbkdqSTlTTEViYnRJNlhQOUFBcmtWLUtlV3h6M29vQUpPTTJyd01wTnZhZDlmdmZYOGQ3Yl84aW53d05vOA?oc=5",
+      "summary": "ChatGPT, Gemini, and Claude are expanding their advertising focus into smaller markets Marketing Brew",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Thu, 16 Jul 2026 20:04:22 GMT",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "ChatGPT, Gemini, and Claude are expanding their advertising focus into smaller markets - Marketing Brew.",
+      "fetched_at": "2026-07-17T05:25:40.293318+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "78b5feaa85f3",
       "title": "Anthropic Faces AI Advertising Backlash After Bold Campaign - AI CERTs",
@@ -84,7 +112,7 @@
       "key_insight": "NEC Launches Automated Marketing Strategy Service Using Anthropic's Claude, Starting at \u00a51 Million Monthly - finance.biggo.com",
       "fetched_at": "2026-07-08T05:35:24.725854+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "f78981f7e210",
@@ -98,7 +126,7 @@
       "key_insight": "heavy claude users: using claude cowork, claude code everyday Created 10+ skills I use daily for running my startup in sales, content creation etc",
       "fetched_at": "2026-07-07T06:28:21.734573+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "10c3a4eae163",
@@ -2073,34 +2101,6 @@
       "fetched_at": "2026-04-23T06:43:34.120649+00:00",
       "skip": false,
       "is_featured": true
-    },
-    {
-      "id": "218198e49bc6",
-      "title": "My experience using Claude to actually manage Google Ads",
-      "url": "https://www.reddit.com/r/PPC/comments/1srf9gz/my_experience_using_claude_to_actually_manage/",
-      "summary": "Heads up: this is an opinion post, not a tutorial. Plenty of setup guides already exist. The content is rephrased by AI. Context: I run a multi-location service business. 8K/month budget. Former software engineer, so I tend to build my own internal tools instead of buying. I&#39;ve been using Claude to manage my Google Ads for a while, and by manage I mean read and write. Pausing keywords, adjusting bids, restructuring campaigns, writing new RSAs. Not just summarizing last week&#39;s performance. I think this is paradigm shift in how ads are going to be managed. It is a bit early right now, but the as models get better, I just can&#39;t see this reversing. But it&#39;s worth being precise about who it&#39;s actually for, because most takes I see online are either AI replaces all PPC tomorrow or AI is useless for ads, and neither is right. Who this won&#39;t help If you&#39;ve never run a campaign and don&#39;t understand how paid search works at a structural level, don&#39;t hand Claud",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-04-21T06:10:04+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "I&#39;ve been using Claude to manage my Google Ads for a while, and by manage I mean read and write",
-      "fetched_at": "2026-04-23T06:43:33.739780+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "01a4819a1d83",
-      "title": "how to ACTUALLY automate your agency (not just build random claude skills) step by step",
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1sqv68q/how_to_actually_automate_your_agency_not_just/",
-      "summary": "Everyone is building claude skills right now, little automations, custom gpts, claude code, zapier flows. That&#39;s cool but its also maybe 10% of what ai can do for your agency if you approach it properly Ive been building ai systems for agencies for a few years now and i&#39;ve been observing the same cycle a few times. Someone at a company discovers claude, builds a few things, gets excited, then 3 months later nothing really changed. Margins are the same, headcount is the same, the team is still doing what they were doing before just with a chatbot open in another tab The reason is nobody thinks about this from the ground up. They skip straight to what can i automate without ever asking what should even exist in the first place. Heres what ACTUALLY works Figure out where time is going. Not where you think, where it actually is. Have your team leads track everything for two weeks, every task, then sort it by whether it actually requires a human brain or not. In my experience about ",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-04-20T16:56:25+00:00",
-      "category": "Automation & Workflows",
-      "key_insight": "how to ACTUALLY automate your agency (not just build random claude skills) step by step.",
-      "fetched_at": "2026-04-23T06:43:33.486344+00:00",
-      "skip": false,
-      "is_featured": false
     }
   ]
 }
