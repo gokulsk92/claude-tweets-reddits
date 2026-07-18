@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-07-17T05:25:52.463922+00:00",
+  "last_updated": "2026-07-18T05:07:54.890841+00:00",
   "total": 152,
   "posts": [
+    {
+      "id": "516a5404f259",
+      "title": "just got claude oss sponsorhip despite having 25 stars in my project",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uzmh94/just_got_claude_oss_sponsorhip_despite_having_25/",
+      "summary": "every single person i saw posting about getting in had thousands of stars and years of commits. my project has 25 stars. i almost didn&#39;t bother applying. so if you saw that 5,000 star requirement and closed the tab, go read section 2.2 first. it&#39;s the ecosystem impact track. you don&#39;t need the big numbers, you just write 500 words about why your project matters and a real person actually reads it. that&#39;s how i got in. apply here: https://claude.com/contact-sales/claude-for-oss i&#39;ll be using it to improve floe, my p2p file transfer project. runs right in your browser, no accounts, nothing stored on a server. https://github.com/jannskiee/floe building more soon. seriously just apply, worst case is a no. &#32; submitted by &#32; /u/PotentialPast6344 [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-07-18T04:56:10+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "just got claude oss sponsorhip despite having 25 stars in my project.",
+      "fetched_at": "2026-07-18T05:07:41.168167+00:00",
+      "skip": false,
+      "is_featured": true
+    },
+    {
+      "id": "26c654138b86",
+      "title": "OpenLive, open-source alternative to ElevenLabs Agents and Gemini Live. Now talks to coding agents like Claude Code using your regular plan, no API keys, no API bills.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uzmk4o/openlive_opensource_alternative_to_elevenlabs/",
+      "summary": "A while back I posted OpenLive here. It&#39;s an open-source voice layer that gives any AI model or agent ears, a mouth, and eyes. The whole pipeline runs on your own machine: voice activity detection, speech-to-text, working out when you&#39;ve actually finished talking, and text-to-speech. Your audio never leaves your computer, and there are no per-minute fees. The response was great, so I kept building. Here&#39;s what&#39;s new. Talk to the coding agents you already use. OpenLive now connects directly to Claude Code, Codex, Cursor, OpenCode, and Hermes. Everything runs locally under your own login. You pick an agent, point it at a project folder, and just talk. When the agent wants to run a command or edit a file, OpenLive reads the question out loud and you answer by voice. It can also narrate what the agent is doing while it works, so you&#39;re not staring at a silent screen. Conversations save into each agent&#39;s own session history, so you can start something by voice and re",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-07-18T05:00:16+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Now talks to coding agents like Claude Code using your regular plan, no API keys, no API bills..",
+      "fetched_at": "2026-07-18T05:07:41.168057+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "dbe389c3bed7",
       "title": "Hackers Use Google Ads and Claude AI Chats to Steal macOS Credentials and Crypto Wallets - gbhackers.com",
@@ -2073,34 +2101,6 @@
       "fetched_at": "2026-04-23T06:43:36.629653+00:00",
       "skip": false,
       "is_featured": false
-    },
-    {
-      "id": "1610ef0d6488",
-      "title": "ClaudeGTM",
-      "url": "https://www.reddit.com/r/ClaudeGTM/",
-      "summary": "Discuss and showcase how you get AI agents like Claude Code, Cowork, OpenClaw to run GTM / sales / marketing for your business [link]",
-      "source": "Reddit",
-      "source_label": "search.rss?q=Claude+AI+marketing+automation&sort=new",
-      "date": "2026-03-31T02:25:24+00:00",
-      "category": "Content & Campaigns",
-      "key_insight": "Discuss and showcase how you get AI agents like Claude Code, Cowork, OpenClaw to run GTM / sales / marketing for your business [link]",
-      "fetched_at": "2026-04-23T06:43:34.556129+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "6080199136c5",
-      "title": "Super Bowl had multiple AI companies buying ads while Anthropic ran an anti-advertising campaign. Early data on each approach\u2019s success rate? I WILL NOT PROMOTE",
-      "url": "https://www.reddit.com/r/startups/comments/1rbotyv/super_bowl_had_multiple_ai_companies_buying_ads/",
-      "summary": "Interesting case study from this month&#39;s Super Bowl: OpenAI, Google, and Meta all bought traditional Super Bowl spots. Meanwhile, Anthropic ran an anti-advertising campaign positioning Claude as ads are coming to AI, but not to Claude. The early numbers from BNP Paribas: Anthropic saw an 11% jump in daily active users post-game, compared to 2.7% for ChatGPT and 1.4% for Gemini. Claude also hit the top 10 in the App Store for the first time. Positioning wise, there&#39;s something here about differentiation through subtraction. Love the way they changed the classic: we do X better, with: we don&#39;t do Y at all. Who else is following how AI companies are positioning against each other? I find it relevant for how we think about brand strategy in general. &#32; submitted by &#32; /u/useomnia [link] &#32; [comments]",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-02-22T15:35:28+00:00",
-      "category": "Content & Campaigns",
-      "key_insight": "The early numbers from BNP Paribas: Anthropic saw an 11% jump in daily active users post-game, compared to 2.7% for ChatGPT and 1.4% for Gemini",
-      "fetched_at": "2026-04-23T06:43:34.120649+00:00",
-      "skip": false,
-      "is_featured": true
     }
   ]
 }
