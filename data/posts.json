@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-07-21T05:34:18.759605+00:00",
-  "total": 150,
+  "last_updated": "2026-07-22T05:32:54.947902+00:00",
+  "total": 151,
   "posts": [
+    {
+      "id": "0bac2587fa08",
+      "title": "I gave Claude Code eyes: a skill that lets it see real hardware & displays through a android camera - went full autonomous whilst fixing UI - alone",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1v3410c/i_gave_claude_code_eyes_a_skill_that_lets_it_see/",
+      "summary": "I&#39;m a quadriplegic dev, and I wanted to see if Claude Code could build an ESP32 project end-to-end. It did \u2014 firmware, a relay, OTA, its own tests. But the moment that got me: the little display was rendering text wrong, and Claude fixed it by looking at the screen through an old phone camera \u2014 it saw the mangled output, found the font bug, swapped fonts, reflashed. Before that, letting Claude see the board meant a miserable manual loop: screenshot \u2192 send it to myself over WhatsApp \u2192 download \u2192 paste into Claude Code. Every iteration. So I turned it into a skill: claude-code-eyes . What it does : point any snapshot camera at your board, breadboard, or display \u2014 an old Android running IP Webcam works great, or a Pi cam, or literally any snapshot URL \u2014 and Claude grabs the frame and reads it like any other file, then edits, reflashes, and looks again. It&#39;s how Claude catches what no unit test can: a font silently dropping characters, text clipped at a panel edge, a wire in the wr",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-07-22T03:12:23+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "What it does : point any snapshot camera at your board, breadboard, or display \u2014 an old Android running IP Webcam works great, or a Pi cam, or literally any snapshot URL \u2014 and Claude grabs the frame a",
+      "fetched_at": "2026-07-22T05:32:41.484986+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "516a5404f259",
       "title": "just got claude oss sponsorhip despite having 25 stars in my project",
@@ -84,7 +98,7 @@
       "key_insight": "I want to see if this is feasible using Claude, and specifically if Claude Code is the right tool for the job",
       "fetched_at": "2026-07-14T05:12:37.909411+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "89c0dd5ad82a",
@@ -2085,20 +2099,6 @@
       "category": "Content & Campaigns",
       "key_insight": "Anthropic's Claude Design turns chatbot conversations into prototypes, slide decks, and marketing assets - the-decoder.com.",
       "fetched_at": "2026-04-23T06:43:36.629918+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "ab23a798ca80",
-      "title": "Anthropic launches AI-powered Claude Design to build marketing assets - Performance Marketing World",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUDFzdEdWMC1vUHRZMjB5Mnd0bVJKck9WaGVjdVJERXdBUS1NM09JX1B2eFo4S1dJWGlyRlN0cEJxSzBmM0w0bjhsM05NOWoyM1RfUWo1bzc3STZfbGZtZTJnak00UUUzM3gtT25ucXJFZkM1V0ZBT2d3dkZ0TlNzTkp6VXljYnlINXIxOEo3NHhkU2tycHdaSlhKOGh6WjZkZWpoUEo3dV9NNWZYczFhaVN3d3BtZXVsVEhaczNMWktIUQ?oc=5",
-      "summary": "Anthropic launches AI-powered Claude Design to build marketing assets Performance Marketing World",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Mon, 20 Apr 2026 09:23:25 GMT",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "Anthropic launches AI-powered Claude Design to build marketing assets - Performance Marketing World.",
-      "fetched_at": "2026-04-23T06:43:36.629653+00:00",
       "skip": false,
       "is_featured": false
     }
