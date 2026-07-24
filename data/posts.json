@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-07-23T05:38:02.132717+00:00",
-  "total": 151,
+  "last_updated": "2026-07-24T05:34:40.487943+00:00",
+  "total": 130,
   "posts": [
+    {
+      "id": "cbedc5dbafce",
+      "title": "Claude noob building a local AI \u201cbusiness brain\u201d \u2014 am I doing this efficiently?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1v4t0d7/claude_noob_building_a_local_ai_business_brain_am/",
+      "summary": "I\u2019m fairly new to Claude, coding and AI agents, but I\u2019ve been enjoying prompting and building things step by step. I\u2019m trying to create a private AI-powered operating system for an ecommerce business. The long-term goal is one visual \u201cbusiness brain\u201d that understands every area of the company, spots gaps, asks questions when information is missing, prioritises what needs attention and eventually carries out approved work. My current setup is: Claude Code for building the application Claude Cowork for research, file organisation, SOPs and operational tasks ChatGPT as the architect/reviewer helping me plan each step Private GitHub repo for version control Next.js, TypeScript and Tailwind SQLite with Drizzle ORM React Flow for visual process maps n8n planned later for self-hosted automations Shopify, Etsy, eBay, Instagram, TikTok Shop, Gmail, email marketing, finance and fulfilment systems eventually feeding into it So far I\u2019ve built a working local web app with: A visual build roadmap Bu",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-07-23T22:32:22+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "Claude noob building a local AI \u201cbusiness brain\u201d \u2014 am I doing this efficiently?.",
+      "fetched_at": "2026-07-24T05:34:25.053942+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "690806b08086",
       "title": "How OpenAI, Anthropic and Perplexity are reshaping advertising and marketing with AI - Storyboard18",
@@ -1763,48 +1777,6 @@
       "category": "Content & Campaigns",
       "key_insight": "Entrepreneur says Claude 'killed' her marketing company, predicts AI-to-AI sales in future, 'They don't get charmed' - MSN.",
       "fetched_at": "2026-04-25T06:58:00.738393+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "c4fe9bb6fe09",
-      "title": "Entrepreneur says Claude 'killed' her marketing company, predicts AI-to-AI sales in future, 'They don't get charmed' - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi4wNBVV95cUxNVGRhZGNrc0RRdmZiT0YwRENycmJobWxoOGtZQnpTNVJQN2I3ZXA4THlOckt0TXVhX3RYbTdnTWdxa1ZvR0IwclNMTnZLSEFWQm5hd1FJdFBuLVVIUDg0SFBwdTYtckptMkt3UzhlWUg2QXVOeUxtMWNTSGFLRE12ZWU4RTk3aXJpSTlDSFdYOEFxQmFmWmxtcVZnYkFwVEstQzhFWlhPbzhfdjVaTkFKcVVELUNNMHZiNnEzd2VqV3JUaFBsRURYOWlEMlBzaF8wamFuaHdTbnRRN0pUTjJrMUVyQ2RVWEJ1VGM3N2xVb2xianFUQXdDY0xVY05yT0FfR2tLVVZMSjROSEt0WV95U0oxMWw4b1hyN1JBSkZXN3dBM0g0ZFVqcTlOTDVfZVpxdnhYdjRjSUhXemxMMzlHd2F4SXFTcVJYRVp5RE1IdmpyMVU2OGd2UUJfWW1ZcTFack1uZUtSRldKTTBubjNMem5zcHlSYWNpaTQ4SThtVzFHcTQyWnlicTdVS3VKMnNjQ1FBTGxscjRIbFB1bXNOVDhWcEd4TThwV2RnVVRLSG9keHBTcWZnNzAwbC12RXVQNzVqbEhDeGxYMDVla19qb2psemxyOVlyUGtZR1ZESmVfeVE?oc=5",
-      "summary": "Entrepreneur says Claude 'killed' her marketing company, predicts AI-to-AI sales in future, 'They don't get charmed' MSN",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Fri, 24 Apr 2026 01:21:24 GMT",
-      "category": "Content & Campaigns",
-      "key_insight": "Entrepreneur says Claude 'killed' her marketing company, predicts AI-to-AI sales in future, 'They don't get charmed' - MSN.",
-      "fetched_at": "2026-04-24T09:16:58.866851+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "a9f53d79de0e",
-      "title": "Sam Altman Criticizes Anthropic's Claude Mythos Marketing - Let's Data Science",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYkZoSVJJZXRFX2R2czJxVklFNS1LN0ZFdDQ4VGdBaTd5RkgzX0FObWJBTXZLRGpJSnE1cVdoMThmeE90R1QzbjJkUldpMnZETWZINXJUU0VRRDRNd3lTLTYxVFc0Tm91ZWNvd2Z2TmFKVDJ3SHV1U0pLSm1za09mOVZZTHRLVElDMmdDVmxoRElUNEF5RW5MdmVKczU2ZkU?oc=5",
-      "summary": "Sam Altman Criticizes Anthropic's Claude Mythos Marketing Let's Data Science",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Thu, 23 Apr 2026 11:54:15 GMT",
-      "category": "Content & Campaigns",
-      "key_insight": "Sam Altman Criticizes Anthropic's Claude Mythos Marketing - Let's Data Science.",
-      "fetched_at": "2026-04-24T09:16:58.866802+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "f64ef3981080",
-      "title": "having claude on your laptop isnt an ai system",
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1stu2mk/having_claude_on_your_laptop_isnt_an_ai_system/",
-      "summary": "Everyone i talk to right now has some kind of claude setup going. Business context loaded in, maybe some SOPs, a few integrations here and there. And it works, you&#39;re getting more done But you&#39;re still using one instance of claude, one conversation at a time, doing one task at a time. And it always seems to get about 80% of the way there before you have to jump in and finish it yourself. And you&#39;re supervising it full time What an actual ai operating system looks like is multiple agents running at the same time, each handling different parts of your business. One is pulling data from your crm while another is analyzing last weeks client calls and cross referencing that against your sales pipeline. They&#39;re running loops, refining their own output, iterating until the work is actually done. Not 80% done where you have to come in and clean it up To make matters worse, you have tons of data just laying around, scattered across slack, your crm, google drive, call recordings,",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-04-23T20:14:46+00:00",
-      "category": "Automation & Workflows",
-      "key_insight": "having claude on your laptop isnt an ai system.",
-      "fetched_at": "2026-04-24T09:16:53.682928+00:00",
       "skip": false,
       "is_featured": false
     }
