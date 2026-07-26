@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-25T05:27:26.732740+00:00",
-  "total": 127,
+  "last_updated": "2026-07-26T05:44:46.004611+00:00",
+  "total": 125,
   "posts": [
     {
       "id": "cbedc5dbafce",
@@ -56,7 +56,7 @@
       "key_insight": "just got claude oss sponsorhip despite having 25 stars in my project.",
       "fetched_at": "2026-07-18T05:07:41.168167+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "26c654138b86",
@@ -238,7 +238,7 @@
       "key_insight": "For 43 straight days this spring, an automated pipeline read r/ClaudeAI and r/ClaudeCode every night and wrote a daily digest",
       "fetched_at": "2026-07-04T05:58:04.849735+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "f5c45421bdd7",
@@ -1693,62 +1693,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "Claude can't really work with my Gmail anymore..",
       "fetched_at": "2026-04-27T10:28:27.392234+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "ab6fee43681d",
-      "title": "Anthropic's Claude Gets More Free Features as OpenAI Starts Showing Ads in ChatGPT - MacRumors",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1zOGlsVW5XZDBCZXNRdmZReHJpZmctVU1hTy1VQlBDOEhtd1ZSYnBDUWNIT000d21CcHhlajVndm1oc0J1ZXRFLWlBZFN3RzZvWm85TF9OQS1ZX25ybXdKOXhRWDJBbldNNXE1ZzVZX204SXBmZ1NKQV8ydk9oUQ?oc=5",
-      "summary": "Anthropic's Claude Gets More Free Features as OpenAI Starts Showing Ads in ChatGPT MacRumors",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Wed, 11 Feb 2026 08:00:00 GMT",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "Anthropic's Claude Gets More Free Features as OpenAI Starts Showing Ads in ChatGPT - MacRumors.",
-      "fetched_at": "2026-04-26T08:06:39.475484+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "469adc7dc631",
-      "title": "A Non-Coder Single-Handedly Managed Anthropic\u2019s Entire Growth Marketing for Ten Months - \u6df1\u6f6eTechFlow",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5DckJTemtWQlppWG9zSkNOQUVLc01Ycm82bnp3M3ZnUlIwYUhjZ1VaMXltN2JIRkJPRzktbS16TmVrcEtoUlhRaVlLOTYyRktxNXc?oc=5",
-      "summary": "A Non-Coder Single-Handedly Managed Anthropic\u2019s Entire Growth Marketing for Ten Months \u6df1\u6f6eTechFlow",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Thu, 12 Mar 2026 07:00:00 GMT",
-      "category": "Content & Campaigns",
-      "key_insight": "A Non-Coder Single-Handedly Managed Anthropic\u2019s Entire Growth Marketing for Ten Months - \u6df1\u6f6eTechFlow.",
-      "fetched_at": "2026-04-26T08:06:38.962412+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "4f3e483ae376",
-      "title": "Entrepreneur says Claude 'killed' her marketing company, predicts AI-to-AI sales in future, 'They don't get charmed' - MSN",
-      "url": "https://news.google.com/rss/articles/CBMixwNBVV95cUxQcXQ3cjJ3ZW9pOEw0RG5LaGYtZDZjcks0aWoyWTgyMFcxQWZXa2J6Wi1rb3A4WEpDNDBvWHRNUTNKSXMtckhhOG1qYjZPTWszaDFxbjN1NXB5dHJjSURzVWJKZDNlVWQ3QjBjeGFHZTV5Znp3eEs4Zks3VDZHeWMweUEtUkIzMFZaZnRKM0FLYjdNTEVQQUxtbXRMQnBKSnBGcHd0N3lPWkNYTDJMVno2cFYxMm5ZS0hrYkNmNVFwVm1FZU12Y1NDQkFtc2RjR3Y4VFlzOE54Vjd5ZlkxZXFob2lXYnR1blBKQ3FseFdJVUc1WnJjUGxuaUJuMkxPT0tlbFB6Tl9lN29Rbmg2dEoyN0ZFNGNJdVV1VTBrd1VubmRqQVhRcldXaEswU1Bpc2tHMXBMV05ablptaGxLWVJZOW9BWE8xVEZ4SlZtWlVrd0NSYlkwVmp2UXNIMHRQbVhzNUNZYVdwazBOTkg1eWt4YmpfM080SnN0c0FBMHhUcTdhY2ZxWExPMnhoZ0l5SVRBUjZWMzlKX0tNSGlZV1JjWU1xRzV6QVM4RF9RRkZqRHVtTWpYTGFnLW5icXpRbldLUmwtNmx4NA?oc=5",
-      "summary": "Entrepreneur says Claude 'killed' her marketing company, predicts AI-to-AI sales in future, 'They don't get charmed' MSN",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Sat, 25 Apr 2026 20:47:25 GMT",
-      "category": "Content & Campaigns",
-      "key_insight": "Entrepreneur says Claude 'killed' her marketing company, predicts AI-to-AI sales in future, 'They don't get charmed' - MSN.",
-      "fetched_at": "2026-04-26T08:06:38.546157+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "08e9a8fe7aa4",
-      "title": "Is the Google Drive connector in Claude.ai just\u2026 broken for everyone?",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1svuhuu/is_the_google_drive_connector_in_claudeai_just/",
-      "summary": "**Claude.ai MCP connectors seem to be silently degrading \u2014 Google Drive broken, Gmail now only reads metadata. Anyone else?** I use Claude as a personal finance assistant. Two connectors that used to work are now broken in different ways: **Google Drive:** Shows connected but throws auth error every time Claude tries to read a file. * The user didn&#39;t complete authentication. They can try again. * Reconnected multiple times. Same result. **Gmail (this one hurts more):** Used to read full email body and extract data perfectly. Now it only returns metadata \u2014 sender, subject, date. The actual content is gone. No changes on my end. Both broke without any update or warning on my side. No error explaining why, no degraded-mode notice \u2014 just silently stopped working. Anyone else seeing this? Is there a fix or is this a known regression in the MCP layer? *(Running Claude Sonnet 4.6 on claude.ai)* &#32; submitted by &#32; /u/ValuableStaff8922 [link] &#32; [comments]",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-04-26T01:57:05+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "Is the Google Drive connector in Claude.ai just\u2026 broken for everyone?.",
-      "fetched_at": "2026-04-26T08:06:32.952916+00:00",
       "skip": false,
       "is_featured": false
     }
