@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-07-31T05:49:17.071824+00:00",
-  "total": 113,
+  "last_updated": "2026-08-01T05:39:59.745292+00:00",
+  "total": 111,
   "posts": [
+    {
+      "id": "01f3d556f124",
+      "title": "Claude Code burned my entire five-hour limit in 6 minutes 32 seconds: 10.26M tokens, zero lines of code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vca12m/claude_code_burned_my_entire_fivehour_limit_in_6/",
+      "summary": "I thought I was imagining how quickly Fable 5 was consuming my Claude allowance, so I inspected the local Claude Desktop/Cowork and Claude Code logs for the exact run. The result is worse than I expected. My five-hour allowance had reset at 12:20 AM. I sent one short prompt at exactly 12:50 AM: essentially, \u201ccontinue where you left off, carefully.\u201d At 12:56:32 AM - only 6 minutes and 32 seconds later - Claude stopped with \u201cUsage limit reached.\u201d There were no other local Cowork prompts between the reset and this failure. During those 6 minutes and 32 seconds, Fable 5 recorded: - 15 model calls; - 8 Bash calls, all for Android emulator/UI interaction; - 7 file reads; - 0 Edit or Write tool calls; - 0 subagents; - 0 lines of code changed. The deduplicated token accounting from Claude&#39;s own local session log was: | Usage category | Tokens | |---|---:| | One-hour cache writes | 5,189,449 | | Cache reads/hits | 5,069,543 | | Output | 4,312 | | Regular input | 30 | | **Total processed** |",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-08-01T01:49:57+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Claude Code burned my entire five-hour limit in 6 minutes 32 seconds: 10.26M tokens, zero lines of code.",
+      "fetched_at": "2026-08-01T05:39:44.577790+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "c38179017ce4",
       "title": "$20 Claude AI training bundle covers prompting, automation and real-world workflows - Cult of Mac",
@@ -266,7 +280,7 @@
       "key_insight": "For 43 straight days this spring, an automated pipeline read r/ClaudeAI and r/ClaudeCode every night and wrote a daily digest",
       "fetched_at": "2026-07-04T05:58:04.849735+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "f5c45421bdd7",
@@ -1469,76 +1483,6 @@
       "category": "Content & Campaigns",
       "key_insight": "Claude agents for my branding and marketing.",
       "fetched_at": "2026-05-03T08:28:13.414676+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "b3c28936d8a9",
-      "title": "ChatGPT vs Claude AI: Key Differences, Features & Use Cases - Blockchain Council",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9jdTZua3JfR0p5U05UMzEwUm5qRnJMZW5uX19NOU5jM3JYMkZlN2dvQ2JkcDdhNUlkTmxLaWUzcTZ1bV9KbnYzbkw3eTNROU5kanZuUmNSRWhQb2NVWnp1NTR1X1lKdGNRaFpZ?oc=5",
-      "summary": "ChatGPT vs Claude AI: Key Differences, Features & Use Cases Blockchain Council",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Thu, 02 Apr 2026 07:00:00 GMT",
-      "category": "Content & Campaigns",
-      "key_insight": "ChatGPT vs Claude AI: Key Differences, Features & Use Cases - Blockchain Council",
-      "fetched_at": "2026-05-02T08:12:44.058795+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "38c366ee724d",
-      "title": "Meta opens advertising platform to AI tools like ChatGPT, Claude, others - Marketing Edge",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPXzBzS1Y1Qk1RSkRuU0h2amRRQmZ4QnMtYXEzZG9FMFlvRnhwRTkyMTZXSHZGRUktUzNGajVBTUJldm4xNXVTZTJ2RDdRR0pYQjRNaUpCQlpFR2kzNUV6OHVKTUp1aV8wN2ZDb3o4b2duUHR2dFE3UURualc2OWZGRS1CQ0daQ0Z2VHg1WEFlQlF3VFR3QVR0ZVNsMnhjbTdXRGc?oc=5",
-      "summary": "Meta opens advertising platform to AI tools like ChatGPT, Claude, others Marketing Edge",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Sat, 02 May 2026 07:26:26 GMT",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "Meta opens advertising platform to AI tools like ChatGPT, Claude, others - Marketing Edge.",
-      "fetched_at": "2026-05-02T08:12:44.056592+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "9f9689eb8358",
-      "title": "PR Narrator \u2013 PR Descriptions from Claude Code Transcripts",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t1dn46/pr_narrator_pr_descriptions_from_claude_code/",
-      "summary": "I built PR Narrator because AI generated PR descriptions usually summarize the diff, but the useful reasoning often lives in the Claude Code session. The diff tells reviewers what changed. The transcript tells them why. PR Narrator reads the Claude Code JSONL transcript on disk, combines it with the git diff and generates a structured PR description with: why the change exists the approach taken alternatives considered and rejected risk / review focus It is a small CLI: pr-narrator inspect latest pr-narrator synthesize latest pr-narrator create latest Install : uv tool install pr-narrator The main use case is long coding sessions where context gets compacted and the decision trail disappears from active memory. The v0.1.0 release PR was written by the tool itself: https://github.com/nagstler/pr-narrator/pull/12 Repo : https://github.com/nagstler/pr-narrator &#32; submitted by &#32; /u/nagstler [link] &#32; [comments]",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-05-02T02:42:14+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "PR Narrator reads the Claude Code JSONL transcript on disk, combines it with the git diff and generates a structured PR description with: why the change exists the approach taken alternatives consider",
-      "fetched_at": "2026-05-02T08:12:36.214532+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "1b72731f0101",
-      "title": "I built a Claude Code plugin to help me GM: TTRPG GM Apprentice. Looking for feedback on token efficiency.",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t1g7oc/i_built_a_claude_code_plugin_to_help_me_gm_ttrpg/",
-      "summary": "I run tabletop RPGs (Call of Cthulhu, GURPS, Forged in the Dark, D D 5e) and I got tired of the same workflow every session: dig through notes, cross-reference NPCs, check what threads I&#39;d left dangling, figure out what to prep next. So I built a Claude Code plugin that handles all of it. gm-apprentice is eight skills that cover the full campaign lifecycle: Skill What it does ttrpg-expert Rules advisor, content generation, encounter design, continuity checking. Pure reference layer, no vault writes. campaign-organizer Scaffolds and maintains a structured markdown vault. Works with Obsidian or plain filesystem. session-prep Between-session prep. Reconciles what actually happened vs. what was planned, reviews PC arcs, finds stale threads, designs scenes. session-play At-the-table assist. Speed-optimised, 1-5 sentence responses, stays out of the way. session-wrapup Post-session processing. Turns raw play notes into canon, creates entities, builds timeline, packages carry-forward. camp",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-05-02T04:50:29+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "I built a Claude Code plugin to help me GM: TTRPG GM Apprentice.",
-      "fetched_at": "2026-05-02T08:12:36.214088+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "297d9e70e317",
-      "title": "Used Claude AI to write a legal notice and got a full refund of Rs. 40,219 (~$480) for a defective refurbished MacBook. Company settled in 48 hours.",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t1gz76/used_claude_ai_to_write_a_legal_notice_and_got_a/",
-      "summary": "I want to share a real world use case that honestly blew my mind a little. I bought a refurbished MacBook Air M1 in December 2025 from a popular electronics platform in India. Screen completely died in April 2026, still under warranty, their own inspection confirmed zero damage on my part. Their offer was either take a replacement or get 85% refund because of something called depreciation deduction. I had no idea if that was legal or not. I am not a lawyer. So I just opened Claude and explained my entire situation. What Claude did in the next hour changed the outcome completely: Explained exactly why the depreciation offer was illegal under Indian consumer law Cited specific sections of the Consumer Protection Act, 2019 that applied to my case Identified the actual named Grievance Officer at the company with their direct email Drafted a complete formal pre-litigation legal notice that read like it came from an actual lawyer I sent it via email. That is it. No lawyer, no money spent, no",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-05-02T05:31:37+00:00",
-      "category": "Content & Campaigns",
-      "key_insight": "Used Claude AI to write a legal notice and got a full refund of Rs.",
-      "fetched_at": "2026-05-02T08:12:36.213576+00:00",
       "skip": false,
       "is_featured": false
     }
