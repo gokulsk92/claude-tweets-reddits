@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-08-01T05:39:59.745292+00:00",
-  "total": 111,
+  "last_updated": "2026-08-02T05:40:03.546439+00:00",
+  "total": 107,
   "posts": [
+    {
+      "id": "53f7b090c52f",
+      "title": "10 months and counting with Claude Code to build a full kitchen management system to take the pain out of home cooking and planning.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vcxhrk/10_months_and_counting_with_claude_code_to_build/",
+      "summary": "https://www.mealsmealsmeals.com/ Started with basically zero SaaS knowledge and used Claude Web and Claude Code to help me learn and begin. 10 months later, MMM is a full-stack SaaS running on Supabase, Vercel, and AWS. Features custom product crawlers, normalization and conversion pipelines, ingredient state modeling, pantry allocation modeling, and much more. It is now something that helps me decide what to eat, stay on budget and on plan, generates my shopping list for me, tracks my pantry quantities as I shop and cook automatically, and just takes the majority of the pain that comes with being the primary cook of a family out of the equation. It&#39;s still light on recipes but is fully functional and free to use with a single menu that you can reset infinitely. Please feel free to try it out and supply any feedback you feel is relevant. Just amazed that AI coding allowed someone like me to create something like this. Hope someone out there finds it useful and inspiring for their o",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-08-01T20:14:55+00:00",
+      "category": "ABM & Pipeline",
+      "key_insight": "10 months and counting with Claude Code to build a full kitchen management system to take the pain out of home cooking and planning..",
+      "fetched_at": "2026-08-02T05:39:49.071885+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "01f3d556f124",
       "title": "Claude Code burned my entire five-hour limit in 6 minutes 32 seconds: 10.26M tokens, zero lines of code",
@@ -1471,20 +1485,6 @@
       "fetched_at": "2026-05-04T10:28:07.466106+00:00",
       "skip": false,
       "is_featured": true
-    },
-    {
-      "id": "b94cbcf751c5",
-      "title": "Claude agents for my branding and marketing",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t2dbmt/claude_agents_for_my_branding_and_marketing/",
-      "summary": "I&#39;d love some ideas on how to build a pipeline similar to this. Claude is giving me weird options like building artifacts, but I suppose this is built on code. So if i needed agents to do brand research, strategy, content, write newsletters and linkedin posts. Do I define rules in Skill.md and add them to a folder? I don&#39;t understand the system yet. Thank you! &#32; submitted by &#32; /u/Real_Goddess [link] &#32; [comments]",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-05-03T06:10:27+00:00",
-      "category": "Content & Campaigns",
-      "key_insight": "Claude agents for my branding and marketing.",
-      "fetched_at": "2026-05-03T08:28:13.414676+00:00",
-      "skip": false,
-      "is_featured": false
     }
   ]
 }
