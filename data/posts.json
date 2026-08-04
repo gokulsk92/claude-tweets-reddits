@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-08-03T05:55:56.724518+00:00",
-  "total": 107,
+  "last_updated": "2026-08-04T05:28:37.424270+00:00",
+  "total": 106,
   "posts": [
+    {
+      "id": "de507963501e",
+      "title": "Claude struggles to sculpt humanoids with math. Experimental Blender pipeline for game dev.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vezve2/claude_struggles_to_sculpt_humanoids_with_math/",
+      "summary": "I tried Blender MCP + Claude Opus 5 for game dev because I have zero experience in Blender. I found out Claude tries to do complex math for 3D topology when I prompt for a humanoid base mesh. Claude Opus 5 \\ mathing\\ a female base mesh It can&#39;t actually sculpt things through MCP like you can manually and it struggles with humanoids. It might be better for something with mechanical features so its easier to approach it with math. I concluded sculpting things programmatically this way burns tokens and unreliable for real game assets for now so I came up with an experimental idea that might be cheaper. In short: - (with Blender MCP) You still let Claude do screenshot checks, pivot/origin adjustments, polycount audits, renaming files etc. These are some tested use cases so you have something tangible: https://www.blender.org/lab/mcp-server/ - You DO NOT let claude do Python for visuals. You let dedicated 3D AI tools handle the visuals and keep Claude on pipeline. I drafted full pipelin",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-08-04T04:16:12+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "These are some tested use cases so you have something tangible: https://www.blender.org/lab/mcp-server/ - You DO NOT let claude do Python for visuals",
+      "fetched_at": "2026-08-04T05:28:24.499909+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "3d38f07376a1",
       "title": "Hackers abuse Google ads, Claude.ai chats to push Mac malware - BleepingComputer",
@@ -308,7 +322,7 @@
       "key_insight": "For 43 straight days this spring, an automated pipeline read r/ClaudeAI and r/ClaudeCode every night and wrote a daily digest",
       "fetched_at": "2026-07-04T05:58:04.849735+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "f5c45421bdd7",
@@ -1427,48 +1441,6 @@
       "category": "Content & Campaigns",
       "key_insight": "Claude AI for Affiliate Marketing Content (Safe Copy) - Blockchain Council.",
       "fetched_at": "2026-05-06T10:29:50.822254+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "442a85fda487",
-      "title": "Sam Altman slams Anthropic Super Bowl ads, which take jabs at OpenAI's advertising plans, as \u2018Clearly Dishonest\u2019 - MSN",
-      "url": "https://news.google.com/rss/articles/CBMiogNBVV95cUxPbHRQQXZNM29jTmY5MVFPb0NlQUtPeUJDaGhTS21yUTJPVDhkSnBhc19oc2JIaHBiUWNua3MwREtVamxXZFcwYlRtUHFDemxSZVpDT3dQbU93YXRyTi1lTTIzV1NVWWxUY216cklBZTNwVHQxZzZuVVp4djBYejN3d3hFUDVzcVJQeEtuemtKd3oyNXIwNjdjZm1tWUZTSzNFa25wZWZqMFRuajk1a1ZWSENwUVJJN21BeFhVTjktcXhfUzJSU096NGt6MnA5aWpOSThKUVhJeGVtSHlDRVZKcnVhV2FpbTRhai1EbGcxcWNyRHQwaVdWaUl5eHZvalJLTWZNYUVxTllBYll3eHI5clJEQWMyQWNZV1BoZ2kzMkZKZ1A5ZWY0ZTFmd2Y3Y1J3SDhCb0tXVEdkTEFhMWpaVk42R1ZrVTM5NVRMWFNiNHR5VVhmWTkydWQxREEwRGNvUzJHVER2aU5ueExBMExIWk9qZGppOXBSQ1RwWmUxallpV0U5WDA2MEJwUHMyQWFfcVBZSWk2eUp5THZpU040Q3ZR?oc=5",
-      "summary": "Sam Altman slams Anthropic Super Bowl ads, which take jabs at OpenAI's advertising plans, as \u2018Clearly Dishonest\u2019 MSN",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Sun, 26 Apr 2026 08:01:14 GMT",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "Sam Altman slams Anthropic Super Bowl ads, which take jabs at OpenAI's advertising plans, as \u2018Clearly Dishonest\u2019 - MSN.",
-      "fetched_at": "2026-05-05T09:31:05.534326+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "d3ee8ad37e71",
-      "title": "Claude 4.7 \"Literalism\" Claim vs. Reality: Why does it keep ignoring formatting and logic constraints?",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t47urn/claude_47_literalism_claim_vs_reality_why_does_it/",
-      "summary": "According to the release notes, Claude 4.7 is supposed to prioritize literal instruction adherence over intent guessing. However, I\u2019m seeing some major regressions in reliability: PEP8 Violations: Despite strict instructions to keep imports at the top, it persists in placing them mid-file. Naming Conventions: It completely ignores instructions regarding variable naming (using f , c , s instead of full names) even when it acknowledges the rule in the same chat. Script Edits: The most concerning part is when it changes hardcoded values. It changed a 900s timeout in my bash script to 4200s for no reason. If this model is supposed to be the sharpest tool for agentic workflows, why is it failing at basic negative constraints? Are my prompts not literal enough, or is the marketing just hype? Has anyone found a way to actually force 4.7 to stick to the rules? &#32; submitted by &#32; /u/Repulsive-Power9385 [link] &#32; [comments]",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-05-05T06:59:00+00:00",
-      "category": "Automation & Workflows",
-      "key_insight": "Claude 4.7 \"Literalism\" Claim vs.",
-      "fetched_at": "2026-05-05T09:30:56.109471+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "df3dd524f970",
-      "title": "Claude Chat vs Cowork for lead generation",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t49vk8/claude_chat_vs_cowork_for_lead_generation/",
-      "summary": "Hi, I am new to Claude AI, and I am in the process of starting my own business (freelander advisory, not AI related). I am using Claude Chat to discuss leads, send emails and analyze meetings I had (using a transcript I generate). Claude keeps track of all leads in an excel sheet that it updates when I ask it to, and I ask Claude in the morning what is on the plate today , and it provides an overview based on the excel and past conversations. All this in one chat in a project I created. While this works great and I appreciate the input from Claude, especially doing research on leads (internet searches, connecting it to past leads, etc), I feel like it could be better. Especially when the chat gets longer and longer, Claude starts to forget things, and I see how it compacts the discussion to free up memory. I am using Opus 4.6, and my usage limit is reached fast (using Claude Pro). I tried to switch to Claude Cowork, and it is better at maintaining the excel, keeping memory in CMD files",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-05-05T09:00:49+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "Especially when the chat gets longer and longer, Claude starts to forget things, and I see how it compacts the discussion to free up memory",
-      "fetched_at": "2026-05-05T09:30:56.107876+00:00",
       "skip": false,
       "is_featured": false
     }
