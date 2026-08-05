@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-08-04T05:28:37.424270+00:00",
-  "total": 106,
+  "last_updated": "2026-08-05T05:28:12.118680+00:00",
+  "total": 105,
   "posts": [
+    {
+      "id": "fe7ed02bbe2a",
+      "title": "Build and run your business from Claude, No extra platform AI credits.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vfq1e0/build_and_run_your_business_from_claude_no_extra/",
+      "summary": "This is Lovable with your own Claude, zero platform credits, and 12+ business modules already built in: auth, payments, email, CRM, invoicing, contracts, bookings, memberships, automations, live streaming, community, and ads attribution. The AI builds on real infrastructure, not a hollow frontend. I&#39;ve been building Tribenest for 16 months. Started as a tool to share my music without platform lock-in. Grew into something much bigger. I used Claude Code extensively throughout the build as my primary coding assistant for everything from the website builder to the automation engine to a full business email stack built on Wildduck, Haraka, ZoneMTA and SES. What I shipped covers website, store, memberships, email marketing, CRM, invoicing, contracts, project management, knowledge base, live streaming, community, ads attribution, and a custom app layer on Cloudflare Workers for Platforms with Durable Objects. The interesting part for this community: Tribenest opens over MCP so you can co",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-08-04T23:06:12+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "I used Claude Code extensively throughout the build as my primary coding assistant for everything from the website builder to the automation engine to a full business email stack built on Wildduck, Ha",
+      "fetched_at": "2026-08-05T05:27:57.965687+00:00",
+      "skip": false,
+      "is_featured": true
+    },
+    {
+      "id": "b70bab7820d2",
+      "title": "Claude from a small business perspective",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vftrri/claude_from_a_small_business_perspective/",
+      "summary": "For context, I am a mid-sixties small-business owner of a renewable energy company that does turnkey installations. The greatest hurdles are sales, marketing, payroll, P L, and scheduling. Normal small business challenges. I started using ChatGPT when it came out. I was thrilled when it could finally do accurate spreadsheets. Fast forward to today, Claude (Fable) is the best business tool I have. A $ 200-a-month plan has saved me well in excess of $50K since the start of the year. (I never hit my usage limit) To date, I have merged an archaic database platform with HubSpot using webhooks, scripts, and Python code. Developed realistic marketing plans, have weekly reports auto-generated on our Google spend, creating great visual HTML proposals for clients that are auto-generated with a button push. All tokens cleanly inserted and formatted. Every time I have a business question/need I want answered, a report generated, or a P L dissected, Fable does it. I check the math, the outcomes, an",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-08-05T01:50:48+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Claude from a small business perspective.",
+      "fetched_at": "2026-08-05T05:27:57.965014+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "de507963501e",
       "title": "Claude struggles to sculpt humanoids with math. Experimental Blender pipeline for game dev.",
@@ -56,7 +84,7 @@
       "key_insight": "Claude Code burned my entire five-hour limit in 6 minutes 32 seconds: 10.26M tokens, zero lines of code.",
       "fetched_at": "2026-08-01T05:39:44.577790+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "c38179017ce4",
@@ -84,7 +112,7 @@
       "key_insight": "I run my project's marketing with Claude Code \u2014 the memory layer is a git repo of schema-validated markdown.",
       "fetched_at": "2026-07-27T06:03:26.941975+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "cbedc5dbafce",
@@ -1427,20 +1455,6 @@
       "category": "Content & Campaigns",
       "key_insight": "Had this conversation with Claude: I mean if I was gonna run an AI company and make it what I want with all the perks I want ..I would 1000% call it and market it as JESUS Come talk to Jesus in real t",
       "fetched_at": "2026-05-07T10:41:46.030095+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "4607d6ed300b",
-      "title": "Claude AI for Affiliate Marketing Content (Safe Copy) - Blockchain Council",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRFQ2ZFFtQ2RrelNHNFNTWmt2UWh6S0VUNy1aR09reVcySjFDUVRNcFJ0M1Q2eEV2QjkwQzhlakk0RVhxNGZaZXpDUWtLOEpNNGxxNmRodTlTNFJMNHgyXzZGTnRjTTQzOXFaSmNoSVhBNkJ0VFRvUVRNNjA1cm9LYU9HbnRLV3NyUWI5SHN2Sl9Id3RYMHFhN1lfNUtrT3dIQ3MxQk9qUWFRem9nWG9IVHRiNlZ3Xy1nQXJaZjEzeHU1eVdTTlY0?oc=5",
-      "summary": "Claude AI for Affiliate Marketing Content (Safe Copy) Blockchain Council",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Fri, 27 Mar 2026 07:00:00 GMT",
-      "category": "Content & Campaigns",
-      "key_insight": "Claude AI for Affiliate Marketing Content (Safe Copy) - Blockchain Council.",
-      "fetched_at": "2026-05-06T10:29:50.822254+00:00",
       "skip": false,
       "is_featured": false
     }
