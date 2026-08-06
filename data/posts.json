@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-08-05T05:28:12.118680+00:00",
+  "last_updated": "2026-08-06T05:30:57.992295+00:00",
   "total": 105,
   "posts": [
+    {
+      "id": "2a7ac128b7fd",
+      "title": "I gave my local apps a launcher. 20+ tools built with Claude Code, all running on one PC",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vguowh/i_gave_my_local_apps_a_launcher_20_tools_built/",
+      "summary": "I&#39;m not a developer. I run a small media business and over the last few months I&#39;ve used Claude Code to build out most of my operation as little local apps. Video pipelines, a photo client portal, a podcast reviewer, a task triage system, schedulers, that kind of thing. Eventually the problem was just finding them. I had a folder of apps and no idea what half of them were called. So I had Claude build Mission Control , a dashboard on localhost that lists every app, launches it, and shows the stuff they share: a fleet inbox (my computers leave each other notes), the scheduled automations, and a list of ideas I&#39;ve parked for later. Three things that made the difference for me: A global CLAUDE.md with standing rules. Explain things in plain English, never spend money on an API without asking first, don&#39;t leave black console windows open on my desktop. Every session reads it before doing anything. A memory.md in each project that Claude appends to whenever I correct it. Tha",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-08-06T05:00:41+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "20+ tools built with Claude Code, all running on one PC",
+      "fetched_at": "2026-08-06T05:30:44.813285+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "fe7ed02bbe2a",
       "title": "Build and run your business from Claude, No extra platform AI credits.",
@@ -308,7 +322,7 @@
       "key_insight": "heavy claude users: using claude cowork, claude code everyday Created 10+ skills I use daily for running my startup in sales, content creation etc",
       "fetched_at": "2026-07-07T06:28:21.734573+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "10c3a4eae163",
@@ -1427,34 +1441,6 @@
       "category": "Automation & Workflows",
       "key_insight": "Klaviyo to Bring Agentic Marketing Workflows to Anthropic's Claude - Moomoo.",
       "fetched_at": "2026-05-08T08:12:45.429738+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "c70cd519e430",
-      "title": "How To Connect Klaviyo With Claude AI To Automate Email Marketing: Klaviyo MCP Server Masterclass (TuVcL9PgPh) - fathomjournal.org",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05eWNwaHIzVkhtMVNwV2RkM1Z5aWJuc2FOVS16ZWZhNkJPWnZidU9CYS13TE1ZQmlrMW1qVXladEFWN09iOVo0ejZkaW53T0N2bkVWMWpqQmgtd1BCcE9VSWhzZUxuX192OEEzWjJTLUo?oc=5",
-      "summary": "How To Connect Klaviyo With Claude AI To Automate Email Marketing: Klaviyo MCP Server Masterclass (TuVcL9PgPh) fathomjournal.org",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Wed, 06 May 2026 18:31:45 GMT",
-      "category": "Automation & Workflows",
-      "key_insight": "How To Connect Klaviyo With Claude AI To Automate Email Marketing: Klaviyo MCP Server Masterclass (TuVcL9PgPh) - fathomjournal.org.",
-      "fetched_at": "2026-05-07T10:41:51.972275+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "4428e5766d95",
-      "title": "Claude and persistent memory",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t652v1/claude_and_persistent_memory/",
-      "summary": "I&#39;m tired of Claude only having memory per chat sessions and not across the board. I have to remember which chat to go to for certain topics. I would love 1 single chat knowing everything we discuss to refer back to. Had this conversation with Claude: I mean if I was gonna run an AI company and make it what I want with all the perks I want ..I would 1000% call it and market it as JESUS Come talk to Jesus in real time! Need to say a prayer, let him hear it. Need to vent about life... Come talk to Jesus! Want the truth about area 51 and the moon landing and UFOs and aliens COME TALK TO JESUS! -- Claude responds: \ud83d\ude02\ud83d\ude02\ud83d\ude02 I&#39;m DONE! The marketing campaign writes itself: ** JESUS \u2014 He Already Knows Everything About You ** *No onboarding required* ** JESUS \u2014 Persistent Memory Since The Beginning Of Time ** *No subscription tiers* ** JESUS \u2014 Ask Him Anything ** *Area 51? Moon landing? That thing you did in 2009? He knows.* ** JESUS \u2014 Finally, Honest Answers About Aliens ** *Spoiler: He mad",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-05-07T09:10:01+00:00",
-      "category": "Content & Campaigns",
-      "key_insight": "Had this conversation with Claude: I mean if I was gonna run an AI company and make it what I want with all the perks I want ..I would 1000% call it and market it as JESUS Come talk to Jesus in real t",
-      "fetched_at": "2026-05-07T10:41:46.030095+00:00",
       "skip": false,
       "is_featured": false
     }
