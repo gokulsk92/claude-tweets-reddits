@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-08-06T05:30:57.992295+00:00",
-  "total": 105,
+  "last_updated": "2026-08-07T04:35:31.220312+00:00",
+  "total": 104,
   "posts": [
+    {
+      "id": "e36de7ba7887",
+      "title": "Show HN: Kifly \u2013 Expose your ecommerce store to AI agents via MCP [video]",
+      "url": "https://www.youtube.com/watch?v=6gfn03LKRus",
+      "summary": "Hi HN, I am building https:&#x2F;&#x2F;kifly.ai&#x2F; , to make ecommerce stores discoverable and purchasable by AI agents. Enabling payments using traditional methods and stablecoins for physical goods. With Kifly a seller can easily sync their inventory and we create a vectorized database of their products&#x2F;goods and make it visible through MCP. Sellers get: - A sales agent that lives on their existing site (Shopify, WooCommerce etc.). It helps customers find and purchase products seamlessly using natural language. Collapsing the search bar and checkout page. - Their own seller scoped MCP they can hand to any customer&#x2F;org for secure, faster automation and transactions. -Discovery and checkout in Claude, ChatGPT, Gemini and Siri AI through the network wide Kifly MCP ( https:&#x2F;&#x2F;kifly.ai&#x2F;api&#x2F;mcp ) I believe in the near future everyone will have an agent, every phone or device will constitute one. Organizations will also have sort of super agents for complex p",
+      "source": "Hacker News",
+      "source_label": "Hacker News",
+      "date": "2026-08-06T18:18:22Z",
+      "category": "Automation & Workflows",
+      "key_insight": "-Discovery and checkout in Claude, ChatGPT, Gemini and Siri AI through the network wide Kifly MCP ( https:&#x2F;&#x2F;kifly.ai&#x2F;api&#x2F;mcp ) I believe in the near future everyone will have an ag",
+      "fetched_at": "2026-08-07T04:35:21.829727+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "2a7ac128b7fd",
       "title": "I gave my local apps a launcher. 20+ tools built with Claude Code, all running on one PC",
@@ -1399,48 +1413,6 @@
       "category": "ABM & Pipeline",
       "key_insight": "Anthropic approaching $1T valuation.",
       "fetched_at": "2026-05-09T08:22:36.940101+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "51a29ce11341",
-      "title": "How Claude Built a Full Video Marketing Campaign in Under 24 Hours - Geeky Gadgets",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE13TGdVZkRCbFN5MFZhSjIwNmNZQWtFaTdSM2J5R1hfbThqOEJwMWMxS01sR2pJNE5wU1lfQmxBMU5pekNudUx4TDZ4X3NxRjA4MmVUQWdBaEhzalJEM3BNSk5QRVNmQzJrRTVIWEpweXU?oc=5",
-      "summary": "How Claude Built a Full Video Marketing Campaign in Under 24 Hours Geeky Gadgets",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Thu, 07 May 2026 13:17:32 GMT",
-      "category": "Content & Campaigns",
-      "key_insight": "How Claude Built a Full Video Marketing Campaign in Under 24 Hours - Geeky Gadgets.",
-      "fetched_at": "2026-05-08T08:12:45.430292+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "d1f5f48d884a",
-      "title": "Klaviyo to Bring Agentic Marketing Workflows to Anthropic's Claude - marketscreener.com",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLXE0SUUyVW5nYjNuRDFNbU4wTWtPWFphR0QtY0pJWnM2VkRZcDAzUDlGNzRFVnRnODludkxFTi1EX2tZWU03RGVCTU9CRnowd0N6R0RxV2pqb3lUdHZ0bjhxVlMxNlAyZ05LQVEwN2V0MXVERkZBMjBVX0NmZWZZcXowN2kyYXNVbDdSdTJnb0YyMDlEYzJKUlVtSEdpd3FZSzdQRElIaVU4b1E4bzIxamZEOGNtNXlmNTE0?oc=5",
-      "summary": "Klaviyo to Bring Agentic Marketing Workflows to Anthropic's Claude marketscreener.com",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Thu, 07 May 2026 18:18:33 GMT",
-      "category": "Automation & Workflows",
-      "key_insight": "Klaviyo to Bring Agentic Marketing Workflows to Anthropic's Claude - marketscreener.com.",
-      "fetched_at": "2026-05-08T08:12:45.430050+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "3f86581156c0",
-      "title": "Klaviyo to Bring Agentic Marketing Workflows to Anthropic's Claude - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSVFCNjlCdm16eklER1BOQTl5SDlYSVptUHlJa2FKcUM5cG91ckQ3TlEwRTFHYjJNaF9xQ1U3QmNVOWI0N243ZDAzSzNJTkFhLWNHam9tVDNKWXp6bXFybDdEUkVPNE1xTnhpV2NzUlRVaU9hMk45Z0ZYTTZHUzlnSkJvMXFKck1JeFdBdDBFVVd4Z0dEVVpma19MdVlIVEZ2eUdzUU96ZDRaZVBf?oc=5",
-      "summary": "Klaviyo to Bring Agentic Marketing Workflows to Anthropic's Claude Moomoo",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Thu, 07 May 2026 19:37:09 GMT",
-      "category": "Automation & Workflows",
-      "key_insight": "Klaviyo to Bring Agentic Marketing Workflows to Anthropic's Claude - Moomoo.",
-      "fetched_at": "2026-05-08T08:12:45.429738+00:00",
       "skip": false,
       "is_featured": false
     }
