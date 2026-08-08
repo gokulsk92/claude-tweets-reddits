@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-08-07T04:35:31.220312+00:00",
-  "total": 104,
+  "last_updated": "2026-08-08T03:49:22.198265+00:00",
+  "total": 102,
   "posts": [
+    {
+      "id": "c1ad5ecebfef",
+      "title": "Lusha Highlights AI-Driven Signal-Based Sales Automation via Claude Integration - tipranks.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMTdTazBNOHB5d3Bmd2FxQ0F6bG10eWRYb1VwaDFLb3pNRHI5ekVvakRvalNLaVJGdC01c2JTcG5Pd3EwNHNkaWRFeW9LdzV1SmRBeHFLdUp6c25oQi02RnVNQ2ZxS0d2VE5Ta1B1eDhPTUxUNERnU2F0TFBhazFyeFdzUXVwVEVVdnJZZDZ6bmFZMTlfRnozak5iMkc1YmhMYnk1N1VSYWRaRmZtd1JPYzZSRGM4WUpsWUpicmJhWkM0TTRJR0E?oc=5",
+      "summary": "Lusha Highlights AI-Driven Signal-Based Sales Automation via Claude Integration tipranks.com",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Wed, 05 Aug 2026 23:14:13 GMT",
+      "category": "Automation & Workflows",
+      "key_insight": "Lusha Highlights AI-Driven Signal-Based Sales Automation via Claude Integration - tipranks.com.",
+      "fetched_at": "2026-08-08T03:49:10.414999+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "e36de7ba7887",
       "title": "Show HN: Kifly \u2013 Expose your ecommerce store to AI agents via MCP [video]",
@@ -1385,34 +1399,6 @@
       "category": "Content & Campaigns",
       "key_insight": "for reference i am using claude sonnet 4.6 adaptive thinking",
       "fetched_at": "2026-05-11T12:48:37.907868+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "e4d97dcece9c",
-      "title": "FinancialContent - Marketing Signals Commits to Agentic AI as the Future of Digital Marketing \u2013 Investing in Claude Code, Cowork and the Next Era of Intelligent Automation - FinancialContent",
-      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQc3pjOXR5STRNbG5QMEJBOFVSVUlUOU5RTGRCa25rWWRWU2Q0Z1VKd2VGOEJRaV9pQm1sai02WTNLSmk0ajFKMWFsaUh2UVNvNXlhU3FVOUxvcUhyQVlBd1pxdEd5MG4ycVBodEpkTllDY3VOcmY1VVcyX0R0NEJfVXI3S3hySUlibkFxbWtfenlDNmhlWHNBUWR0QUR6eEZHN2IxeDdQaFlRbUZSekVpTlludzBzZFJyeTIzSF8wak90ZFpXS193bUhIejJncFJSOG1oeUJVdnJ4b2d2VmhyN0h2eUdpTjBwMDdNRVBYWF9RcWtGT1FUWkRmQkZXSm5vcDJEX0FLQW9MNnZtbjhKM3NYMlZLMmFWSlVtdkdkbzdRV29jREpQYWwxekwzRHF3eHVFaUFHWURvRV9VUUZNT2hWWVg?oc=5",
-      "summary": "FinancialContent - Marketing Signals Commits to Agentic AI as the Future of Digital Marketing \u2013 Investing in Claude Code, Cowork and the Next Era of Intelligent Automation FinancialContent",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Mon, 16 Mar 2026 07:00:00 GMT",
-      "category": "Automation & Workflows",
-      "key_insight": "FinancialContent - Marketing Signals Commits to Agentic AI as the Future of Digital Marketing \u2013 Investing in Claude Code, Cowork and the Next Era of Intelligent Automation - FinancialContent.",
-      "fetched_at": "2026-05-09T08:22:40.420529+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "4348d0c90c59",
-      "title": "Anthropic approaching $1T valuation. the real moat isnt models, its infrastructure.",
-      "url": "https://www.reddit.com/r/startup/comments/1t7ypwj/anthropic_approaching_1t_valuation_the_real_moat/",
-      "summary": "Anthropic raising at ~$900b valuation, annual revenue approaching $45b. 5x growth in under a year. What caught me though is the compute side. they&#39;ve locked in multiple deals totaling thousands of billions in commitments over the next several years. spacex colossus, 220k gpus, 300mw capacity. amazon, up to 5gw. google plus broadcom, 5gw starting 2027. microsoft and nvidia, $300b in azure capacity. fluidstack, $500b in us ai infra. Model race gets headlines. infrastructure race decides winners. A few things this means for the startup ecosystem. Compute is the bottleneck. even anthropic with all that funding was rationing claude access, lowering limits, pulling features from plans. they needed elons gpus to restore normal service. think about that for a sec. Infrastructure lock in is the real moat. models can be replicated, training data can be acquired, but securing 5gw of power and hundreds of thousands of gpus is a multi year head start. Unit economics work if you do the math. $10",
-      "source": "Reddit",
-      "source_label": "search.rss?q=Claude+AI+marketing+automation&sort=new",
-      "date": "2026-05-09T08:07:02+00:00",
-      "category": "ABM & Pipeline",
-      "key_insight": "Anthropic approaching $1T valuation.",
-      "fetched_at": "2026-05-09T08:22:36.940101+00:00",
       "skip": false,
       "is_featured": false
     }
