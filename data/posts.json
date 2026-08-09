@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-08-08T03:49:22.198265+00:00",
-  "total": 102,
+  "last_updated": "2026-08-09T03:57:08.486889+00:00",
+  "total": 101,
   "posts": [
+    {
+      "id": "f34f539babcf",
+      "title": "Built a Claude Code skill that checks UX gaps against ~60 cited patterns before you ship",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vjcqcp/built_a_claude_code_skill_that_checks_ux_gaps/",
+      "summary": "Kept noticing the same failure mode across shipped screens: not bugs, just missing pieces. No forgot-password link, no empty state, no restore-purchases button. None of that fails a test suite. ship-it is a Claude Code skill that checks a screen you just built against 59 UX patterns, each tied to a real source (WCAG 2.2, Apple HIG / App Store Review Guidelines, Material Design, GOV.UK Design System) instead of generic best-practice text. Two things I&#39;d actually want feedback on: Every pattern has a tier (Fundamental / Common / Conditional) so the agent doesn&#39;t demand a shopping cart on a B2B tool. Curious if the tiering holds up against real products, not just the ones I tested on. The catalog is structured as router - section index - single pattern file specifically so an agent only loads the one pattern file it needs, not the whole thing. There&#39;s also a SECURITY.md addressing prompt-injection risk in loaded content, since the whole point of this skill is to get pasted int",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-08-09T01:26:53+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Built a Claude Code skill that checks UX gaps against ~60 cited patterns before you ship.",
+      "fetched_at": "2026-08-09T03:56:52.791088+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "c1ad5ecebfef",
       "title": "Lusha Highlights AI-Driven Signal-Based Sales Automation via Claude Integration - tipranks.com",
