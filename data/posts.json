@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-08-09T03:57:08.486889+00:00",
-  "total": 101,
+  "last_updated": "2026-08-10T04:11:41.939580+00:00",
+  "total": 102,
   "posts": [
+    {
+      "id": "d07163803db9",
+      "title": "EZ Texting Launches AI Assistants for SMS Marketing: Send texts, run campaigns using ChatGPT, Claude or any famous AI Tool - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNVTFnUkJuUVM5MDFGdklpUmpKLVFyMkFhbThobnlOY1dQY3k2UFIycFIwNHpmSHhrdVYtVkJLQjBPUXlOM2stT1NMX28yVTBLeTAwangxU3JsWVl3STVZUFBfQ3NsdHpvQjZXSk1pd3drd01yVzluY1NYa0lpMlpVeDYtZXg4cF9XZU1iV1RkVTQweWJuX2hfY0t6Q3NabGY2TFRodVBmTUpSdi1xR0UzLWREMlpObHlfYmFhRHlxbVBuU3NYZkhIdE9zWk5GVGFFaDhwWkVMWW9wcmRJWmhwZTBDcTVjSkNHWVNKNWljeklpWW1rSlh4NFdPZXRlMDZNRW9nUmln?oc=5",
+      "summary": "EZ Texting Launches AI Assistants for SMS Marketing: Send texts, run campaigns using ChatGPT, Claude or any famous AI Tool PR Newswire",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Tue, 04 Aug 2026 17:34:00 GMT",
+      "category": "Content & Campaigns",
+      "key_insight": "EZ Texting Launches AI Assistants for SMS Marketing: Send texts, run campaigns using ChatGPT, Claude or any famous AI Tool - PR Newswire.",
+      "fetched_at": "2026-08-10T04:11:29.257157+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "f34f539babcf",
       "title": "Built a Claude Code skill that checks UX gaps against ~60 cited patterns before you ship",
@@ -1371,48 +1385,6 @@
       "category": "Automation & Workflows",
       "key_insight": "How on earth did Claude Opus 4.7 misspell its own subagent name??.",
       "fetched_at": "2026-05-12T11:07:16.159286+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "c63b2b695b71",
-      "title": "Manychat adds Claude AI to boost ecommerce automation - MSN",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSzVnRWdWTjVfckF0VlA1enJrdFVPaGpudDYzTFN0dEVNZlkzWmpadzhlLVFFbHlLNExvQ3pQTVZUbVpjeFBBZ1NMUEZkUS1MSWZ1QVJiUWFUenB6VllQR1llLU9UUzI2M2czSTFNZkJsUEFFMHFBV0lwSWxvOFNfNWJydUFseC1DVDBySThGS2N0T01iSnctSmxQWGY0d1I3eEdEQksxQQ?oc=5",
-      "summary": "Manychat adds Claude AI to boost ecommerce automation MSN",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Mon, 11 May 2026 02:11:20 GMT",
-      "category": "Automation & Workflows",
-      "key_insight": "Manychat adds Claude AI to boost ecommerce automation - MSN.",
-      "fetched_at": "2026-05-11T12:48:45.248557+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "4c0172ea54d2",
-      "title": "Which is best api gateway for building claude agents?",
-      "url": "https://www.reddit.com/r/AIStartupAutomation/comments/1ta27et/which_is_best_api_gateway_for_building_claude/",
-      "summary": "our team has been developing Claude agents and building a SaaS backend. We are currently selecting a suitable API gateway. Spiky workloads mean our traffic is not a smooth, linear growth. Some days, our agents send massive requests to the API, followed immediately by dead periods. If we get tied to fixed subscription plans, we are simply burning money on idle compute resources.so a PAYG plan is a hard requirement for us. This is the analysis result after evaluating some main gateway options. OpenRouter OpenRouter is ideal for developers experimenting with multiple models who need a unified, flexible API for routing. Its flexibility allows you to route between different models, set fallbacks, and manage a unified budget, with highly adaptable payment options like crypto and bank transfers. The Anthropic-compatible endpoint easily plugs into existing codebases. However, while strong for multi-model routing, full compatibility for advanced, Claude-specific native features often depends on",
-      "source": "Reddit",
-      "source_label": "search.rss?q=Anthropic+Claude+marketing+use+case&sort=new",
-      "date": "2026-05-11T12:44:02+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "Which is best api gateway for building claude agents?.",
-      "fetched_at": "2026-05-11T12:48:44.566984+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "85a30e70798d",
-      "title": "How to improve claude response",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1t9wq4w/how_to_improve_claude_response/",
-      "summary": "I am not a professional but this is what i have found after using to for a year in my job. for reference i am using claude sonnet 4.6 adaptive thinking. my job is to write content and concepts, regarding marketing and strategize the company growth. after sometime claude may give generic responses and feel like nothing is working try these things. 1. delete all your memory and chats and start a new from a new chat. 2. either use chatgpt or claude to create prompts and the other to execute the plan. 3. don&#39;t give large company data or article to it, but let it think from your ideas, because otherwise it will make the same points made in the document and would not think new. 4. always make a new chat for each idea, article etc. 5. if you want to put large documents to it, first let another claude summarize it and then do it, possible 2 claudes are best way, rather than in same account. this will save your tokens. If you have any other do tell. &#32; submitted by &#32; /u/Ok_Economist4",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-05-11T08:05:09+00:00",
-      "category": "Content & Campaigns",
-      "key_insight": "for reference i am using claude sonnet 4.6 adaptive thinking",
-      "fetched_at": "2026-05-11T12:48:37.907868+00:00",
       "skip": false,
       "is_featured": false
     }
