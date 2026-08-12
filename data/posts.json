@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-08-11T03:58:54.804897+00:00",
-  "total": 99,
+  "last_updated": "2026-08-12T04:20:26.363803+00:00",
+  "total": 96,
   "posts": [
+    {
+      "id": "f9dc53c0f093",
+      "title": "Tell HN: Anthropic is starting to inject ads into Claude Code turns",
+      "url": "https://news.ycombinator.com/item?id=49254919",
+      "summary": "I was working in the mobile app via remote control when I saw it: PostToolUse:Bash says: Tip: Run &#x2F;ultrareview before you push to catch bugs with a cloud-based multi-agent review \u2014 3 free reviews left. Haven&#x27;t decided how I feel about this yet as it wasn&#x27;t too disruptive, but I can see where it could cause issues in an automation pipeline. But maybe this is something they&#x27;re only pushing to subscription users in interactive sessions, so I guess it could be considered reasonably unobtrusive . Regardless though this is a darkening road.",
+      "source": "Hacker News",
+      "source_label": "Hacker News",
+      "date": "2026-08-11T08:21:25Z",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Tell HN: Anthropic is starting to inject ads into Claude Code turns.",
+      "fetched_at": "2026-08-12T04:20:16.673080+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "d07163803db9",
       "title": "EZ Texting Launches AI Assistants for SMS Marketing: Send texts, run campaigns using ChatGPT, Claude or any famous AI Tool - PR Newswire",
@@ -322,7 +336,7 @@
       "key_insight": "Anyone else just using chatgpt/claude for grunt work instead of actual PPC decisions?.",
       "fetched_at": "2026-07-12T05:41:00.479938+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "4080d5a32fdb",
@@ -1315,20 +1329,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "Recently I came across a post where people were sharing things they built with Claude, and honestly some of them were really cool",
       "fetched_at": "2026-05-14T11:04:50.951018+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "ee84142936fe",
-      "title": "Why Use Claude AI to Automate CI/CD Pipelines? - Blockchain Council",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMUR6UGFkdzA4VlVFamVTcFdvUWVKdDRSV3Eydm9kY0xNOFVmS1NhQ18zYUIwWXpwTGFOaWg5SC04WFNaelZ4dTdyN3dwc0FfYlVOWG9Ka1A0RXpvTUNIWkZDWnlZNEZMTzFseGZfM0lKTUwwWHhPZTdpOFVTN3NqWmxiQ09LSUF5aU1Zc3J6bHdxT194LTNha2J3?oc=5",
-      "summary": "Why Use Claude AI to Automate CI/CD Pipelines? Blockchain Council",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Tue, 12 May 2026 12:43:52 GMT",
-      "category": "Automation & Workflows",
-      "key_insight": "Why Use Claude AI to Automate CI/CD Pipelines?",
-      "fetched_at": "2026-05-13T11:37:02.181811+00:00",
       "skip": false,
       "is_featured": false
     }
