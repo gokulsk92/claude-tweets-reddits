@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-14T04:21:22.846498+00:00",
-  "total": 91,
+  "last_updated": "2026-08-15T03:12:11.179352+00:00",
+  "total": 85,
   "posts": [
     {
       "id": "f9dc53c0f093",
@@ -84,7 +84,7 @@
       "key_insight": "20+ tools built with Claude Code, all running on one PC",
       "fetched_at": "2026-08-06T05:30:44.813285+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "fe7ed02bbe2a",
@@ -98,7 +98,7 @@
       "key_insight": "I used Claude Code extensively throughout the build as my primary coding assistant for everything from the website builder to the automation engine to a full business email stack built on Wildduck, Ha",
       "fetched_at": "2026-08-05T05:27:57.965687+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "b70bab7820d2",
@@ -1175,20 +1175,6 @@
       "category": "Automation & Workflows",
       "key_insight": "I&#39;m past the beginner stage and looking for: **Advanced Prompt Engineering** - Deep techniques, not just be specific **Practical Use Cases** - Real projects: content analysis, AI agents, automatio",
       "fetched_at": "2026-05-17T09:20:34.782542+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "c3ef86e7b1cc",
-      "title": "Is claude's 20$ subscription truly worth it?",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1telhcy/is_claudes_20_subscription_truly_worth_it/",
-      "summary": "Im a solo entrepreneur trying to start a organic handcrafted soap business. Im thinking of buying claude pro as the free version has helped me a lot to do market research, choosing recipes, some marketing and packaging ideas. But i need a team of ai agents to handle some complex tasks. I want to make a good website for my product but i barely know any coding stuff n heard claude code is literally perfect. Also i need a business and finance analyst, sales n marketing agent, some legal problems helper types and others to build a business. Can you guys please suggest me in detail what i shd actually do?? &#32; submitted by &#32; /u/PritPaul07 [link] &#32; [comments]",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-05-16T06:24:31+00:00",
-      "category": "Content & Campaigns",
-      "key_insight": "Is claude's 20$ subscription truly worth it?.",
-      "fetched_at": "2026-05-16T08:29:19.925544+00:00",
       "skip": false,
       "is_featured": false
     }
