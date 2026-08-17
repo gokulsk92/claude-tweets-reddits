@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-16T03:26:41.754588+00:00",
-  "total": 85,
+  "last_updated": "2026-08-17T03:26:27.743153+00:00",
+  "total": 83,
   "posts": [
     {
       "id": "664d2b414215",
@@ -70,7 +70,7 @@
       "key_insight": "Lusha Highlights AI-Driven Signal-Based Sales Automation via Claude Integration - tipranks.com.",
       "fetched_at": "2026-08-08T03:49:10.414999+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "e36de7ba7887",
@@ -112,7 +112,7 @@
       "key_insight": "I used Claude Code extensively throughout the build as my primary coding assistant for everything from the website builder to the automation engine to a full business email stack built on Wildduck, Ha",
       "fetched_at": "2026-08-05T05:27:57.965687+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "b70bab7820d2",
@@ -1147,20 +1147,6 @@
       "category": "Content & Campaigns",
       "key_insight": "I open-sourced the content SEO pipeline I run entirely in Claude Code \u2014 15 min/day, $0.45/post, real numbers inside.",
       "fetched_at": "2026-05-19T13:45:23.159642+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "11b4d21870ba",
-      "title": "Should pay for Claude?",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tgog3x/should_pay_for_claude/",
-      "summary": "Should I pay for Claude? I\u2019ll be honest, I only use ChatGPT for basic things like asking it for queries to do Google searches with Google dorks. But lately Instagram keeps showing me all the \u201cincredible\u201d things Claude can do. Automations, dashboards, code, images, agents\u2026 and I can honestly say I\u2019m getting FOMO. So I want to know if it would actually be useful for me. Right now I\u2019m not running a business yet, but I am interested in learning how to build automations and help businesses automate their processes. On top of that, I want to eventually open a call center and a marketing agency. So I want to know if it\u2019s worth it. What do you guys do with it? How has it helped you? What have you been able to do differently because of it? Please give me some clarity. I was thinking about paying for the Pro plan for now. And honestly, if I do pay for it, it\u2019s because I want to learn how to truly take advantage of Claude and eventually make money with it. &#32; submitted by &#32; /u/blackmonarc ",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-05-18T14:32:25+00:00",
-      "category": "Automation & Workflows",
-      "key_insight": "Should pay for Claude?.",
-      "fetched_at": "2026-05-18T14:42:50.332740+00:00",
       "skip": false,
       "is_featured": false
     }
