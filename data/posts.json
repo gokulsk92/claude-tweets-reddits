@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-08-17T03:26:27.743153+00:00",
-  "total": 83,
+  "last_updated": "2026-08-18T03:21:30.313610+00:00",
+  "total": 84,
   "posts": [
+    {
+      "id": "3c87e78ea32f",
+      "title": "How to Post to Instagram with Claude AI \u2014 Windsor.ai Tutorial | Automate your Marketing end-to-end - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9UWjNHRFdJVVd5MExEcE5NN2NaTGh3NWFvWVYwTEplaDRxY056OHhfZUFuR09qbVhna1FrMnltNFFpSDZRUkdETGFfZGI0MXdzdXp5SmplVWxuMTRz?oc=5",
+      "summary": "How to Post to Instagram with Claude AI \u2014 Windsor.ai Tutorial | Automate your Marketing end-to-end YouTube",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Mon, 17 Aug 2026 20:12:57 GMT",
+      "category": "Automation & Workflows",
+      "key_insight": "How to Post to Instagram with Claude AI \u2014 Windsor.ai Tutorial | Automate your Marketing end-to-end - YouTube.",
+      "fetched_at": "2026-08-18T03:21:17.171157+00:00",
+      "skip": false,
+      "is_featured": true
+    },
+    {
+      "id": "e673e1ade7f0",
+      "title": "Someone had Claude read all of One Piece \u2014 I had Claude Code turn their data into interactive dashboards (in one evening)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vr43re/someone_had_claude_read_all_of_one_piece_i_had/",
+      "summary": "A few days ago there was a post here about grandlinearchives.com \u2014 an agent pipeline that read all 1,189 One Piece chapters and built a foreshadowing encyclopedia. I loved it, but it&#39;s 8,800 pages of text. I wanted to see it. So I pointed Claude Code at it. The result: https://n0zz.github.io/grand-line-atlas/ \u2014 free, static, open source: https://github.com/N0zz/grand-line-atlas What it does: - Foreshadowing map \u2014 all 3,072 setup\u2192payoff chains drawn as arcs over the chapter axis. You can see Oda&#39;s 1,137-chapter cons as one picture. - Timeline \u2014 every dataset (seed density, predictions, mysteries, character debuts) as toggleable lenses on one axis, zoom by saga. - Web \u2014 start at any character and pull threads through the archive&#39;s cross-links. - Plus a nautical map view and a stats observatory (technique\u00d7saga heatmap, longest cons, prediction leads). - Spoiler-safe like the original: set your chapter, everything beyond it is hidden. How Claude Code helped: it mocked up 5 diff",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-08-17T20:37:07+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Someone had Claude read all of One Piece \u2014 I had Claude Code turn their data into interactive dashboards (in one evening).",
+      "fetched_at": "2026-08-18T03:21:15.181042+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "664d2b414215",
       "title": "I made a free Claude Code plugin that turns your agents into pixel creatures you can watch work \ud83e\udd80",
@@ -112,7 +140,7 @@
       "key_insight": "I used Claude Code extensively throughout the build as my primary coding assistant for everything from the website builder to the automation engine to a full business email stack built on Wildduck, Ha",
       "fetched_at": "2026-08-05T05:27:57.965687+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "b70bab7820d2",
@@ -1133,20 +1161,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "I had 500+ Claude Code skills installed and no idea what any of them did \u2014 so I built a free system to organize them all..",
       "fetched_at": "2026-05-21T13:50:56.270263+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "86f663880a34",
-      "title": "I open-sourced the content SEO pipeline I run entirely in Claude Code \u2014 15 min/day, $0.45/post, real numbers inside",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1thkf7p/i_opensourced_the_content_seo_pipeline_i_run/",
-      "summary": "https://preview.redd.it/n0eypvqm032h1.png?width=2266 format=png auto=webp s=e7c83a8df3127463e71d37ae22dbeda9538453d3 I&#39;ve been running a content SEO/AEO operation through Claude Code for about a year and finally cleaned up the slash commands into something forkable. Sharing because the Claude Code crowd is the right audience for this pattern. The pipeline is 7 slash commands chained together. Each command is a markdown file in .claude/commands/ with a strict role + output contract \u2014 Claude reads pipeline.yaml for state, runs one step, pauses at a human gate, and updates the state file. Stateless re-entry, so I can stop mid-post and pick up next day with /seo-daily. The flow: /seo-research (Perplexity Deep Research API, ~$0.45/post) \u2192 /seo-brief \u2192 /seo-write \u2192 /seo-optimize (10-check scorecard) \u2192 /seo-publish (Sanity HTTP API \u2192 IndexNow ping). 4 human gates so I keep judgment over angle, brief, copy, and publish decision. One brand I run this for: 131 \u2192 964 avg impressions/day in 12",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-05-19T11:45:52+00:00",
-      "category": "Content & Campaigns",
-      "key_insight": "I open-sourced the content SEO pipeline I run entirely in Claude Code \u2014 15 min/day, $0.45/post, real numbers inside.",
-      "fetched_at": "2026-05-19T13:45:23.159642+00:00",
       "skip": false,
       "is_featured": false
     }
