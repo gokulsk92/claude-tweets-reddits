@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-18T03:21:30.313610+00:00",
-  "total": 84,
+  "last_updated": "2026-08-19T03:23:58.147682+00:00",
+  "total": 83,
   "posts": [
     {
       "id": "3c87e78ea32f",
@@ -70,7 +70,7 @@
       "key_insight": "EZ Texting Launches AI Assistants for SMS Marketing: Send texts, run campaigns using ChatGPT, Claude or any famous AI Tool - PR Newswire.",
       "fetched_at": "2026-08-10T04:11:29.257157+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "f34f539babcf",
@@ -140,7 +140,7 @@
       "key_insight": "I used Claude Code extensively throughout the build as my primary coding assistant for everything from the website builder to the automation engine to a full business email stack built on Wildduck, Ha",
       "fetched_at": "2026-08-05T05:27:57.965687+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "b70bab7820d2",
