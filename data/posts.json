@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-20T03:23:14.316294+00:00",
-  "total": 84,
+  "last_updated": "2026-08-21T03:29:00.228310+00:00",
+  "total": 82,
   "posts": [
     {
       "id": "b9180594a9c0",
@@ -70,7 +70,7 @@
       "key_insight": "Tell HN: Anthropic is starting to inject ads into Claude Code turns.",
       "fetched_at": "2026-08-12T04:20:16.673080+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "d07163803db9",
@@ -154,7 +154,7 @@
       "key_insight": "I used Claude Code extensively throughout the build as my primary coding assistant for everything from the website builder to the automation engine to a full business email stack built on Wildduck, Ha",
       "fetched_at": "2026-08-05T05:27:57.965687+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "b70bab7820d2",
@@ -1133,20 +1133,6 @@
       "category": "Content & Campaigns",
       "key_insight": "Building a retirement drawdown calculator using Claude AI",
       "fetched_at": "2026-05-23T05:51:12.732532+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "75c318cf397e",
-      "title": "Spy-code: a local codebase graph tool for Claude AI coding workflows",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tk6f6m/spycode_a_local_codebase_graph_tool_for_claude_ai/",
-      "summary": "I&#39;m building an open-source tool called `spy-code` that turns a codebase into a queryable graph. It parses your repository using tree-sitter, extracts functions, classes, constants, calls, imports and references as nodes and edges, and stores the graph locally in SQLite. You can then query it via a CLI, GraphQL API, or a minimal MCP server. The goal is to give AI coding agents like Claude structured context about your codebase instead of just a pile of files. With `spy-code`, an agent can ask questions like What functions call this? , What changed since a certain commit? , or Where is this interface implemented? without scanning the whole repo. I&#39;m looking for feedback from Claude AI users and agent builders: \u2022 How might this fit into your Claude coding workflows? \u2022 What kinds of graph queries would be most useful? \u2022 Are there Claude-specific use cases (e.g. code review, refactoring suggestions) that would benefit from a codebase graph? In our testing, using `spy-code` has redu",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-05-22T03:02:59+00:00",
-      "category": "Automation & Workflows",
-      "key_insight": "\u2022 Are there Claude-specific use cases (e.g",
-      "fetched_at": "2026-05-22T06:30:43.134457+00:00",
       "skip": false,
       "is_featured": false
     }
