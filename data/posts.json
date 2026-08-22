@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-21T03:29:00.228310+00:00",
-  "total": 82,
+  "last_updated": "2026-08-22T03:13:38.175400+00:00",
+  "total": 81,
   "posts": [
     {
       "id": "b9180594a9c0",
@@ -1119,20 +1119,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "How are the Claude Code marketing nerds doing it?.",
       "fetched_at": "2026-05-24T06:14:18.662995+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "967c8dfee8bc",
-      "title": "Building a retirement drawdown calculator using Claude AI",
-      "url": "https://www.reddit.com/r/UKPersonalFinance/comments/1tl777y/building_a_retirement_drawdown_calculator_using/",
-      "summary": "Hi there everyone, i&#39;ve been experimenting with Claude AI as a non-coder to see what it can come up with. I&#39;ve produced the following, i&#39;d be interested in people&#39;s feedback. It&#39;s not taken that long, maybe 4-5 hours total. Obviously this is not a financial advice tool. just an indicative calculator. I haven&#39;t had chance to test the maths well yet. If you paste the following prompt into Claude it will produce it for you: Build me a single self-contained HTML file (all CSS and JavaScript inline, no external libraries) that is a retirement income planner. It must be mobile-responsive and installable as a home screen web app (PWA) on iPhone and Android. DESIGN Colour scheme: ecclesiastical purple \u2014 dark #2d1b45 , mid #4a2d6e , light #7b4fa6 , pale #d4c5e8 \u2014 with gold accents #c9a84c / #e8cc6e and cream background #f5f0e8 CSS variables in :root : --ff-serif: &#39;Playfair Display&#39;, Georgia and --ff-body: &#39;EB Garamond&#39;, Georgia \u2014 use these throughout inst",
-      "source": "Reddit",
-      "source_label": "search.rss?q=Claude+AI+sales+pipeline&sort=new",
-      "date": "2026-05-23T05:18:49+00:00",
-      "category": "Content & Campaigns",
-      "key_insight": "Building a retirement drawdown calculator using Claude AI",
-      "fetched_at": "2026-05-23T05:51:12.732532+00:00",
       "skip": false,
       "is_featured": false
     }
