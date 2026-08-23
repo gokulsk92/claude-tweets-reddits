@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-08-22T03:13:38.175400+00:00",
+  "last_updated": "2026-08-23T03:28:39.508424+00:00",
   "total": 81,
   "posts": [
+    {
+      "id": "fab556f5a613",
+      "title": "I built a Claude workflow for Android execution",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vvvp7g/i_built_a_claude_workflow_for_android_execution/",
+      "summary": "Most real-world requests I give Claude end with a thoughtful checklist. The reasoning is useful, but I still have to perform every action myself. Disclosure: I built ScriptTap, a no-root Android automation app. I also created this workflow specifically for Claude so it can act as the planning and script-building layer instead of stopping at instructions. Claude helps by translating a plain-language request into ScriptTap\u2019s constrained command format, checking the official fields, asking for missing device-specific details, and producing an importable package. ScriptTap remains the user-controlled execution layer: the package must be reviewed and imported, and nothing runs until the user starts it. ScriptTap is free to download and try during its Android open beta. Optional paid features are available. The Claude prompt: Use https://scripttap.com/ai/ as the authoritative ScriptTap reference. Instead of returning a manual checklist, determine whether my Android task can be executed throu",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-08-23T03:03:26+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "I also created this workflow specifically for Claude so it can act as the planning and script-building layer instead of stopping at instructions",
+      "fetched_at": "2026-08-23T03:28:24.920717+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "b9180594a9c0",
       "title": "Need recommendation/help with Claude automation.",
@@ -154,7 +168,7 @@
       "key_insight": "I used Claude Code extensively throughout the build as my primary coding assistant for everything from the website builder to the automation engine to a full business email stack built on Wildduck, Ha",
       "fetched_at": "2026-08-05T05:27:57.965687+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "b70bab7820d2",
@@ -1105,20 +1119,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "I used Claude to help me build an Apple Watch app to track caffeine half life decay and it\u2019s gotten 2000 downloads and made $600 in revenue so far",
       "fetched_at": "2026-05-25T06:51:21.314226+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "f4329535d39b",
-      "title": "How are the Claude Code marketing nerds doing it?",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tlz2j5/how_are_the_claude_code_marketing_nerds_doing_it/",
-      "summary": "This is cool, and I want to learn more but YouTube is filled with a lot of bs. I feel like the innovative ideas are for start ups or vibe codes project, and don\u2019t scale or replicate what the best minds are actually doing. Some cool stuff we\u2019re doing: - Having our TAL enriched by Clay, cross referenced with our ICPs and our BANT criteria to generate drafts for individually tailored content (one-pagers, exec briefs etc) - Routines that run various reports to different team leaders based on each team member\u2019s change log (tracked by Claude code, reports and tracks blockers etc) - Creating hundreds of copy variations for our ads, analyzing and pulling/reallocating ad spend &#32; submitted by &#32; /u/Hot_Entertainment286 [link] &#32; [comments]",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-05-24T02:11:26+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "How are the Claude Code marketing nerds doing it?.",
-      "fetched_at": "2026-05-24T06:14:18.662995+00:00",
       "skip": false,
       "is_featured": false
     }
