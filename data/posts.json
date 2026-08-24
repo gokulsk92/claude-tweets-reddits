@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-08-23T03:28:39.508424+00:00",
-  "total": 81,
+  "last_updated": "2026-08-24T03:30:09.975117+00:00",
+  "total": 82,
   "posts": [
+    {
+      "id": "da653c093a26",
+      "title": "Using Claude To Manage A TTRPG Campaign - Performance Expectations?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vwh8e9/using_claude_to_manage_a_ttrpg_campaign/",
+      "summary": "I&#39;m interested in using Claude to help me manage a TTRPG campaign (Table-Top Role Playing Game). Shadowrun if it matters. Not a paid gig, just a thing for friends. If this belongs under one of the mega threads, just let me know. Note: Using the individual pro plan already. I&#39;ve already confirmed that Claude does a solid job of converting characters from one edition to another, which is already a HUGE win for me as a GM that no one is paying. It even seems to think it was able to take the converted character (1st to 5th edition), and put it into a JSON file that can be imported to Foundry. Haven&#39;t tested that, but it seems pretty confident, and gave me a list of things it wasn&#39;t able to do and a step-by-step to fix them once the rest is imported. So now it&#39;s got me wondering if I can use it to manage a long campaign. As noted, no one is paying me, I have a real job that has nothing to do with this stuff, and just don&#39;t have time to sit around trying to put detail",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-08-23T19:57:03+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "I&#39;m interested in using Claude to help me manage a TTRPG campaign (Table-Top Role Playing Game)",
+      "fetched_at": "2026-08-24T03:30:02.780377+00:00",
+      "skip": false,
+      "is_featured": true
+    },
+    {
+      "id": "d64da8cee49b",
+      "title": "Made marketing video of my product using Claude and having no resources for it (no proper assets, no proper PC) and it turned out lovely",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vwhwfg/made_marketing_video_of_my_product_using_claude/",
+      "summary": "Tried \u201cwhat if\u201d today, asked Claude if he can make a \u201cmarketing\u201d video of my product for me having just a couple of screen recordings I dropped to the folder, and it did, somewhat. I didn\u2019t even go with prompt engineering, it was just \u201cAre there any chances you can build a video for Reddit highlighting the phone hanging in the air with the videos I dropped in the folder? No MCPs or other tools are available, we are working on a small and not powerful laptop\u201d. Then I got first result, asked to add text to the video not even telling timestamps, then as a bonus asked for music and VO. I have max plan, and for the task we spent around 13% of 5hrs cap, and about 3 hours of me waiting. Can\u2019t put it to an official marketing campaign of course, but the result is pretty decent. So maybe that will inspire someone for some greater ideas and results, eventually \ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udffc &#32; submitted by &#32; /u/Hot-Examination-4425 [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-08-23T20:22:44+00:00",
+      "category": "Content & Campaigns",
+      "key_insight": "Made marketing video of my product using Claude and having no resources for it (no proper assets, no proper PC) and it turned out lovely",
+      "fetched_at": "2026-08-24T03:30:02.780145+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "fab556f5a613",
       "title": "I built a Claude workflow for Android execution",
@@ -42,7 +70,7 @@
       "key_insight": "How to Post to Instagram with Claude AI \u2014 Windsor.ai Tutorial | Automate your Marketing end-to-end - YouTube.",
       "fetched_at": "2026-08-18T03:21:17.171157+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "e673e1ade7f0",
@@ -182,7 +210,7 @@
       "key_insight": "Claude from a small business perspective.",
       "fetched_at": "2026-08-05T05:27:57.965014+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "de507963501e",
@@ -1091,34 +1119,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "Anthropic\u2019s Mythos AI model detects 23,000 vulnerabilities across 1,000 open source projects.",
       "fetched_at": "2026-05-26T06:30:25.983142+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "1eaa5a377fa7",
-      "title": "Klaviyo (KVYO) Valuation Check As Expanded Anthropic Claude Integration Targets Broader AI Marketing Adoption - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbGZCMHJlbXJ1djg5VHlfb0J3aWl5eDk3NXBPSGxLdFNlSUNaZ3BCZDRDNmVNY1VQZHVoNmtwekhjd2h2b0pwUDZGMmtOSjFVX2JSYXlKYk16U19STWFpZ0lpUlJYOUNtTWFRMGZwUFp1VVRjc19KYUx3ZVgzZWNfUXhSbHVNQTFWTHBOUXZvQmZIYjNXX0xSMjJxd3lRNktDN2dNNQ?oc=5",
-      "summary": "Klaviyo (KVYO) Valuation Check As Expanded Anthropic Claude Integration Targets Broader AI Marketing Adoption Yahoo Finance",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Sun, 24 May 2026 07:09:56 GMT",
-      "category": "Automation & Workflows",
-      "key_insight": "Klaviyo (KVYO) Valuation Check As Expanded Anthropic Claude Integration Targets Broader AI Marketing Adoption - Yahoo Finance.",
-      "fetched_at": "2026-05-25T06:51:29.288345+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "aa38d4652b17",
-      "title": "I used Claude to help me build an Apple Watch app to track caffeine half life decay and it\u2019s gotten 2000 downloads and made $600 in revenue so far",
-      "url": "https://www.reddit.com/r/Anthropic/comments/1tmb4i3/i_used_claude_to_help_me_build_an_apple_watch_app/",
-      "summary": "&#32; submitted by &#32; /u/pythononrailz [link] &#32; [comments]",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-05-24T12:40:47+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "I used Claude to help me build an Apple Watch app to track caffeine half life decay and it\u2019s gotten 2000 downloads and made $600 in revenue so far",
-      "fetched_at": "2026-05-25T06:51:21.314226+00:00",
       "skip": false,
       "is_featured": false
     }
