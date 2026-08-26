@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-08-25T03:25:13.316131+00:00",
-  "total": 80,
+  "last_updated": "2026-08-26T03:31:52.361451+00:00",
+  "total": 78,
   "posts": [
+    {
+      "id": "dba9e22dcc86",
+      "title": "X Ads MCP gives Grok and Claude Code 23 tools to run ad campaigns - PPC Land",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa3doampfc1Q0em5xOXh6dC1FVm1Cb0FJdDR0a09qV3dqb0J1cDlOZlY4RGdGVks5NE5Ia3dHbklCeGZ0UDRxWFlUWjBURDRBTnE3XzdEVXVfeHBWd0FvOXJQSlFDazFtWmRGZERvUnJyNktteHVyTjE3dld4Z0xCUnNOOU5UZkxoc1hR?oc=5",
+      "summary": "X Ads MCP gives Grok and Claude Code 23 tools to run ad campaigns PPC Land",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Tue, 25 Aug 2026 19:02:19 GMT",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "X Ads MCP gives Grok and Claude Code 23 tools to run ad campaigns - PPC Land.",
+      "fetched_at": "2026-08-26T03:31:48.293155+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "da653c093a26",
       "title": "Using Claude To Manage A TTRPG Campaign - Performance Expectations?",
@@ -1049,34 +1063,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "My use case will be: Set up project in Claude (have experience) or use cowork (no experience) Task Claude with researching keywords based on page copy Claude to buid out ad template, create campaign a",
       "fetched_at": "2026-05-28T06:36:03.861355+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "79dee55f05a1",
-      "title": "How much does Claude Opus 4.7 actually cost Anthropic per 1M tokens?",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1topmx8/how_much_does_claude_opus_47_actually_cost/",
-      "summary": "- Estimate: 1M input tokens cost: ~$0.50 1M output tokens cost: ~$2.50 Inference cost: ~$3.00 - Training amortization: ~$1B training/post-training/evals ~1 quadrillion lifetime tokens served ~$1.00 per 1M tokens - Total cost: ~$4-5 per 1M input+output tokens - Revenue: $5 per 1M input $25 per 1M output ~$30 revenue per 1M input+output tokens Estimated gross margin: ~83-87% - Method: Started from Opus 4.7 pricing ($5 input, $25 output per 1M tokens) Assumed output tokens are ~5\u00d7 more expensive than input tokens due to sequential generation Estimated large-scale GPU clusters operate at high utilization with aggressive batching and caching Estimated inference cost at ~$0.50 per 1M input tokens and ~$2.50 per 1M output tokens Assumed ~$1B training/post-training cost Amortized training across ~1 quadrillion lifetime tokens served, adding ~$1 per 1M tokens - How did I arrive at these assumptions? The inference-cost estimates are based on industry discussions suggesting that frontier-model AP",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-05-27T00:35:55+00:00",
-      "category": "ABM & Pipeline",
-      "key_insight": "How much does Claude Opus 4.7 actually cost Anthropic per 1M tokens?.",
-      "fetched_at": "2026-05-27T06:44:16.495794+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "9b007eb5fafa",
-      "title": "Built a 5-stage agentic pipeline using Claude Code + MCP - here's what actually makes it reliable at scale",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1totd7r/built_a_5stage_agentic_pipeline_using_claude_code/",
-      "summary": "The thing nobody tells you about Claude Code + MCP workflows: the model is only as reliable as the instructions you give it before it touches any external tool. We learned this the hard way building a sales pipeline that connects Claude Code to Apollo via MCP. Claude would execute the right tools but in the wrong order, enriching contacts before the account research was scored, which in Apollo costs real credits. Expensive lesson. The fix wasn&#39;t better prompting. It was skill files - structured markdown documents that live in the project directory and tell Claude exactly what to call, in what order, what constraints apply, and what output format to return before moving to the next stage. Once every stage had its own skill file, the pipeline became auditable and consistent across runs. Five stages, each encoded as a skill: account sourcing \u2192 research + signal scoring \u2192 stakeholder mapping \u2192 tiered enrichment with cost controls \u2192 sequence drafting. Claude reads the skill, executes th",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-05-27T03:20:17+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "Built a 5-stage agentic pipeline using Claude Code + MCP - here's what actually makes it reliable at scale",
-      "fetched_at": "2026-05-27T06:44:16.494898+00:00",
       "skip": false,
       "is_featured": false
     }
