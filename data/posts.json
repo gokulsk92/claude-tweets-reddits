@@ -1,7 +1,63 @@
 {
-  "last_updated": "2026-08-27T12:57:52.291526+00:00",
+  "last_updated": "2026-08-28T14:29:00.057355+00:00",
   "total": 78,
   "posts": [
+    {
+      "id": "6a9797bfaf63",
+      "title": "GitLab Duo Claude AI Agent Flaw Lets Attackers Execute Arbitrary Commands in CI Pipelines - gbhackers.com",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBPVWU5dmx3RDdxZHNISEN4X3J2Uk9WaGdKeENnczBoX281UlNuVVNQQlZKWmowZ2R1X2lyRzNfTEhjblY1RzhjNGtkWWQ3R0JXSjlrR3d3NXM5Qk9RdEQwYkRfR3DSAWpBVV95cUxNNTFaUEh3VWhEQl8zSGg4bXhtaFhOUTFVR0drU3JUUzBDVjFRN29lYTR1amtEN184Y1ItMlZEcjl2NlBCdUlGb0c4dHN0Rk5QNW5hMHdfYjE5cHJQTGd4TUVIeTQyV2lic3dB?oc=5",
+      "summary": "GitLab Duo Claude AI Agent Flaw Lets Attackers Execute Arbitrary Commands in CI Pipelines gbhackers.com",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Thu, 27 Aug 2026 10:29:11 GMT",
+      "category": "ABM & Pipeline",
+      "key_insight": "GitLab Duo Claude AI Agent Flaw Lets Attackers Execute Arbitrary Commands in CI Pipelines - gbhackers.com.",
+      "fetched_at": "2026-08-28T14:28:57.260416+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "4bff0065e1fc",
+      "title": "Salesforce Launches Claudeforce, Posts Four-Year Revenue High as AI Threat Thesis Collapses - Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcjBWeHp3Z2ZYWXVHcnJpMy1OZXNaZHNjbXY1TFo5MnJzamx1T1VvWmhITkQwR1BUVElXQ3VvQzUtTDdMeHZRUzg3UFFONWQtRHdtNHNaNHRJQ2FVQWpmaXZncHhCVWVpWGdpTVFtUlBQN3JIR01PQW9DOVc1Y3dOUnZrU1dBa0ZFWnhpWlVjTF9RcEJMX0wwWHhnYjBuSTBiVXJfQW9YeS1DX0VvaUFqQXBrbUp5THNRX0hETWxCZDJQU3BjbG8wRDJqVkRpQzNqUlR0a0VmTV9QUQ?oc=5",
+      "summary": "Salesforce Launches Claudeforce, Posts Four-Year Revenue High as AI Threat Thesis Collapses Tech Times",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Thu, 27 Aug 2026 16:43:53 GMT",
+      "category": "Automation & Workflows",
+      "key_insight": "Salesforce Launches Claudeforce, Posts Four-Year Revenue High as AI Threat Thesis Collapses - Tech Times.",
+      "fetched_at": "2026-08-28T14:28:57.259004+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "52a8660f5ee2",
+      "title": "Salesforce (CRM) Launches Claudeforce As AI Sales Automation Moves Deeper Into Workflows - simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdTdzSUpKNXZoMmR2Z1JTQnBSLUxXTnRVREVtYXluZElWNDk5ZHpCcENadVZxUXdxd2F1NE54bVo2bk5XdTdCTmJPbHZXOWYzZGJTMzY5VjJiZ1g5VUJDclRUUzhQaUg1WjJZVGlCSnlTZlQxMWY5UlR4RlBnTXItRGNqdFpKQmxBcmhHN1UzNG1PeUppZElKSV8zNWhtVDFnS2RIREJZY3JXYmkxcU8xSWY1LUlpcUJ0RWYyMGFfdDNrcDBW?oc=5",
+      "summary": "Salesforce (CRM) Launches Claudeforce As AI Sales Automation Moves Deeper Into Workflows simplywall.st",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Thu, 27 Aug 2026 20:02:57 GMT",
+      "category": "Automation & Workflows",
+      "key_insight": "Salesforce (CRM) Launches Claudeforce As AI Sales Automation Moves Deeper Into Workflows - simplywall.st.",
+      "fetched_at": "2026-08-28T14:28:55.519909+00:00",
+      "skip": false,
+      "is_featured": true
+    },
+    {
+      "id": "042884dd38ac",
+      "title": "Claude Mythos AI Future SEO Strategy 2026 | Artificial Intelligence Content Marketing,Digital Growth Strickland Vs Khamzat (mWWAyp3P3b) - Mshale",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE96bDllcjZidjJQdUk2eXc3YkN5X01nX2pvRFEtZ21FOVlaUzhvTUx2aXFvZDBXLUNnUDlIZkUzUm9sRGtpMEI3dTNQQnZNSzFESWZUbUp6a0sxdjlaZVQ2NA?oc=5",
+      "summary": "Claude Mythos AI Future SEO Strategy 2026 | Artificial Intelligence Content Marketing,Digital Growth Strickland Vs Khamzat (mWWAyp3P3b) Mshale",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Thu, 27 Aug 2026 06:32:33 GMT",
+      "category": "Content & Campaigns",
+      "key_insight": "Claude Mythos AI Future SEO Strategy 2026 | Artificial Intelligence Content Marketing,Digital Growth Strickland Vs Khamzat (mWWAyp3P3b) - Mshale.",
+      "fetched_at": "2026-08-28T14:28:55.080737+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "4fe41b56d16c",
       "title": "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM - Salesforce",
@@ -98,7 +154,7 @@
       "key_insight": "Need recommendation/help with Claude automation..",
       "fetched_at": "2026-08-20T03:22:58.960349+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "3c87e78ea32f",
@@ -1007,34 +1063,6 @@
       "category": "Content & Campaigns",
       "key_insight": "Claude Cowork & Meta/Google Ads.",
       "fetched_at": "2026-05-31T06:38:58.007933+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "677c718dc46e",
-      "title": "Django launches JAG AI to help brands run marketing operations through Claude AI - MediaNews4U",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRlR2bDZYTnlESXFaQTBKNE5oUVFoWXlsSkduWnVvYWNOREs0R2JSMzA1MWliOVJtMlpMaWowY3BFazAwX1NvWXA0STNhTFp3MHQ1WjFGWURiM0tVcy1Fb1ljRlhqS0UwRFJiaFQyYU9fV2N3dDVaMGVBQzI1VVp2Q05XamFBMjFaR0dJdzVWQmRkeElzRlQ2MTQ5V0VHWUcySUhCZG5oc0tYd1doMFE?oc=5",
-      "summary": "Django launches JAG AI to help brands run marketing operations through Claude AI MediaNews4U",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Fri, 29 May 2026 10:38:11 GMT",
-      "category": "Content & Campaigns",
-      "key_insight": "Django launches JAG AI to help brands run marketing operations through Claude AI - MediaNews4U.",
-      "fetched_at": "2026-05-30T05:59:51.683684+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "f2ec3a9916c5",
-      "title": "Stop waiting for the Anthropic IPO. A deep-dive into the ZM / SKM \"Proxy Barbell\" trade",
-      "url": "https://www.reddit.com/r/Anthropic/comments/1tqxt1c/stop_waiting_for_the_anthropic_ipo_a_deepdive/",
-      "summary": "The Problem: Anthropic (Claude) is capturing massive enterprise market share, but it&#39;s completely locked away in the private markets. Retail investors are stuck on the sidelines waiting for an IPO. A Solution: We don&#39;t need to wait. Several public companies hold massive equity stakes in Anthropic. I hunted down every public company with a confirmed strategic stake in Anthropic and ranked them not by the size of the stake, but by Anthropic Stake Value as a % of the Public Company&#39;s Market Cap. Why this metric matters? If a company owns $5B of Anthropic but is worth $2 Trillion, an Anthropic valuation surge won&#39;t move their stock needle. We want capital allocation efficiency. Anthropic shareholders: - Alphabet (GOOGL) Amazon (AMZN): Huge absolute stakes ($100B+), but it only represents ~3% to 4% of their massive market caps. - Salesforce (CRM): Decent mid-tier exposure at ~6% of market cap. - SK Telecom (SKM): Massive asymmetry. Exposure represents ~20% of market cap. - Z",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-05-29T10:36:25+00:00",
-      "category": "Automation & Workflows",
-      "key_insight": "I hunted down every public company with a confirmed strategic stake in Anthropic and ranked them not by the size of the stake, but by Anthropic Stake Value as a % of the Public Company&#39;s Market Ca",
-      "fetched_at": "2026-05-30T05:59:46.907047+00:00",
       "skip": false,
       "is_featured": false
     }
