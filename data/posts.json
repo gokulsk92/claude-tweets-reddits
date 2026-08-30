@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-08-29T09:15:02.942703+00:00",
+  "last_updated": "2026-08-30T08:27:18.881415+00:00",
   "total": 78,
   "posts": [
+    {
+      "id": "7bbbe57992a1",
+      "title": "Salesforce (CRM) Launches Claudeforce As AI Sales Automation Moves Deeper Into Workflows - webull.com",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB2d3dIZ3pDZjltVjNyZzBqeXRubTFyVEUxdHBWWF90cGtRRDh1RGo2Vjd6NUFoMkdxYjBqbERuU3Y0R1FNMkVFdXB1YjVfN2FlNkt3NHc3dWY?oc=5",
+      "summary": "Salesforce (CRM) Launches Claudeforce As AI Sales Automation Moves Deeper Into Workflows webull.com",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Sat, 29 Aug 2026 07:12:06 GMT",
+      "category": "Automation & Workflows",
+      "key_insight": "Salesforce (CRM) Launches Claudeforce As AI Sales Automation Moves Deeper Into Workflows - webull.com.",
+      "fetched_at": "2026-08-30T08:27:14.138521+00:00",
+      "skip": false,
+      "is_featured": true
+    },
+    {
+      "id": "2bdbf3c31c08",
+      "title": "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM - Salesforce",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaW1PRTJUbmh2WU9McWVzTGJ3WEl1akZCT0VCbnY3UmVhU3VTYjk5YkV4WmpZS0oyM3lxSmVFdmRISVE3MTZEZzNQRmdlY1Z6aEdtVzFwTGJFX2lubU1CMnotMWNNZzhiR0ZnLUFTS1p4MnZFZlBEb3hCWFRUS0YyRGpVRVJ2VUd3NnNJYVluY1ZIbUJUTGdTRDNNQ2lQSEFfQ2xwNmtWT056QXdRWGFybDB1bGkxM2tnZ1F3M1pQY0NqaG9ybXd3dVVVOEIwUVBN?oc=5",
+      "summary": "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM Salesforce",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Thu, 27 Aug 2026 06:16:24 GMT",
+      "category": "Automation & Workflows",
+      "key_insight": "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM - Salesforce.",
+      "fetched_at": "2026-08-30T08:27:13.759058+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "b3a9c493121f",
       "title": "GitLab Fixes Claude AI Agent Flaw That Could Execute Arbitrary Commands in CI Pipeline - CyberSecurityNews",
@@ -70,7 +98,7 @@
       "key_insight": "Salesforce (CRM) Launches Claudeforce As AI Sales Automation Moves Deeper Into Workflows - simplywall.st.",
       "fetched_at": "2026-08-28T14:28:55.519909+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "042884dd38ac",
@@ -1049,20 +1077,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "I built a free World Cup 2026 prediction game with Claude Code.",
       "fetched_at": "2026-06-02T07:07:04.406835+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "b5b8eddae82b",
-      "title": "Is anyone connecting AppsFlyer data to Claude through MCP?",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ttgpv2/is_anyone_connecting_appsflyer_data_to_claude/",
-      "summary": "We\u2019re exploring whether anyone has connected AppsFlyer data to Claude through MCP for faster marketing analysis. Current setup is AppsFlyer to BigQuery to Looker dashboards, with some exports into Sheets for campaign reviews. What I\u2019d like is a Claude workflow where PMs/growth can ask things like which campaigns drove high-value users last week? or why did ROAS drop by geo? without waiting on analysts. Main concern is permissions, event naming and keeping Claude limited to approved aggregates instead of raw user-level data. Anyone tested this? &#32; submitted by &#32; /u/rhapka [link] &#32; [comments]",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-06-01T03:53:47+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "Is anyone connecting AppsFlyer data to Claude through MCP?.",
-      "fetched_at": "2026-06-01T07:28:07.944763+00:00",
       "skip": false,
       "is_featured": false
     }
