@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-08-30T08:27:18.881415+00:00",
+  "last_updated": "2026-08-31T08:47:22.763714+00:00",
   "total": 78,
   "posts": [
+    {
+      "id": "f01fca03bf92",
+      "title": "What's the best email tool to use with Claude?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w31sm2/whats_the_best_email_tool_to_use_with_claude/",
+      "summary": "Anyone got recommendations for the best email tool to plug into Claude Code to do email marketing and my transactional emails too? There are some email APIs that seem most commonly recco&#39;d by Claude but I want to do newsletters too, but don&#39;t want to waste time in some tool UI. &#32; submitted by &#32; /u/Legitimate_Editor437 [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-08-31T03:16:01+00:00",
+      "category": "Content & Campaigns",
+      "key_insight": "What's the best email tool to use with Claude?.",
+      "fetched_at": "2026-08-31T08:47:17.827434+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "7bbbe57992a1",
       "title": "Salesforce (CRM) Launches Claudeforce As AI Sales Automation Moves Deeper Into Workflows - webull.com",
@@ -98,7 +112,7 @@
       "key_insight": "Salesforce (CRM) Launches Claudeforce As AI Sales Automation Moves Deeper Into Workflows - simplywall.st.",
       "fetched_at": "2026-08-28T14:28:55.519909+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "042884dd38ac",
@@ -196,7 +210,7 @@
       "key_insight": "I also created this workflow specifically for Claude so it can act as the planning and script-building layer instead of stopping at instructions",
       "fetched_at": "2026-08-23T03:28:24.920717+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "b9180594a9c0",
@@ -1063,20 +1077,6 @@
       "category": "Content & Campaigns",
       "key_insight": "Human + AI Creativity: Why Claude AI Is Marketing\u2019s Ultimate Co-Pilot - Adgully.com.",
       "fetched_at": "2026-06-03T07:21:06.301549+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "93234189fdbf",
-      "title": "I built a free World Cup 2026 prediction game with Claude Code",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tuikwk/i_built_a_free_world_cup_2026_prediction_game/",
-      "summary": "Hey everyone \ud83d\udc4b I&#39;m a solo developer, and over the last few weeks I&#39;ve been building predict.lt \u2014 a free prediction game for the FIFA World Cup 2026. The idea is simple: every tournament my friends and I run a messy prediction pool in a spreadsheet that someone always breaks. So I built the proper version of that. What it does: - Predict the score and first scorer for every match - Use weekly 2\u00d7 boosts on the games you feel sure about - Pick your champion for bonus points - Compete with friends in private groups, or on a global leaderboard - Works great on both desktop and mobile \u2014 each has its own tailored layout - 100% free \u2014 no ads, no betting, no in-app purchases It&#39;s live now on the web (desktop + mobile), and I&#39;m currently building native iOS and Android apps \u2014 coming soon. English version: https://predict.lt/en I&#39;d genuinely love feedback \u2014 on the scoring system, the knockout-stage rules, or anything that feels off. Happy to answer any questions about the buil",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-06-02T06:29:28+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "I built a free World Cup 2026 prediction game with Claude Code.",
-      "fetched_at": "2026-06-02T07:07:04.406835+00:00",
       "skip": false,
       "is_featured": false
     }
