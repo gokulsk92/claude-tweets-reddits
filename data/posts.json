@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-08-31T08:47:22.763714+00:00",
-  "total": 78,
+  "last_updated": "2026-09-01T07:55:22.329038+00:00",
+  "total": 79,
   "posts": [
+    {
+      "id": "d0bbc4f8d526",
+      "title": "Working professionals (non-engineering) - how are you using Claude to be more productive at work?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w3y5xt/working_professionals_nonengineering_how_are_you/",
+      "summary": "I work in corporate (think consulting) and I my company recently got access to Claude (incl Cowork and Claude Code). I&#39;m hoping to upgrade my workflows to be really AI-enabled, particularly using Cowork. I&#39;d imagine there is huge opportunity here - digital brain setups, AI for scheduling, help with excel work / slide building, simple workflow automation, streamlined email follow-up, etc. Happy for engineers to contribute but I&#39;m hoping to focus this thread on non-engineering use cases. Figured I&#39;d post here for inspo. How are you all using Claude for professional work? &#32; submitted by &#32; /u/Fubby2 [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-09-01T01:50:54+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "Working professionals (non-engineering) - how are you using Claude to be more productive at work?",
+      "fetched_at": "2026-09-01T07:55:14.615552+00:00",
+      "skip": false,
+      "is_featured": true
+    },
+    {
+      "id": "b5df53f298ef",
+      "title": "Has Claude become noticeably worse over the past 7\u201310 days, or is it just me?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w3z4wt/has_claude_become_noticeably_worse_over_the_past/",
+      "summary": "I\u2019ve been using Claude pretty heavily for the past six months, primarily for my real estate development business. It has gradually become a fairly important part of how I work. I started with Claude Chat, then moved into Cowork and Code. I use it across a pretty wide range of things: Daily management: designing dashboards, to-do systems, tracking whether construction is on schedule, etc. People management: keeping track of different teams, follow-ups, responsibilities and coordination. Brand management: checking whether the brand guidelines are actually being followed across the brochure, website, photography, marketing, etc. Strategy: feeding it very long documents, getting them summarized, understanding the important points, and then asking where they fit into the larger strategic picture of the organization. Construction/project management: using Code to build little internal tools and systems around project tracking. Go-to-market and branding: brainstorming, refining positioning, r",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-09-01T02:34:18+00:00",
+      "category": "Content & Campaigns",
+      "key_insight": "I\u2019ve been using Claude pretty heavily for the past six months, primarily for my real estate development business",
+      "fetched_at": "2026-09-01T07:55:14.615409+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "f01fca03bf92",
       "title": "What's the best email tool to use with Claude?",
@@ -70,7 +98,7 @@
       "key_insight": "Salesforce (CRM) Launches Claudeforce As AI Sales Automation Moves Deeper Into Workflows - Sahm.",
       "fetched_at": "2026-08-29T09:14:58.493002+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "6a9797bfaf63",
@@ -112,7 +140,7 @@
       "key_insight": "Salesforce (CRM) Launches Claudeforce As AI Sales Automation Moves Deeper Into Workflows - simplywall.st.",
       "fetched_at": "2026-08-28T14:28:55.519909+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "042884dd38ac",
@@ -1063,20 +1091,6 @@
       "category": "Content & Campaigns",
       "key_insight": "What I looked at: Which AI model to use for research (and why GPT-5.5 won this round) Which AI model to use for writing (and why Claude Opus 4.8 came out on top) How to decide what model to use for wh",
       "fetched_at": "2026-06-04T07:01:32.814071+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "299b303c3836",
-      "title": "Human + AI Creativity: Why Claude AI Is Marketing\u2019s Ultimate Co-Pilot - Adgully.com",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQODZ6Q2JtMDI0c2pyeDFpOHZwSmNhYnlqS0pvbDNRSm9ORk1MaTlETFVGWVpwei02ejNreHZyajB0bk9kYl83Vk5aMnpqd2NxSE9oYlNhMUp5blF6MGRlTUFLdHg1dUV5VVRTNVphM1RCTlZyMWMwWVdmWHRjZk1RQTVkVjUxSEhGZ0VHWnJLWHA5UnM5VEJiR2pEbWFzSTczcVE?oc=5",
-      "summary": "Human + AI Creativity: Why Claude AI Is Marketing\u2019s Ultimate Co-Pilot Adgully.com",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Tue, 02 Jun 2026 06:08:00 GMT",
-      "category": "Content & Campaigns",
-      "key_insight": "Human + AI Creativity: Why Claude AI Is Marketing\u2019s Ultimate Co-Pilot - Adgully.com.",
-      "fetched_at": "2026-06-03T07:21:06.301549+00:00",
       "skip": false,
       "is_featured": false
     }
