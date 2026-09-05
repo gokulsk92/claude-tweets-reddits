@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-09-04T07:20:45.000413+00:00",
-  "total": 78,
+  "last_updated": "2026-09-05T07:02:17.246712+00:00",
+  "total": 77,
   "posts": [
+    {
+      "id": "a32e52d257fc",
+      "title": "Best Claude Marketing Skills: 25+ Skills for SEO, Ads & Content - Bleap",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBZnNlbmJTMVVZVEM4bTZkbDVnRHJsOUp0MG9iMVpadGwwbVQ2U2ROU3dlcmRDLWFZV3l3MTExOXVVcXg5OWtGSGhRRzJpaFlRakFSYU9Dai1KN2NzS180Qy0yeE1pZ3N6azFZ?oc=5",
+      "summary": "Best Claude Marketing Skills: 25+ Skills for SEO, Ads & Content Bleap",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Wed, 29 Jul 2026 07:00:00 GMT",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Best Claude Marketing Skills: 25+ Skills for SEO, Ads & Content - Bleap.",
+      "fetched_at": "2026-09-05T07:02:12.902781+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "83ad2938cafd",
+      "title": "I spent months getting my Claude Code pipeline to stop grading its own homework, then found the plugin I\u2019d already published had the same flaw",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1w7psy7/i_spent_months_getting_my_claude_code_pipeline_to/",
+      "summary": "I\u2019m a PM who ships code into a repo maintained by actual engineers. I built a Claude Code plugin called Bug Shepherd to work through a bug backlog: it reads a Jira/Linear/GitHub board, fans out parallel subagents to check whether each old ticket still reproduces on the live site, and sorts them into auto-cancel / needs-review / reproducible / can\u2019t-determine. It\u2019s plain markdown skill files, built with Claude Code, and it\u2019s free and MIT. It worked well enough on my own projects that I published it. Then I used it on a team codebase and two things went wrong. One: the model writes the standard, not your standard. On solo projects Claude produces the version every tutorial agrees on and nobody objects. On a real team you get review comments like \u201cwe don\u2019t write code like this\u201d and \u201chave you considered hydration?\u201d I did not know what hydration was. Six months of a team\u2019s private conventions exist nowhere a model can read them. Fix for that was boring and manual: I read six months of past ",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-09-05T03:47:57+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "It\u2019s plain markdown skill files, built with Claude Code, and it\u2019s free and MIT",
+      "fetched_at": "2026-09-05T07:02:12.010204+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "a14f3ea51b6c",
       "title": "Salesforce (CRM) Launches Claudeforce As AI Sales Automation Moves Deeper Into Workflows - simplywall.st",
@@ -294,7 +322,7 @@
       "key_insight": "Made marketing video of my product using Claude and having no resources for it (no proper assets, no proper PC) and it turned out lovely",
       "fetched_at": "2026-08-24T03:30:02.780145+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "fab556f5a613",
