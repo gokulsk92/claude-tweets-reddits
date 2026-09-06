@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-09-05T07:02:17.246712+00:00",
-  "total": 77,
+  "last_updated": "2026-09-06T07:13:41.622744+00:00",
+  "total": 78,
   "posts": [
+    {
+      "id": "c1fd002b2120",
+      "title": "Salesforce brings CRM data and workflows into Claude with Claudeforce - Tech Edition",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZU5KUWY1UGEtSG5SdW9NR2ZBS0lsUEhzaUkxM0ZpeDdQcUNQMWFGQTdZbVVsSEpOdTBzakpqY1VXZjdRMFdLWnRJUW5xWXU0Y3BHNXpENWNOUUpiaGRYeU5MZXVaWExnNEZWd1J4SktQb2pPeVJDWVZ4WXJQM2hLWmVxS0dKNHExai0zT2d1V01uOEVYZmwzRQ?oc=5",
+      "summary": "Salesforce brings CRM data and workflows into Claude with Claudeforce Tech Edition",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Thu, 27 Aug 2026 07:00:00 GMT",
+      "category": "Automation & Workflows",
+      "key_insight": "Salesforce brings CRM data and workflows into Claude with Claudeforce - Tech Edition.",
+      "fetched_at": "2026-09-06T07:13:37.997608+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "a32e52d257fc",
       "title": "Best Claude Marketing Skills: 25+ Skills for SEO, Ads & Content - Bleap",
