@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-09-07T07:26:55.735577+00:00",
-  "total": 78,
+  "last_updated": "2026-09-08T07:21:03.530951+00:00",
+  "total": 77,
   "posts": [
+    {
+      "id": "70e677e07466",
+      "title": "Salesforce Puts Its CRM Inside Claude: Claudeforce Aims to Transform the Marketing Stack - portada-online.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcTI4R04xU08ycm1OQkY4T2UzU2ktcG53bjdkeElaT0YxYm5xdnd0eHVibEtIbmFoQ0NpMEo0bWt5ZmNaWW5ReGZoRU9iMWhpYlo4clBjbU41WXJ6VzhKc0J0N2I1QVlpcjBCMEtsRTZLY3VocENMc2s4SFM0RllpUVhHTzJ3Ym1nWFBSV1psbm1SaU9lOVlJaQ?oc=5",
+      "summary": "Salesforce Puts Its CRM Inside Claude: Claudeforce Aims to Transform the Marketing Stack portada-online.com",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Tue, 08 Sep 2026 02:49:40 GMT",
+      "category": "Automation & Workflows",
+      "key_insight": "Salesforce Puts Its CRM Inside Claude: Claudeforce Aims to Transform the Marketing Stack - portada-online.com.",
+      "fetched_at": "2026-09-08T07:20:58.007268+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "c1fd002b2120",
       "title": "Salesforce brings CRM data and workflows into Claude with Claudeforce - Tech Edition",
