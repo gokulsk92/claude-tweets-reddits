@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-09-08T07:21:03.530951+00:00",
-  "total": 77,
+  "last_updated": "2026-09-09T07:29:30.604787+00:00",
+  "total": 78,
   "posts": [
+    {
+      "id": "8107a59d1c96",
+      "title": "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM - Salesforce",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOM1ZjTFRTdWptQ2dHcElBVy02Z01fVDRNV2JRMGNUbFNMQlpJcHk1RWI2T1Ewc2tROGxpMzg5bmRtT3VlSXd5eEhkNlFaa3JIbWNmY25jNlFPWldSdnZUN0NYSkNsQ0RnQXA4cVhkMVNtNkMtLXdleGFGNEk4R3JiLXIyQlFkcGlUaWg3RGxvOWNTc3R5VTlGTWc0eHhZQ0V2OThNRnVlbXhiaTg?oc=5",
+      "summary": "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM Salesforce",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "category": "Automation & Workflows",
+      "key_insight": "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM - Salesforce.",
+      "fetched_at": "2026-09-09T07:29:26.299490+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "70e677e07466",
       "title": "Salesforce Puts Its CRM Inside Claude: Claudeforce Aims to Transform the Marketing Stack - portada-online.com",
@@ -1049,34 +1063,6 @@
       "category": "Content & Campaigns",
       "key_insight": "I want to try Claude AI for writing articles.",
       "fetched_at": "2026-06-12T07:01:10.430248+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "07006af66201",
-      "title": "Claude can now look at your live ad data, work out which creative is winning, then generate the next batch to match, all in one conversation. This wasn't possible a few months ago.",
-      "url": "https://www.reddit.com/r/AIDiscussion/comments/1u2rwa8/claude_can_now_look_at_your_live_ad_data_work_out/",
-      "summary": "Meta opened its ad system to Claude through an official connector at the end of April. Pair it with an image and video connector and something genuinely new happens: Claude reads your actual live campaign data, identifies the pattern in what&#39;s working, and generates the new creative to match, without you leaving the chat or touching a dashboard. Using my connected Meta Ads and Higgsfield accounts, run a full creative refresh. 1. Analyse my Meta account. Find my best-performing ad hooks and formats from the last 60 days. 2. Based on what&#39;s actually working, write a creative brief for 3 new ad variations. 3. Using Higgsfield, generate the visual for each of the 3 concepts. 4. Write the ad copy for each, matching the proven angles. Show me everything at the end to review before anything goes live. Don&#39;t publish automatically. The shift is that the analysis and the creation used to be separate jobs in separate tools, with you in the middle moving data between them. Now the mode",
-      "source": "Reddit",
-      "source_label": "search.rss?q=Claude+AI+ABM+account+based&sort=new",
-      "date": "2026-06-11T07:11:50+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "Claude can now look at your live ad data, work out which creative is winning, then generate the next batch to match, all in one conversation.",
-      "fetched_at": "2026-06-11T07:13:11.115991+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "0304e23faae5",
-      "title": "Not falling for Anthropic's marketing tricks.",
-      "url": "https://www.reddit.com/r/Anthropic/comments/1u2d76s/not_falling_for_anthropics_marketing_tricks/",
-      "summary": "Anthropic has been been clever with these marketing tricks, I see right though them. First they say we built AI so powerful that its dangerous to release. Then release it with a different name and limit the window usage so users will subscibe to their subsciption plans so that they can show crazy revenue gains before they IPO. They are generating massive hype by limiting, and giving the trust me bro benchmarks. To be fair it almost worked on me, but I see right through it. Im calling it now, 12 day window to get as many users pay for their subcriptions, then remove the model from subsciption account for a little until competition catches up and then they will release it back with accounts and no need for usage credits. You end up paying for the high subsciption teirs to use the new model and for the rest of the month leave with the old batch . Nothing but keeping a hype train going, they trying to give off the Ultron vibes. &#32; submitted by &#32; /u/RetroBlacknight11 [link] &#32; [co",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-06-10T20:02:09+00:00",
-      "category": "ABM & Pipeline",
-      "key_insight": "Not falling for Anthropic's marketing tricks..",
-      "fetched_at": "2026-06-11T07:13:06.424742+00:00",
       "skip": false,
       "is_featured": false
     }
