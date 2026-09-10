@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-09T07:29:30.604787+00:00",
-  "total": 78,
+  "last_updated": "2026-09-10T07:25:38.192501+00:00",
+  "total": 76,
   "posts": [
     {
       "id": "8107a59d1c96",
@@ -42,7 +42,7 @@
       "key_insight": "Salesforce brings CRM data and workflows into Claude with Claudeforce - Tech Edition.",
       "fetched_at": "2026-09-06T07:13:37.997608+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "a32e52d257fc",
@@ -84,7 +84,7 @@
       "key_insight": "Salesforce (CRM) Launches Claudeforce As AI Sales Automation Moves Deeper Into Workflows - simplywall.st.",
       "fetched_at": "2026-09-04T07:20:40.042327+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "85f25e0c2bd5",
@@ -140,7 +140,7 @@
       "key_insight": "Salesforce Q2 revenue jumps 11%, launches Claudeforce - No Jitter",
       "fetched_at": "2026-09-02T07:14:04.725348+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "d0bbc4f8d526",
@@ -154,7 +154,7 @@
       "key_insight": "Working professionals (non-engineering) - how are you using Claude to be more productive at work?",
       "fetched_at": "2026-09-01T07:55:14.615552+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "b5df53f298ef",
@@ -168,7 +168,7 @@
       "key_insight": "I\u2019ve been using Claude pretty heavily for the past six months, primarily for my real estate development business",
       "fetched_at": "2026-09-01T07:55:14.615409+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "f01fca03bf92",
@@ -364,7 +364,7 @@
       "key_insight": "Made marketing video of my product using Claude and having no resources for it (no proper assets, no proper PC) and it turned out lovely",
       "fetched_at": "2026-08-24T03:30:02.780145+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "fab556f5a613",
@@ -1049,20 +1049,6 @@
       "category": "Content & Campaigns",
       "key_insight": "When New York marketing consultant Matt Rosenberg faced a painful $195,000 hospital bill after his brother-in-law died, he used Anthropic's Claude AI to expose shocking double-billing fraud and slash ",
       "fetched_at": "2026-06-13T06:36:25.404550+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "64e3b530b2bf",
-      "title": "I want to try Claude AI for writing articles. Can i go for it?",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u3l8pl/i_want_to_try_claude_ai_for_writing_articles_can/",
-      "summary": "I do SEO marketing. I want a tool where i put all my data related to article and it give me the article which is researched and cover all parameters for SEO writing &#32; submitted by &#32; /u/Basic-Patient-696 [link] &#32; [comments]",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-06-12T04:31:51+00:00",
-      "category": "Content & Campaigns",
-      "key_insight": "I want to try Claude AI for writing articles.",
-      "fetched_at": "2026-06-12T07:01:10.430248+00:00",
       "skip": false,
       "is_featured": false
     }
