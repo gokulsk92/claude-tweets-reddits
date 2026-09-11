@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-09-10T07:25:38.192501+00:00",
+  "last_updated": "2026-09-11T07:23:57.550469+00:00",
   "total": 76,
   "posts": [
+    {
+      "id": "31745e2bfaeb",
+      "title": "Matthew McConaughey Is Back Selling Salesforce \u2014 This Time With Anthropic's Claude As His Co-Star - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZURsMzhzWENaYjlxaFNYZmo0bjh6amREMmR4UGVXbGE5cGViSFhOTkoya0NnMU16Sk95cTBQaE5nMnhzWHplcHh1OFFIcGJLY2MxRXI2LUlsYkNvM0NPdkhKT3BIZVhoenFTUkI1aHBpOVVyc052Q2tSVUY3WjZyNkw4cDBMNkJZcmQ3ZGdBVVdkOXVLbVp5b0pkTjhhQ0pObFRJUnkycVhmckFSY0VlTG9hT2lXWGppSF9TSVc1M0U5c0t0MWhFeV9QSExyWGljdkVmMV9jOXp4WTdybG9YVG95ZGZsLW1uUXAxQg?oc=5",
+      "summary": "Matthew McConaughey Is Back Selling Salesforce \u2014 This Time With Anthropic's Claude As His Co-Star TradingView",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Thu, 27 Aug 2026 07:00:00 GMT",
+      "category": "Automation & Workflows",
+      "key_insight": "Matthew McConaughey Is Back Selling Salesforce \u2014 This Time With Anthropic's Claude As His Co-Star - TradingView.",
+      "fetched_at": "2026-09-11T07:23:53.448066+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "8107a59d1c96",
       "title": "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM - Salesforce",
@@ -1021,34 +1035,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "JSE can: - track jobs through a Kanban-style application pipeline - scrape listings through configurable scraper plugins - score roles against one or more career \u201clanes\u201d - use a local LLM for first-pa",
       "fetched_at": "2026-06-17T07:31:34.600121+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "94b9c43cd800",
-      "title": "Django launches JAG AI to help brands run marketing operations through Claude AI - Dailyhunt",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNTUJUOE9IdEdlTkNkSU1RMW9LQzZVUzllb3lZb2RaTml4Tl9SMkF0MzJkWkhzUVBtYUtCenlXMWpLa1Y5Sk9WZU1RM0NiNmc0ZXdjZldPZGg3V1BnbGZDWlkyRFpMNzU0bTdoZXRtbVRTMUFlNWNOc0NxMzZ0LVV5dXQweFZaUEpnaXloNU1fcFNjTFJHN1hCcExVNVhVX2wtYnRxNGlmY2ZlbURoUWxtcVYwSWdZcDFzLTBWRmlnUEF5SjZEQ2w2eUszNFFLUjU2RDVuWV94UlhRcFhzTndpX091bG9YdkpGMnB3cVJfdTNCaEtxdVE?oc=5",
-      "summary": "Django launches JAG AI to help brands run marketing operations through Claude AI Dailyhunt",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Sat, 30 May 2026 10:28:07 GMT",
-      "category": "Content & Campaigns",
-      "key_insight": "Django launches JAG AI to help brands run marketing operations through Claude AI - Dailyhunt.",
-      "fetched_at": "2026-06-13T06:36:25.404665+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "d53be67b0a8f",
-      "title": "When New York marketing consultant Matt Rosenberg faced a painful $195,000 hospital bill after his brother-in-law died, he used Anthropic's Claude AI to expose shocking double-billing fraud and slash the debt down to just $33,000 - satyaagrah.com",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBkWFFpTUxJVlBxSFUySlFreUtHckxJSldqYW14dXpnM2lGU29zWGhsMTRWZTBtZ2pQQVVONE9mWkdXODZ0S3FJU01HTjU4enlHS2V0YjhsX3hTVjVRWXVHakktbw?oc=5",
-      "summary": "When New York marketing consultant Matt Rosenberg faced a painful $195,000 hospital bill after his brother-in-law died, he used Anthropic's Claude AI to expose shocking double-billing fraud and slash the debt down to just $33,000 satyaagrah.com",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Fri, 22 May 2026 07:00:00 GMT",
-      "category": "Content & Campaigns",
-      "key_insight": "When New York marketing consultant Matt Rosenberg faced a painful $195,000 hospital bill after his brother-in-law died, he used Anthropic's Claude AI to expose shocking double-billing fraud and slash ",
-      "fetched_at": "2026-06-13T06:36:25.404550+00:00",
       "skip": false,
       "is_featured": false
     }
