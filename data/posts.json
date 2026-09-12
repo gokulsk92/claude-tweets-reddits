@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-09-11T07:23:57.550469+00:00",
-  "total": 76,
+  "last_updated": "2026-09-12T07:16:17.489313+00:00",
+  "total": 75,
   "posts": [
+    {
+      "id": "5927a2b65f76",
+      "title": "Gpt astra vs claude pro",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1we5cf7/gpt_astra_vs_claude_pro/",
+      "summary": "GPT Astra vs Claude Pro \u2014 Which one would you choose for serious coding + automation + startup building? I\u2019m planning to invest in one paid AI subscription and want to choose based on real-world performance, not hype. My main use cases are: - \ud83e\uddd1\u200d\ud83d\udcbb Coding: building and debugging Python/software projects - \ud83e\udd16 AI automation: agents, workflows, APIs, n8n, integrations, etc. - \ud83c\udfd7\ufe0f System building: designing the architecture and actually implementing projects step-by-step - \ud83d\ude80 Startup development: MVP \u2192 testing \u2192 deployment \u2192 scaling - \ud83e\udde0 Guidance: I want an AI that can act more like a technical mentor/CTO, not just generate code - \ud83d\udd27 Long projects: understanding the existing codebase, maintaining context, debugging and improving the system over time I\u2019m currently considering GPT Astra vs Claude Pro. For people who have actually used both: Which one would you pick and why? I\u2019m especially interested in comparisons on: Coding quality debugging Large/long codebases Agentic coding / autonomous workflo",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-09-12T06:54:41+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "Gpt astra vs claude pro.",
+      "fetched_at": "2026-09-12T07:16:12.377064+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "31745e2bfaeb",
       "title": "Matthew McConaughey Is Back Selling Salesforce \u2014 This Time With Anthropic's Claude As His Co-Star - TradingView",
@@ -56,7 +70,7 @@
       "key_insight": "Salesforce brings CRM data and workflows into Claude with Claudeforce - Tech Edition.",
       "fetched_at": "2026-09-06T07:13:37.997608+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "a32e52d257fc",
