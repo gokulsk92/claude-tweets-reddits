@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-12T07:16:17.489313+00:00",
+  "last_updated": "2026-09-13T07:34:30.258208+00:00",
   "total": 75,
   "posts": [
     {
@@ -42,7 +42,7 @@
       "key_insight": "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM - Salesforce.",
       "fetched_at": "2026-09-09T07:29:26.299490+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "70e677e07466",
@@ -70,7 +70,7 @@
       "key_insight": "Salesforce brings CRM data and workflows into Claude with Claudeforce - Tech Edition.",
       "fetched_at": "2026-09-06T07:13:37.997608+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "a32e52d257fc",
@@ -98,7 +98,7 @@
       "key_insight": "It\u2019s plain markdown skill files, built with Claude Code, and it\u2019s free and MIT",
       "fetched_at": "2026-09-05T07:02:12.010204+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "a14f3ea51b6c",
@@ -112,7 +112,7 @@
       "key_insight": "Salesforce (CRM) Launches Claudeforce As AI Sales Automation Moves Deeper Into Workflows - simplywall.st.",
       "fetched_at": "2026-09-04T07:20:40.042327+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "85f25e0c2bd5",
