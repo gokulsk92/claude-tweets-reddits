@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-09-13T07:34:30.258208+00:00",
-  "total": 75,
+  "last_updated": "2026-09-14T08:01:10.531455+00:00",
+  "total": 76,
   "posts": [
+    {
+      "id": "896a3ddb1fc9",
+      "title": "Claude AI for Personal Advisory",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wfs8oa/claude_ai_for_personal_advisory/",
+      "summary": "Calling on all experts: I recently lost my job so I have set up an advisory to generate some cash flow to support my family, while looking for a job. I already have one client and my focus is on growth and brand / event advisory and strategy in the hydration category. Since I am starting new I need to be most efficient and I think Claude and its tools are the best way. What I am looking for is: MCPs APIs Skills how to set up my project (sources, and whatever else that helps me to set this up once so I don&#39;t have to prompt every time, avoid made up things, AI language in my correspondence, etc.) Am I missing anything? I am always open to other suggestions. Most of the work I do is: meetings with founder, marketing teams, clients, agencies Community building / engagement Brand strategy (creating executing; Digital, partnerships, etc. Sales (wholesale corporate sales) I am grateful for everyone helping me out on my journey to doubling down on AI!! &#32; submitted by &#32; /u/Ill_Direc",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-09-14T03:29:56+00:00",
+      "category": "Content & Campaigns",
+      "key_insight": "Claude AI for Personal Advisory.",
+      "fetched_at": "2026-09-14T08:01:02.370298+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "5927a2b65f76",
       "title": "Gpt astra vs claude pro",
@@ -56,7 +70,7 @@
       "key_insight": "Salesforce Puts Its CRM Inside Claude: Claudeforce Aims to Transform the Marketing Stack - portada-online.com.",
       "fetched_at": "2026-09-08T07:20:58.007268+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "c1fd002b2120",
@@ -70,7 +84,7 @@
       "key_insight": "Salesforce brings CRM data and workflows into Claude with Claudeforce - Tech Edition.",
       "fetched_at": "2026-09-06T07:13:37.997608+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "a32e52d257fc",
