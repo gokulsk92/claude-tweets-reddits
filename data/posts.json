@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-09-16T07:48:54.775626+00:00",
+  "last_updated": "2026-09-17T07:53:15.536867+00:00",
   "total": 75,
   "posts": [
+    {
+      "id": "ad8a34c7257c",
+      "title": "Anthropic\u2019s marketing success holds key lessons for B2B brands - The Drum",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOREpxUWo1NkFXcFZ0eHdKUlEyYTZHYk96QXZPY201dl9qNGNOdVZoQlJOYVd2S0R4cmRzdm41Mm5nNVBRa1BVVjFwaFpBTzhpOWdEeVNObU5qM2ViR0g5cFpkNk5CNDYySFRkbmN6QWdvN0JPdndEaUtBSXNDbWg2MzF3TGxubk1remlWZ0ZzLTJJaTJVS2ZJaFhn?oc=5",
+      "summary": "Anthropic\u2019s marketing success holds key lessons for B2B brands The Drum",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Tue, 14 Jul 2026 07:00:00 GMT",
+      "category": "Content & Campaigns",
+      "key_insight": "Anthropic\u2019s marketing success holds key lessons for B2B brands - The Drum.",
+      "fetched_at": "2026-09-17T07:53:10.921719+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "e5adb5f11b5a",
+      "title": "Conversational Marketing Connectors: Constant Contact Builds Campaigns Directly in Claude - Trend Hunter",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBKZVh1TXoyX2hBMFV5eXJqR09PVV9QcmJhNTRocHNpZVlFdkp1M19QaTNCZVY4QzRXQjg2clloaWJSOTkxd0lrWVRxSlFoWEJsZDFxY3pValc3YVphdEpFWWI5Q0VkNk1ZbW5LR3QybW9BdGx4XzRn?oc=5",
+      "summary": "Conversational Marketing Connectors: Constant Contact Builds Campaigns Directly in Claude Trend Hunter",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Wed, 16 Sep 2026 18:21:34 GMT",
+      "category": "Content & Campaigns",
+      "key_insight": "Conversational Marketing Connectors: Constant Contact Builds Campaigns Directly in Claude - Trend Hunter.",
+      "fetched_at": "2026-09-17T07:53:09.794975+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "21b24fc9839e",
       "title": "I stopped giving Claude bigger Shopify prompts. A versioned \u201cStore Brain\u201d worked better.",
@@ -70,7 +98,7 @@
       "key_insight": "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM - Salesforce.",
       "fetched_at": "2026-09-09T07:29:26.299490+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "70e677e07466",
@@ -126,7 +154,7 @@
       "key_insight": "It\u2019s plain markdown skill files, built with Claude Code, and it\u2019s free and MIT",
       "fetched_at": "2026-09-05T07:02:12.010204+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "a14f3ea51b6c",
