@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-09-17T07:53:15.536867+00:00",
-  "total": 75,
+  "last_updated": "2026-09-18T07:32:19.542067+00:00",
+  "total": 77,
   "posts": [
+    {
+      "id": "f16c1eb7f450",
+      "title": "Best Claude Marketing Skills: 25+ Skills for SEO, Ads & Content - Bleap",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9sdkEyNEp6TXR5NTJRbDVNcWZBengzdlIxRGt5WmozVURMcnN3d25MeVRYNFJNc2hVbG1sZzQ2SEQ4aGZOd2dKZlZwVVV4NEI0cC1pemRyazVpaHY1LUhTZ1JxMG92VGtSSUNfams2SVJ6cVE?oc=5",
+      "summary": "Best Claude Marketing Skills: 25+ Skills for SEO, Ads & Content Bleap",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Wed, 29 Jul 2026 07:00:00 GMT",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Best Claude Marketing Skills: 25+ Skills for SEO, Ads & Content - Bleap.",
+      "fetched_at": "2026-09-18T07:32:15.212812+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "6c30d17ede87",
+      "title": "Sales workflows with Claude Cowork?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wj7iua/sales_workflows_with_claude_cowork/",
+      "summary": "I\u2019m selling high-ticket digital services and Claude has been very helpful at 80% of the entire sales workflow. Research, leads enrichment, MCP connections to keep everything organized into my CRM and send email campaigns, BUT I can\u2019t make it a closed loop that learns the workflow and sells. For example, it needs to test the copy and send variations, or have variations of outreach to see which one performs and bet on it. Instead, it overbuilds, creates 9 agents, and artifact, a plugin, a fake \u2018skill\u2019 that should summon the agents to meet and brainstorm and learn from each other - and simply it gets stuck and it creates so many gates and rules that all gets stopped and with 0 sales. So I need to pick it up manually, follow up, review, correct, argue with Opus, remind it to follow some instructions, delete, and my work day is now too long. In simpler and more straightforward workflows, I got it to have great results. But not yet in automated sales. Anyone successful and cares to share som",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-09-17T21:52:34+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "I\u2019m selling high-ticket digital services and Claude has been very helpful at 80% of the entire sales workflow",
+      "fetched_at": "2026-09-18T07:32:14.262439+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "ad8a34c7257c",
       "title": "Anthropic\u2019s marketing success holds key lessons for B2B brands - The Drum",
@@ -154,7 +182,7 @@
       "key_insight": "It\u2019s plain markdown skill files, built with Claude Code, and it\u2019s free and MIT",
       "fetched_at": "2026-09-05T07:02:12.010204+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "a14f3ea51b6c",
