@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-09-18T07:32:19.542067+00:00",
-  "total": 77,
+  "last_updated": "2026-09-19T07:27:23.964578+00:00",
+  "total": 78,
   "posts": [
+    {
+      "id": "effa0db12acd",
+      "title": "How do you handle tool sprawl and untrusted scripts when building with Claude Code and custom agents?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wkbafd/how_do_you_handle_tool_sprawl_and_untrusted/",
+      "summary": "When using Claude Code and custom autonomous agent pipelines with terminal execution, adding third-party tools, scripts, and custom skills quickly leads to two friction points: Context Attention Degradation: As you register dozens of custom commands or third-party tools, the tool definitions eat up context tokens and degrade the model&#39;s accuracy in picking the right tool. Local Execution Exposure: Tools in coding agents run with full filesystem and terminal permissions. Running community tool scripts without inspecting AST or patterns for environment credential harvesting ( .env , API keys) or malicious subshells is a real vulnerability. To address this in our own autonomous agent workflows, we built Skill Installer (an open-source, 3-stage verification pipeline for agent tools and skills): 1. Semantic Redundancy Gate: Checks if an incoming tool or skill duplicates functionality you already have ( 80% overlap), preventing prompt bloat before it enters the environment. 2. Pre-flight",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-09-19T03:39:01+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "When using Claude Code and custom autonomous agent pipelines with terminal execution, adding third-party tools, scripts, and custom skills quickly leads to two friction points: Context Attention Degra",
+      "fetched_at": "2026-09-19T07:27:18.644133+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "f16c1eb7f450",
       "title": "Best Claude Marketing Skills: 25+ Skills for SEO, Ads & Content - Bleap",
@@ -266,7 +280,7 @@
       "key_insight": "Working professionals (non-engineering) - how are you using Claude to be more productive at work?",
       "fetched_at": "2026-09-01T07:55:14.615552+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "b5df53f298ef",
@@ -1063,20 +1077,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "Has anyone here had success using Claude for lead gen or day-to-day SDR tasks?",
       "fetched_at": "2026-06-22T08:36:24.895905+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "cfbfe3b4960a",
-      "title": "Should GitHub repos include AI-readable onboarding for Claude workflows?",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ubam7t/should_github_repos_include_aireadable_onboarding/",
-      "summary": "Not a benchmark or model comparison \u2014 this is more about repo design. I\u2019ve been testing a small workflow idea: When I ask Claude to read a GitHub repo, the repo may need a different kind of onboarding than a normal human README. The old flow is: human reads README \u2192 understands repo \u2192 uses it But a newer flow is becoming common: user asks Claude to read the repo \u2192 Claude explains what the repo does \u2192 Claude generates a beginner-friendly tutorial \u2192 Claude adapts the first steps to the user\u2019s goal/environment So I tried adding a small AI_TUTORIAL_CAPSULE.md to one of my repos. The capsule is not automation. It is just a short set of prompts for the user\u2019s AI assistant: read this repo and generate a beginner tutorial review whether first-time onboarding is clear suggest the smallest onboarding edit do not invent features do not add hooks/plugins/automation keep the human as the decision owner end with one smallest first action The interesting failure mode I noticed: If the repo entry path",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-06-20T23:24:29+00:00",
-      "category": "Automation & Workflows",
-      "key_insight": "Should GitHub repos include AI-readable onboarding for Claude workflows?.",
-      "fetched_at": "2026-06-21T07:15:06.093065+00:00",
       "skip": false,
       "is_featured": false
     }
