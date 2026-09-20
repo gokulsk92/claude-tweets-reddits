@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-19T07:27:23.964578+00:00",
-  "total": 78,
+  "last_updated": "2026-09-20T07:51:16.842834+00:00",
+  "total": 77,
   "posts": [
     {
       "id": "effa0db12acd",
@@ -112,7 +112,7 @@
       "key_insight": "Gpt astra vs claude pro.",
       "fetched_at": "2026-09-12T07:16:12.377064+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "31745e2bfaeb",
@@ -280,7 +280,7 @@
       "key_insight": "Working professionals (non-engineering) - how are you using Claude to be more productive at work?",
       "fetched_at": "2026-09-01T07:55:14.615552+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "b5df53f298ef",
