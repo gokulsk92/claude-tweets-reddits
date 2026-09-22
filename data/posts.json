@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-09-21T08:06:14.105931+00:00",
+  "last_updated": "2026-09-22T07:51:08.360301+00:00",
   "total": 77,
   "posts": [
+    {
+      "id": "f4ae81e2bccd",
+      "title": "Three ways I had Claude aim clicks, and why all three failed",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wn2rvw/three_ways_i_had_claude_aim_clicks_and_why_all/",
+      "summary": "I use Claude to drive two kinds of automation: a test runner that taps through a mobile game build, and the browser session I post from. The step that kept breaking was the same in both. Where to click. First it clicked off the logs: the log said the next screen was up, it tapped, and the screen hadn&#39;t changed yet. Five runs in a row, same spot. So I had it compute coordinates from the DOM right before each click. Those drifted. Screenshot width and viewport width didn&#39;t match, and one click landed in the feed&#39;s inline composer behind the modal. Then it aimed at the button label in a screenshot, but the label and the actual hit area weren&#39;t in the same place. Five taps, nothing. All three were the model guessing a point. The README for browser-use&#39;s jev-ultrafast (most-starred new repo on GitHub this September) goes the other way. Every clickable element becomes a row in a numbered table, and the model picks an operation and a row number. That&#39;s it. Model output",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-09-22T07:31:36+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "Three ways I had Claude aim clicks, and why all three failed.",
+      "fetched_at": "2026-09-22T07:51:01.005725+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "effa0db12acd",
       "title": "How do you handle tool sprawl and untrusted scripts when building with Claude Code and custom agents?",
