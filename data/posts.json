@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-23T07:52:59.282931+00:00",
+  "last_updated": "2026-09-24T07:43:43.267015+00:00",
   "total": 77,
   "posts": [
     {
@@ -42,7 +42,7 @@
       "key_insight": "Best Claude Marketing Skills: 25+ Skills for SEO, Ads & Content - Bleap.",
       "fetched_at": "2026-09-18T07:32:15.212812+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "6c30d17ede87",
@@ -504,7 +504,7 @@
       "key_insight": "Made marketing video of my product using Claude and having no resources for it (no proper assets, no proper PC) and it turned out lovely",
       "fetched_at": "2026-08-24T03:30:02.780145+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "fab556f5a613",
