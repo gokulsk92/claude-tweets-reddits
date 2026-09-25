@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-09-24T07:43:43.267015+00:00",
-  "total": 77,
+  "last_updated": "2026-09-25T08:02:59.260486+00:00",
+  "total": 79,
   "posts": [
+    {
+      "id": "6b60a7012909",
+      "title": "Constant Contact Integrates with Claude for Streamlined Marketing Campaigns - Small Business Trends",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUnN1Tzg4UGRNNjlVT2p6dWszYTQ4V1hSaFFpenhkNmh3czFzYTBDYmwwUlJjLW8tNDJ3alpHbGk5OXNGY1pvSzlMek5YUGVXRndkdTdTMUlxMDJvZ1ItSDZiYUZxQXNpZGV5bE1BRFR2aWhkclFYYUhUZlN3TzNqMm42Unhjam5nbFM1TWhpLXlKeXVUT25yVGhZQzBiQUNZcHJtZUdR?oc=5",
+      "summary": "Constant Contact Integrates with Claude for Streamlined Marketing Campaigns Small Business Trends",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Thu, 24 Sep 2026 12:11:00 GMT",
+      "category": "Content & Campaigns",
+      "key_insight": "Constant Contact Integrates with Claude for Streamlined Marketing Campaigns - Small Business Trends.",
+      "fetched_at": "2026-09-25T08:02:55.150663+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "67f7c0734e0d",
+      "title": "I built a Google Ads connector for Claude that never touches your campaigns",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wpps59/i_built_a_google_ads_connector_for_claude_that/",
+      "summary": "Most Google Ads MCP setups I found want a developer token, a manager account and a Google Cloud project before they show you a single number. And plenty of them can also edit campaigns, which is not something I want an LLM doing next to a live budget. So I built my own with Claude Code, over about 10 days. You sign in with Google, and Claude can read your account and find the search terms eating money with zero conversions. It never calls the write side of the API. When it finds waste, it gives you a negative keywords file for Google Ads Editor, and you decide if it goes in. Google finished verifying the app this week, so anyone can sign in now. First 50 calls a month are free. The screenshot is the report it writes, run on a made up account because I&#39;m not posting a real advertiser&#39;s spend here. adsmcp.dev &#32; submitted by &#32; /u/Less-Entertainer5163 [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-09-25T07:16:34+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "I built a Google Ads connector for Claude that never touches your campaigns.",
+      "fetched_at": "2026-09-25T08:02:54.214913+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "f4ae81e2bccd",
       "title": "Three ways I had Claude aim clicks, and why all three failed",
@@ -1063,20 +1091,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "Claude's Super Bowl Campaign Mocking AI Ads Wins Cannes Lions Film Grand Prix - ADWEEK.",
       "fetched_at": "2026-06-28T06:41:50.791773+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "6e9ca5e48c12",
-      "title": "What\u2019s a Claude use case you\u2019re slightly embarrassed by?",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ugtgxe/whats_a_claude_use_case_youre_slightly/",
-      "summary": "Not the impressive stuff like coding, research, or writing docs. I mean the weird everyday things: rewriting a mildly awkward message, deciding if a reply sounds rude, turning chaotic thoughts into one sane paragraph, asking it to explain why you\u2019re annoyed, or sanity-checking something too small to ask another person. What\u2019s the one Claude use case you\u2019d never put in a productivity case study? &#32; submitted by &#32; /u/Delicious-Flan88 [link] &#32; [comments]",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-06-27T04:58:32+00:00",
-      "category": "Content & Campaigns",
-      "key_insight": "What\u2019s the one Claude use case you\u2019d never put in a productivity case study?",
-      "fetched_at": "2026-06-27T06:06:48.454997+00:00",
       "skip": false,
       "is_featured": false
     }
