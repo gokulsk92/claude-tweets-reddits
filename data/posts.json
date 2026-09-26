@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-25T08:02:59.260486+00:00",
-  "total": 79,
+  "last_updated": "2026-09-26T07:54:28.537120+00:00",
+  "total": 78,
   "posts": [
     {
       "id": "6b60a7012909",
@@ -70,7 +70,7 @@
       "key_insight": "Best Claude Marketing Skills: 25+ Skills for SEO, Ads & Content - Bleap.",
       "fetched_at": "2026-09-18T07:32:15.212812+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "6c30d17ede87",
@@ -238,7 +238,7 @@
       "key_insight": "It\u2019s plain markdown skill files, built with Claude Code, and it\u2019s free and MIT",
       "fetched_at": "2026-09-05T07:02:12.010204+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "a14f3ea51b6c",
@@ -1077,20 +1077,6 @@
       "category": "Automation & Workflows",
       "key_insight": "I had Claude set up Android wireless debugging between my phone and my PC over home WiFi, then build the helper pieces around it",
       "fetched_at": "2026-06-30T06:36:43.121313+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "bb26f0e1d83b",
-      "title": "Claude's Super Bowl Campaign Mocking AI Ads Wins Cannes Lions Film Grand Prix - ADWEEK",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd05nbEVfR0tuSV9RbU4ydzg4YnZPZlhURGxJN19mRzJqeTJXMnR2dl9LZ0g3Y0F2d1Q3NzRGTWJOUlNadmxFTmFVZmNyc1VXSTM5cnFzTUhWbDh4Ty1KOHU2SDhwRENhNFRlUGlIT05JdWdTZmlDZENmc1VFdUNZQlFzTW1rVXFERkRUS3VaOXFlTXBJS2ptVzA1c2pyb2ttd2tWWWRqYURsaFpDcnJHTA?oc=5",
-      "summary": "Claude's Super Bowl Campaign Mocking AI Ads Wins Cannes Lions Film Grand Prix ADWEEK",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Fri, 26 Jun 2026 20:30:00 GMT",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "Claude's Super Bowl Campaign Mocking AI Ads Wins Cannes Lions Film Grand Prix - ADWEEK.",
-      "fetched_at": "2026-06-28T06:41:50.791773+00:00",
       "skip": false,
       "is_featured": false
     }
