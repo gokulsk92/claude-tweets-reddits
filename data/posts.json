@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-09-27T08:26:02.598939+00:00",
-  "total": 77,
+  "last_updated": "2026-09-28T08:51:08.093456+00:00",
+  "total": 78,
   "posts": [
+    {
+      "id": "08c7ff28d741",
+      "title": "I run a solar company and built a Claude-powered operator that works in the field with me. Four tests on a real inverter swap (customer data redacted).",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ws5d7g/i_run_a_solar_company_and_built_a_claudepowered/",
+      "summary": "Builder here, so take it with that in mind. I&#39;m a one-person solar contractor in New Hampshire. Over the last year I built the platform my company runs on: CRM, mailbox, documents, books, and an AI operator called Harvey that has tools into all of it. Chat runs on Claude (bring-your-own-key, the user picks the provider). Voice runs on a separate pipeline (Deepgram&#39;s voice agent with Grok doing the reasoning), because I wanted the voice loop to be fast enough to use with a screwdriver in my other hand. The video is four field tests on a real service call: recall the case and the email he sent that morning, situational awareness, dictation of a serial number into the project log, and reading a spec sheet out of the CRM while I fill in the nameplate. Things that mattered more than I expected: Skills live in markdown files, not code. Every behavioral rule Harvey has is a .md file loaded by role. Changing his behavior is a text edit and an eval run, not a build. Tool permissions are",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-09-28T04:51:12+00:00",
+      "category": "ABM & Pipeline",
+      "key_insight": "I run a solar company and built a Claude-powered operator that works in the field with me.",
+      "fetched_at": "2026-09-28T08:51:02.706147+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "6b60a7012909",
       "title": "Constant Contact Integrates with Claude for Streamlined Marketing Campaigns - Small Business Trends",
@@ -1063,20 +1077,6 @@
       "category": "Content & Campaigns",
       "key_insight": "Claude Mythos AI Future SEO Strategy 2026 | Artificial Intelligence Content Marketing,Digital Growth Strickland Vs Khamzat (mWWAyp3P3b) - Mshale.",
       "fetched_at": "2026-07-02T06:21:08.128621+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "fdf04d54c454",
-      "title": "I got Claude Code past SMS 2FA by letting it operate my own Android phone",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ujdufh/i_got_claude_code_past_sms_2fa_by_letting_it/",
-      "summary": "Useful setup if you&#39;re doing real account automation with Claude Code: the browser is usually fine until the site says we texted a code to your phone. That was the wall for me. Claude could log in, find documents, compare numbers, draft emails, whatever, then the six-digit SMS code turned me into the clipboard. I had Claude set up Android wireless debugging between my phone and my PC over home WiFi, then build the helper pieces around it. It can wake the phone, unlock it, read the screen, tap through apps, and grab the new SMS code when a portal sends one. The first real run was an insurance portal. Claude was checking a renewal against an escrow statement, hit the text-code prompt, switched to the phone, read the code, entered it in the browser, got into the portal, found the renewal was about 25 percent higher than what I had on file, and drafted the email to my agent. The important part for me was that the code became a step in the workflow instead of a handoff back to me. I tes",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-06-30T03:28:34+00:00",
-      "category": "Automation & Workflows",
-      "key_insight": "I had Claude set up Android wireless debugging between my phone and my PC over home WiFi, then build the helper pieces around it",
-      "fetched_at": "2026-06-30T06:36:43.121313+00:00",
       "skip": false,
       "is_featured": false
     }
