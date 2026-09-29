@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-09-28T08:51:08.093456+00:00",
-  "total": 78,
+  "last_updated": "2026-09-29T08:49:33.777517+00:00",
+  "total": 79,
   "posts": [
+    {
+      "id": "1411044b31ce",
+      "title": "Claude Code Use Cases for Digital Marketing: The Complete Guide to Smarter Marketing Workflows in 2026 - ALM Corp",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9YdEJmbVdvN1VZWVdwbnpKQy1vSUxUSDlsaTZlN1BNYnhrYWJ3V2pmMm5HYl9xU2NZd21VYkU0NWJfUTNLbGdWMW1ZbXB0TThPVGRhcWZNSGZSUWJVNmwybW5kdEw3em1KYmZsWWQtSHF2TzVz?oc=5",
+      "summary": "Claude Code Use Cases for Digital Marketing: The Complete Guide to Smarter Marketing Workflows in 2026 ALM Corp",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "category": "Automation & Workflows",
+      "key_insight": "Claude Code Use Cases for Digital Marketing: The Complete Guide to Smarter Marketing Workflows in 2026 - ALM Corp",
+      "fetched_at": "2026-09-29T08:49:28.731324+00:00",
+      "skip": false,
+      "is_featured": true
+    },
+    {
+      "id": "5bd8a6dae614",
+      "title": "Claude Code makes building easy. How do you figure out what's worth building? Just bought Claude Code Max 20x",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wt2ict/claude_code_makes_building_easy_how_do_you_figure/",
+      "summary": "I&#39;m a software engineer and just upgraded to Claude Code Max 20x. Building isn&#39;t my bottleneck anymore. I&#39;ve already shipped several side projects with Claude: A React Native + Supabase medication reminder app with caregiver alerts A Python tool that automates CapCut editing for my YouTube videos A Threads auto-posting bot with profile analysis None of them earn money yet. My takeaway so far: Claude makes building fast, but it doesn&#39;t help with finding a problem people will actually pay to solve, or with getting it in front of them. What I&#39;m considering: Niche B2B automation tools (for example, for small businesses in one vertical). The upside is clearer willingness to pay. The downside is I don&#39;t have industry contacts. Turning my own tooling into a product. The CapCut automation solves a real pain for me, but I&#39;m not sure the creator market pays. Productized service: building custom automations for clients with Claude, then turning repeated requests into a",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-09-29T06:18:18+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "Claude Code makes building easy.",
+      "fetched_at": "2026-09-29T08:49:26.953420+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "08c7ff28d741",
       "title": "I run a solar company and built a Claude-powered operator that works in the field with me. Four tests on a real inverter swap (customer data redacted).",
@@ -252,7 +280,7 @@
       "key_insight": "It\u2019s plain markdown skill files, built with Claude Code, and it\u2019s free and MIT",
       "fetched_at": "2026-09-05T07:02:12.010204+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "a14f3ea51b6c",
