@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-09-29T08:49:33.777517+00:00",
-  "total": 79,
+  "last_updated": "2026-09-30T08:49:17.198477+00:00",
+  "total": 80,
   "posts": [
+    {
+      "id": "e2fc7732b093",
+      "title": "\u2018Our UI is just way better\u2019: Braze opens campaigns to ChatGPT, Claude, unleashes AI agents for 1-1 decisioning, campaign QA; says prompts alone can\u2019t manage marketing - mi-3.com.au",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeGQ2M1pFRmlkVXB1NmZ2bFJwdVdVU1VSUTEyeTBfdmVoSGpfeWs3VUJmWnNudENtMVc2MXFRUVNINW90WmNvTEFMYUZ6RzJyVXJTZzBmb3licVFtenpTNHhONmlUOWRnN2VKUVE3MWhnY05VWkxYd2VqUDhTWkh4OXRYUTVvYTgxbnJWN2p0Rm01ZklQTjlEZ2kzWnB3dFBEVms1S3JPQWVGOW1JZ0JNZnFSSWdlNjZzX2lB?oc=5",
+      "summary": "\u2018Our UI is just way better\u2019: Braze opens campaigns to ChatGPT, Claude, unleashes AI agents for 1-1 decisioning, campaign QA; says prompts alone can\u2019t manage marketing mi-3.com.au",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Wed, 30 Sep 2026 03:02:46 GMT",
+      "category": "Content & Campaigns",
+      "key_insight": "\u2018Our UI is just way better\u2019: Braze opens campaigns to ChatGPT, Claude, unleashes AI agents for 1-1 decisioning, campaign QA; says prompts alone can\u2019t manage marketing - mi-3.com.au.",
+      "fetched_at": "2026-09-30T08:49:11.069682+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "1411044b31ce",
       "title": "Claude Code Use Cases for Digital Marketing: The Complete Guide to Smarter Marketing Workflows in 2026 - ALM Corp",
@@ -1077,34 +1091,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "For 43 straight days this spring, an automated pipeline read r/ClaudeAI and r/ClaudeCode every night and wrote a daily digest",
       "fetched_at": "2026-07-04T05:58:04.849735+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "f5c45421bdd7",
-      "title": "ChatGPT-4o vs Claude 3.5: Best free AI tools for Nigerian SME content marketing - Tribune Online",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWGhYb2RMZHBxNVAtakU2MkYxQ0FTRGlZSG1rMTZoYlNmajRBZWNyYThsOGJ1Nzk2ZnBJSjU3WEN1ZXhzM1p1ejJRWTd2MmxPZ0xIY0JuUy1nNmR3Wjh5RGZCSHpaUld3TmNYTFJRYnJjMFRxQjJjOUlzUEt1aDRSVTNXZXBJYnU4ZXhlUzJzejQzWHVoZ0NLZlM2TDZNcHVVMVJtcjdPUmUwbUHSAbABQVVfeXFMUEtJdkNxbFRHNUpiNTZNcF9NMjlUYzdnS1dNVUg0VV90cjB0Z2JFN1JCa2tCdjBWOUtNVURPZVdVRTFuOElTanZxZWtOcHRNUmZ0c0Jtc0hkYXc5N0V4LXcwbjFIS1d2UG1EdzM0eE9EOTRZR2ppcFV2RmM5dEF5TllQUXBJZzhFOTVLT3dXM0szUzAxSzZ1aUVqb0F2aEVkTFNFUF90R0dOUUtYbS0wS1M?oc=5",
-      "summary": "ChatGPT-4o vs Claude 3.5: Best free AI tools for Nigerian SME content marketing Tribune Online",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Tue, 30 Jun 2026 11:12:00 GMT",
-      "category": "Content & Campaigns",
-      "key_insight": "ChatGPT-4o vs Claude 3.5: Best free AI tools for Nigerian SME content marketing - Tribune Online.",
-      "fetched_at": "2026-07-02T06:21:08.129546+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "fe40223c333e",
-      "title": "Claude Mythos AI Future SEO Strategy 2026 | Artificial Intelligence Content Marketing,Digital Growth Strickland Vs Khamzat (mWWAyp3P3b) - Mshale",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xZ3B6MTRVakhaQ2lUNEJQRU16eXV0ZUtYWXUxWEZZNG81cDBoOHRpWUdYeTU5UWxjY3NFek5NN28xNnNNRVFfMm9CVzN3ZUlBM3p3amhuSWVMYk0?oc=5",
-      "summary": "Claude Mythos AI Future SEO Strategy 2026 | Artificial Intelligence Content Marketing,Digital Growth Strickland Vs Khamzat (mWWAyp3P3b) Mshale",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Wed, 01 Jul 2026 03:52:52 GMT",
-      "category": "Content & Campaigns",
-      "key_insight": "Claude Mythos AI Future SEO Strategy 2026 | Artificial Intelligence Content Marketing,Digital Growth Strickland Vs Khamzat (mWWAyp3P3b) - Mshale.",
-      "fetched_at": "2026-07-02T06:21:08.128621+00:00",
       "skip": false,
       "is_featured": false
     }
