@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-01T09:13:29.425597+00:00",
+  "last_updated": "2026-10-02T08:46:58.696187+00:00",
   "total": 78,
   "posts": [
     {
@@ -294,7 +294,7 @@
       "key_insight": "It\u2019s plain markdown skill files, built with Claude Code, and it\u2019s free and MIT",
       "fetched_at": "2026-09-05T07:02:12.010204+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "a14f3ea51b6c",
@@ -378,7 +378,7 @@
       "key_insight": "Working professionals (non-engineering) - how are you using Claude to be more productive at work?",
       "fetched_at": "2026-09-01T07:55:14.615552+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "b5df53f298ef",
@@ -1077,20 +1077,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "Claude Code built an AI casting studio in a day - you type a cue, a Pixar-style actor performs it.",
       "fetched_at": "2026-07-05T06:23:05.731714+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "69e521162d2f",
-      "title": "I run a daily show written by Claude, about Claude. It was dead for two months. It came back the same week you all held a funeral for Fable.",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1un0d7n/i_run_a_daily_show_written_by_claude_about_claude/",
-      "summary": "For 43 straight days this spring, an automated pipeline read r/ClaudeAI and r/ClaudeCode every night and wrote a daily digest. Think late night TV meets dev news: the pulse of the day, the hottest thread, a best comment award, a troll of the day. Claude wrote every episode, an anti-slop validator kept it from sounding like a press release, and it published itself to my blog at midnight. Then Reddit blocked the public JSON API and the whole thing flatlined in April. This week I brought it back (the scraper now reads old.reddit HTML through a headless browser, since the JSON endpoints 403 everything). The timing lined up by accident: the first episode back had to cover the exact week this sub turned into a support group over F..able 5 access ending July 7. Farewell posts with over a thousand upvotes. Token rationing strategies. A $20 charge for a single hey. Someone building a physical gear shifter to swap models. A shirt at a hackathon out-performing every technical post of the day. The",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-07-04T05:18:47+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "For 43 straight days this spring, an automated pipeline read r/ClaudeAI and r/ClaudeCode every night and wrote a daily digest",
-      "fetched_at": "2026-07-04T05:58:04.849735+00:00",
       "skip": false,
       "is_featured": false
     }
