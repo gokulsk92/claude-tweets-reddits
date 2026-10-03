@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-10-02T08:46:58.696187+00:00",
-  "total": 78,
+  "last_updated": "2026-10-03T08:24:30.109494+00:00",
+  "total": 80,
   "posts": [
+    {
+      "id": "43df690d5faa",
+      "title": "Salesforce AIforce Connects Claude and Slack to CRM Controls - quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWmJuc1c2T3FrOXpScnRxcW9nS1F6c2pNdmpVREJDUlk2Y2duOUdNY0FCeUdOWGxMTG56d01QOXhzZU42cUowWlhnMDgzMkFnVGZEZ25JZThlMzZHMVRRRzI2aWF3bm1jd00zUllJTTl4QzY5RkhZbnFGNldWY3hXMEdvenF4SUxGSjU3Y0hFM2hUUzYtcTlDTmpqVmFUVWN0dmRXV0lUT1puQ1REOUNv?oc=5",
+      "summary": "Salesforce AIforce Connects Claude and Slack to CRM Controls quasa.io",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Sun, 20 Sep 2026 17:34:00 GMT",
+      "category": "Automation & Workflows",
+      "key_insight": "Salesforce AIforce Connects Claude and Slack to CRM Controls - quasa.io.",
+      "fetched_at": "2026-10-03T08:24:24.613712+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "d93baf120a53",
+      "title": "Claude is basically doing my app marketing capture for me and eating all my usage \ud83d\ude02",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wwdyr0/claude_is_basically_doing_my_app_marketing/",
+      "summary": "I\u2019m currently using Claude to capture my app\u2019s features and flows, basically letting it record different interactions in the app and take clean UI still screenshots so I can reuse them later for marketing, App Store stuff, ads, website content, etc. Is this something other people do as well, or am I just being lazy and letting Claude do something I should probably be doing myself? \ud83d\ude02 Honestly though, it eats through my usage limit like crazy. It has hit my usage limit twice already, and it\u2019s around 90% done now. I\u2019ll probably need one more session when my usage resets to finish everything and then I can properly go through all the recordings and screenshots it captured. But overall I\u2019m actually really happy with Claude Opus 5.5. I\u2019ve been using it a lot for my app lately and I\u2019m genuinely impressed by what the model is capable of when you give it access to the project and let it properly inspect things and work through a task. It\u2019s kinda crazy watching it use the simulator, test differe",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-03T04:20:33+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "I\u2019m currently using Claude to capture my app\u2019s features and flows, basically letting it record different interactions in the app and take clean UI still screenshots so I can reuse them later for marke",
+      "fetched_at": "2026-10-03T08:24:21.905471+00:00",
+      "skip": false,
+      "is_featured": true
+    },
+    {
+      "id": "a34f8598a047",
+      "title": "AI pipeline for off-market real estate deals (1\u201320 units) with Claude Code: stuck on incomplete data and login-walled sources (FIRST POST ON REDDIT LOL)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wwf59r/ai_pipeline_for_offmarket_real_estate_deals_120/",
+      "summary": "Goal: find off-market deals (single-family up to 20-unit multifamily), pull the details into one list, score them, and get me to an offer fast. Most never reach public listing sites. Setup: a dedicated Gmail receives saved-search alerts and wholesaler emails. A Python worker reads each one: plain code splits multi-deal emails, a cheap Claude model extracts fields into fixed JSON (null when unknown), and plain code does all the math (separate single-family and multifamily scoring). Paid lookups only run after a cheap price check. Results go to Supabase, a Streamlit dashboard and email alerts. A shared Google Doc coordinates me, Claude Code and a second AI assistant. Problems : Emails are incomplete: most lack the street address, and many lack unit count and rents. About half my deals arrived with no address, so they can&#39;t be looked up or fully scored. The full details sit behind logins, and the platforms ban automated access. I&#39;m not automating it, so deals stall at needs info. ",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-03T05:29:04+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "AI pipeline for off-market real estate deals (1\u201320 units) with Claude Code: stuck on incomplete data and login-walled sources (FIRST POST ON REDDIT LOL).",
+      "fetched_at": "2026-10-03T08:24:21.904633+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "e2fc7732b093",
       "title": "\u2018Our UI is just way better\u2019: Braze opens campaigns to ChatGPT, Claude, unleashes AI agents for 1-1 decisioning, campaign QA; says prompts alone can\u2019t manage marketing - mi-3.com.au",
@@ -112,7 +154,7 @@
       "key_insight": "When using Claude Code and custom autonomous agent pipelines with terminal execution, adding third-party tools, scripts, and custom skills quickly leads to two friction points: Context Attention Degra",
       "fetched_at": "2026-09-19T07:27:18.644133+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "f16c1eb7f450",
@@ -294,7 +336,7 @@
       "key_insight": "It\u2019s plain markdown skill files, built with Claude Code, and it\u2019s free and MIT",
       "fetched_at": "2026-09-05T07:02:12.010204+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "a14f3ea51b6c",
@@ -1049,34 +1091,6 @@
       "category": "Content & Campaigns",
       "key_insight": "heavy claude users: using claude cowork, claude code everyday Created 10+ skills I use daily for running my startup in sales, content creation etc",
       "fetched_at": "2026-07-07T06:28:21.734573+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "10c3a4eae163",
-      "title": "6-month Claude user looking to level up \u2014 Code, Desktop, Dispatch + agent use cases (finance, travel, trading, marketing)",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1unu5sr/6month_claude_user_looking_to_level_up_code/",
-      "summary": "Used Claude to shorten and simplify my original working! TL;DR : 6-month Claude user, comfortable with Projects/connectors, no coding background. Looking for quick-start resources for Claude Code, Desktop, and Dispatch. Want to build agents for finance tracking/bill pay, travel booking, a voice-to-Sheet task assistant with check-in reminders, F O trade advice/execution, social media content summarization, work dashboards from Excel, deck-building, and marketing/creative design work. Will run Claude on a mini PC, controlled via Dispatch from my phone. Been using Claude for about 6 months. I&#39;ve got a decent handle on Projects, profile, and custom instructions, and just started using connectors (mainly Google Suite). I don&#39;t code, but I understand systems thinking to some extent. Could you point me to the shortest courses/resources to get started with Claude Code, Claude Desktop, and Dispatch? My use cases : An agent to manage personal finance \u2014 pull bank/credit statements, analyz",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-07-05T05:51:22+00:00",
-      "category": "Content & Campaigns",
-      "key_insight": "6-month Claude user looking to level up \u2014 Code, Desktop, Dispatch + agent use cases (finance, travel, trading, marketing)",
-      "fetched_at": "2026-07-05T06:23:05.732025+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "958d733f114f",
-      "title": "Claude Code built an AI casting studio in a day - you type a cue, a Pixar-style actor performs it. Claude can also cast takes itself over MCP",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1unue6h/claude_code_built_an_ai_casting_studio_in_a_day/",
-      "summary": "What it does: pick a Pixar-style AI actor from a fixed cast, type a scene cue like a director ( you just realized your coffee was decaf all week - react ), and it generates a wardrobe still, then an acted 8-10 second video take with sound. Free to try: 50 credits at signup (an audition costs 10), no card needed. https://designforyou.swapp1990.org/letmeactforyou?utm_source=reddit utm_campaign=lmafy_claudeai How Claude Code built it (the part this sub might care about): It ran the build as PM. Three parallel recon subagents mapped the codebase and returned file:line implementation guides. Then an Opus agent built the billing/async backend while a Sonnet agent built the mobile UI against a locked API contract. They integrated on the first try. It A/B tested character identity with the same actor and cue: text-only prompts produce a lookalike (clearly the wrong person), while passing the headshot as a reference image keeps the exact face. That A/B is why the cast stays consistent across ta",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-07-05T06:04:32+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "Claude Code built an AI casting studio in a day - you type a cue, a Pixar-style actor performs it.",
-      "fetched_at": "2026-07-05T06:23:05.731714+00:00",
       "skip": false,
       "is_featured": false
     }
