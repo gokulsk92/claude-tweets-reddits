@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-10-03T08:24:30.109494+00:00",
-  "total": 80,
+  "last_updated": "2026-10-04T08:38:00.953999+00:00",
+  "total": 79,
   "posts": [
+    {
+      "id": "6111f57d9b21",
+      "title": "How are tour operators using Claude AI to find safari clients?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wx5uni/how_are_tour_operators_using_claude_ai_to_find/",
+      "summary": "Curious how others are using Claude to find serious travel leads and turn enquiries into bookings. What prompts or workflows have worked best for you? &#32; submitted by &#32; /u/Expensive_Computer53 [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-04T03:44:36+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Curious how others are using Claude to find serious travel leads and turn enquiries into bookings",
+      "fetched_at": "2026-10-04T08:37:56.112486+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "43df690d5faa",
       "title": "Salesforce AIforce Connects Claude and Slack to CRM Controls - quasa.io",
