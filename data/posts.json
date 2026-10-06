@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-10-05T09:23:43.378045+00:00",
-  "total": 81,
+  "last_updated": "2026-10-06T09:11:46.830021+00:00",
+  "total": 83,
   "posts": [
+    {
+      "id": "720d3e644b28",
+      "title": "Salesforce Profit, Revenue Rise, Expands Partnership with Anthropic\u2019s Claude - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSFpqV2tQWnJEcXhJRUJhZVFIblRMOWV2NDBCenVXcFh0M3N6YWpCcXZ2MGZueXowZWlaQy1uUXdEY3JVUzBHcVk4dHZKWHNkSHh4d0NEZ0RIVUQwZXZhdjZYLVdWNy1lZjNSRXR4akhmRTZSaEo1dTVIQlAyeVByMV9UX0V2aE9LNzRCUDBqaGNzLWY3Z2xibWFHbTF1amM4akhRZGlpWUFKQWtkWmZuWXhKU3QzTExPaWFQRQ?oc=5",
+      "summary": "Salesforce Profit, Revenue Rise, Expands Partnership with Anthropic\u2019s Claude WSJ",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "category": "Automation & Workflows",
+      "key_insight": "Salesforce Profit, Revenue Rise, Expands Partnership with Anthropic\u2019s Claude - WSJ.",
+      "fetched_at": "2026-10-06T09:11:42.589106+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "037788990071",
+      "title": "I'm a CMO, not a developer. I built a 130-agent marketing system with Claude Code. Lessons after a year in production",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wyw7e7/im_a_cmo_not_a_developer_i_built_a_130agent/",
+      "summary": "Context: B2B SaaS, blog in 3 languages, LinkedIn for 5 execs, outbound, SEO. The brief was to grow output without growing the team. I can&#39;t code, so Claude Code wrote everything and I designed the logic. Setup, briefly. Each workstream is a folder with a rules file, agent role files (one markdown file per role) and its own logs. An orchestrator picks the workstream, loads its rules and runs agents in a fixed order. A launchd job ticks every 5 minutes and starts a headless session only when something is due. Opus writes and judges, Sonnet does routine monitoring. What actually mattered: One agent per job. My first content agent was mediocre at everything. Splitting into researcher, writer, fact-checker, critic, publisher fixed quality more than any prompt tweak. The checker is never the writer. A model that wrote a paragraph defends it. A separate fact-checker that has to trace every number to a source catches a lot. Rules in code, not prompts. Hooks block things like writing to a c",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-06T07:15:32+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "I can&#39;t code, so Claude Code wrote everything and I designed the logic",
+      "fetched_at": "2026-10-06T09:11:39.250327+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "7b95992546c9",
+      "title": "Claude AI models become worse",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wywcr9/claude_ai_models_become_worse/",
+      "summary": "I&#39;ve been using Anthropic LLMs under subscription-based terms. The first time I tried them (March or April this year), I was amazed by their performance and how helpful they were. I went through a lot of GitHub repos, articles, X posts, and so on to understand how everything works and how I could improve my workflow with Claude Code (plugins, MCPs, skills, agents). During that time, I felt like I could accomplish a lot in a short amount of time while maintaining high quality. I also tried the first version of Fable 5 (before the US asked them to postpone it). Then I took a break from all of that for a few months. I came back in July/August, and everything still felt the same as when I first started using Claude Code. But I took another break and came back this month. I&#39;ve been using Claude Code for about four days now, and I can really feel how much worse it has become. It reads a few files and then goes straight to compaction. It overcomplicates simple things, spawns thousands",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-06T07:25:22+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "I went through a lot of GitHub repos, articles, X posts, and so on to understand how everything works and how I could improve my workflow with Claude Code (plugins, MCPs, skills, agents)",
+      "fetched_at": "2026-10-06T09:11:39.250204+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "67bcf5bb7162",
       "title": "How OpenAI, Anthropic and Perplexity are reshaping advertising and marketing with AI - StoryBoard 18",
@@ -742,7 +784,7 @@
       "key_insight": "So it&#39;s a decent case study in using Claude Code for a whole stack: the MCP server, the game, the art pipeline, and packaging it into a plugin",
       "fetched_at": "2026-08-16T03:26:26.369664+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "f9dc53c0f093",
@@ -1105,20 +1147,6 @@
       "category": "Automation & Workflows",
       "key_insight": "I&#x27;m the guy who if you say build Claude from scratch including model training \u2014 I&#x27;ll somehow do it.",
       "fetched_at": "2026-07-10T06:24:38.284524+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "9c3a5434d562",
-      "title": "NEC Launches Automated Marketing Strategy Service Using Anthropic's Claude, Starting at \u00a51 Million Monthly - finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5RaVVndjE2RjQxelY3VDBmb3ZITW9pZnZvdnJlS3o4cld2S253ejJzVGpSTGdpM0Y1UkEyVnFLRXNwazVzYngwSmZMdjgzX0p4SXRJY3BpYW1LdmszQ2RxRko0NFJXYl9QU0NibllkVTRGRUdLRnc?oc=5",
-      "summary": "NEC Launches Automated Marketing Strategy Service Using Anthropic's Claude, Starting at \u00a51 Million Monthly finance.biggo.com",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Wed, 08 Jul 2026 03:36:00 GMT",
-      "category": "Automation & Workflows",
-      "key_insight": "NEC Launches Automated Marketing Strategy Service Using Anthropic's Claude, Starting at \u00a51 Million Monthly - finance.biggo.com",
-      "fetched_at": "2026-07-08T05:35:24.725854+00:00",
       "skip": false,
       "is_featured": false
     }
