@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-10-06T09:11:46.830021+00:00",
-  "total": 83,
+  "last_updated": "2026-10-07T09:01:15.566676+00:00",
+  "total": 84,
   "posts": [
+    {
+      "id": "2fb57890e2ec",
+      "title": "I trust Anthropic with my data. I didn't agree to share it with Meta, TikTok and Google. (IMDEA study)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wzq8z2/i_trust_anthropic_with_my_data_i_didnt_agree_to/",
+      "summary": "A new privacy study from IMDEA Networks ( Prompt like a Butterfly, Sting like a Tracker , accepted at PoPETs 2027) analyzed the web and mobile versions of nine AI chatbots in May 2026: ChatGPT, Claude, Gemini, Grok, DeepSeek, Perplexity, Le Chat, Meta AI and Copilot. Claude does not come out clean. According to the paper and its coverage: - On claude.ai (web), chat IDs, chat links, user IDs and email addresses were sent to third parties like Datadog and Intercom, partly even after rejecting non-essential cookies. - After accepting all cookies, the web client loads Segment Analytics through a first-party domain (a-cdn.anthropic.com) and forwards user events server-to-server to eleven services, including Facebook, LinkedIn, TikTok, Reddit and Google Enhanced Conversions. Server-side means ad blockers don&#39;t see it. - Claude kept connecting to Google Ads even after non-essential cookies were rejected. - Paying barely changes anything on the web. The one positive exception: the Android ",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-07T07:25:56+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "I trust Anthropic with my data.",
+      "fetched_at": "2026-10-07T09:01:07.748638+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "547e4f4a4e93",
+      "title": "My football club tycoon is finally on Android. Claude Code helped me build it.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wzr4xk/my_football_club_tycoon_is_finally_on_android/",
+      "summary": "I wanted a football game where you could found a club in your hometown and follow it for decades. That became Hometown FC. You own the club, approve transfer deals, build the stadium and invest in the town around it. Your academy players grow older, your family grows up and eventually you can pass the club to the next generation. I built it with React Native, Expo and TypeScript, using Claude Code throughout development. It helped me implement game systems, work through bugs and revise the mobile screens. I also used Codex for development, reviews, testing and image generation. A few things I learned: Android is now live. Getting to the point where other people are actually playing it feels pretty special. It\u2019s free to download and play, with ads and optional in-app purchases. The iPhone version is still coming. Hometown FC on Google Play The clip uses example careers with boosted funds to show later progression. The two town/stadium time-lapses are AI-generated and labelled. If you\u2019re",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-07T08:25:37+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "I built it with React Native, Expo and TypeScript, using Claude Code throughout development",
+      "fetched_at": "2026-10-07T09:01:07.747261+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "720d3e644b28",
       "title": "Salesforce Profit, Revenue Rise, Expands Partnership with Anthropic\u2019s Claude - WSJ",
@@ -154,7 +182,7 @@
       "key_insight": "Claude Code Use Cases for Digital Marketing: The Complete Guide to Smarter Marketing Workflows in 2026 - ALM Corp",
       "fetched_at": "2026-09-29T08:49:28.731324+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "5bd8a6dae614",
