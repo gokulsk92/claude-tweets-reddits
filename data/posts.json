@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-10-07T09:01:15.566676+00:00",
-  "total": 84,
+  "last_updated": "2026-10-08T09:16:54.961383+00:00",
+  "total": 86,
   "posts": [
+    {
+      "id": "b8c24c950b7c",
+      "title": "I've been using Claude (Cowork) as my daily sales assistant for a week. Here's the setup and what I learned",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x0ln2t/ive_been_using_claude_cowork_as_my_daily_sales/",
+      "summary": "I&#39;m co-founder of a small AI consulting business in Spain (two founders, no sales team). For a week, Claude has run my whole prospecting routine. Sharing the setup in case it&#39;s useful. The setup A scheduled task at 7:45 every morning builds my daily plan: replies to check, follow-ups due, 20 new businesses to contact and 20 LinkedIn profiles. Email: it writes everything as drafts in Outlook . I review and send them myself. WhatsApp and LinkedIn: read-only. It reads the replies and prepares the texts plus a click-to-send link, and I hit send. CRM (Supabase): read-only, so it can skip anyone we&#39;ve already contacted. I saved the whole routine as a skill , so the rules carry over between sessions. Week 1 numbers: ~85 WhatsApp messages, ~25 cold emails, ~40 follow-ups, 1 good discovery call and 1 demo running. What I learned Keep the human in the loop for sending. Claude prepares everything, but every message goes out by hand. It&#39;s slower, but nothing gets sent that I wouldn",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-08T08:34:57+00:00",
+      "category": "ABM & Pipeline",
+      "key_insight": "I've been using Claude (Cowork) as my daily sales assistant for a week",
+      "fetched_at": "2026-10-08T09:16:48.342851+00:00",
+      "skip": false,
+      "is_featured": true
+    },
+    {
+      "id": "6f8b47cb1a5c",
+      "title": "10 months ago I shipped my first app with Claude and made $6. Now Claude manages it almost entirely and it's at 4k users",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x0m58y/10_months_ago_i_shipped_my_first_app_with_claude/",
+      "summary": "last year i posted here about shipping a photo cleaner app with claude. it had made $6 at the time lol. its now at 4k users, almost all from reddit, no ads the app: you swipe through your camera roll, left to delete and right to keep. it finds duplicates, screenshots, blurry photos and big videos. everything runs on device honestly the bigger change wasnt the app, it was how i use claude. it basically does everything now: coding. obviously. it writes the features and opens its own PRs. i review and merge analytics. i connected the posthog MCP and claude built my whole dashboard: onboarding funnel, scans, swipes, paywall. it also set up error alerts that go straight to a slack channel, so if something breaks i know right away daily report. this is my favorite. every morning claude goes through user activity and gives me a snapshot: what happened, what failed, what went wrong. if it finds a bug it thinks it can fix, it opens a PR for it. if not, it flags it to me. it&#39;s like having an",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-08T09:07:42+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "everything runs on device honestly the bigger change wasnt the app, it was how i use claude",
+      "fetched_at": "2026-10-08T09:16:48.342501+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "2fb57890e2ec",
       "title": "I trust Anthropic with my data. I didn't agree to share it with Meta, TikTok and Google. (IMDEA study)",
@@ -140,7 +168,7 @@
       "key_insight": "I\u2019m currently using Claude to capture my app\u2019s features and flows, basically letting it record different interactions in the app and take clean UI still screenshots so I can reuse them later for marke",
       "fetched_at": "2026-10-03T08:24:21.905471+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "a34f8598a047",
@@ -1161,20 +1189,6 @@
       "category": "Automation & Workflows",
       "key_insight": "Claude Opus 4.8 vs GLM 5.2.",
       "fetched_at": "2026-07-11T05:25:10.503563+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "f22736b23892",
-      "title": "Reality of Commercial AI World from a 16 Year Old's Perspective",
-      "url": "https://news.ycombinator.com/item?id=48851812",
-      "summary": "Let me tell you who I am first. I&#x27;m 16, a mad scientist. Started coding and AI at 12 \u2014 before ChatGPT existed. Built AI voice assistants in 2022 when nobody knew what AI was. Worked 10 hours a day at 12, building anonymously. I HAVE 1 THING: ASK ME TO BUILD ANYTHING \u2014 IMPOSSIBLE OR POSSIBLE \u2014 I WILL FIGURE IT OUT. AI, MATHS, SCIENCE, WHATEVER. THAT&#x27;S IT. At 15, I started selling AI automation and voice agents. Cold called, cold emailed, worked hundreds of hours for 4 straight months. Never got a single sale. Fine \u2014 selling wasn&#x27;t my strength. Then I tried building real products \u2014 made an OpenClaw clone that ran on low-end laptops, built AI researchers. I&#x27;m not a salesman. I&#x27;m the guy who if you say build Claude from scratch including model training \u2014 I&#x27;ll somehow do it. But build something cool \u2014 I freeze. Still, I tried the startup routes. Here&#x27;s what I found: 1) INVESTORS VCs: Completely opposite of what they sound. They claim to find talent and tak",
-      "source": "Hacker News",
-      "source_label": "Hacker News",
-      "date": "2026-07-09T20:16:50Z",
-      "category": "Automation & Workflows",
-      "key_insight": "I&#x27;m the guy who if you say build Claude from scratch including model training \u2014 I&#x27;ll somehow do it.",
-      "fetched_at": "2026-07-10T06:24:38.284524+00:00",
       "skip": false,
       "is_featured": false
     }
