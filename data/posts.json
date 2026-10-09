@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-10-08T09:16:54.961383+00:00",
+  "last_updated": "2026-10-09T09:24:29.211472+00:00",
   "total": 86,
   "posts": [
+    {
+      "id": "b8d93dcad6c3",
+      "title": "Would you connect Claude to your QuickBooks for your small business?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x1dhdw/would_you_connect_claude_to_your_quickbooks_for/",
+      "summary": "I own a small business with about 10 employees, that does a couple million of dollars in revenue a year. I have just recently started using AI, and it has helped me get through difficulties with our Shopify website and greatly improved our ability to respond to generic product questions. As the owner, I of course am thinking about finances all the time and wondered if it is worth it to somebody connected to my QuickBooks account and give it access to sensitive information like that. I obviously feel like I have shared my deepest business insights and hopes and weaknesses with it to try and improve my business, would I be an idiot for also allowing it inside the financials? Would it even be worth it for a company my size? &#32; submitted by &#32; /u/OlderGrowth [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-09T05:54:56+00:00",
+      "category": "ABM & Pipeline",
+      "key_insight": "Would you connect Claude to your QuickBooks for your small business?.",
+      "fetched_at": "2026-10-09T09:24:21.925859+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "b8c24c950b7c",
       "title": "I've been using Claude (Cowork) as my daily sales assistant for a week. Here's the setup and what I learned",
@@ -1175,20 +1189,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "Anyone else just using chatgpt/claude for grunt work instead of actual PPC decisions?.",
       "fetched_at": "2026-07-12T05:41:00.479938+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "4080d5a32fdb",
-      "title": "Claude Opus 4.8 vs GLM 5.2",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ut5cpa/claude_opus_48_vs_glm_52/",
-      "summary": "This week I ran out of Max 20x tokens so decided to take the plunge with GLM 5.2. This is my personal experience, so sample size is small. I was really curious how good GLM 5.2 is and if it&#39;s acutally much cheaper (like I seem to be reading). I use Claude Code as the harness for both Opus and GLM. Bit fiddly to set GLM up, but plenty of docs. And I have the 20x subscription in both Claude and z.ai GLM. I&#39;m use the models for planning and coding product features, running always-on agents against live products and a small amount of marketing automation. I don&#39;t see any difference between Opus 4.8 and GLM 5.2. I was expecting this to be big. It&#39;s not. Right now I&#39;d gladly use either. There are a few caveats: GLM is slightly slower; browsing the web using logged-in accounts hasn&#39;t worked well (this is seamless in Claude with the Chrome extension); no remote control; and no working with images (though I haven&#39;t tried). As an example of not seeing the difference, ",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-07-11T00:37:11+00:00",
-      "category": "Automation & Workflows",
-      "key_insight": "Claude Opus 4.8 vs GLM 5.2.",
-      "fetched_at": "2026-07-11T05:25:10.503563+00:00",
       "skip": false,
       "is_featured": false
     }
