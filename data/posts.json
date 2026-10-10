@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-10-09T09:24:29.211472+00:00",
+  "last_updated": "2026-10-10T08:45:49.302649+00:00",
   "total": 86,
   "posts": [
+    {
+      "id": "6ca1ec26af79",
+      "title": "How a Growth Engineer builds Marketing OS | GitHub + Claude Workflow - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4tSGZwZklZSWI1a3l2YTZ0bFR4Z1ZxWTN1ak9LeTk1WkF3RU1CWTFsNjlrVUVyNDZINFQ4R09zMnVDZVZtNXB2M0t1UUFFR2J0N1VjTFpQcG9UR3Nj?oc=5",
+      "summary": "How a Growth Engineer builds Marketing OS | GitHub + Claude Workflow YouTube",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "category": "Automation & Workflows",
+      "key_insight": "How a Growth Engineer builds Marketing OS | GitHub + Claude Workflow - YouTube.",
+      "fetched_at": "2026-10-10T08:45:44.220709+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "b8d93dcad6c3",
       "title": "Would you connect Claude to your QuickBooks for your small business?",
@@ -1175,20 +1189,6 @@
       "category": "Automation & Workflows",
       "key_insight": "I want to see if this is feasible using Claude, and specifically if Claude Code is the right tool for the job",
       "fetched_at": "2026-07-14T05:12:37.909411+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "89c0dd5ad82a",
-      "title": "Anyone else just using chatgpt/claude for grunt work instead of actual PPC decisions?",
-      "url": "https://www.reddit.com/r/PPC/comments/1u6ctfa/anyone_else_just_using_chatgptclaude_for_grunt/",
-      "summary": "Been seeing a lot of AI for PPC tools popping up lately promising automated bid strategies, ad copy generation, account audits etc., and honestly, most of them seem to be wrappers around gpt or gemini with a fancy dashboard. Meanwhile, the actual frontier models (gpt, claude, gemini) still hallucinate constantly when you ask them anything PPC-specific. Ask Claude about a Google Ads feature and it&#39;ll confidently describe something that either doesn&#39;t exist or got deprecated two years ago. same with bid strategy recommendations, benchmark numbers, and even basic platform mechanics. So what I&#39;ve landed on is just using AI for the boring stuff, drafting ad copy variations, summarizing call transcripts, writing scripts for GTM, and brainstorming angles for a campaign. Anything that requires actual platform knowledge or strategy, I still do myself or verify against docs/help center, because the hallucination rate on specifics is too high to trust. Curious what everyone else&#39;s",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-06-15T10:34:16+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "Anyone else just using chatgpt/claude for grunt work instead of actual PPC decisions?.",
-      "fetched_at": "2026-07-12T05:41:00.479938+00:00",
       "skip": false,
       "is_featured": false
     }
