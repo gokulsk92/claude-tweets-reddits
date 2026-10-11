@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-10-10T08:45:49.302649+00:00",
+  "last_updated": "2026-10-11T09:08:06.566998+00:00",
   "total": 86,
   "posts": [
+    {
+      "id": "133cadc76d2e",
+      "title": "I built a PC emulator for one family of 1988 RPGs with Claude Code. Here's how I check its work",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x30hma/i_built_a_pc_emulator_for_one_family_of_1988_rpgs/",
+      "summary": "Amber Folio is an open-source emulator built only for SSI&#39;s Gold Box games. Pool of Radiance (1988) runs on it unchanged, in a browser tab, on desktop and on iPhone, iPad and Android. I wrote it with Claude Code, exclusively, over about four months, the last two in the public repo (first commit 15 August), 789 commits so far. I have three parallel instances of Claude Code going at the same time: one for the emulator, one for the website and one for marketing. I constantly context switch between them. Claude keeps surprising me with how capable it is, including image editing. One thing I often have to course correct, though, is how verbose it is in copywriting. :) I&#39;m on the $100 Max subscription, using pretty much Opus 5.5 exclusively, and recently I haven&#39;t had many problems with tokens. What it does. It emulates only what these games touch: an 8086, EGA, the timer, the PC speaker and the Tandy sound chip. Optional extras live inside the game&#39;s own screen (an automap, ",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-11T06:03:08+00:00",
+      "category": "Content & Campaigns",
+      "key_insight": "I wrote it with Claude Code, exclusively, over about four months, the last two in the public repo (first commit 15 August), 789 commits so far",
+      "fetched_at": "2026-10-11T09:08:00.953690+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "6ca1ec26af79",
       "title": "How a Growth Engineer builds Marketing OS | GitHub + Claude Workflow - YouTube",
@@ -210,7 +224,7 @@
       "key_insight": "AI pipeline for off-market real estate deals (1\u201320 units) with Claude Code: stuck on incomplete data and login-walled sources (FIRST POST ON REDDIT LOL).",
       "fetched_at": "2026-10-03T08:24:21.904633+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "e2fc7732b093",
