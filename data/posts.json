@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-11T09:08:06.566998+00:00",
+  "last_updated": "2026-10-12T09:32:31.240452+00:00",
   "total": 86,
   "posts": [
     {
@@ -1189,20 +1189,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "Anthropic Faces AI Advertising Backlash After Bold Campaign - AI CERTs.",
       "fetched_at": "2026-07-16T05:23:34.952367+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "6186bc8bd0be",
-      "title": "Can Claude / Claude Code help me build a custom lightweight CRM & Dashboard for my catering business? Where do I start?",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uvtfr4/can_claude_claude_code_help_me_build_a_custom/",
-      "summary": "Hey everyone, I run a growing catering business and I&#39;m looking to move away from messy manual tracking and build a simple, tailored internal CRM/Dashboard for my team. I want to see if this is feasible using Claude, and specifically if Claude Code is the right tool for the job. Here\u2019s what I need the app to do: Data Entry (Sales Team): A simple interface for my team to encode daily sales data (Client Name, Package Price, Event Date, Payment Status, Assigned Salesperson). Owner&#39;s Dashboard: A clean visual dashboard for me to monitor monthly sales performance and compare it against historical trends. Report Generation: The ability to filter and generate specific reports\u2014for example, instantly viewing a list of Unpaid Clients assigned to Salesperson A. My Questions: Is this fully feasible to build using Claude / Claude Code if I don&#39;t have a massive software development background? What would the ideal tech stack look like for a lightweight internal tool like this (e.g., Pyth",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-07-14T00:35:53+00:00",
-      "category": "Automation & Workflows",
-      "key_insight": "I want to see if this is feasible using Claude, and specifically if Claude Code is the right tool for the job",
-      "fetched_at": "2026-07-14T05:12:37.909411+00:00",
       "skip": false,
       "is_featured": false
     }
