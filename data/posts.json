@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-10-13T09:37:39.729824+00:00",
-  "total": 85,
+  "last_updated": "2026-10-14T07:52:24.709924+00:00",
+  "total": 88,
   "posts": [
+    {
+      "id": "1a70bef32784",
+      "title": "Grading 6 purpose marketing ads\u2014expert weighs in on Claude, Polaroid and more - Ad Age",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUGU2QWhINGt4VG5QcTM2dWIyOFJ2MTAxMWpxMDdVd0JxcjJya0Vwd0tfZlQ4eXpvTTdNLTFyY1pjS01JdEExYlk4OE5CejR3V0JIWE4xQ3pwdUcya1Q3RVFtdk1qdnJkVURIMVhodWx3bW5MbDlaaTdVUkxmUVdRSmNDOWdqSjUtQzdjZ1Z3bkVLVmhzSE4ySVJ1VUU?oc=5",
+      "summary": "Grading 6 purpose marketing ads\u2014expert weighs in on Claude, Polaroid and more Ad Age",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Fri, 24 Jul 2026 07:00:00 GMT",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Grading 6 purpose marketing ads\u2014expert weighs in on Claude, Polaroid and more - Ad Age",
+      "fetched_at": "2026-10-14T07:52:19.638649+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "39697cb8a54f",
+      "title": "I spent a week building a cinematic showreel with Claude AI, Cinema 4D and Adobe. Here\u2019s what we managed to create.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x5h8xk/i_spent_a_week_building_a_cinematic_showreel_with/",
+      "summary": "I\u2019ve been passionate about video editing, motion graphics and 3D for years, but recently started experimenting with how far I could push a production workflow using AI as a creative and technical assistant. Over the last week, I\u2019ve been working with Claude, combining Cinema 4D, After Effects, Premiere Pro and custom automation to create various short sequences, animations, VFX and motion graphics. Now I\u2019m putting everything together into an approximately 80-second showcase reel. The interesting part for me isn\u2019t just AI generating content. It\u2019s using AI to help coordinate the actual production process, from editing and timing to animation, compositing and rendering. I\u2019m still making the creative decisions, experimenting, reviewing results and pushing the quality further. This is very much a work in progress, and I\u2019m learning a lot along the way. I\u2019d genuinely appreciate some feedback from experienced editors and motion designers. What works visually? What feels amateur or needs improve",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-14T03:46:39+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "I spent a week building a cinematic showreel with Claude AI, Cinema 4D and Adobe.",
+      "fetched_at": "2026-10-14T07:52:17.571006+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "b8ccba54e61b",
+      "title": "I forked Chromium to fix my browser automation headaches with Claude Code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x5iwlj/i_forked_chromium_to_fix_my_browser_automation/",
+      "summary": "I use Claude Code for a lot of browser work. Mainly tools I need that were never built for agents, smoke-testing my work and searching the web for things I care about. Things kept going wrong: chrome-devtools-mcp tends to open throwaway instances and profiles, and rarely cleans them up. Allow remote debugging? prompts on every connect (when using autoConnect). Chrome is being controlled by automated test software on top of every page (might just be my OCD). Tab sprawl. After an hour: a dozen windows and no idea which tab belonged to which session, or whether I could close it. Agents stepping on each other. On a shared profile they took over each other&#39;s tabs. With --isolated , every login was gone on close. RAM. One chrome-devtools-mcp per Claude Code session, about 270 MB each before it even starts Chrome. Ten agents: ~2.7 GB before a single page loads. I tried various Cloud browser services . Mostly unreliable and/or expensive. And most sites blocked by bot detection due to non-r",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-14T05:22:05+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "I forked Chromium to fix my browser automation headaches with Claude Code.",
+      "fetched_at": "2026-10-14T07:52:17.570433+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "133cadc76d2e",
       "title": "I built a PC emulator for one family of 1988 RPGs with Claude Code. Here's how I check its work",
@@ -1175,20 +1217,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "ChatGPT, Gemini, and Claude are expanding their advertising focus into smaller markets - Marketing Brew.",
       "fetched_at": "2026-07-17T05:25:40.293318+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "78b5feaa85f3",
-      "title": "Anthropic Faces AI Advertising Backlash After Bold Campaign - AI CERTs",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQ2d4SE9zTEoyMUpXS0stMEFMZ0tIcjMyVkdWV1dyalhWVk9RYnJqOHI0VkFieWJ0akFwVDcwaFBwSnhhU0JHS1l4eFFucXVva3FqR2F2WUhFMzhhQmJFRnJrR25rNWw2NWhvRkVwNVBUMjBZN29HMERzVWJCM1Z1WEc3MU1TXzJuaFl4cVBWSktuUQ?oc=5",
-      "summary": "Anthropic Faces AI Advertising Backlash After Bold Campaign AI CERTs",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Wed, 15 Jul 2026 08:29:17 GMT",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "Anthropic Faces AI Advertising Backlash After Bold Campaign - AI CERTs.",
-      "fetched_at": "2026-07-16T05:23:34.952367+00:00",
       "skip": false,
       "is_featured": false
     }
