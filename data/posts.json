@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-14T07:52:24.709924+00:00",
-  "total": 88,
+  "last_updated": "2026-10-15T07:37:32.515987+00:00",
+  "total": 87,
   "posts": [
     {
       "id": "1a70bef32784",
@@ -182,7 +182,7 @@
       "key_insight": "I went through a lot of GitHub repos, articles, X posts, and so on to understand how everything works and how I could improve my workflow with Claude Code (plugins, MCPs, skills, agents)",
       "fetched_at": "2026-10-06T09:11:39.250204+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "67bcf5bb7162",
@@ -266,7 +266,7 @@
       "key_insight": "AI pipeline for off-market real estate deals (1\u201320 units) with Claude Code: stuck on incomplete data and login-walled sources (FIRST POST ON REDDIT LOL).",
       "fetched_at": "2026-10-03T08:24:21.904633+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "e2fc7732b093",
@@ -1189,34 +1189,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "Now talks to coding agents like Claude Code using your regular plan, no API keys, no API bills..",
       "fetched_at": "2026-07-18T05:07:41.168057+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "dbe389c3bed7",
-      "title": "Hackers Use Google Ads and Claude AI Chats to Steal macOS Credentials and Crypto Wallets - gbhackers.com",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVW1kQVo3OGR0eTY2NjR5VEFrdVNXTG5aSnhUR3ZjOWhNYmMwbS1rdlcwaGxPNnpNLThBNVdXbGlBWkJrRnp3TG91N3Fub21JUENmT0prcDEtVUIwZ1N6dV9xUXpqVFR0SEdzYUl3VURTcF9qalBidHhQZlcxUjRMQ29CWndQSGtpd0Zpb2lyLXlMNmVsZEFJ0gGcAUFVX3lxTE9LYTBHWDVFM2pIY19QNTVqb1cwUVFlZzE3WDRrRXZEM0VsWkVjUWd3Wk9aelBhbFpZMV9Wal9aU2dSNnJHaVQxZDhuMmE3a19lU00yRWNqa3g0RFo2UDRRSkdkaHlaNmpoeFdydld0bDVSOVNMWHUta2oxYV9XSVJVV09rWXFSWXNDdXBfZ1dpX0RvTUc5M1RJQ1locg?oc=5",
-      "summary": "Hackers Use Google Ads and Claude AI Chats to Steal macOS Credentials and Crypto Wallets gbhackers.com",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Thu, 16 Jul 2026 06:33:45 GMT",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "Hackers Use Google Ads and Claude AI Chats to Steal macOS Credentials and Crypto Wallets - gbhackers.com.",
-      "fetched_at": "2026-07-17T05:25:40.294160+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "50e07cb48ea6",
-      "title": "ChatGPT, Gemini, and Claude are expanding their advertising focus into smaller markets - Marketing Brew",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMlI1NnpaVURzemtQM1JYWnRieXlIX19MeUtYN2R2OFY0Rno5N2dyaXhQYUhPSkU5b25tR2pPeEJ4a3JNQzF2OVMwMFpjSTljb29nLVRaSndiUUlGeE82ZUxzOUFCSzV0OFlqZGxFcFV6Yjdyc3NJN051Tk02Z253RDlHbkdqSTlTTEViYnRJNlhQOUFBcmtWLUtlV3h6M29vQUpPTTJyd01wTnZhZDlmdmZYOGQ3Yl84aW53d05vOA?oc=5",
-      "summary": "ChatGPT, Gemini, and Claude are expanding their advertising focus into smaller markets Marketing Brew",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Thu, 16 Jul 2026 20:04:22 GMT",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "ChatGPT, Gemini, and Claude are expanding their advertising focus into smaller markets - Marketing Brew.",
-      "fetched_at": "2026-07-17T05:25:40.293318+00:00",
       "skip": false,
       "is_featured": false
     }
