@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-10-15T07:37:32.515987+00:00",
+  "last_updated": "2026-10-16T07:24:22.596009+00:00",
   "total": 87,
   "posts": [
+    {
+      "id": "321f92abad82",
+      "title": "Automate Lead Research and Personalized Outreach for Your Sales Team With Claude - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWUJLY2dKcmJFQUJFdHRfSm9VY3NCZ2NZb0VPR1FlWGVZd3FkLS1oR1RnUlNxU0tFcW9WMFdpQTRIekxBRTZTb1lYMnhyQ2lEZHVFRGdEY0JoU19wYzB3Q0s2QXgwRWhHOXVhVW5CYUthMGtvN0xUV0lMcFFlTmlZcXlaTWc0b2xlVVpBMmhLdnBpZTNIVFowaElSeDcyZ01YYmh5V3Nua19MQmdxNXJ2M3FkbjVhRU9ZSkE4SUVnYkdqZDZFV0lST2wzYmxNSjdpbXhRUnlvd3M5WmlrLVFBakNB0gHiAUFVX3lxTE1ZQktjZ0pyYkVBQkV0dF9Kb1Vjc0JnY1lvRU9HUWVYZVl3cWQtLWhHVGdSU3FTS0Vxb1YwV2lBNEh6TEFFNlNvWVgyeHJDaURkdUVEZ0RjQmhTX3BjMHdDSzZBeDBFaEc5dWFVbkJhS2Ewa283TFRXSUxwUWVOaVlxeVpNZzRvbGVVWkEyaEt2cGllM0hUWjBoSVJ4NzJnTVhiaHlXc25rX0xCZ3E1cnYzcWRuNWFFT1lKQThJRWdiR2pkNkVXSVJPbDNibE1KN2lteFFSeW93czlaaWstUUFqQ0E?oc=5",
+      "summary": "Automate Lead Research and Personalized Outreach for Your Sales Team With Claude The Economic Times",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Thu, 15 Oct 2026 05:30:00 GMT",
+      "category": "Automation & Workflows",
+      "key_insight": "Automate Lead Research and Personalized Outreach for Your Sales Team With Claude - The Economic Times.",
+      "fetched_at": "2026-10-16T07:24:18.304451+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "2e1db3948585",
+      "title": "Is Claude Opus 5.5 better/stronger than Gemini 3.1 Pro for complex qualitative workflows?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x77gvq/is_claude_opus_55_betterstronger_than_gemini_31/",
+      "summary": "My understanding is that Claude Opus 5.5 generally outperforms Gemini 3.1 Pro in coding, complex reasoning, and benchmark scores, while Gemini 3.1 Pro is better for native audio/video handling, larger output window support, and lower cost per token....Is this true? Ex. Let&#39;s say I have an excel file with 6 tabs with 100 user stories. I want to make a PowerPoint presentation with bullets on each user story, and I want the wording of the bullets created...would Gemini 3.1 pro or Opus 5.5 be more effective for a task like this? I have both enterprise versions available to me at work. My research: Performance Benchmarks Reasoning and Coding: Claude Opus 5.5 leads overall composite scores (such as LLM Stats Score at 60.3 vs. 43.2 for Gemini 3.1 Pro) and scores significantly higher on developer benchmarks like SWE-bench Pro (89.9 vs. 54.2). Task Depth Quality: In real-world creative and coding tasks, Opus 5.5 tends to produce more detailed, thorough outputs and catch edge cases better, w",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-16T05:07:39+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Is Claude Opus 5.5 better/stronger than Gemini 3.1 Pro for complex qualitative workflows?.",
+      "fetched_at": "2026-10-16T07:24:15.026511+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "1a70bef32784",
       "title": "Grading 6 purpose marketing ads\u2014expert weighs in on Claude, Polaroid and more - Ad Age",
@@ -1161,34 +1189,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "What it does : point any snapshot camera at your board, breadboard, or display \u2014 an old Android running IP Webcam works great, or a Pi cam, or literally any snapshot URL \u2014 and Claude grabs the frame a",
       "fetched_at": "2026-07-22T05:32:41.484986+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "516a5404f259",
-      "title": "just got claude oss sponsorhip despite having 25 stars in my project",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uzmh94/just_got_claude_oss_sponsorhip_despite_having_25/",
-      "summary": "every single person i saw posting about getting in had thousands of stars and years of commits. my project has 25 stars. i almost didn&#39;t bother applying. so if you saw that 5,000 star requirement and closed the tab, go read section 2.2 first. it&#39;s the ecosystem impact track. you don&#39;t need the big numbers, you just write 500 words about why your project matters and a real person actually reads it. that&#39;s how i got in. apply here: https://claude.com/contact-sales/claude-for-oss i&#39;ll be using it to improve floe, my p2p file transfer project. runs right in your browser, no accounts, nothing stored on a server. https://github.com/jannskiee/floe building more soon. seriously just apply, worst case is a no. &#32; submitted by &#32; /u/PotentialPast6344 [link] &#32; [comments]",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-07-18T04:56:10+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "just got claude oss sponsorhip despite having 25 stars in my project.",
-      "fetched_at": "2026-07-18T05:07:41.168167+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "26c654138b86",
-      "title": "OpenLive, open-source alternative to ElevenLabs Agents and Gemini Live. Now talks to coding agents like Claude Code using your regular plan, no API keys, no API bills.",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1uzmk4o/openlive_opensource_alternative_to_elevenlabs/",
-      "summary": "A while back I posted OpenLive here. It&#39;s an open-source voice layer that gives any AI model or agent ears, a mouth, and eyes. The whole pipeline runs on your own machine: voice activity detection, speech-to-text, working out when you&#39;ve actually finished talking, and text-to-speech. Your audio never leaves your computer, and there are no per-minute fees. The response was great, so I kept building. Here&#39;s what&#39;s new. Talk to the coding agents you already use. OpenLive now connects directly to Claude Code, Codex, Cursor, OpenCode, and Hermes. Everything runs locally under your own login. You pick an agent, point it at a project folder, and just talk. When the agent wants to run a command or edit a file, OpenLive reads the question out loud and you answer by voice. It can also narrate what the agent is doing while it works, so you&#39;re not staring at a silent screen. Conversations save into each agent&#39;s own session history, so you can start something by voice and re",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-07-18T05:00:16+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "Now talks to coding agents like Claude Code using your regular plan, no API keys, no API bills..",
-      "fetched_at": "2026-07-18T05:07:41.168057+00:00",
       "skip": false,
       "is_featured": false
     }
