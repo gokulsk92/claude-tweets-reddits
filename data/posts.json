@@ -1,7 +1,63 @@
 {
-  "last_updated": "2026-10-18T07:20:37.067927+00:00",
-  "total": 85,
+  "last_updated": "2026-10-19T07:59:06.729721+00:00",
+  "total": 89,
   "posts": [
+    {
+      "id": "fdce8b0fa344",
+      "title": "5 marketing skills for a claude code that turn ai into an actual execution system",
+      "url": "https://www.reddit.com/r/digital_marketing/comments/1wh56v8/5_marketing_skills_for_a_claude_code_that_turn_ai/",
+      "summary": "most marketers use ai to write captions. this setup goes much further. /design builds landing pages and websites that do more than look good. the focus is structure, clarity, user experience, and conversion. /remotion-video helps edit videos, create carousels, design print assets, and automate repetitive parts of the content production process. less time moving elements around. more time thinking about the idea. /meta-ads-campaign creates complete meta campaigns across facebook and instagram. campaigns. ad sets. landing pages. tracking utms. all built through one connected workflow. /google-ads-campaign handles keyword research, campaign structure, ad preparation, and the foundations needed before launch. not just ad copy. the system behind the ads. /ad-analyst pulls performance data from meta and google ads, analyzes what is happening, and turns the numbers into practical optimization feedback. &#32; submitted by &#32; /u/pushagency [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-09-15T16:28:33+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "5 marketing skills for a claude code that turn ai into an actual execution system.",
+      "fetched_at": "2026-10-19T07:59:00.553972+00:00",
+      "skip": false,
+      "is_featured": true
+    },
+    {
+      "id": "1764720d5ec5",
+      "title": "Using Claude/Codex to grow a business Instagram \u2014 followers, engagement, and reaching potential customers and partners",
+      "url": "https://www.reddit.com/r/digital_marketing/comments/1wx2r01/using_claudecodex_to_grow_a_business_instagram/",
+      "summary": "I&#39;m trying to grow a small business Instagram. The goal isn&#39;t just followers \u2014 it&#39;s engagement , and reaching the right people: potential customers, clients and partners . I&#39;m considering using Claude or Codex (including their browser extensions) to help. What I&#39;m hoping AI can do: Analyse my profile and Insights to see what drives engagement and what doesn&#39;t Study similar accounts and identify where my target customers and partners actually spend time Plan content and write captions aimed at that audience, not just broad reach Help with outreach \u2014 finding relevant potential customers and partners, and drafting personalised DMs and comments Questions: Has anyone used AI this way and seen real growth in engagement, not just follower count? What helped most? How do you use AI to find and target the right accounts \u2014 potential customers or partners \u2014 rather than random followers? Where&#39;s the line on automation? I assume letting an agent like, follow or DM direct",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-04T00:57:06+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "Using Claude/Codex to grow a business Instagram \u2014 followers, engagement, and reaching potential customers and partners",
+      "fetched_at": "2026-10-19T07:59:00.553312+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "78b4f69dc97f",
+      "title": "What can I use Claude for?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x9kzoi/what_can_i_use_claude_for/",
+      "summary": "So I have a business and got the Claude Mac plan when I hit the limits on the lower plan. I\u2019ve setup a virtual board that has been great at helping me plan the launch strategy. I\u2019m just finishing up a website. I\u2019m going to make a month or two of social posts. All that stuff. However I have weekly quote left all the time these days and know I\u2019m not using Claude to the fullest. What could I also be using Claude for? I have a small tea business launching in Australia. We plan to also get in health food stores in the west coast of the us. Plus Australian Amazon. What other ways can small businesses use Claude? I\u2019ve read a lot, lots of YouTube though to be honest it\u2019s all become a little overwhelming and I need to go back to the start. Marketing? Sales? Socials? Research? What can be have it do that I\u2019m not even thinking about? Thank you all for your time &#32; submitted by &#32; /u/Street_Procedure_969 [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-19T02:18:23+00:00",
+      "category": "Content & Campaigns",
+      "key_insight": "However I have weekly quote left all the time these days and know I\u2019m not using Claude to the fullest",
+      "fetched_at": "2026-10-19T07:58:59.770040+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "7ae39246bde9",
+      "title": "I built a tiny pixel office where Claude workers turn GitHub issues into tested pull requests (free, open source)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x9oqqv/i_built_a_tiny_pixel_office_where_claude_workers/",
+      "summary": "ApolloOffice is a small local service with a web dashboard. You add a GitHub repo, and a fixed pipeline of workers picks up its bug reports: Scout finds new issues, Repro writes a test that fails, Fixer writes the fix, CI runs your test command, Reviewer reads the diff and Submit opens the pull request. Watcher follows your open PRs and rebases them on merge conflicts. Every worker sits at its own pixel desk, so you can watch who is doing what. The part I care about most: ApolloOffice checks the proof itself. The new test has to fail without the fix and pass with it, and your test command has to stay green. By default every PR waits for your approval, with the diff, the proof and an editable PR text. How Claude helped I built it with Claude Code over about five days. I made the product decisions, Claude Code wrote most of the code. The first version was a Node daemon. We rewrote it in Rust as a single binary, then I scrapped a bloated version with too many features and restarted with t",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-19T05:46:29+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "How Claude helped I built it with Claude Code over about five days",
+      "fetched_at": "2026-10-19T07:58:59.768143+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "321f92abad82",
       "title": "Automate Lead Research and Personalized Outreach for Your Sales Team With Claude - The Economic Times",
@@ -42,7 +98,7 @@
       "key_insight": "Grading 6 purpose marketing ads\u2014expert weighs in on Claude, Polaroid and more - Ad Age",
       "fetched_at": "2026-10-14T07:52:19.638649+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "39697cb8a54f",
@@ -168,7 +224,7 @@
       "key_insight": "I built it with React Native, Expo and TypeScript, using Claude Code throughout development",
       "fetched_at": "2026-10-07T09:01:07.747261+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "720d3e644b28",
