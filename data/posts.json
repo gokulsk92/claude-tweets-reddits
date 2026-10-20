@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T07:59:06.729721+00:00",
+  "last_updated": "2026-10-20T07:48:56.804015+00:00",
   "total": 89,
   "posts": [
     {
@@ -140,7 +140,7 @@
       "key_insight": "I wrote it with Claude Code, exclusively, over about four months, the last two in the public repo (first commit 15 August), 789 commits so far",
       "fetched_at": "2026-10-11T09:08:00.953690+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "6ca1ec26af79",
@@ -224,7 +224,7 @@
       "key_insight": "I built it with React Native, Expo and TypeScript, using Claude Code throughout development",
       "fetched_at": "2026-10-07T09:01:07.747261+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "720d3e644b28",
@@ -1231,20 +1231,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "How OpenAI, Anthropic and Perplexity are reshaping advertising and marketing with AI - Storyboard18.",
       "fetched_at": "2026-07-23T05:37:50.048559+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "0bac2587fa08",
-      "title": "I gave Claude Code eyes: a skill that lets it see real hardware & displays through a android camera - went full autonomous whilst fixing UI - alone",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1v3410c/i_gave_claude_code_eyes_a_skill_that_lets_it_see/",
-      "summary": "I&#39;m a quadriplegic dev, and I wanted to see if Claude Code could build an ESP32 project end-to-end. It did \u2014 firmware, a relay, OTA, its own tests. But the moment that got me: the little display was rendering text wrong, and Claude fixed it by looking at the screen through an old phone camera \u2014 it saw the mangled output, found the font bug, swapped fonts, reflashed. Before that, letting Claude see the board meant a miserable manual loop: screenshot \u2192 send it to myself over WhatsApp \u2192 download \u2192 paste into Claude Code. Every iteration. So I turned it into a skill: claude-code-eyes . What it does : point any snapshot camera at your board, breadboard, or display \u2014 an old Android running IP Webcam works great, or a Pi cam, or literally any snapshot URL \u2014 and Claude grabs the frame and reads it like any other file, then edits, reflashes, and looks again. It&#39;s how Claude catches what no unit test can: a font silently dropping characters, text clipped at a panel edge, a wire in the wr",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-07-22T03:12:23+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "What it does : point any snapshot camera at your board, breadboard, or display \u2014 an old Android running IP Webcam works great, or a Pi cam, or literally any snapshot URL \u2014 and Claude grabs the frame a",
-      "fetched_at": "2026-07-22T05:32:41.484986+00:00",
       "skip": false,
       "is_featured": false
     }
