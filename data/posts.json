@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-10-20T07:48:56.804015+00:00",
+  "last_updated": "2026-10-21T07:52:45.550247+00:00",
   "total": 89,
   "posts": [
+    {
+      "id": "94ea207e379f",
+      "title": "WSJ saw Anthropic\u2019s draft IPO papers: $16.3B revenue in 6 months, $80.7B loss on paper, and about $450B promised for compute",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xbckvf/wsj_saw_anthropics_draft_ipo_papers_163b_revenue/",
+      "summary": "The Wall Street Journal says it saw a draft of Anthropic&#39;s IPO filing (an S-1) on Oct 20. This is a draft, not a public filing, and Anthropic did not comment. Here is what the WSJ reported, in plain terms: - Revenue: Anthropic made $16.3B in the first half of 2026. A year earlier, the same six months brought in $1.1B. That is about 15x growth. - Loss: the company lost $80.7B on paper in the same six months. But about $72B of that is accounting adjustments on convertible notes and other financing, not cash going out the door. The real cash loss is much smaller. - Compute spend: nearly $9B went to compute and infrastructure in six months. That is more than the $7.3B spent in all of 2025. - Compute promises: Anthropic has signed deals worth about $450B over the next ten years. $111B with Google Cloud, $110B with AWS, $31B with Microsoft. The report says total spend could reach $750B if deals still being negotiated go through. - Big customers: about 20% of revenue came from just two cu",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-21T03:33:44+00:00",
+      "category": "ABM & Pipeline",
+      "key_insight": "WSJ saw Anthropic\u2019s draft IPO papers: $16.3B revenue in 6 months, $80.7B loss on paper, and about $450B promised for compute.",
+      "fetched_at": "2026-10-21T07:52:38.084377+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "fdce8b0fa344",
       "title": "5 marketing skills for a claude code that turn ai into an actual execution system",
@@ -1217,20 +1231,6 @@
       "category": "Automation & Workflows",
       "key_insight": "Claude noob building a local AI \u201cbusiness brain\u201d \u2014 am I doing this efficiently?.",
       "fetched_at": "2026-07-24T05:34:25.053942+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "690806b08086",
-      "title": "How OpenAI, Anthropic and Perplexity are reshaping advertising and marketing with AI - Storyboard18",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNeFFCcVZ2WTVuSFBSZzg5YXVMWXNGN2RLVTYyTGctaU9EUG1IZzVjaWc2cFZveGRRb3lYZmtIOTVWaTk2cE1nbDFWTUVuSnZrT2s0RURDeUtfaXEzOGZBS2RqM2FWWHpnVHRZeHEycVMwSDNUUEpGLXV5MXF5eFdKRUdoaVZ3aTBGNFlhSEx1T2F5Y0g3TmphdXVveUFKdlZLYzRUS1hoWmRad0o1bzBZSmRfWVNiTUltcU01MWlKaFVKLTJUdTVuRnVvYUNlWTI40gHWAUFVX3lxTFBMVV9JMG1XVmlOWm5STnZfWlgtRXd3NC14SDlFdWNtLTg5MElleU1zeU9wQ2tMaXBIUzM3Y2hjaXVsbmh3cW9UM1lKOUkxcUNWVG1yREI4ekRFRjZYeGNoZEdnb2t3cmVZNUtSSE9CVnZ6VUR1aU5KdGpSaHVfekxMb01zck9hR0Q1NnlSVGpGbEo2SUZ3eXhfbXZ3VGlvY2JaTEMxYkh4RGZEdjNYcEtuZ2wzNFhpN1NPWjdvUjlUbE1VZ0h3RHY3SE1zSnZ0VEtkb0M5OVE?oc=5",
-      "summary": "How OpenAI, Anthropic and Perplexity are reshaping advertising and marketing with AI Storyboard18",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Thu, 23 Jul 2026 03:32:43 GMT",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "How OpenAI, Anthropic and Perplexity are reshaping advertising and marketing with AI - Storyboard18.",
-      "fetched_at": "2026-07-23T05:37:50.048559+00:00",
       "skip": false,
       "is_featured": false
     }
