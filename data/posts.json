@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-21T07:52:45.550247+00:00",
-  "total": 89,
+  "last_updated": "2026-10-22T07:48:57.333536+00:00",
+  "total": 88,
   "posts": [
     {
       "id": "94ea207e379f",
@@ -1217,20 +1217,6 @@
       "category": "ABM & Pipeline",
       "key_insight": "I run my project's marketing with Claude Code \u2014 the memory layer is a git repo of schema-validated markdown.",
       "fetched_at": "2026-07-27T06:03:26.941975+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "cbedc5dbafce",
-      "title": "Claude noob building a local AI \u201cbusiness brain\u201d \u2014 am I doing this efficiently?",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1v4t0d7/claude_noob_building_a_local_ai_business_brain_am/",
-      "summary": "I\u2019m fairly new to Claude, coding and AI agents, but I\u2019ve been enjoying prompting and building things step by step. I\u2019m trying to create a private AI-powered operating system for an ecommerce business. The long-term goal is one visual \u201cbusiness brain\u201d that understands every area of the company, spots gaps, asks questions when information is missing, prioritises what needs attention and eventually carries out approved work. My current setup is: Claude Code for building the application Claude Cowork for research, file organisation, SOPs and operational tasks ChatGPT as the architect/reviewer helping me plan each step Private GitHub repo for version control Next.js, TypeScript and Tailwind SQLite with Drizzle ORM React Flow for visual process maps n8n planned later for self-hosted automations Shopify, Etsy, eBay, Instagram, TikTok Shop, Gmail, email marketing, finance and fulfilment systems eventually feeding into it So far I\u2019ve built a working local web app with: A visual build roadmap Bu",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-07-23T22:32:22+00:00",
-      "category": "Automation & Workflows",
-      "key_insight": "Claude noob building a local AI \u201cbusiness brain\u201d \u2014 am I doing this efficiently?.",
-      "fetched_at": "2026-07-24T05:34:25.053942+00:00",
       "skip": false,
       "is_featured": false
     }
