@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-10-22T07:48:57.333536+00:00",
-  "total": 88,
+  "last_updated": "2026-10-23T07:48:10.751825+00:00",
+  "total": 89,
   "posts": [
+    {
+      "id": "ae9cbd52f9ab",
+      "title": "ChatGPT vs Claude for Digital Marketing: Which One Is Better for seo, social media, MCP, AI Agents and Automation?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xd4omb/chatgpt_vs_claude_for_digital_marketing_which_one/",
+      "summary": "I&#39;m trying to decide whether to invest in ChatGPT or Claude as my primary AI tool for digital marketing, and I&#39;d like to hear from people who have actually used both. I&#39;m not comparing them just for writing content, chatting or generating images. I&#39;m more interested in how well they perform in the real world marketing workflows. &#32; submitted by &#32; /u/abhilashjoseofficial [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-23T04:49:30+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "ChatGPT vs Claude for Digital Marketing: Which One Is Better for seo, social media, MCP, AI Agents and Automation?.",
+      "fetched_at": "2026-10-23T07:48:02.851711+00:00",
+      "skip": false,
+      "is_featured": true
+    },
+    {
+      "id": "f2a39da40196",
+      "title": "IT Service Desk Managers, What Have You Built With Claude?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xd5p0w/it_service_desk_managers_what_have_you_built_with/",
+      "summary": "Hey IT Service Desk Managers and ITSM professionals! How are you using Claude AI to automate your workflows or build something that would have been extremely difficult or impossible to achieve manually? Have you built AI agents, ServiceNow automations, intelligent dashboards, ticket analysis tools, or anything else that genuinely transformed your operations? I\u2019m looking for real world use cases beyond basic prompting. What did you build, how did you build it, and what impact did it have? Share your most impressive Claude AI projects. I\u2019d love to learn from your experiences! &#32; submitted by &#32; /u/SquadronJP [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-23T05:46:46+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "How are you using Claude AI to automate your workflows or build something that would have been extremely difficult or impossible to achieve manually?",
+      "fetched_at": "2026-10-23T07:48:02.851433+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "94ea207e379f",
       "title": "WSJ saw Anthropic\u2019s draft IPO papers: $16.3B revenue in 6 months, $80.7B loss on paper, and about $450B promised for compute",
@@ -28,7 +56,7 @@
       "key_insight": "5 marketing skills for a claude code that turn ai into an actual execution system.",
       "fetched_at": "2026-10-19T07:59:00.553972+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "1764720d5ec5",
@@ -238,7 +266,7 @@
       "key_insight": "I built it with React Native, Expo and TypeScript, using Claude Code throughout development",
       "fetched_at": "2026-10-07T09:01:07.747261+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "720d3e644b28",
