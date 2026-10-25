@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-24T07:29:53.991678+00:00",
+  "last_updated": "2026-10-25T07:43:28.363665+00:00",
   "total": 89,
   "posts": [
     {
@@ -1217,34 +1217,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "Claude Code burned my entire five-hour limit in 6 minutes 32 seconds: 10.26M tokens, zero lines of code.",
       "fetched_at": "2026-08-01T05:39:44.577790+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "c38179017ce4",
-      "title": "$20 Claude AI training bundle covers prompting, automation and real-world workflows - Cult of Mac",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE03MXYwLU1mZERXVTc4T1lpdWY3Q2pYSFVKYmhzalFtZUNiYUJBa0FTME1lMFVjYXVvV0lqSktnSVhObS1aeEphdE1HQ2s5Tm81eG4zMkpyam1uOG9obmhUWmI5Y1JBdw?oc=5",
-      "summary": "$20 Claude AI training bundle covers prompting, automation and real-world workflows Cult of Mac",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Sat, 13 Jun 2026 07:00:00 GMT",
-      "category": "Automation & Workflows",
-      "key_insight": "$20 Claude AI training bundle covers prompting, automation and real-world workflows - Cult of Mac.",
-      "fetched_at": "2026-07-27T06:03:28.760141+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "0327cbccf5ad",
-      "title": "I run my project's marketing with Claude Code \u2014 the memory layer is a git repo of schema-validated markdown",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1v7nrzg/i_run_my_projects_marketing_with_claude_code_the/",
-      "summary": "Claude Code drafts my posts, keeps my outreach CRM, tracks engagement, and tells me every morning what&#39;s next \u2014 for marketing, not code. The part that took iteration wasn&#39;t the prompting. It was giving it memory that survives between sessions without drifting into mush. CLAUDE.md holds instructions, not state. What a campaign needs is a system of record: what was published where, which venues are burned, who replied, why a post exists. My setup keeps all of that as typed markdown documents in a git repo the agent reads and writes: positioning and strategy docs (Claude interviewed me to write them) a venue list \u2014 launch platforms, directories, subreddits \u2014 each with its posting rules and an honest quality tier a lightweight people CRM with outreach status the post pipeline: drafts \u2192 published, every post carrying a goal and a one-line success signal, with actual engagement written back later third-party mentions, filed with links as they surface a plan and a backlog it works fro",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-07-27T02:35:22+00:00",
-      "category": "ABM & Pipeline",
-      "key_insight": "I run my project's marketing with Claude Code \u2014 the memory layer is a git repo of schema-validated markdown.",
-      "fetched_at": "2026-07-27T06:03:26.941975+00:00",
       "skip": false,
       "is_featured": false
     }
