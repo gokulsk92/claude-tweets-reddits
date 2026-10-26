@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-10-25T07:43:28.363665+00:00",
+  "last_updated": "2026-10-26T07:59:11.534010+00:00",
   "total": 89,
   "posts": [
+    {
+      "id": "c3888a75639f",
+      "title": "Anthropic expanding Israel marketing and sales - Globes - Israel Business News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWWs4ZFpRdU9odmVja0wtNUxZWWlZazJjSmc3b0pwR0JlYlpsQVNPQzRpMnVYX1F4dnIwOHRUejhXNXI0R1V3OXpITEQyVkVjUGRmcUVQS3dSZXJXOWF5akJmSk93RG9OTU41MElqTmRSZm5LVHBJLU13bm4wSkhlZ1ZPUHNWWVBKcEVzTDBaNmV1MVkzZHRR?oc=5",
+      "summary": "Anthropic expanding Israel marketing and sales Globes - Israel Business News",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Wed, 02 Sep 2026 07:00:00 GMT",
+      "category": "Content & Campaigns",
+      "key_insight": "Anthropic expanding Israel marketing and sales - Globes - Israel Business News.",
+      "fetched_at": "2026-10-26T07:59:07.602171+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "ba890025076e",
+      "title": "My TCL TV\u2019s home screen was full of ads, so I had Claude Code build a 173 KB replacement.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfk98m/my_tcl_tvs_home_screen_was_full_of_ads_so_i_had/",
+      "summary": "My TCL TV runs Google TV (Android 14). Every Home press meant a sponsored row, autoplaying trailers and picks for you before my own apps. I didn&#39;t want another grid of tiles. I wanted a home screen built for how I use the TV: No grid, only a carousel: one row that glides, focused app in the middle 2 layouts: a Vertical list or a Horizontal dock Lots of customization: 3 modes (Dark, Day, Aesthetic), 9 accent colours, public-domain art as wallpaper So I had Claude Code build it, with one rule: don&#39;t tell me it&#39;s better, measure it. How Claude worked on the TV It wrote the launcher, installed it over ADB, and checked every step with screenshots from the TV before pressing anything else. The art comes from public museum and NASA APIs (The Met, Art Institute of Chicago, Wikimedia Commons, NASA), always credited. The result is Nullofy TV : free, open source (MIT), about 173 KB, no ads, no account, no analytics. The TV was watching the screen The ACR process, which recognises what",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-26T01:53:55+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "I wanted a home screen built for how I use the TV: No grid, only a carousel: one row that glides, focused app in the middle 2 layouts: a Vertical list or a Horizontal dock Lots of customization: 3 mod",
+      "fetched_at": "2026-10-26T07:59:04.787947+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "ae9cbd52f9ab",
       "title": "ChatGPT vs Claude for Digital Marketing: Which One Is Better for seo, social media, MCP, AI Agents and Automation?",
@@ -14,7 +42,7 @@
       "key_insight": "ChatGPT vs Claude for Digital Marketing: Which One Is Better for seo, social media, MCP, AI Agents and Automation?.",
       "fetched_at": "2026-10-23T07:48:02.851711+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "f2a39da40196",
