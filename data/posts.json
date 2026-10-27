@@ -1,7 +1,77 @@
 {
-  "last_updated": "2026-10-26T07:59:11.534010+00:00",
-  "total": 89,
+  "last_updated": "2026-10-27T08:09:36.160948+00:00",
+  "total": 94,
   "posts": [
+    {
+      "id": "162668aaaaa4",
+      "title": "Anthropic pledges not to sell ads, but it's buying them by the bucketful; IPO filing reveals soaring revenue and computing commitments - Mi-3.com.au.",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWUNaNnJfT09jSDN3YXczR0tpMDdCR1VYM0l6anJVaDRFbU54VXgxRlM1ZS1KYzJsR0xaUk91cWNSd2ktMVBqNHlSMzJycU1iY3dDTi03WG0xclBZUmt4YVRKMEo3Q3E5TkVLMnpYZnZhMVhMck9mc3JrbzVOWVU1TXlRa0pkbFRXdTFrVHMzVXdNeGFmVWFIem1pQV9saF9URkxLSUY5a1Y5cXg2TWhaNTBZbXhuTmo0aEE?oc=5",
+      "summary": "Anthropic pledges not to sell ads, but it's buying them by the bucketful; IPO filing reveals soaring revenue and computing commitments Mi-3.com.au.",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Tue, 27 Oct 2026 00:16:25 GMT",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Anthropic pledges not to sell ads, but it's buying them by the bucketful; IPO filing reveals soaring revenue and computing commitments - Mi-3.com.au..",
+      "fetched_at": "2026-10-27T08:09:32.430994+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "84e63e8f1aa5",
+      "title": "Anthropic's IPO filing shows $16.3bn of revenue and no plan to sell ads - PPC Land",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb3RZTzFTSHRjU2htVDhzUXBpcTVaakFMeU1DQmZOVFN1SjMzdzdiaXFKSlA0SHJ4X1VjQldtem5XMXhmZ19nMVlVWUd0N1JDTmt6N05MYnNkWEVTakZQam5kTjdIRXNHeDhCSE54dHBrRTBYang2b1hlTnNId0VFU3RwY3Rwa2EyMWc5NlZwZEs?oc=5",
+      "summary": "Anthropic's IPO filing shows $16.3bn of revenue and no plan to sell ads PPC Land",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Mon, 26 Oct 2026 19:53:20 GMT",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Anthropic's IPO filing shows $16.3bn of revenue and no plan to sell ads - PPC Land.",
+      "fetched_at": "2026-10-27T08:09:32.430953+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "eb17e5c716d3",
+      "title": "Anthropic reveals US$273 million surge in marketing and advertising costs - Marketing-Interactive",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRXZQNjNaUGxmenBYa3duVWllRFFJeGJYUjVraUFNS0ducmNhNnVWMEFvTktqcnhHeHVNQVprelR1bVo2RnBGcVVld2VHS0RCU1RoX3RzY1VZVk1BNEZaQlpsbElyczBsMHFabHhiekUydHBuaThsZGMwNnpDdHdEdHdVcW00Zl9lN0x6d3ZmTThVODdnaGpETEh6bDJwU0FnWVcwcGt4VC15UjBN?oc=5",
+      "summary": "Anthropic reveals US$273 million surge in marketing and advertising costs Marketing-Interactive",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Tue, 27 Oct 2026 00:08:08 GMT",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Anthropic reveals US$273 million surge in marketing and advertising costs - Marketing-Interactive.",
+      "fetched_at": "2026-10-27T08:09:32.430882+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "72a3b49cfd1e",
+      "title": "Code2Video-AA benchmark ranks Claude Opus 5.5 first among 27 AI models at making marketing videos from code - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9LQzdIb2xFVlVZMlM4c1R0QUpiTHlpejFPWXF0cFBSMnFncWZ6WHNHeFh3OENGOHhPYmNRLWJ1Ti1hMVYxZXc1eGFab0phY0RGVDBOUWYtNkFHZk10QU03Q0VFbi0xTTZ6ZU9wUG1lUldqNy1FR3J6bA?oc=5",
+      "summary": "Code2Video-AA benchmark ranks Claude Opus 5.5 first among 27 AI models at making marketing videos from code Crypto Briefing",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Mon, 26 Oct 2026 22:28:03 GMT",
+      "category": "Content & Campaigns",
+      "key_insight": "Code2Video-AA benchmark ranks Claude Opus 5.5 first among 27 AI models at making marketing videos from code - Crypto Briefing.",
+      "fetched_at": "2026-10-27T08:09:31.440837+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "ded0a70613bc",
+      "title": "AI\u2019s real problem isn\u2019t revenue \u2014 it\u2019s retention. What if Claude became the Reddit of AI?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xgjntk/ais_real_problem_isnt_revenue_its_retention_what/",
+      "summary": "With Anthropic heading toward an IPO, most of the discussion is about losses and valuation. I think the bigger question is different: can AI companies keep ordinary people using their products long-term? Right now, most people try AI because it\u2019s new, then gradually drift away. For mass adoption to stick, AI has to become part of everyday life. And I think the missing piece is people. AI is a solo experience today. You use it alone, and the moment something better comes along, you can leave alone. There\u2019s no network effect holding anyone in place. So here\u2019s my idea: two subscription tiers. Personal \u2014 the AI assistant as it exists today. Network \u2014 everything in Personal, plus access to a community built around AI use. Inside the network, there would be category-based spaces, like subreddits: coding, writing, design, marketing, study, and so on. People share what they\u2019ve made with AI, and others can review it, suggest edits, or leave comments. Someone posts code they built with Claude, a",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-27T05:00:46+00:00",
+      "category": "ABM & Pipeline",
+      "key_insight": "Someone posts code they built with Claude, a",
+      "fetched_at": "2026-10-27T08:09:30.481564+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "c3888a75639f",
       "title": "Anthropic expanding Israel marketing and sales - Globes - Israel Business News",
@@ -42,7 +112,7 @@
       "key_insight": "ChatGPT vs Claude for Digital Marketing: Which One Is Better for seo, social media, MCP, AI Agents and Automation?.",
       "fetched_at": "2026-10-23T07:48:02.851711+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "f2a39da40196",
@@ -126,7 +196,7 @@
       "key_insight": "How Claude helped I built it with Claude Code over about five days",
       "fetched_at": "2026-10-19T07:58:59.768143+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "321f92abad82",
