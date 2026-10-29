@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-10-28T08:48:55.338712+00:00",
-  "total": 95,
+  "last_updated": "2026-10-29T08:44:02.953763+00:00",
+  "total": 96,
   "posts": [
+    {
+      "id": "21085abd7fab",
+      "title": "How are you automating marketing with Claude? \ud83d\udc40",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xidm3y/how_are_you_automating_marketing_with_claude/",
+      "summary": "I want to automate content creation, social media posts, Reddit marketing, and lead generation using Claude. What tools and workflows are you using? Would love to learn from your setups! &#32; submitted by &#32; /u/PumpkinNarrow6339 [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-10-29T07:45:17+00:00",
+      "category": "Automation & Workflows",
+      "key_insight": "I want to automate content creation, social media posts, Reddit marketing, and lead generation using Claude",
+      "fetched_at": "2026-10-29T08:43:55.574089+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "014885a114f6",
       "title": "Anthropic pledges not to sell ads, but it's buying them by the bucketful; IPO filing reveals soaring revenue and computing commitments - Mi-3.com.au.",
