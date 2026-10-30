@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29T08:44:02.953763+00:00",
+  "last_updated": "2026-10-30T08:50:15.928545+00:00",
   "total": 96,
   "posts": [
     {
@@ -1329,20 +1329,6 @@
       "category": "ABM & Pipeline",
       "key_insight": "10 months and counting with Claude Code to build a full kitchen management system to take the pain out of home cooking and planning..",
       "fetched_at": "2026-08-02T05:39:49.071885+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "01f3d556f124",
-      "title": "Claude Code burned my entire five-hour limit in 6 minutes 32 seconds: 10.26M tokens, zero lines of code",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vca12m/claude_code_burned_my_entire_fivehour_limit_in_6/",
-      "summary": "I thought I was imagining how quickly Fable 5 was consuming my Claude allowance, so I inspected the local Claude Desktop/Cowork and Claude Code logs for the exact run. The result is worse than I expected. My five-hour allowance had reset at 12:20 AM. I sent one short prompt at exactly 12:50 AM: essentially, \u201ccontinue where you left off, carefully.\u201d At 12:56:32 AM - only 6 minutes and 32 seconds later - Claude stopped with \u201cUsage limit reached.\u201d There were no other local Cowork prompts between the reset and this failure. During those 6 minutes and 32 seconds, Fable 5 recorded: - 15 model calls; - 8 Bash calls, all for Android emulator/UI interaction; - 7 file reads; - 0 Edit or Write tool calls; - 0 subagents; - 0 lines of code changed. The deduplicated token accounting from Claude&#39;s own local session log was: | Usage category | Tokens | |---|---:| | One-hour cache writes | 5,189,449 | | Cache reads/hits | 5,069,543 | | Output | 4,312 | | Regular input | 30 | | **Total processed** |",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-08-01T01:49:57+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "Claude Code burned my entire five-hour limit in 6 minutes 32 seconds: 10.26M tokens, zero lines of code.",
-      "fetched_at": "2026-08-01T05:39:44.577790+00:00",
       "skip": false,
       "is_featured": false
     }
