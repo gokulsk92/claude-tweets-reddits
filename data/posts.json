@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-30T08:50:15.928545+00:00",
-  "total": 96,
+  "last_updated": "2026-10-31T08:37:56.444546+00:00",
+  "total": 95,
   "posts": [
     {
       "id": "21085abd7fab",
@@ -140,7 +140,7 @@
       "key_insight": "ChatGPT vs Claude for Digital Marketing: Which One Is Better for seo, social media, MCP, AI Agents and Automation?.",
       "fetched_at": "2026-10-23T07:48:02.851711+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "f2a39da40196",
@@ -392,7 +392,7 @@
       "key_insight": "I built it with React Native, Expo and TypeScript, using Claude Code throughout development",
       "fetched_at": "2026-10-07T09:01:07.747261+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "720d3e644b28",
@@ -1315,20 +1315,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "Hackers abuse Google ads, Claude.ai chats to push Mac malware - BleepingComputer.",
       "fetched_at": "2026-08-03T05:55:45.091113+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "53f7b090c52f",
-      "title": "10 months and counting with Claude Code to build a full kitchen management system to take the pain out of home cooking and planning.",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vcxhrk/10_months_and_counting_with_claude_code_to_build/",
-      "summary": "https://www.mealsmealsmeals.com/ Started with basically zero SaaS knowledge and used Claude Web and Claude Code to help me learn and begin. 10 months later, MMM is a full-stack SaaS running on Supabase, Vercel, and AWS. Features custom product crawlers, normalization and conversion pipelines, ingredient state modeling, pantry allocation modeling, and much more. It is now something that helps me decide what to eat, stay on budget and on plan, generates my shopping list for me, tracks my pantry quantities as I shop and cook automatically, and just takes the majority of the pain that comes with being the primary cook of a family out of the equation. It&#39;s still light on recipes but is fully functional and free to use with a single menu that you can reset infinitely. Please feel free to try it out and supply any feedback you feel is relevant. Just amazed that AI coding allowed someone like me to create something like this. Hope someone out there finds it useful and inspiring for their o",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-08-01T20:14:55+00:00",
-      "category": "ABM & Pipeline",
-      "key_insight": "10 months and counting with Claude Code to build a full kitchen management system to take the pain out of home cooking and planning..",
-      "fetched_at": "2026-08-02T05:39:49.071885+00:00",
       "skip": false,
       "is_featured": false
     }
