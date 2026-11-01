@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-10-31T08:37:56.444546+00:00",
+  "last_updated": "2026-11-01T09:29:11.417371+00:00",
   "total": 95,
   "posts": [
+    {
+      "id": "0bc42378c3ea",
+      "title": "I gave Claude access to remote telescopes. Now she books the sky every night.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xkxsca/i_gave_claude_access_to_remote_telescopes_now_she/",
+      "summary": "Since last month, Claude (I call her Annie) has been running real telescopes for me. Robotic ones you rent by the hour on StellarDock, in Chile, Spain and Utah. I don&#39;t touch anything. She picks the target, checks where the Moon is and how high the thing gets, sets the filters and exposures, books the slot, and downloads the frames the next morning. Then she stacks them and makes the picture. The first week was mostly science. She measured 57 positions of 8 asteroids over 3 nights and sent them to the Minor Planet Center, and she&#39;s been sweeping the sky at dawn looking for comets near the Sun. Then I asked her for something pretty. The Helix Nebula, Orion&#39;s Belt, the Tarantula in the Large Magellanic Cloud, the Orion Nebula. Pictures attached, all hers, from the plan to the final stack. Tonight she&#39;s shooting the Rosette Nebula from Chile, I&#39;ll post it when it comes in. Ask me anything about the setup, happy to help out. &#32; submitted by &#32; /u/SirMeeseekz [link",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-11-01T08:22:37+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "I gave Claude access to remote telescopes.",
+      "fetched_at": "2026-11-01T09:29:03.710910+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "21085abd7fab",
       "title": "How are you automating marketing with Claude? \ud83d\udc40",
@@ -1301,20 +1315,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "These are some tested use cases so you have something tangible: https://www.blender.org/lab/mcp-server/ - You DO NOT let claude do Python for visuals",
       "fetched_at": "2026-08-04T05:28:24.499909+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "3d38f07376a1",
-      "title": "Hackers abuse Google ads, Claude.ai chats to push Mac malware - BleepingComputer",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObHpLVXEtVFJPWXhBUU5LSzUybGp3ckNKRmdyRmN2NXNRMXdBbkhUQXktUmJSZkxFTU1kMW4tMnk4ZE5wV0t2dHZPOUFEbzNPNUx0aUVwUG9zM3FMZjRjMzg5LWNjRFdNbFE1MjVKUE1NNkxlenlkWEE1N21EYUQ2cnZ0enNCY1pUazlYV0Frd2ZEdlRHdkJCQlZzY2NfaXB4Z2FZcE52QjRzWlXSAbABQVVfeXFMTmFrLUZueGU2Zkx6UjM0VWE4SXFrZWlyNnBDUFVzTlZmeTNkS2pLT2huaUM1RlVqT25JZHVvNDZ5RWdjSnVJQW55c1FnekpVVVgzeVpCWDlndXR0MTVRaUxrTVVCVWF2azB4RTVmWWo3S0FsazBzY25VS3VEREZFM25UNEpfeGx2dDRaeFhndTFYbVNLRU1rZkY4VnNoQ0g2RTBSSEw1WU14M005MkFoNC0?oc=5",
-      "summary": "Hackers abuse Google ads, Claude.ai chats to push Mac malware BleepingComputer",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Sun, 10 May 2026 07:00:00 GMT",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "Hackers abuse Google ads, Claude.ai chats to push Mac malware - BleepingComputer.",
-      "fetched_at": "2026-08-03T05:55:45.091113+00:00",
       "skip": false,
       "is_featured": false
     }
