@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-01T09:29:11.417371+00:00",
-  "total": 95,
+  "last_updated": "2026-11-02T09:45:18.662349+00:00",
+  "total": 94,
   "posts": [
     {
       "id": "0bc42378c3ea",
@@ -1301,20 +1301,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "Claude from a small business perspective.",
       "fetched_at": "2026-08-05T05:27:57.965014+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "de507963501e",
-      "title": "Claude struggles to sculpt humanoids with math. Experimental Blender pipeline for game dev.",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vezve2/claude_struggles_to_sculpt_humanoids_with_math/",
-      "summary": "I tried Blender MCP + Claude Opus 5 for game dev because I have zero experience in Blender. I found out Claude tries to do complex math for 3D topology when I prompt for a humanoid base mesh. Claude Opus 5 \\ mathing\\ a female base mesh It can&#39;t actually sculpt things through MCP like you can manually and it struggles with humanoids. It might be better for something with mechanical features so its easier to approach it with math. I concluded sculpting things programmatically this way burns tokens and unreliable for real game assets for now so I came up with an experimental idea that might be cheaper. In short: - (with Blender MCP) You still let Claude do screenshot checks, pivot/origin adjustments, polycount audits, renaming files etc. These are some tested use cases so you have something tangible: https://www.blender.org/lab/mcp-server/ - You DO NOT let claude do Python for visuals. You let dedicated 3D AI tools handle the visuals and keep Claude on pipeline. I drafted full pipelin",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-08-04T04:16:12+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "These are some tested use cases so you have something tangible: https://www.blender.org/lab/mcp-server/ - You DO NOT let claude do Python for visuals",
-      "fetched_at": "2026-08-04T05:28:24.499909+00:00",
       "skip": false,
       "is_featured": false
     }
