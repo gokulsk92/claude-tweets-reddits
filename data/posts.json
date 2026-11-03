@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-02T09:45:18.662349+00:00",
-  "total": 94,
+  "last_updated": "2026-11-03T09:48:34.117916+00:00",
+  "total": 93,
   "posts": [
     {
       "id": "0bc42378c3ea",
@@ -28,7 +28,7 @@
       "key_insight": "I want to automate content creation, social media posts, Reddit marketing, and lead generation using Claude",
       "fetched_at": "2026-10-29T08:43:55.574089+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "014885a114f6",
@@ -532,7 +532,7 @@
       "key_insight": "AI pipeline for off-market real estate deals (1\u201320 units) with Claude Code: stuck on incomplete data and login-walled sources (FIRST POST ON REDDIT LOL).",
       "fetched_at": "2026-10-03T08:24:21.904633+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "e2fc7732b093",
@@ -1273,34 +1273,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "20+ tools built with Claude Code, all running on one PC",
       "fetched_at": "2026-08-06T05:30:44.813285+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "fe7ed02bbe2a",
-      "title": "Build and run your business from Claude, No extra platform AI credits.",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vfq1e0/build_and_run_your_business_from_claude_no_extra/",
-      "summary": "This is Lovable with your own Claude, zero platform credits, and 12+ business modules already built in: auth, payments, email, CRM, invoicing, contracts, bookings, memberships, automations, live streaming, community, and ads attribution. The AI builds on real infrastructure, not a hollow frontend. I&#39;ve been building Tribenest for 16 months. Started as a tool to share my music without platform lock-in. Grew into something much bigger. I used Claude Code extensively throughout the build as my primary coding assistant for everything from the website builder to the automation engine to a full business email stack built on Wildduck, Haraka, ZoneMTA and SES. What I shipped covers website, store, memberships, email marketing, CRM, invoicing, contracts, project management, knowledge base, live streaming, community, ads attribution, and a custom app layer on Cloudflare Workers for Platforms with Durable Objects. The interesting part for this community: Tribenest opens over MCP so you can co",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-08-04T23:06:12+00:00",
-      "category": "Automation & Workflows",
-      "key_insight": "I used Claude Code extensively throughout the build as my primary coding assistant for everything from the website builder to the automation engine to a full business email stack built on Wildduck, Ha",
-      "fetched_at": "2026-08-05T05:27:57.965687+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "b70bab7820d2",
-      "title": "Claude from a small business perspective",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vftrri/claude_from_a_small_business_perspective/",
-      "summary": "For context, I am a mid-sixties small-business owner of a renewable energy company that does turnkey installations. The greatest hurdles are sales, marketing, payroll, P L, and scheduling. Normal small business challenges. I started using ChatGPT when it came out. I was thrilled when it could finally do accurate spreadsheets. Fast forward to today, Claude (Fable) is the best business tool I have. A $ 200-a-month plan has saved me well in excess of $50K since the start of the year. (I never hit my usage limit) To date, I have merged an archaic database platform with HubSpot using webhooks, scripts, and Python code. Developed realistic marketing plans, have weekly reports auto-generated on our Google spend, creating great visual HTML proposals for clients that are auto-generated with a button push. All tokens cleanly inserted and formatted. Every time I have a business question/need I want answered, a report generated, or a P L dissected, Fable does it. I check the math, the outcomes, an",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-08-05T01:50:48+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "Claude from a small business perspective.",
-      "fetched_at": "2026-08-05T05:27:57.965014+00:00",
       "skip": false,
       "is_featured": false
     }
