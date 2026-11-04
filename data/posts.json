@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-11-03T09:48:34.117916+00:00",
-  "total": 93,
+  "last_updated": "2026-11-04T09:35:59.925779+00:00",
+  "total": 92,
   "posts": [
+    {
+      "id": "1d57d77ea2fc",
+      "title": "Supermetrics Advances Marketing AI from Analysis to Approved Campaign Action Through Claude - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNcUVJYzJ1bGp2VVVHdFkxWVF2NUdfVFFUb1NMbUFXS2FXeUlLQmVtVk9IOEdFa3NpNllhMDZwUkg0aEZuWUwyMk9YMWd4eFVQbWotbTFTQVE1bUhlX2J6RUYyRWhWMVl2S3RzNllIVVRKd1VZanFGWURocVdWdks4UElsX25wS1d5QnZmakgxMEUyUGZqOFl5ZVZJS1VfelE5SmQ4NUVNZVBibG41MUx2Qk5rRTFmLWNVeVk2MmlKMFNRWk9LS3ZvSmFodU1kN2RwUWJoU0RORVdCdlJnektkNg?oc=5",
+      "summary": "Supermetrics Advances Marketing AI from Analysis to Approved Campaign Action Through Claude PR Newswire",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Tue, 03 Nov 2026 13:37:00 GMT",
+      "category": "Content & Campaigns",
+      "key_insight": "Supermetrics Advances Marketing AI from Analysis to Approved Campaign Action Through Claude - PR Newswire.",
+      "fetched_at": "2026-11-04T09:35:54.645346+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "0bc42378c3ea",
       "title": "I gave Claude access to remote telescopes. Now she books the sky every night.",
@@ -1259,20 +1273,6 @@
       "category": "Automation & Workflows",
       "key_insight": "-Discovery and checkout in Claude, ChatGPT, Gemini and Siri AI through the network wide Kifly MCP ( https:&#x2F;&#x2F;kifly.ai&#x2F;api&#x2F;mcp ) I believe in the near future everyone will have an ag",
       "fetched_at": "2026-08-07T04:35:21.829727+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "2a7ac128b7fd",
-      "title": "I gave my local apps a launcher. 20+ tools built with Claude Code, all running on one PC",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vguowh/i_gave_my_local_apps_a_launcher_20_tools_built/",
-      "summary": "I&#39;m not a developer. I run a small media business and over the last few months I&#39;ve used Claude Code to build out most of my operation as little local apps. Video pipelines, a photo client portal, a podcast reviewer, a task triage system, schedulers, that kind of thing. Eventually the problem was just finding them. I had a folder of apps and no idea what half of them were called. So I had Claude build Mission Control , a dashboard on localhost that lists every app, launches it, and shows the stuff they share: a fleet inbox (my computers leave each other notes), the scheduled automations, and a list of ideas I&#39;ve parked for later. Three things that made the difference for me: A global CLAUDE.md with standing rules. Explain things in plain English, never spend money on an API without asking first, don&#39;t leave black console windows open on my desktop. Every session reads it before doing anything. A memory.md in each project that Claude appends to whenever I correct it. Tha",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-08-06T05:00:41+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "20+ tools built with Claude Code, all running on one PC",
-      "fetched_at": "2026-08-06T05:30:44.813285+00:00",
       "skip": false,
       "is_featured": false
     }
