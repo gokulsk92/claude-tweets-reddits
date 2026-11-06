@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-11-05T09:42:10.997679+00:00",
-  "total": 91,
+  "last_updated": "2026-11-06T09:36:53.067517+00:00",
+  "total": 93,
   "posts": [
+    {
+      "id": "354c608f7a6a",
+      "title": "Using Claude Code for consulting, about 70% knowledge work and 30% small client tools: 50 threads, long-thread costs, status drift. Does anyone have a better system?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xp6tga/using_claude_code_for_consulting_about_70/",
+      "summary": "TL;DR: I run my consulting practice from one Claude Code workspace on the desktop app. About 70% of it is knowledge work. About 30% is coding small tools and products for clients\u2019 internal use. Files-as-memory works well. Thread management does not. How do others run Claude Code at this scale when the work mixes both? My setup One local folder and git repo. It holds a root CLAUDE.md , about 110 skills, hooks, scripts, a README per client as the source of truth, and a decisions log. I use no branches and no worktrees. Every thread shares one working directory. Roughly 50 open threads, grouped in the sidebar by client or area. For my biggest client I run a hub thread, about 10 standing \u201cspoke\u201d threads (one per workstream, including the tool builds) and short-lived child threads. They coordinate through shared append-only files and cross-session messages. Scheduled tasks for briefs and checks. Notion holds tasks and my CRM. My Mac is always on, and I use Remote Control from my phone. What",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-11-06T07:28:51+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Using Claude Code for consulting, about 70% knowledge work and 30% small client tools: 50 threads, long-thread costs, status drift",
+      "fetched_at": "2026-11-06T09:36:46.599271+00:00",
+      "skip": false,
+      "is_featured": true
+    },
+    {
+      "id": "f2127f3f2ca0",
+      "title": "In The Next Update:Claude Code reading X in my own Chrome tab on Windows, through screen tools I built with Claude Code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xp7fiy/in_the_next_updateclaude_code_reading_x_in_my_own/",
+      "summary": "Hellhound is a Windows app I\u2019m building where Claude Code, Codex and Grok work in one room. Claude Code on Windows has no way to see the screen on its own, so for the next update I\u2019ve been building Hellhound\u2019s own screen tools. In the video Claude opens our X profile in the Chrome tab I already had open, reads our pinned post, searches X and comes back with the answer. No browser extension. How I built it with Claude Code Claude Code wrote a small C# helper that uses Windows UI Automation: it lists a window\u2019s buttons and boxes, reads a page\u2019s text in reading order, and clicks and types with the real mouse and keyboard. Hellhound gives these to the agents as 19 tools over MCP. Each action is checked first: the window must be in front, nothing may cover the point, and the agent\u2019s last screenshot must still match the window. Otherwise it\u2019s refused and nothing happens. I tested with real tasks (reading posts on X, drawing in Paint, typing in Notepad). Claude read the agents\u2019 logs to see wh",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-11-06T08:09:08+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "How I built it with Claude Code Claude Code wrote a small C# helper that uses Windows UI Automation: it lists a window\u2019s buttons and boxes, reads a page\u2019s text in reading order, and clicks and types w",
+      "fetched_at": "2026-11-06T09:36:46.598827+00:00",
+      "skip": false,
+      "is_featured": true
+    },
+    {
+      "id": "66fe35c62bde",
+      "title": "I built CogniCore with Claude Code: free, open-source shared memory between Claude Code, Claude.ai and Codex",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xp8o0c/i_built_cognicore_with_claude_code_free/",
+      "summary": "&#x200B; I built CogniCore, a memory layer that lets Claude Code, Claude.ai and Codex pick up each other&#39;s work. It&#39;s free and open source. The video intro is animated, while the demo uses a real session. What it does Hooks in Claude Code and Codex save a structured handoff after each turn, including the goal, current state, decisions and their reasoning, open tasks and exact values such as IDs, versions and file paths. Stored locally by default, with no login required. Cloud syncing is optional. Claude.ai, ChatGPT and Cursor can access the same memory through an MCP connector. How I built it with Claude Code Audit first: I asked Claude Code to explore how sessions were saved and resumed and create a report in docs/transfer-audit.md explaining what was lost during resume. This shaped the handoff format. Implementation and tests: Claude Code implemented the handoff format, hooks and synchronization in small commits. The sync uses the newest revision to prevent late uploads from ",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-11-06T09:32:02+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "How I built it with Claude Code Audit first: I asked Claude Code to explore how sessions were saved and resumed and create a report in docs/transfer-audit.md explaining what was lost during resume",
+      "fetched_at": "2026-11-06T09:36:46.598329+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "1d57d77ea2fc",
       "title": "Supermetrics Advances Marketing AI from Analysis to Approved Campaign Action Through Claude - PR Newswire",
@@ -42,7 +84,7 @@
       "key_insight": "I want to automate content creation, social media posts, Reddit marketing, and lead generation using Claude",
       "fetched_at": "2026-10-29T08:43:55.574089+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "014885a114f6",
@@ -154,7 +196,7 @@
       "key_insight": "I wanted a home screen built for how I use the TV: No grid, only a carousel: one row that glides, focused app in the middle 2 layouts: a Vertical list or a Horizontal dock Lots of customization: 3 mod",
       "fetched_at": "2026-10-26T07:59:04.787947+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "ae9cbd52f9ab",
@@ -420,7 +462,7 @@
       "key_insight": "I built it with React Native, Expo and TypeScript, using Claude Code throughout development",
       "fetched_at": "2026-10-07T09:01:07.747261+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "720d3e644b28",
@@ -1245,20 +1287,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "Built a Claude Code skill that checks UX gaps against ~60 cited patterns before you ship.",
       "fetched_at": "2026-08-09T03:56:52.791088+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "c1ad5ecebfef",
-      "title": "Lusha Highlights AI-Driven Signal-Based Sales Automation via Claude Integration - tipranks.com",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMTdTazBNOHB5d3Bmd2FxQ0F6bG10eWRYb1VwaDFLb3pNRHI5ekVvakRvalNLaVJGdC01c2JTcG5Pd3EwNHNkaWRFeW9LdzV1SmRBeHFLdUp6c25oQi02RnVNQ2ZxS0d2VE5Ta1B1eDhPTUxUNERnU2F0TFBhazFyeFdzUXVwVEVVdnJZZDZ6bmFZMTlfRnozak5iMkc1YmhMYnk1N1VSYWRaRmZtd1JPYzZSRGM4WUpsWUpicmJhWkM0TTRJR0E?oc=5",
-      "summary": "Lusha Highlights AI-Driven Signal-Based Sales Automation via Claude Integration tipranks.com",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Wed, 05 Aug 2026 23:14:13 GMT",
-      "category": "Automation & Workflows",
-      "key_insight": "Lusha Highlights AI-Driven Signal-Based Sales Automation via Claude Integration - tipranks.com.",
-      "fetched_at": "2026-08-08T03:49:10.414999+00:00",
       "skip": false,
       "is_featured": false
     }
