@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-11-07T09:01:02.462996+00:00",
+  "last_updated": "2026-11-08T09:17:56.308611+00:00",
   "total": 92,
   "posts": [
+    {
+      "id": "e725ff4602eb",
+      "title": "I built my restaurant\u2019s whole ops platform with Claude Code instead of paying for five different apps",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xqquzu/i_built_my_restaurants_whole_ops_platform_with/",
+      "summary": "I own a smash burger restaurant. I\u2019m not a developer, but since late last year I\u2019ve been using Claude Code to build the software we run the business on. It\u2019s called Pulse, and my staff use it every day. Here\u2019s what\u2019s in it: Tasks: a task manager, like Asana, for the team\u2019s work, marketing campaigns and day-to-day operations Finance: expenses, sales and accounting Inventory: stock and supplier deliveries Central kitchen: where our recipes are processed WhatsApp: marketing messages and a customer inbox, connected through Meta\u2019s developer program HR: salaries, attendance, leave and bonuses People keep asking (in another subreddit) why I didn\u2019t just buy something that already exists. There are three reasons. First, I didn\u2019t want five different apps running one restaurant. I wanted everything in one place, and I wanted it to grow as we open more branches. Second, our recipes. I didn\u2019t want them stored on someone else\u2019s system. Third, and this is the big one, my staff. In a business like our",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-11-08T05:32:24+00:00",
+      "category": "Content & Campaigns",
+      "key_insight": "I\u2019m not a developer, but since late last year I\u2019ve been using Claude Code to build the software we run the business on",
+      "fetched_at": "2026-11-08T09:17:49.543794+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "354c608f7a6a",
       "title": "Using Claude Code for consulting, about 70% knowledge work and 30% small client tools: 50 threads, long-thread costs, status drift. Does anyone have a better system?",
@@ -1259,20 +1273,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "Tell HN: Anthropic is starting to inject ads into Claude Code turns.",
       "fetched_at": "2026-08-12T04:20:16.673080+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "d07163803db9",
-      "title": "EZ Texting Launches AI Assistants for SMS Marketing: Send texts, run campaigns using ChatGPT, Claude or any famous AI Tool - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNVTFnUkJuUVM5MDFGdklpUmpKLVFyMkFhbThobnlOY1dQY3k2UFIycFIwNHpmSHhrdVYtVkJLQjBPUXlOM2stT1NMX28yVTBLeTAwangxU3JsWVl3STVZUFBfQ3NsdHpvQjZXSk1pd3drd01yVzluY1NYa0lpMlpVeDYtZXg4cF9XZU1iV1RkVTQweWJuX2hfY0t6Q3NabGY2TFRodVBmTUpSdi1xR0UzLWREMlpObHlfYmFhRHlxbVBuU3NYZkhIdE9zWk5GVGFFaDhwWkVMWW9wcmRJWmhwZTBDcTVjSkNHWVNKNWljeklpWW1rSlh4NFdPZXRlMDZNRW9nUmln?oc=5",
-      "summary": "EZ Texting Launches AI Assistants for SMS Marketing: Send texts, run campaigns using ChatGPT, Claude or any famous AI Tool PR Newswire",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Tue, 04 Aug 2026 17:34:00 GMT",
-      "category": "Content & Campaigns",
-      "key_insight": "EZ Texting Launches AI Assistants for SMS Marketing: Send texts, run campaigns using ChatGPT, Claude or any famous AI Tool - PR Newswire.",
-      "fetched_at": "2026-08-10T04:11:29.257157+00:00",
       "skip": false,
       "is_featured": false
     }
