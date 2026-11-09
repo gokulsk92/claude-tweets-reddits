@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-11-08T09:17:56.308611+00:00",
+  "last_updated": "2026-11-09T10:01:19.142411+00:00",
   "total": 92,
   "posts": [
+    {
+      "id": "24923ac77636",
+      "title": "Navatar Adds Claude AI to Salesforce CRM for Private Equity and M&A - MarTech Cube",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcWZOeDM1UHdqZ2YxOUpjSzNRX0pmQ251cS1NOFlBZEZvUTlQcGpPeXlOMUQ5RU9taWtqUk5KRVlNX2FSVHdKWk1NNHNLUVhPTnNRVFg5b0JrenlwVk44V2RZTWVvUjlWWmR1eVc2WmZ2d010YkgwTHZoNTJSWDVwZ0Npdlh3QlRIMHRWUzZNZmdWUk0ydHc4dGVKbw?oc=5",
+      "summary": "Navatar Adds Claude AI to Salesforce CRM for Private Equity and M&A MarTech Cube",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Fri, 30 Oct 2026 18:54:59 GMT",
+      "category": "Automation & Workflows",
+      "key_insight": "Navatar Adds Claude AI to Salesforce CRM for Private Equity and M&A - MarTech Cube.",
+      "fetched_at": "2026-11-09T10:01:08.025448+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "e725ff4602eb",
       "title": "I built my restaurant\u2019s whole ops platform with Claude Code instead of paying for five different apps",
