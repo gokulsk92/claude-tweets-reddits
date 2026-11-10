@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-11-09T10:01:19.142411+00:00",
-  "total": 92,
+  "last_updated": "2026-11-10T10:11:46.523959+00:00",
+  "total": 94,
   "posts": [
+    {
+      "id": "23981ea3d319",
+      "title": "California judge allows advertising claims in Anthropic Claude Max lawsuit - NewsBytes",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOR3g1Zld1Nkt2MTFKbmNWb0J2bG9vV0liSUZFNlVWQ29uUUpnOEcyYzhoY2VJbkQ1N05ndUcwaXFyYWV5Z19iSVAyT3djVWdQcmpNclFtMldhODNZX0RKRy1sVFdmYmJqWjFCNm9HZjk1eFB5cExGTHNsZXZQMC1wU19ZRkJnYlM3M2hTQzlQRmNsdks2cml5M2ZOaGxtMzIwQ0YyeWMyamJEUUlDZERmZUlwdjdIUk5zNVgtMUt3?oc=5",
+      "summary": "California judge allows advertising claims in Anthropic Claude Max lawsuit NewsBytes",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Mon, 09 Nov 2026 16:41:41 GMT",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "California judge allows advertising claims in Anthropic Claude Max lawsuit - NewsBytes.",
+      "fetched_at": "2026-11-10T10:11:43.029313+00:00",
+      "skip": false,
+      "is_featured": false
+    },
+    {
+      "id": "3c8325fcc637",
+      "title": "Anthropic Commits $3.4 Billion To Power Its Next Phase Of AI Growth - BW Marketing World",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdUl5cTljWURWS1FlR1RFVG1EQ2VINlpYU3p6VU91MV93V0VmLXJsOVpwQW9NME9FbEVuUnhTbV91MFZHcWthRjlaQXlzekt0YXctbjdILWRYNFlOb1dpNk1RTjd0RExuTDZXVXpwU3RtWHY1V0ItMm1kWExtWmdGZ0lYX1I1R01XYWd2QjhEeTJ5OW81cEhhMEJVUEYwMDMyMF9CUEhTTDBiUVUtcHo2SWdtWVo?oc=5",
+      "summary": "Anthropic Commits $3.4 Billion To Power Its Next Phase Of AI Growth BW Marketing World",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Mon, 09 Nov 2026 08:42:23 GMT",
+      "category": "Content & Campaigns",
+      "key_insight": "Anthropic Commits $3.4 Billion To Power Its Next Phase Of AI Growth - BW Marketing World.",
+      "fetched_at": "2026-11-10T10:11:42.271202+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "24923ac77636",
       "title": "Navatar Adds Claude AI to Salesforce CRM for Private Equity and M&A - MarTech Cube",
@@ -1273,20 +1301,6 @@
       "category": "ABM & Pipeline",
       "key_insight": "So it&#39;s a decent case study in using Claude Code for a whole stack: the MCP server, the game, the art pipeline, and packaging it into a plugin",
       "fetched_at": "2026-08-16T03:26:26.369664+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "f9dc53c0f093",
-      "title": "Tell HN: Anthropic is starting to inject ads into Claude Code turns",
-      "url": "https://news.ycombinator.com/item?id=49254919",
-      "summary": "I was working in the mobile app via remote control when I saw it: PostToolUse:Bash says: Tip: Run &#x2F;ultrareview before you push to catch bugs with a cloud-based multi-agent review \u2014 3 free reviews left. Haven&#x27;t decided how I feel about this yet as it wasn&#x27;t too disruptive, but I can see where it could cause issues in an automation pipeline. But maybe this is something they&#x27;re only pushing to subscription users in interactive sessions, so I guess it could be considered reasonably unobtrusive . Regardless though this is a darkening road.",
-      "source": "Hacker News",
-      "source_label": "Hacker News",
-      "date": "2026-08-11T08:21:25Z",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "Tell HN: Anthropic is starting to inject ads into Claude Code turns.",
-      "fetched_at": "2026-08-12T04:20:16.673080+00:00",
       "skip": false,
       "is_featured": false
     }
