@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13T09:49:45.572008+00:00",
+  "last_updated": "2026-11-14T09:12:40.634327+00:00",
   "total": 94,
   "posts": [
     {
@@ -1301,20 +1301,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "Someone had Claude read all of One Piece \u2014 I had Claude Code turn their data into interactive dashboards (in one evening).",
       "fetched_at": "2026-08-18T03:21:15.181042+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "664d2b414215",
-      "title": "I made a free Claude Code plugin that turns your agents into pixel creatures you can watch work \ud83e\udd80",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vpiyoq/i_made_a_free_claude_code_plugin_that_turns_your/",
-      "summary": "I&#39;ve been building Claudemon, a Claude Code plugin that turns your agents into Claudemon. Tell it what to build, and watch it work in a little tank while it edits your files, instead of staring at a wall of text. Each creature is its own agent with a personality and working style, so you collect a roster and send whoever fits the task. (There&#39;s also a full game inside, called Clawland, for when you want a break.) The part I think this sub might find interesting: it was entirely built with Claude Code, including all the pixel art and animation, with no external art tools. The eggs, the dramatic hatch (build-up, cracks, a shatter burst), the particle effects, and even the sound are all generated procedurally in code. So it&#39;s a decent case study in using Claude Code for a whole stack: the MCP server, the game, the art pipeline, and packaging it into a plugin. Free and open source (MIT). Install from inside Claude Code: /plugin marketplace add OriginalName457/claudemon /plugin ",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-08-16T00:45:15+00:00",
-      "category": "ABM & Pipeline",
-      "key_insight": "So it&#39;s a decent case study in using Claude Code for a whole stack: the MCP server, the game, the art pipeline, and packaging it into a plugin",
-      "fetched_at": "2026-08-16T03:26:26.369664+00:00",
       "skip": false,
       "is_featured": false
     }
