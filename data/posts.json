@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-14T09:12:40.634327+00:00",
-  "total": 94,
+  "last_updated": "2026-11-15T09:42:40.699215+00:00",
+  "total": 93,
   "posts": [
     {
       "id": "4e8ce1e61df7",
@@ -14,7 +14,7 @@
       "key_insight": "Marcora Now Available in ChatGPT and Claude: One Source of Brand and Company Context for Marketing Teams' AI Tools - The Detroit News",
       "fetched_at": "2026-11-11T09:41:17.428091+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "23981ea3d319",
@@ -84,7 +84,7 @@
       "key_insight": "Using Claude Code for consulting, about 70% knowledge work and 30% small client tools: 50 threads, long-thread costs, status drift",
       "fetched_at": "2026-11-06T09:36:46.599271+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "f2127f3f2ca0",
@@ -112,7 +112,7 @@
       "key_insight": "How I built it with Claude Code Audit first: I asked Claude Code to explore how sessions were saved and resumed and create a report in docs/transfer-audit.md explaining what was lost during resume",
       "fetched_at": "2026-11-06T09:36:46.598329+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "1d57d77ea2fc",
@@ -266,7 +266,7 @@
       "key_insight": "I wanted a home screen built for how I use the TV: No grid, only a carousel: one row that glides, focused app in the middle 2 layouts: a Vertical list or a Horizontal dock Lots of customization: 3 mod",
       "fetched_at": "2026-10-26T07:59:04.787947+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "ae9cbd52f9ab",
