@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-11-15T09:42:40.699215+00:00",
-  "total": 93,
+  "last_updated": "2026-11-16T09:59:35.892389+00:00",
+  "total": 94,
   "posts": [
+    {
+      "id": "2b01e79266ab",
+      "title": "product designer freelancer - find clients with claude?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xxk5f1/product_designer_freelancer_find_clients_with/",
+      "summary": "Hi there! I am a Product Designer (UX/UI) and Frontend Developer, with a fair knowledge on AI, I use it for years now for anything I can optimize. Althought finding clients in an &#39;easy&#39; or more effective way is the part I am struggling with. I never learnt about marketing and I am not the kind of person that will start a youtube or IG channel. Everything I find researching or through claude chats lead to the same and I am not seeing good results, neither on the leads or the outreach messages (I already trained the voice, and gave detailed instructions on the tone). Anyone can help me out with some tips, advice or what worked for you? PD. If that can add more to this: my offer are two weeks sprints for urgent tasks and monthly retainer - so far all my clients have come through referrals - thanks, to whoever reads and replies, have a great day!! &#32; submitted by &#32; /u/Brilliant-Bat-2685 [link] &#32; [comments]",
+      "source": "Reddit",
+      "source_label": "r",
+      "date": "2026-11-16T08:26:55+00:00",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Everything I find researching or through claude chats lead to the same and I am not seeing good results, neither on the leads or the outreach messages (I already trained the voice, and gave detailed i",
+      "fetched_at": "2026-11-16T09:59:30.295610+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "4e8ce1e61df7",
       "title": "Marcora Now Available in ChatGPT and Claude: One Source of Brand and Company Context for Marketing Teams' AI Tools - The Detroit News",
@@ -1273,34 +1287,6 @@
       "category": "Automation & Workflows",
       "key_insight": "Need recommendation/help with Claude automation..",
       "fetched_at": "2026-08-20T03:22:58.960349+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "3c87e78ea32f",
-      "title": "How to Post to Instagram with Claude AI \u2014 Windsor.ai Tutorial | Automate your Marketing end-to-end - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9UWjNHRFdJVVd5MExEcE5NN2NaTGh3NWFvWVYwTEplaDRxY056OHhfZUFuR09qbVhna1FrMnltNFFpSDZRUkdETGFfZGI0MXdzdXp5SmplVWxuMTRz?oc=5",
-      "summary": "How to Post to Instagram with Claude AI \u2014 Windsor.ai Tutorial | Automate your Marketing end-to-end YouTube",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Mon, 17 Aug 2026 20:12:57 GMT",
-      "category": "Automation & Workflows",
-      "key_insight": "How to Post to Instagram with Claude AI \u2014 Windsor.ai Tutorial | Automate your Marketing end-to-end - YouTube.",
-      "fetched_at": "2026-08-18T03:21:17.171157+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "e673e1ade7f0",
-      "title": "Someone had Claude read all of One Piece \u2014 I had Claude Code turn their data into interactive dashboards (in one evening)",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vr43re/someone_had_claude_read_all_of_one_piece_i_had/",
-      "summary": "A few days ago there was a post here about grandlinearchives.com \u2014 an agent pipeline that read all 1,189 One Piece chapters and built a foreshadowing encyclopedia. I loved it, but it&#39;s 8,800 pages of text. I wanted to see it. So I pointed Claude Code at it. The result: https://n0zz.github.io/grand-line-atlas/ \u2014 free, static, open source: https://github.com/N0zz/grand-line-atlas What it does: - Foreshadowing map \u2014 all 3,072 setup\u2192payoff chains drawn as arcs over the chapter axis. You can see Oda&#39;s 1,137-chapter cons as one picture. - Timeline \u2014 every dataset (seed density, predictions, mysteries, character debuts) as toggleable lenses on one axis, zoom by saga. - Web \u2014 start at any character and pull threads through the archive&#39;s cross-links. - Plus a nautical map view and a stats observatory (technique\u00d7saga heatmap, longest cons, prediction leads). - Spoiler-safe like the original: set your chapter, everything beyond it is hidden. How Claude Code helped: it mocked up 5 diff",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-08-17T20:37:07+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "Someone had Claude read all of One Piece \u2014 I had Claude Code turn their data into interactive dashboards (in one evening).",
-      "fetched_at": "2026-08-18T03:21:15.181042+00:00",
       "skip": false,
       "is_featured": false
     }
