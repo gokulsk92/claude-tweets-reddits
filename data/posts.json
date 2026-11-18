@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17T10:56:08.063304+00:00",
+  "last_updated": "2026-11-18T10:27:44.563175+00:00",
   "total": 92,
   "posts": [
     {
@@ -1273,20 +1273,6 @@
       "category": "Automation & Workflows",
       "key_insight": "I also created this workflow specifically for Claude so it can act as the planning and script-building layer instead of stopping at instructions",
       "fetched_at": "2026-08-23T03:28:24.920717+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "b9180594a9c0",
-      "title": "Need recommendation/help with Claude automation.",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vt1plx/need_recommendationhelp_with_claude_automation/",
-      "summary": "I am a broker in commercial real estate trying to automate more of my day to day tasks, marketing updates, summarizing and countering LOIs, logging them into an API 3rd party source, connect calendar and send automated reminders, set up morning and EOD summaries, etc. I have an elementary level of Claude usage and obviously none with the coding side. I feel like this can be done easily, but I\u2019m not sure how to do it. Any help would be great and if anyone can help offline also. &#32; submitted by &#32; /u/FalconDramatic2486 [link] &#32; [comments]",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-08-19T22:45:29+00:00",
-      "category": "Automation & Workflows",
-      "key_insight": "Need recommendation/help with Claude automation..",
-      "fetched_at": "2026-08-20T03:22:58.960349+00:00",
       "skip": false,
       "is_featured": false
     }
