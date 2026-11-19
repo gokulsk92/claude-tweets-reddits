@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-18T10:27:44.563175+00:00",
-  "total": 92,
+  "last_updated": "2026-11-19T10:34:41.158642+00:00",
+  "total": 91,
   "posts": [
     {
       "id": "2b01e79266ab",
@@ -14,7 +14,7 @@
       "key_insight": "Everything I find researching or through claude chats lead to the same and I am not seeing good results, neither on the leads or the outreach messages (I already trained the voice, and gave detailed i",
       "fetched_at": "2026-11-16T09:59:30.295610+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "4e8ce1e61df7",
@@ -28,7 +28,7 @@
       "key_insight": "Marcora Now Available in ChatGPT and Claude: One Source of Brand and Company Context for Marketing Teams' AI Tools - The Detroit News",
       "fetched_at": "2026-11-11T09:41:17.428091+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "23981ea3d319",
