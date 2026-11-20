@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-11-19T10:34:41.158642+00:00",
-  "total": 91,
+  "last_updated": "2026-11-20T10:15:29.306219+00:00",
+  "total": 92,
   "posts": [
+    {
+      "id": "1b606949dbd9",
+      "title": "How Anthropic increased downloads of Claude by 300% in seven days - Marketing Week",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMMW1lWUJkVlZkYUhIVDc0MHpONWM3Qmx0Z3Rvc2JSM0hXVzQzNGpNMXRlTXpzdllGNnhFeXVMSm5EV3BUTjFlb0RVcjh6TUUyZGF3cnExazFWUkJNSFQzMXVIZThMT1ppVkxkbENra0xMb0RkQ2c?oc=5",
+      "summary": "How Anthropic increased downloads of Claude by 300% in seven days Marketing Week",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Fri, 20 Nov 2026 07:02:09 GMT",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "How Anthropic increased downloads of Claude by 300% in seven days - Marketing Week",
+      "fetched_at": "2026-11-20T10:15:25.261380+00:00",
+      "skip": false,
+      "is_featured": true
+    },
     {
       "id": "2b01e79266ab",
       "title": "product designer freelancer - find clients with claude?",
@@ -14,7 +28,7 @@
       "key_insight": "Everything I find researching or through claude chats lead to the same and I am not seeing good results, neither on the leads or the outreach messages (I already trained the voice, and gave detailed i",
       "fetched_at": "2026-11-16T09:59:30.295610+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "4e8ce1e61df7",
