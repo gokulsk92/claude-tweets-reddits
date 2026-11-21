@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-20T10:15:29.306219+00:00",
+  "last_updated": "2026-11-21T10:00:59.509085+00:00",
   "total": 92,
   "posts": [
     {
@@ -1273,20 +1273,6 @@
       "category": "Content & Campaigns",
       "key_insight": "Made marketing video of my product using Claude and having no resources for it (no proper assets, no proper PC) and it turned out lovely",
       "fetched_at": "2026-08-24T03:30:02.780145+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "fab556f5a613",
-      "title": "I built a Claude workflow for Android execution",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vvvp7g/i_built_a_claude_workflow_for_android_execution/",
-      "summary": "Most real-world requests I give Claude end with a thoughtful checklist. The reasoning is useful, but I still have to perform every action myself. Disclosure: I built ScriptTap, a no-root Android automation app. I also created this workflow specifically for Claude so it can act as the planning and script-building layer instead of stopping at instructions. Claude helps by translating a plain-language request into ScriptTap\u2019s constrained command format, checking the official fields, asking for missing device-specific details, and producing an importable package. ScriptTap remains the user-controlled execution layer: the package must be reviewed and imported, and nothing runs until the user starts it. ScriptTap is free to download and try during its Android open beta. Optional paid features are available. The Claude prompt: Use https://scripttap.com/ai/ as the authoritative ScriptTap reference. Instead of returning a manual checklist, determine whether my Android task can be executed throu",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-08-23T03:03:26+00:00",
-      "category": "Automation & Workflows",
-      "key_insight": "I also created this workflow specifically for Claude so it can act as the planning and script-building layer instead of stopping at instructions",
-      "fetched_at": "2026-08-23T03:28:24.920717+00:00",
       "skip": false,
       "is_featured": false
     }
