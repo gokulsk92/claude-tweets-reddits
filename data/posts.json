@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T10:00:59.509085+00:00",
-  "total": 92,
+  "last_updated": "2026-11-22T10:02:02.328783+00:00",
+  "total": 91,
   "posts": [
     {
       "id": "1b606949dbd9",
@@ -1245,34 +1245,6 @@
       "category": "Ads & Performance Marketing",
       "key_insight": "X Ads MCP gives Grok and Claude Code 23 tools to run ad campaigns - PPC Land.",
       "fetched_at": "2026-08-26T03:31:48.293155+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "da653c093a26",
-      "title": "Using Claude To Manage A TTRPG Campaign - Performance Expectations?",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vwh8e9/using_claude_to_manage_a_ttrpg_campaign/",
-      "summary": "I&#39;m interested in using Claude to help me manage a TTRPG campaign (Table-Top Role Playing Game). Shadowrun if it matters. Not a paid gig, just a thing for friends. If this belongs under one of the mega threads, just let me know. Note: Using the individual pro plan already. I&#39;ve already confirmed that Claude does a solid job of converting characters from one edition to another, which is already a HUGE win for me as a GM that no one is paying. It even seems to think it was able to take the converted character (1st to 5th edition), and put it into a JSON file that can be imported to Foundry. Haven&#39;t tested that, but it seems pretty confident, and gave me a list of things it wasn&#39;t able to do and a step-by-step to fix them once the rest is imported. So now it&#39;s got me wondering if I can use it to manage a long campaign. As noted, no one is paying me, I have a real job that has nothing to do with this stuff, and just don&#39;t have time to sit around trying to put detail",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-08-23T19:57:03+00:00",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "I&#39;m interested in using Claude to help me manage a TTRPG campaign (Table-Top Role Playing Game)",
-      "fetched_at": "2026-08-24T03:30:02.780377+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "d64da8cee49b",
-      "title": "Made marketing video of my product using Claude and having no resources for it (no proper assets, no proper PC) and it turned out lovely",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1vwhwfg/made_marketing_video_of_my_product_using_claude/",
-      "summary": "Tried \u201cwhat if\u201d today, asked Claude if he can make a \u201cmarketing\u201d video of my product for me having just a couple of screen recordings I dropped to the folder, and it did, somewhat. I didn\u2019t even go with prompt engineering, it was just \u201cAre there any chances you can build a video for Reddit highlighting the phone hanging in the air with the videos I dropped in the folder? No MCPs or other tools are available, we are working on a small and not powerful laptop\u201d. Then I got first result, asked to add text to the video not even telling timestamps, then as a bonus asked for music and VO. I have max plan, and for the task we spent around 13% of 5hrs cap, and about 3 hours of me waiting. Can\u2019t put it to an official marketing campaign of course, but the result is pretty decent. So maybe that will inspire someone for some greater ideas and results, eventually \ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udffc &#32; submitted by &#32; /u/Hot-Examination-4425 [link] &#32; [comments]",
-      "source": "Reddit",
-      "source_label": "r",
-      "date": "2026-08-23T20:22:44+00:00",
-      "category": "Content & Campaigns",
-      "key_insight": "Made marketing video of my product using Claude and having no resources for it (no proper assets, no proper PC) and it turned out lovely",
-      "fetched_at": "2026-08-24T03:30:02.780145+00:00",
       "skip": false,
       "is_featured": false
     }
