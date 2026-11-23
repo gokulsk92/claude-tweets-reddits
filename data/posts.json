@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-22T10:02:02.328783+00:00",
-  "total": 91,
+  "last_updated": "2026-11-23T10:59:14.718818+00:00",
+  "total": 89,
   "posts": [
     {
       "id": "1b606949dbd9",
@@ -28,7 +28,7 @@
       "key_insight": "Everything I find researching or through claude chats lead to the same and I am not seeing good results, neither on the leads or the outreach messages (I already trained the voice, and gave detailed i",
       "fetched_at": "2026-11-16T09:59:30.295610+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "4e8ce1e61df7",
@@ -322,7 +322,7 @@
       "key_insight": "How are you using Claude AI to automate your workflows or build something that would have been extremely difficult or impossible to achieve manually?",
       "fetched_at": "2026-10-23T07:48:02.851433+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "94ea207e379f",
