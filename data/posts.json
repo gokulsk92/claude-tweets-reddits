@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-11-23T10:59:14.718818+00:00",
-  "total": 89,
+  "last_updated": "2026-11-24T12:46:08.095780+00:00",
+  "total": 90,
   "posts": [
+    {
+      "id": "6cfef6f0212e",
+      "title": "Loopyah Launches AI-Driven Ads Manager Built on AWS and Claude to Optimize Event Ticket Sales - Macau Business",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLTRFWmV4d2UwaTlpSER4QUIwRWotRnNvZDREWElRNm1JZTVlVGctd3UyOHMtWkxBOE1SdjVRblNLbWFOdG9SdzJxU19tTWJxbnVGMk1ZTlg1OWM1YlhBbUZYWlVNdXlrQnpMTGRGNEVlbHB2YzhkRFNjZTNZcVJ1eTNyVGVmZjBzdVZvRkxaSlJNZ1lmYzl4MkpaYXJhSVM4bWRINm40eUxkX0hTZ1pMSmdwQ0lJZ2NJV01ueQ?oc=5",
+      "summary": "Loopyah Launches AI-Driven Ads Manager Built on AWS and Claude to Optimize Event Ticket Sales Macau Business",
+      "source": "Google News",
+      "source_label": "Google News",
+      "date": "Mon, 23 Nov 2026 12:08:09 GMT",
+      "category": "Ads & Performance Marketing",
+      "key_insight": "Loopyah Launches AI-Driven Ads Manager Built on AWS and Claude to Optimize Event Ticket Sales - Macau Business.",
+      "fetched_at": "2026-11-24T12:46:03.566912+00:00",
+      "skip": false,
+      "is_featured": false
+    },
     {
       "id": "1b606949dbd9",
       "title": "How Anthropic increased downloads of Claude by 300% in seven days - Marketing Week",
@@ -28,7 +42,7 @@
       "key_insight": "Everything I find researching or through claude chats lead to the same and I am not seeing good results, neither on the leads or the outreach messages (I already trained the voice, and gave detailed i",
       "fetched_at": "2026-11-16T09:59:30.295610+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "4e8ce1e61df7",
@@ -112,7 +126,7 @@
       "key_insight": "Using Claude Code for consulting, about 70% knowledge work and 30% small client tools: 50 threads, long-thread costs, status drift",
       "fetched_at": "2026-11-06T09:36:46.599271+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "f2127f3f2ca0",
@@ -1231,20 +1245,6 @@
       "category": "Automation & Workflows",
       "key_insight": "Salesforce\u2019s Claudeforce lets Claude run CRM tasks - MarketScale.",
       "fetched_at": "2026-08-27T12:57:47.605495+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "dba9e22dcc86",
-      "title": "X Ads MCP gives Grok and Claude Code 23 tools to run ad campaigns - PPC Land",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa3doampfc1Q0em5xOXh6dC1FVm1Cb0FJdDR0a09qV3dqb0J1cDlOZlY4RGdGVks5NE5Ia3dHbklCeGZ0UDRxWFlUWjBURDRBTnE3XzdEVXVfeHBWd0FvOXJQSlFDazFtWmRGZERvUnJyNktteHVyTjE3dld4Z0xCUnNOOU5UZkxoc1hR?oc=5",
-      "summary": "X Ads MCP gives Grok and Claude Code 23 tools to run ad campaigns PPC Land",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Tue, 25 Aug 2026 19:02:19 GMT",
-      "category": "Ads & Performance Marketing",
-      "key_insight": "X Ads MCP gives Grok and Claude Code 23 tools to run ad campaigns - PPC Land.",
-      "fetched_at": "2026-08-26T03:31:48.293155+00:00",
       "skip": false,
       "is_featured": false
     }
