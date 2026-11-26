@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T11:32:33.261116+00:00",
+  "last_updated": "2026-11-26T11:14:52.050345+00:00",
   "total": 89,
   "posts": [
     {
@@ -308,7 +308,7 @@
       "key_insight": "I wanted a home screen built for how I use the TV: No grid, only a carousel: one row that glides, focused app in the middle 2 layouts: a Vertical list or a Horizontal dock Lots of customization: 3 mod",
       "fetched_at": "2026-10-26T07:59:04.787947+00:00",
       "skip": false,
-      "is_featured": true
+      "is_featured": false
     },
     {
       "id": "ae9cbd52f9ab",
@@ -336,7 +336,7 @@
       "key_insight": "How are you using Claude AI to automate your workflows or build something that would have been extremely difficult or impossible to achieve manually?",
       "fetched_at": "2026-10-23T07:48:02.851433+00:00",
       "skip": false,
-      "is_featured": false
+      "is_featured": true
     },
     {
       "id": "94ea207e379f",
@@ -1217,34 +1217,6 @@
       "category": "Content & Campaigns",
       "key_insight": "Claude Mythos AI Future SEO Strategy 2026 | Artificial Intelligence Content Marketing,Digital Growth Strickland Vs Khamzat (mWWAyp3P3b) - Mshale.",
       "fetched_at": "2026-08-28T14:28:55.080737+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "4fe41b56d16c",
-      "title": "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM - Salesforce",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcklqU2RlQWZLY3c5dG9uaF83Z0xHSHNuQzNHSGZOTWw3c2wzSmtGTE45VzlWaF80R2tON1JfcFhFVC1walRFUmRyVDA1UkdoQ3pydUdKc1hPTm9SQTV0akl4aWV6NlVqR3ZtSEhCYjJlRTJTOTJYWHU2aDJIWjl0c21ReTJDRVlKb0pwRVE3MTJLdUdVeE9tSGJuQ2hoN3RBbFMtTGJrdw?oc=5",
-      "summary": "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM Salesforce",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Wed, 26 Aug 2026 20:13:05 GMT",
-      "category": "Automation & Workflows",
-      "key_insight": "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM - Salesforce.",
-      "fetched_at": "2026-08-27T12:57:48.003826+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "7069f468cb08",
-      "title": "Salesforce\u2019s Claudeforce lets Claude run CRM tasks - MarketScale",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaXN3ZTUzdk90LW4zdEw1LVlvRDJrUUJUVERrOEszdnhNbnZrb2pYRms0bWNHQ1RzaTZpNUs4V0ZSZHJaMjF6a1NjUzBtVjZ4bXlJZTVCNDFtLWtNMWgwN3J1cGdxVk1mZU5ySDYyLUtZWmZQU2JNLWt0MXR6LXFYU25KQV9UR1dvbi1xSHNGdzFHSFhMaWgxNi13bVhhR1RPNXBVMkh3?oc=5",
-      "summary": "Salesforce\u2019s Claudeforce lets Claude run CRM tasks MarketScale",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Thu, 27 Aug 2026 10:54:50 GMT",
-      "category": "Automation & Workflows",
-      "key_insight": "Salesforce\u2019s Claudeforce lets Claude run CRM tasks - MarketScale.",
-      "fetched_at": "2026-08-27T12:57:47.605495+00:00",
       "skip": false,
       "is_featured": false
     }
