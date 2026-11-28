@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-27T11:08:42.257842+00:00",
-  "total": 87,
+  "last_updated": "2026-11-28T10:42:41.978717+00:00",
+  "total": 81,
   "posts": [
     {
       "id": "6cfef6f0212e",
@@ -1105,34 +1105,6 @@
       "category": "Content & Campaigns",
       "key_insight": "What's the best email tool to use with Claude?.",
       "fetched_at": "2026-08-31T08:47:17.827434+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "7bbbe57992a1",
-      "title": "Salesforce (CRM) Launches Claudeforce As AI Sales Automation Moves Deeper Into Workflows - webull.com",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB2d3dIZ3pDZjltVjNyZzBqeXRubTFyVEUxdHBWWF90cGtRRDh1RGo2Vjd6NUFoMkdxYjBqbERuU3Y0R1FNMkVFdXB1YjVfN2FlNkt3NHc3dWY?oc=5",
-      "summary": "Salesforce (CRM) Launches Claudeforce As AI Sales Automation Moves Deeper Into Workflows webull.com",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Sat, 29 Aug 2026 07:12:06 GMT",
-      "category": "Automation & Workflows",
-      "key_insight": "Salesforce (CRM) Launches Claudeforce As AI Sales Automation Moves Deeper Into Workflows - webull.com.",
-      "fetched_at": "2026-08-30T08:27:14.138521+00:00",
-      "skip": false,
-      "is_featured": false
-    },
-    {
-      "id": "2bdbf3c31c08",
-      "title": "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM - Salesforce",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaW1PRTJUbmh2WU9McWVzTGJ3WEl1akZCT0VCbnY3UmVhU3VTYjk5YkV4WmpZS0oyM3lxSmVFdmRISVE3MTZEZzNQRmdlY1Z6aEdtVzFwTGJFX2lubU1CMnotMWNNZzhiR0ZnLUFTS1p4MnZFZlBEb3hCWFRUS0YyRGpVRVJ2VUd3NnNJYVluY1ZIbUJUTGdTRDNNQ2lQSEFfQ2xwNmtWT056QXdRWGFybDB1bGkxM2tnZ1F3M1pQY0NqaG9ybXd3dVVVOEIwUVBN?oc=5",
-      "summary": "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM Salesforce",
-      "source": "Google News",
-      "source_label": "Google News",
-      "date": "Thu, 27 Aug 2026 06:16:24 GMT",
-      "category": "Automation & Workflows",
-      "key_insight": "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM - Salesforce.",
-      "fetched_at": "2026-08-30T08:27:13.759058+00:00",
       "skip": false,
       "is_featured": false
     }
